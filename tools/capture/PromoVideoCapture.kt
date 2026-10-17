@@ -106,6 +106,7 @@ class PromoVideoCapture : UiTestBase() {
         capture("catalog-before", folder = "build/promo")
         compose.onNodeWithContentDescription("Brokkoli auf die Liste").performClick()
         waitFor { openQty("Brokkoli") == 1 }
+        waitForDescription("Brokkoli mehr")
         capture("catalog-after", folder = "build/promo")
         compose.onNode(hasSetTextAction()).performTextInput("Milch")
         waitForText("Milch")

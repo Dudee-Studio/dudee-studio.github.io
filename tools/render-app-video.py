@@ -14,22 +14,29 @@ ART = ROOT / 'assets/abgehakt'
 FONT = '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
 BOLD = '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
 SCENES = [
-    ('@intro', 3, 'Abgehakt', 'Dein Einkauf im Griff.', ''),
-    ('promo/catalog-before.png', 3, 'Einfach vorbereiten.', 'Artikel von oben nach unten durchgehen.', ''),
-    ('promo/catalog-after.png', 3, 'Mit einem Tipp ergänzt.', 'Was du brauchst, kommt auf die Liste.', ''),
+    ('@intro', 3, 'Schon wieder', 'etwas vergessen?', ''),
+    ('promo/catalog-before.png', 4, 'Was fehlt zu Hause?', 'Artikel durchgehen. Mit einem Tipp ergänzen.', ''),
+    ('promo/catalog-after.png', 3, 'Deine Liste steht.', 'Vorher planen. Entspannter einkaufen.', ''),
     ('promo/dishes.png', 3, 'Was kochen wir?', 'Deine Gerichte helfen beim Planen.', ''),
-    ('promo/dish-ingredients.png', 3, 'Zutaten übernehmen.', 'Mengen anpassen. Auf die Liste setzen.', ''),
-    ('promo/barcode-before.png', 3, 'Ohne Foto angelegt?', 'Dem Artikel einen Barcode zuordnen.', 'BARCODE · MIT PRO'),
-    ('@scan', 3, 'Scannen statt eintippen.', 'Produktdaten und Fotos, sofern verfügbar.', 'BARCODE · MIT PRO · SCAN-DEMO'),
-    ('promo/barcode-after.png', 3, 'Für den nächsten Scan.', 'Der Barcode ist am Artikel gespeichert.', 'BARCODE · MIT PRO'),
-    ('promo/list-before.png', 4, 'Im Laden abhaken.', 'Deine Liste begleitet den Einkauf.', ''),
-    ('promo/spontaneous.png', 5, 'Spontan noch etwas?', 'Per Barcode direkt zur Liste hinzufügen.', 'BARCODE · MIT PRO · DEMO-SCAN'),
-    ('@family', 6, 'Gemeinsam einkaufen.', 'Ein Artikel. Auf beiden Listen.', 'GRUPPE MIT PRO · BEITRETEN KOSTENLOS'),
-    ('ui-previews/angebote.png', 3, 'Angebote eintragen.', 'Preis und Zeitraum festhalten.', ''),
-    ('ui-previews/coupons.png', 3, 'Coupons berücksichtigen.', 'Beim Bezahlen den Rabatt eintragen.', ''),
-    ('ui-previews/letzter-angebotskauf-katalog.png', 4, 'Zuletzt im Angebot?', 'Gekauften Angebotspreis und Datum sehen.', ''),
-    ('promo/analysis-pro.png', 5, 'Ausgaben verstehen.', 'Monatsverlauf und Abteilungen vergleichen.', 'ERWEITERTE ANALYSE · MIT PRO'),
+    ('promo/dish-ingredients.png', 4, 'Zutaten direkt auf die Liste.', 'Für dein nächstes Essen vormerken.', ''),
+    ('promo/list-before.png', 4, 'Im Laden einfach abhaken.', 'Alles Geplante auf deiner Liste.', ''),
+    ('@family', 6, 'Eine Liste. Alle wissen Bescheid.', 'Gemeinsam planen statt Nachrichten hin und her.', 'GRUPPE MIT PRO · BEITRETEN KOSTENLOS'),
+    ('@scan', 4, 'Spontan etwas entdeckt?', 'Mit Pro scannen statt abtippen.', 'BARCODE · MIT PRO · DATEN, WENN VERFÜGBAR'),
+    ('promo/spontaneous.png', 4, 'Direkt auf deiner Liste.', 'Spontanen Einkauf per Barcode ergänzen.', 'BARCODE · MIT PRO · DEMO-SCAN'),
+    ('promo/barcode-before.png', 2, 'Schon als Artikel angelegt?', 'Barcode ergänzen – auch ohne Foto.', 'BARCODE · MIT PRO'),
+    ('promo/barcode-after.png', 3, 'Beim nächsten Scan wiederfinden.', 'Den gespeicherten Artikel direkt erkennen.', 'BARCODE · MIT PRO'),
+    ('ui-previews/angebote.png', 3, 'Ein gutes Angebot?', 'Angebotspreis und Zeitraum festhalten.', ''),
+    ('ui-previews/coupons.png', 3, 'Coupon dabei?', 'Rabatt beim Bezahlen berücksichtigen.', ''),
+    ('ui-previews/letzter-angebotskauf-katalog.png', 4, 'War es zuletzt günstiger?', 'Letzten gekauften Angebotspreis mit Datum sehen.', ''),
+    ('promo/analysis-pro.png', 4, 'Wo bleibt dein Einkaufsbudget?', 'Mit Pro Monatsverlauf und Abteilungen ansehen.', 'ERWEITERTE ANALYSE · MIT PRO'),
     ('@end', 6, 'Abgehakt', 'Dein Einkauf im Griff.', ''),
+]
+TEASER = [
+    ('@intro', 3, 'Schon wieder', 'etwas vergessen?', ''),
+    ('promo/catalog-after.png', 4, 'Entspannter einkaufen.', 'Vorher planen. Mit Artikeln und Gerichten.', 'KOSTENLOSE BASIS'),
+    ('@family', 5, 'Eine Liste. Alle wissen Bescheid.', 'Gemeinsam planen statt Nachrichten hin und her.', 'GRUPPE MIT PRO · BEITRETEN KOSTENLOS'),
+    ('promo/spontaneous.png', 4, 'Scannen statt eintippen.', 'Spontane Einkäufe direkt auf die Liste.', 'BARCODE · MIT PRO · DEMO-SCAN'),
+    ('@teaser-end', 4, 'Abgehakt', 'Dein Einkauf im Griff.', ''),
 ]
 
 
@@ -84,8 +91,10 @@ class Shot:
 
 
 def main():
-    output = ROOT / 'videos/einkaufsliste-gerichte.mp4'
-    poster = ROOT / 'assets/einkaufsliste/poster.jpg'
+    teaser = '--teaser' in sys.argv[2:]
+    scenes = TEASER if teaser else SCENES
+    output = ROOT / ('videos/abgehakt-kurz.mp4' if teaser else 'videos/einkaufsliste-gerichte.mp4')
+    poster = ROOT / ('assets/einkaufsliste/teaser-poster.jpg' if teaser else 'assets/einkaufsliste/poster.jpg')
     with tempfile.TemporaryDirectory(prefix='abgehakt-motion-') as folder:
         folder = Path(folder)
         icons = {}
@@ -93,19 +102,30 @@ def main():
             icons[name] = folder / (name + '.png')
             run('ffmpeg', '-v', 'error', '-y', '-i', str(ART / (name + '.svg')), '-frames:v', '1', str(icons[name]))
         clips = []
-        for i, (source, duration, headline, subtitle, badge) in enumerate(SCENES):
+        for i, (source, duration, headline, subtitle, badge) in enumerate(scenes):
             shotdir = folder / str(i)
             shotdir.mkdir()
             s = Shot(shotdir)
-            chapter = 0 if i < 8 else (1 if i < 13 else 2)
+            chapter = (0 if i < 5 else (1 if i < 13 else 2)) if not teaser else (0 if i < 2 else 1)
             if source == '@intro':
-                s.image(ART / 'mark.png', 252, 252, 234, 228, effects=',fade=t=in:st=0:d=0.5:alpha=1')
+                s.image(ART / 'mark.png', 160, 160, 280, 140, effects=',fade=t=in:st=0:d=0.5:alpha=1')
                 s.text('DUDEE STUDIO', 20, 83, bold=True)
-                s.text(headline, 68, 536, bold=True)
-                s.text(subtitle, 32, 636)
+                s.text('Abgehakt', 36, 331, bold=True)
+                s.text(headline, 52, 461, bold=True)
+                s.text(subtitle, 52, 536, bold=True)
+                s.text('Dein Einkauf im Griff.', 29, 659)
                 s.text('✓', 78, '780-16*min(t,1)', color='0x246B3D', extra=":alpha='clip((t-0.35)*3,0,1)'")
-                s.text('Vorbereiten → Einkaufen → Überblick', 24, 959)
+                s.text('Weniger im Kopf. Mehr auf deiner Liste.', 25, 959)
                 s.text('Kostenlose Basis · optional Pro', 21, 1040, color='0x526256')
+            elif source == '@teaser-end':
+                s.image(ART / 'mark.png', 180, 180, 270, 157)
+                s.text(headline, 61, 397, bold=True)
+                s.text(subtitle, 31, 487)
+                s.text('Kostenlose Basis.', 33, 629, bold=True)
+                s.text('Pro einmalig 3,99 € · kein Abo', 29, 708)
+                s.text('Deutscher Basispreis', 18, 760, color='0x526256')
+                s.text('Bald bei Google Play', 29, 929, bold=True)
+                s.text('dudee-studio.com', 33, 1013, bold=True)
             elif source == '@end':
                 s.image(ART / 'mark.png', 160, 160, 280, 145)
                 s.text('DUDEE STUDIO', 20, 53, bold=True)
@@ -113,7 +133,7 @@ def main():
                 s.text(subtitle, 32, 438)
                 s.text('Kostenlose Basis.', 29, 529, bold=True)
                 s.text('Mehr mit Pro', 23, 609, bold=True)
-                for name, x, label, fontsize in [('scanner', 119, 'Barcode', 20), ('family', 312, 'Familie erstellen', 18), ('analysis', 505, 'Analyse', 20)]:
+                for name, x, label, fontsize in [('scanner', 119, 'Barcode', 20), ('family', 312, 'Familie erstellen', 18), ('analysis', 505, 'Mehr Auswertungen', 17)]:
                     s.image(icons[name], 96, 96, x, 672)
                     s.text(label, fontsize, 790, x=f'{x+48}-text_w/2')
                 s.text('Einmalig 3,99 € · kein Abo', 30, 873, bold=True)
@@ -150,7 +170,7 @@ def main():
                     if source == 'promo/barcode-before.png':
                         s.text('◯', 90, 980, x='420', color='0xF7B62B', extra=f":enable='between(t,{duration-0.65},{duration})'")
                 s.text('ABGEHAKT · DUDEE STUDIO', 18, 28, bold=True)
-                s.text(headline, 35, 76, bold=True)
+                s.text(headline, 32 if len(headline) > 32 else 35, 76, bold=True)
                 s.text(subtitle, 23, 129)
                 s.chapter(chapter)
                 s.text(badge or 'LISTE · ARTIKEL · GERICHTE · MEHR', 18, 1195, bold=True)
@@ -162,7 +182,7 @@ def main():
         manifest.write_text(''.join(f"file '{p}'\n" for p in clips))
         run('ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', str(manifest), '-c', 'copy', '-movflags', '+faststart', str(output))
         run('ffmpeg', '-v', 'error', '-y', '-ss', '1.5', '-i', str(output), '-frames:v', '1', '-q:v', '3', str(poster))
-    (ROOT / 'videos/storyboard.json').write_text(json.dumps(SCENES, ensure_ascii=False, indent=2) + '\n')
+    (ROOT / ('videos/teaser-storyboard.json' if teaser else 'videos/storyboard.json')).write_text(json.dumps(scenes, ensure_ascii=False, indent=2) + '\n')
     print(output)
 
 

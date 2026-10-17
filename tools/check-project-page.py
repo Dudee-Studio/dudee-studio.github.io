@@ -22,11 +22,11 @@ with sync_playwright() as p:
             page.locator('.app-title img').evaluate('(i) => i.decode()')
             assert page.get_by_text('Dein Einkauf im Griff.', exact=True).count() == 1
             assert page.locator('a[download]').count() == 0
-            assert page.locator('video').get_attribute('controlslist') == 'nodownload'
+            assert page.locator('video').first.get_attribute('controlslist') == 'nodownload'
             assert not page.locator('.feature-details').evaluate('(d) => d.open')
-            page.locator('video').evaluate('(v) => v.load()')
+            page.locator('video').first.evaluate('(v) => v.load()')
             page.wait_for_function('document.querySelector("video").readyState >= 2')
-            result = page.locator('video').evaluate('''async v => {
+            result = page.locator('video').first.evaluate('''async v => {
                 await v.play();
                 return {duration:v.duration, width:v.videoWidth, height:v.videoHeight,
                         autoplay:v.autoplay, controls:v.controls, paused:v.paused};
@@ -36,7 +36,7 @@ with sync_playwright() as p:
             assert result['controls'] and not result['autoplay'] and not result['paused'], result
             assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'Horizontal overflow'
             page.wait_for_function('document.querySelector("video").currentTime > 0.8')
-            page.locator('video').evaluate('(v) => v.pause()')
+            page.locator('video').first.evaluate('(v) => v.pause()')
             page.wait_for_timeout(300)
             page.screenshot(path=f'/tmp/projekte-{width}-{mode}.png', full_page=True)
             page.locator('.feature-details summary').click()
@@ -47,6 +47,16 @@ with sync_playwright() as p:
             assert page.locator('.feature-gallery img').count() == 3
             assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'Expanded gallery overflow'
             page.screenshot(path=f'/tmp/abgehakt-details-{width}-{mode}.png', full_page=True)
+            page.locator('.teaser-details summary').click()
+            teaser = page.locator('.teaser-details video')
+            assert teaser.get_attribute('controlslist') == 'nodownload'
+            teaser.evaluate('(v) => v.load()')
+            page.wait_for_function('document.querySelector(".teaser-details video").readyState >= 2')
+            assert teaser.evaluate('(v) => v.duration') == 20
+            teaser.evaluate('(v) => v.play()')
+            page.wait_for_function('document.querySelector(".teaser-details video").currentTime > 0.8')
+            teaser.evaluate('(v) => v.pause()')
+            assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'Teaser overflow'
             assert not errors, errors
             page.goto(base + '/')
             page.locator('.card').click()

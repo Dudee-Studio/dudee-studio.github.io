@@ -37,3 +37,24 @@ Checkout von `CaptAwesome89/Einkaufsliste` (Stand 06ceac9) mit Android-Testumgeb
 Der deutsche Pro-Basispreis ist 3,99 € einmalig. Scanner und erweiterte Analyse
 benötigen Pro. Familien erstellen/einladen benötigt Pro, Beitreten ist kostenlos.
 Es gibt noch keinen Store-Link: bis zur Veröffentlichung „Bald bei Google Play“.
+
+
+## Käuferorientierte Fassungen
+
+Der Marketing-Review vom 17.10.2026 ersetzt die reine Funktionsabfolge durch
+bekannte Einkaufssituationen und unmittelbar passende App-Belege. Einstieg:
+„Schon wieder etwas vergessen?“; danach Vorbereitung, gemeinsames Einkaufen,
+spontane Ergänzungen und Rückblick auf Preise/Ausgaben. Pro wird nach dem
+kostenlosen Grundnutzen sichtbar. Kein garantierter Spareffekt oder behauptete
+Kundenbegeisterung. Die Wirkung ist eine Marketing-Hypothese, kein Messergebnis.
+
+- `einkaufsliste-gerichte.mp4`: 60 Sekunden, ausführliche Vorstellung.
+- `abgehakt-kurz.mp4`: 20 Sekunden, schneller Einstieg für Website und Social.
+- `storyboard.json` / `teaser-storyboard.json`: Texte, Reihenfolge, Laufzeiten.
+
+Die Kurzfassung erzeugen: `python tools/render-app-video.py /pfad/zur/Einkaufsliste --teaser`.
+Sie steht auf der Website aufklappbar zur Verfügung. Kein Autoplay, kein
+Download-Angebot. Beide Filme nennen „Bald bei Google Play“ statt eine noch
+nicht mögliche Installation zu versprechen. Bei Veröffentlichung Store-Link und
+CTA ersetzen. Der Kurzfilm zeigt Familienliste und Barcode mit den jeweiligen
+Pro-Kennzeichnungen; kostenlose Basis und Pro bleiben klar getrennt.

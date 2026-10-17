@@ -2,22 +2,22 @@
   [
     "@intro",
     3,
-    "Abgehakt",
-    "Dein Einkauf im Griff.",
+    "Schon wieder",
+    "etwas vergessen?",
     ""
   ],
   [
     "promo/catalog-before.png",
-    3,
-    "Einfach vorbereiten.",
-    "Artikel von oben nach unten durchgehen.",
+    4,
+    "Was fehlt zu Hause?",
+    "Artikel durchgehen. Mit einem Tipp ergänzen.",
     ""
   ],
   [
     "promo/catalog-after.png",
     3,
-    "Mit einem Tipp ergänzt.",
-    "Was du brauchst, kommt auf die Liste.",
+    "Deine Liste steht.",
+    "Vorher planen. Entspannter einkaufen.",
     ""
   ],
   [
@@ -29,79 +29,79 @@
   ],
   [
     "promo/dish-ingredients.png",
-    3,
-    "Zutaten übernehmen.",
-    "Mengen anpassen. Auf die Liste setzen.",
+    4,
+    "Zutaten direkt auf die Liste.",
+    "Für dein nächstes Essen vormerken.",
     ""
-  ],
-  [
-    "promo/barcode-before.png",
-    3,
-    "Ohne Foto angelegt?",
-    "Dem Artikel einen Barcode zuordnen.",
-    "BARCODE · MIT PRO"
-  ],
-  [
-    "@scan",
-    3,
-    "Scannen statt eintippen.",
-    "Produktdaten und Fotos, sofern verfügbar.",
-    "BARCODE · MIT PRO · SCAN-DEMO"
-  ],
-  [
-    "promo/barcode-after.png",
-    3,
-    "Für den nächsten Scan.",
-    "Der Barcode ist am Artikel gespeichert.",
-    "BARCODE · MIT PRO"
   ],
   [
     "promo/list-before.png",
     4,
-    "Im Laden abhaken.",
-    "Deine Liste begleitet den Einkauf.",
+    "Im Laden einfach abhaken.",
+    "Alles Geplante auf deiner Liste.",
     ""
-  ],
-  [
-    "promo/spontaneous.png",
-    5,
-    "Spontan noch etwas?",
-    "Per Barcode direkt zur Liste hinzufügen.",
-    "BARCODE · MIT PRO · DEMO-SCAN"
   ],
   [
     "@family",
     6,
-    "Gemeinsam einkaufen.",
-    "Ein Artikel. Auf beiden Listen.",
+    "Eine Liste. Alle wissen Bescheid.",
+    "Gemeinsam planen statt Nachrichten hin und her.",
     "GRUPPE MIT PRO · BEITRETEN KOSTENLOS"
+  ],
+  [
+    "@scan",
+    4,
+    "Spontan etwas entdeckt?",
+    "Mit Pro scannen statt abtippen.",
+    "BARCODE · MIT PRO · DATEN, WENN VERFÜGBAR"
+  ],
+  [
+    "promo/spontaneous.png",
+    4,
+    "Direkt auf deiner Liste.",
+    "Spontanen Einkauf per Barcode ergänzen.",
+    "BARCODE · MIT PRO · DEMO-SCAN"
+  ],
+  [
+    "promo/barcode-before.png",
+    2,
+    "Schon als Artikel angelegt?",
+    "Barcode ergänzen – auch ohne Foto.",
+    "BARCODE · MIT PRO"
+  ],
+  [
+    "promo/barcode-after.png",
+    3,
+    "Beim nächsten Scan wiederfinden.",
+    "Den gespeicherten Artikel direkt erkennen.",
+    "BARCODE · MIT PRO"
   ],
   [
     "ui-previews/angebote.png",
     3,
-    "Angebote eintragen.",
-    "Preis und Zeitraum festhalten.",
+    "Ein gutes Angebot?",
+    "Angebotspreis und Zeitraum festhalten.",
     ""
   ],
   [
     "ui-previews/coupons.png",
     3,
-    "Coupons berücksichtigen.",
-    "Beim Bezahlen den Rabatt eintragen.",
+    "Coupon dabei?",
+    "Rabatt beim Bezahlen berücksichtigen.",
     ""
   ],
   [
     "ui-previews/letzter-angebotskauf-katalog.png",
     4,
-    "Zuletzt im Angebot?",
-    "Gekauften Angebotspreis und Datum sehen.",
+    "War es zuletzt günstiger?",
+    "Letzten gekauften Angebotspreis mit Datum sehen.",
     ""
   ],
   [
     "promo/analysis-pro.png",
-    5,
-    "Ausgaben verstehen.",
-    "Monatsverlauf und Abteilungen vergleichen.",
+    4,
+    "Wo bleibt dein Einkaufsbudget?",
+    "Mit Pro Monatsverlauf und Abteilungen ansehen.",
     "ERWEITERTE ANALYSE · MIT PRO"
   ],
   [
