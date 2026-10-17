@@ -1,0 +1,48 @@
+{
+  "voice": "jT8mmBPqq9y1EwCWYWKS",
+  "model": "eleven_v3",
+  "segments": [
+    {
+      "index": 0,
+      "text": "Weniger abtippen. Mehr Zeit für deine Pläne.",
+      "performance_text": "[happily] Weniger abtippen. Mehr Zeit für deine Pläne.",
+      "file": "00.mp3"
+    },
+    {
+      "index": 1,
+      "text": "Mit Pro findest du jetzt Artikel, die andere schon bereitgestellt haben.",
+      "performance_text": "[confident] Mit Pro findest du jetzt Artikel, die andere schon bereitgestellt haben.",
+      "file": "01.mp3"
+    },
+    {
+      "index": 2,
+      "text": "Übernehmen, für dich anpassen – fertig.",
+      "performance_text": "[happily] Übernehmen, für dich anpassen – fertig.",
+      "file": "02.mp3"
+    },
+    {
+      "index": 3,
+      "text": "Und wenn du möchtest, erleichterst du anderen die Planung.",
+      "performance_text": "[warmly] Und wenn du möchtest, erleichterst du anderen die Planung.",
+      "file": "03.mp3"
+    },
+    {
+      "index": 4,
+      "text": "Abgehakt. Mehr Zeit fürs Leben.",
+      "performance_text": "[happily] Abgehakt. Mehr Zeit fürs Leben.",
+      "file": "04.mp3"
+    }
+  ],
+  "profile": {
+    "provider": "ElevenLabs",
+    "voice_name": "Emily E. - First-Person Games & Audiobooks",
+    "model": "eleven_v3",
+    "seed": 7123,
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "speed": 1.06
+    },
+    "output_format": "mp3_44100_128"
+  }
+}

@@ -1,0 +1,197 @@
+[
+  {
+    "kind": "photo",
+    "image": "assets/einkaufsliste/photo-story/sofa.png",
+    "duration": 1.8,
+    "panel": [
+      0,
+      0
+    ],
+    "label": "Weniger abtippen.",
+    "closing": false
+  },
+  {
+    "kind": "photo",
+    "image": "assets/einkaufsliste/photo-story/sofa.png",
+    "duration": 2.0,
+    "panel": [
+      1,
+      0
+    ],
+    "label": "Mehr Zeit für deine Pläne.",
+    "closing": false
+  },
+  {
+    "kind": "app",
+    "image": "assets/einkaufsliste/catalog-v1.1/app/01-empty.png",
+    "duration": 0.4,
+    "crop": [
+      36,
+      200,
+      1008,
+      430
+    ],
+    "width": 1120,
+    "top": 126,
+    "label": "Suchen & übernehmen · Pro"
+  },
+  {
+    "kind": "app",
+    "image": "assets/einkaufsliste/catalog-v1.1/app/02-typing.png",
+    "duration": 0.5,
+    "crop": [
+      36,
+      200,
+      1008,
+      430
+    ],
+    "width": 1120,
+    "top": 126,
+    "label": "Suchen & übernehmen · Pro"
+  },
+  {
+    "kind": "app",
+    "image": "assets/einkaufsliste/catalog-v1.1/app/03-results.png",
+    "duration": 0.8,
+    "crop": [
+      36,
+      200,
+      1008,
+      430
+    ],
+    "width": 1120,
+    "top": 126,
+    "label": "Suchen & übernehmen · Pro"
+  },
+  {
+    "kind": "app",
+    "image": "assets/einkaufsliste/catalog-v1.1/app/03-results.png",
+    "duration": 3.9,
+    "crop": [
+      36,
+      600,
+      1008,
+      430
+    ],
+    "width": 1120,
+    "top": 126,
+    "label": "Schon da. Einfach übernehmen."
+  },
+  {
+    "kind": "app",
+    "image": "assets/einkaufsliste/catalog-v1.1/app/04-copy.png",
+    "duration": 2.1,
+    "crop": [
+      36,
+      580,
+      1008,
+      560
+    ],
+    "width": 900,
+    "top": 130,
+    "label": "Dein Artikel. Deine Ordnung."
+  },
+  {
+    "kind": "app",
+    "image": "assets/einkaufsliste/catalog-v1.1/app/05-category.png",
+    "duration": 1.4,
+    "crop": [
+      36,
+      1370,
+      1008,
+      420
+    ],
+    "width": 1120,
+    "top": 126,
+    "label": "Dein Artikel. Deine Ordnung."
+  },
+  {
+    "kind": "app",
+    "image": "assets/einkaufsliste/catalog-v1.1/app/05b-saved.png",
+    "duration": 1.4,
+    "crop": [
+      0,
+      400,
+      1080,
+      380
+    ],
+    "width": 1120,
+    "top": 150,
+    "label": "Gespeichert. Für deinen Einkauf."
+  },
+  {
+    "kind": "app",
+    "image": "assets/einkaufsliste/catalog-v1.1/app/06-share-private.png",
+    "duration": 1.5,
+    "crop": [
+      48,
+      345,
+      984,
+      310
+    ],
+    "width": 1120,
+    "top": 166,
+    "label": "Teilen ist freiwillig & kostenlos"
+  },
+  {
+    "kind": "app",
+    "image": "assets/einkaufsliste/catalog-v1.1/app/07-share-options.png",
+    "duration": 1.2,
+    "crop": [
+      48,
+      1210,
+      984,
+      360
+    ],
+    "width": 1120,
+    "top": 126,
+    "label": "Deine Freigabe. Deine Entscheidung."
+  },
+  {
+    "kind": "app",
+    "image": "assets/einkaufsliste/catalog-v1.1/app/08-published.png",
+    "duration": 1.9,
+    "crop": [
+      48,
+      1260,
+      984,
+      290
+    ],
+    "width": 1120,
+    "top": 166,
+    "label": "Geteilt. Damit andere schneller fertig sind."
+  },
+  {
+    "kind": "photo",
+    "image": "assets/einkaufsliste/catalog-v1.1/time-together.png",
+    "duration": 0.8,
+    "panel": [
+      0,
+      0
+    ],
+    "label": "",
+    "closing": false
+  },
+  {
+    "kind": "photo",
+    "image": "assets/einkaufsliste/catalog-v1.1/time-together.png",
+    "duration": 1.1,
+    "panel": [
+      0,
+      1
+    ],
+    "label": "",
+    "closing": false
+  },
+  {
+    "kind": "photo",
+    "image": "assets/einkaufsliste/catalog-v1.1/time-together.png",
+    "duration": 1.2,
+    "panel": [
+      1,
+      1
+    ],
+    "label": "",
+    "closing": true
+  }
+]

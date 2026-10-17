@@ -21,7 +21,7 @@ document.querySelectorAll('.media').forEach(function (el) {
 
 /* Intro-Banner auf der Startseite: Hier wird später die three.js-Animation oder das Intro-Video eingebaut. */
 
-/* Zwei Videos dürfen sich nicht gegenseitig mit Musik überlagern. */
+/* Videos dürfen sich nicht gegenseitig mit Musik überlagern. */
 document.querySelectorAll('video').forEach(function (video) {
   video.addEventListener('play', function () {
     document.querySelectorAll('video').forEach(function (other) {

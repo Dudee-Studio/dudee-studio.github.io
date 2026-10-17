@@ -108,3 +108,42 @@ Ansicht. Alte Generatoren/Skripte sind deren historische Produktionsquellen;
 für die neue Hauptfassung ist `render-store-video.py` maßgeblich.
 Kein Autoplay und keine Download-Angebote auf der Website. Noch kein Upload in
 Google Play/YouTube erfolgt. Store-Verfügbarkeit bleibt separat ausgewiesen.
+
+## Separates Feature-Video: Artikelkatalog, Version 1.1
+
+Der vom Nutzer freigegebene Schnitt ist als eigener 22-Sekunden-Film unter den aktuellen Projekten eingebunden.
+Die zwei bisherigen Hauptfilme bleiben ohne Versionsnummer. Bis Backend-Freischaltung und echte Geräteprüfung
+abgeschlossen sind, steht im neuen Film „Vorschau · Version 1.1“. Die aktuelle Oberfläche und vorbereitete
+Serverantworten werden ausdrücklich als Demo gezeigt; es wird kein Live-Serverabgleich behauptet.
+
+- Website: `artikelkatalog-1.1.mp4` mit optionalen nativen Untertiteln `artikelkatalog-1.1-de.vtt`.
+- Store-Fassung: `artikelkatalog-1.1-store.mp4` mit eingebrannten deutschen Untertiteln.
+- Schnitt und Quellen: `artikelkatalog-1.1-shots.json`; freigegebener Plan: `artikelkatalog-v1.1-plan.md`.
+- Produktionsnachweis und Messwerte: `artikelkatalog-1.1-production.json`.
+
+Der Film beginnt mit Mutter und Kind zu Hause, zeigt die tatsächlichen App-Schritte für Suche, Übernahme,
+persönliche Kategorie und freiwillige Freigabe und endet mit gemeinsamem Puzzeln. App-Ausschnitte werden
+fest vergrößert gezeigt; keine künstlichen Kameraschwenks oder wackelnden Zooms. Keine Preiskarte.
+
+### Reproduktion ohne weitere API-Aufrufe
+
+`python tools/render-catalog-feature.py` verwendet die eingecheckten App-Aufnahmen, Bildsequenzen und Audiodateien.
+Benötigt FFmpeg, NumPy und die vorhandenen Audiowerkzeuge unter `tools/`. Die Zwischendateien unter
+`build/catalog-v1.1/` bleiben lokal. Das Instrumental stammt aus der bestehenden ElevenLabs-Produktion
+`assets/audio/store42-instrumental.mp3`. Nur die fünf deutschen Sprachpassagen wurden neu erzeugt.
+Die Wortzeiten der Untertitel stammen aus der Transkription genau dieser Aufnahme.
+
+Neue App-Aufnahmen: `tools/capture/CatalogFeatureCapture.kt` vorübergehend nach
+`../Einkaufsliste/app/src/test/java/io/github/captawesome89/einkaufsliste/catalog/` kopieren,
+`testDebugUnitTest --tests '*CatalogFeatureCapture.captureFeature'` mit der vorhandenen Android-Umgebung ausführen,
+PNG-Dateien aus `app/build/catalog-feature-captures/` übernehmen und die temporäre Testdatei wieder entfernen.
+Die Aufnahme nutzt die echte Compose-Oberfläche von App-Commit `83cfe1e`; nur Katalogantworten und Fotos sind
+vorbereitete Demo-Daten. Das Veröffentlichungsfoto gehört zu einem eigenen Artikel, nicht zu einer fremden Kopie.
+
+Lokale Medienprüfung: `python tools/serve-preview.py --port 8765`, dann
+`python tools/check-project-page.py http://127.0.0.1:8765`. Der Vorschau-Server unterstützt HTTP-Byte-Ranges
+für echte Sprung-/Wiedergabetests. Geprüft wurden drei Videos, Untertitel, exklusiver Ton und Darstellung bei
+390 und 1440 Pixeln in hell und dunkel. Kein Autoplay und kein Download-Angebot.
+
+Bildkontrolle, Wortlaut, Timing und Pegel sind geprüft. Eine tatsächliche Hörprüfung von emotionaler Wirkung,
+Stimmfarbe, Groove und Verständlichkeit auf Lautsprechern/Kopfhörern wurde nicht durchgeführt.

@@ -177,8 +177,8 @@ footer nav { font-size: .95rem; gap: 8px 20px; }
 .app-title { display: flex; gap: 12px; align-items: center; }
 .app-title img { display: block; width: 48px; height: 48px; border-radius: 10px; flex-shrink: 0; }
 
-.teaser-details { border-top: 1px solid var(--line); padding-block: 18px; }
-.teaser-details summary { cursor: pointer; font-weight: 700; color: var(--accent); }
-.teaser-details summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+.teaser-details, .catalog-details { border-top: 1px solid var(--line); padding-block: 18px; }
+.teaser-details summary, .catalog-details summary { cursor: pointer; font-weight: 700; color: var(--accent); }
+.teaser-details summary:focus-visible, .catalog-details summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
 .teaser-demo { max-width: 900px; margin: 24px auto 8px; }
 .teaser-demo figcaption { color: var(--muted); font-size: .85rem; margin-top: 12px; }

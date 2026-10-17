@@ -32,3 +32,13 @@ Gestaltungsziele, keine unabhängig vermessene Partitur.
 älteren 90-/30-Sekunden-Fassungen. Der alternative 30-Sekunden-Film bleibt auf der
 Website zusätzlich verfügbar. Für die neue Hauptfassung sind ausschließlich die
 `store42`-Quellen und `tools/render-store-video.py` maßgeblich.
+
+### Artikelkatalog, Version 1.1
+
+`de/catalog-v1.1/00.mp3` bis `04.mp3`: neue deutsche Sprecheraufnahme über ElevenLabs,
+Stimme `jT8mmBPqq9y1EwCWYWKS` (Emily E. – First-Person Games & Audiobooks), Modell `eleven_v3`.
+Sprechertext, Performance-Tags und Parameter: `script.json`; tatsächlich getrimmte Platzierung: `timing.json`.
+`transcript.json` enthält die Transkription mit ElevenLabs `scribe_v1` (Deutsch) für die zeitgenauen Untertitel.
+Das bestehende Instrumental `store42-instrumental.mp3` wird mit musikalischem Schluss wiederverwendet;
+für dieses Video wurde keine neue Musik beauftragt. Keine Zugangsdaten in Quelldateien oder Medienmetadaten.
+Die App-Klänge für Hinzufügen/Bestätigung sind gezielte redaktionelle Akzente auf sichtbaren Ergebnissen.

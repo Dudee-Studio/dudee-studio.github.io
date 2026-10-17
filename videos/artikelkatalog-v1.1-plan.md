@@ -1,7 +1,12 @@
-# Separates Feature-Video: Artikelkatalog (Schnittplan zur Abstimmung)
+# Separates Feature-Video: Artikelkatalog – freigegebener Schnittplan
 
-Status: Geplant, noch nicht produziert. Kein Live-Katalog oder Store-Release behauptet, solange Backend,
-Datenschutz-Veröffentlichung und reale Geräteprüfung ausstehen. Die zwei Hauptfilme erhalten keine Versionsnummer.
+Status: Schnittplan vom Nutzer freigegeben und als 22-Sekunden-Film produziert. Veröffentlichung als
+„Vorschau · Version 1.1“, weil die Backend-Freischaltung und echte Zwei-Konten-Prüfung noch ausstehen.
+Die Datenschutzerklärung ist veröffentlicht. Die zwei Hauptfilme bleiben ohne Versionsnummer.
+
+Website: `videos/artikelkatalog-1.1.mp4`, native deutsche Untertitel als VTT.
+Store: `videos/artikelkatalog-1.1-store.mp4`, deutsche Untertitel eingebrannt.
+Exakte Schnittzeiten und Quellen: `artikelkatalog-1.1-shots.json`.
 
 Dauer ungefähr 22 Sekunden. Kleine feste Ecke „Version 1.1“, im Abspann „Suchen & übernehmen · mit Pro“.
 Nutzen zuerst: weniger abtippen, schneller fertig und Zeit für gemeinsame Dinge.
@@ -21,5 +26,7 @@ Warme junge erwachsene deutsche Sprecherin, lebendig ohne Verkaufsschreien. Kein
 Gesprochener Text nennt keine Versionsnummer. Untertitel entsprechen der finalen Stimme; Website-Export ohne
 zusätzliche eingebrannte Untertitel, Store-Export mit Untertiteln. Kein Download-Angebot.
 
-Vor Produktion abstimmen: Dramaturgie, Sprechertext und 22-Sekunden-Länge. Danach echte aktuelle App-Zustände
-aufnehmen; vorbereitete Datensätze als Demo kennzeichnen. Kein erfundener Suchtreffer oder Live-Sync-Nachweis.
+Dramaturgie, Sprechertext und 22-Sekunden-Länge sind freigegeben. Die Aufnahmen zeigen die aktuelle
+Compose-Oberfläche von App-Commit 83cfe1e. Nur Serverantworten und Artikeldaten sind vorbereitet;
+Suche, Übernahme, persönliche Kategorie, Speicherung und Freigabebestätigung laufen durch die echte App.
+Demo-Hinweis im Film und auf der Website; kein behaupteter Live-Serverabgleich.

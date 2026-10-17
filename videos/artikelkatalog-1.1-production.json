@@ -1,0 +1,102 @@
+{
+  "status": "Produced and browser-checked; labelled preview until backend release",
+  "app_commit": "83cfe1e",
+  "approved_plan": "videos/artikelkatalog-v1.1-plan.md",
+  "shots": "videos/artikelkatalog-1.1-shots.json",
+  "outputs": [
+    {
+      "file": "videos/artikelkatalog-1.1.mp4",
+      "sha256": "fb691edeaa57ee541da84237e3cd03e3f9a7f2f0c75e665c40287bc0913dabed",
+      "bytes": 1767514,
+      "duration": 22,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "sample_rate": 48000
+    },
+    {
+      "file": "videos/artikelkatalog-1.1-store.mp4",
+      "sha256": "6c18d85408cb3f3de84e327c3f55f6e15dc375395a1eba937914c4a81d352e89",
+      "bytes": 1782311,
+      "duration": 22,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "sample_rate": 48000
+    }
+  ],
+  "app_capture": {
+    "fixture": "tools/capture/CatalogFeatureCapture.kt",
+    "result": "passed",
+    "real_compose_ui": true,
+    "remote_responses": "prepared demo backend, not live Firebase",
+    "public_photo": "own demo article; no redistribution of another user photo"
+  },
+  "images": {
+    "provider": "OpenAI image_gen",
+    "family_reference": "assets/einkaufsliste/photo-story/sofa.png",
+    "new_sequence": "assets/einkaufsliste/catalog-v1.1/time-together.png",
+    "product_photo": "assets/einkaufsliste/catalog-v1.1/apples.png",
+    "people": "same fictional mother and child; no additional people",
+    "motion": "successive photos and action cuts; no artificial pan/zoom"
+  },
+  "voice": {
+    "provider": "ElevenLabs",
+    "model": "eleven_v3",
+    "voice": "jT8mmBPqq9y1EwCWYWKS",
+    "script": "assets/audio/de/catalog-v1.1/script.json",
+    "timing": "assets/audio/de/catalog-v1.1/timing.json"
+  },
+  "music": {
+    "source": "assets/audio/store42-instrumental.mp3",
+    "provenance": "assets/audio/store42-instrumental-source.json",
+    "new_generation": false
+  },
+  "audio_measurements": {
+    "website": {
+      "input_i": -16.14,
+      "input_tp": -2.46,
+      "input_lra": 2.0
+    },
+    "store": {
+      "input_i": -16.14,
+      "input_tp": -2.46,
+      "input_lra": 2.0
+    }
+  },
+  "captions": {
+    "source": "assets/audio/de/catalog-v1.1/transcript.json",
+    "asr_model": "scribe_v1",
+    "cues": 11,
+    "non_overlapping": true,
+    "website": "native optional VTT; clean video",
+    "store": "burned in, dark high-contrast backing"
+  },
+  "checks": {
+    "both_exports_fully_decode": true,
+    "frames_per_export": 660,
+    "browser_viewports": [
+      390,
+      1440
+    ],
+    "browser_themes": [
+      "light",
+      "dark"
+    ],
+    "play_and_seek": true,
+    "mutually_exclusive_audio": true,
+    "autoplay": false,
+    "download_offer": false,
+    "all_three_site_videos_checked": true,
+    "actual_hearing_review": false,
+    "independent_user_study": false
+  },
+  "limitations": [
+    "No subjective hearing assessment of voice emotion, music groove or speaker intelligibility.",
+    "Demo backend only; live Firebase catalogue remains pending admin deployment and real two-account test."
+  ]
+}

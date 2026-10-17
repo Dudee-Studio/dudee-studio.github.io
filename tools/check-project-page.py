@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Smoke-check a locally served site, including the actual MP4 playback.
 
-Start `python -m http.server 8765`, then run this script.
+Start `python tools/serve-preview.py --port 8765`, then run this script.
 Needs Playwright and Chromium; no extra JavaScript is installed on the site.
 """
 import json
@@ -22,7 +22,7 @@ with sync_playwright() as p:
             page.locator('.app-title img').evaluate('(i) => i.decode()')
             assert page.get_by_text('Dein Einkauf im Griff.', exact=True).count() == 1
             assert page.locator('a[download]').count() == 0
-            assert page.locator('track[kind=captions][srclang=de]').count() == 2
+            assert page.locator('track[kind=captions][srclang=de]').count() == 3
             assert page.locator('video').first.get_attribute('controlslist') == 'nodownload'
             assert not page.locator('.feature-details').evaluate('(d) => d.open')
             page.locator('video').first.evaluate('(v) => v.load()')
@@ -62,6 +62,28 @@ with sync_playwright() as p:
             assert page.locator('video').first.evaluate('(v) => v.paused'), 'Concurrent audio playback'
             teaser.evaluate('(v) => v.pause()')
             assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'Teaser overflow'
+            page.locator('.catalog-details summary').click()
+            catalog = page.locator('.catalog-details video')
+            assert catalog.get_attribute('controlslist') == 'nodownload'
+            assert catalog.get_attribute('autoplay') is None
+            catalog.evaluate('(v) => v.load()')
+            page.wait_for_function('document.querySelector(".catalog-details video").readyState >= 2')
+            assert abs(catalog.evaluate('(v) => v.duration') - 22) < .1
+            assert catalog.evaluate('(v) => v.videoWidth') == 1280
+            catalog.evaluate('(v) => v.textTracks[0].mode = "hidden"')
+            page.wait_for_function('document.querySelector(".catalog-details video").textTracks[0].cues?.length > 0')
+            teaser.evaluate('(v) => v.play()')
+            catalog.evaluate('(v) => v.play()')
+            page.wait_for_function('document.querySelector(".catalog-details video").currentTime > .5')
+            assert teaser.evaluate('(v) => v.paused'), 'Concurrent catalogue and Pro audio'
+            catalog.evaluate('(v) => v.pause()')
+            catalog.evaluate('''async v => { v.currentTime = 7; await new Promise(r => v.addEventListener('seeked', r, {once:true})); }''')
+            assert abs(catalog.evaluate('(v) => v.currentTime') - 7) < .1
+            catalog.evaluate('(v) => v.play()')
+            page.wait_for_function('document.querySelector(".catalog-details video").currentTime > 7.1')
+            catalog.evaluate('(v) => v.pause()')
+            catalog.screenshot(path=f'/tmp/catalog-video-{width}-{mode}.png')
+            assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'Catalogue overflow'
             assert not errors, errors
             page.goto(base + '/')
             page.locator('.card').click()
