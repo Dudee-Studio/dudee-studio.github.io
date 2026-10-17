@@ -95,6 +95,119 @@ class PromoVideoCapture : UiTestBase() {
     }
 
     @Test
+    fun captureStore42() {
+        assumeTrue(System.getProperty("screenshots") == "true")
+        demoData()
+        val repo = ShopRepository(db)
+        vm.setPro(false)
+        runBlocking {
+            dao.deleteDone()
+            dao.allProducts().forEach { repo.setListQty(it.id, 0) }
+            val banana = dao.allProducts().single { it.name == "Bananen" }
+            db.openHelper.writableDatabase.execSQL("DELETE FROM purchase_items WHERE productId = ?", arrayOf(banana.id))
+            for (week in 1..3) {
+                val id = dao.insertPurchase(Purchase(date = LocalDate.now().minusWeeks(week.toLong()).toString(), at = 100L + week, total = 2.97, count = 1))
+                dao.insertPurchaseItems(listOf(PurchaseItem(purchaseId = id, productId = banana.id, name = banana.name, qty = 3, price = 0.99, wasOffer = true)))
+            }
+            val milk = dao.allProducts().single { it.name == "Milch" }
+            repo.saveRecurringNeed(io.github.captawesome89.einkaufsliste.data.RecurringNeed(milk.id, 2, 7, LocalDate.now().plusDays(7).toString()))
+        }
+        waitFor { vm.suggestions.value.any { it.name == "Bananen" } }
+        tab("Artikel").performClick()
+        compose.onNode(hasScrollToNodeAction()).performScrollToNode(hasText("Bananen"))
+        capture("01-catalog", folder = "build/store42")
+        tab("Liste").performClick()
+        capture("01b-list-forecast", folder = "build/store42")
+        textNode("Ansehen").performClick()
+        capture("02-forecast", modal = true, folder = "build/store42")
+        val count = vm.suggestions.value.size
+        textNode("$count auf die Liste").performClick()
+        waitFor { openQty("Bananen") == 3 }
+        tab("Artikel").performClick()
+        compose.onNode(hasScrollToNodeAction()).performScrollToNode(hasText("Bananen"))
+        capture("03-catalog-filled", folder = "build/store42")
+        tab("Liste").performClick()
+        capture("03b-list-filled", folder = "build/store42")
+        compose.onNodeWithContentDescription("Mehr").performClick()
+        textNode("Einkaufsvorschlag").performClick()
+        textNode("Regelmäßigen Bedarf hinzufügen").performClick()
+        waitForText("2× Milch")
+        capture("04-recurring", modal = true, folder = "build/store42")
+        textNode("Fertig").performClick()
+        textNode("Abbrechen").performClick()
+        tab("Gerichte").performClick()
+        capture("05-dishes", folder = "build/store42")
+        textNode("Spaghetti Bolognese").performClick()
+        capture("06-ingredients", modal = true, folder = "build/store42")
+        textNode("5 auf die Liste").performClick()
+        tab("Liste").performClick()
+        capture("07-prepared", folder = "build/store42")
+        val rows = runBlocking { dao.listRows().filterNot { it.done } }
+        compose.onNode(hasScrollToNodeAction()).performScrollToNode(hasText(rows.first().name))
+        textNode(rows.first().name).performClick()
+        waitFor { vm.list.value.any { it.done } }
+        waitForText("Später")
+        textNode("Später").performClick()
+        compose.onNode(hasScrollToNodeAction()).performScrollToNode(hasText("IM WAGEN", substring = true))
+        compose.onNode(hasText("IM WAGEN", substring = true)).performClick()
+        compose.onNode(hasScrollToNodeAction()).performScrollToNode(hasText(rows.first().name))
+        capture("08-check-one", folder = "build/store42")
+        for (index in 1..3) {
+            compose.onNode(hasScrollToNodeAction()).performScrollToNode(hasText(rows[index].name))
+            runBlocking { repo.setDone(rows[index].entryId, true) }
+            waitFor { vm.list.value.count { it.done } >= index + 1 }
+            compose.onNode(hasScrollToNodeAction()).performScrollToNode(hasText(rows[index].name))
+            capture(listOf("09-check-two", "10-check-three", "10b-check-four")[index - 1], folder = "build/store42")
+        }
+        vm.setPro(true)
+        capture("11-group-before", folder = "build/store42")
+        runBlocking { repo.addToList(parseEntries("Zitronen")) }
+        waitFor { openQty("Zitronen") == 1 }
+        compose.onNode(hasScrollToNodeAction()).performScrollToNode(hasText("Zitronen"))
+        capture("12-group-added", folder = "build/store42")
+        fakeLookup.products["4006381333931"] = io.github.captawesome89.einkaufsliste.lookup.ProductInfo("4006381333931", "Haferdrink", category = "Getränke")
+        fakeScanner.queue += "4006381333931"
+        compose.onNodeWithContentDescription("Barcode scannen").performClick()
+        waitFor { openQty("Haferdrink") == 1 }
+        compose.onNode(hasScrollToNodeAction()).performScrollToNode(hasText("Haferdrink"))
+        capture("13-scanned", folder = "build/store42")
+        runBlocking { dao.listRows().filterNot { it.done }.forEach { repo.setDone(it.entryId, true) } }
+        waitFor { vm.list.value.all { it.done } }
+        compose.onNode(hasScrollToNodeAction()).performScrollToNode(hasText("Einkauf abschließen"))
+        capture("13b-ready", folder = "build/store42")
+        textNode("Einkauf abschließen").performClick()
+        capture("14-checkout", modal = true, folder = "build/store42")
+        textNode("Einkauf speichern").performClick()
+        waitForText("Die Liste ist leer")
+        capture("15-finished", folder = "build/store42")
+        tab("Analyse").performClick()
+        textNode("Weitere Auswertungen anzeigen").performScrollTo().performClick()
+        compose.onNode(hasScrollToNodeAction()).performScrollToNode(hasText("AUSGABEN PRO MONAT"))
+        capture("16-analysis", folder = "build/store42")
+    }
+
+    @Test
+    fun captureForecast() {
+        assumeTrue(System.getProperty("screenshots") == "true")
+        vm.setPro(false)
+        runBlocking {
+            val repo = ShopRepository(db)
+            for (name in listOf("Kaffee", "Eier", "Bananen")) repo.createProduct(name, "Lebensmittel", 1.99, 0)
+            val products = dao.allProducts().associateBy { it.name }
+            dao.setStock(products.getValue("Eier").id, 1)
+            for (weeks in 1..4) {
+                val id = dao.insertPurchase(Purchase(date = LocalDate.now().minusWeeks(weeks.toLong()).toString(), at = weeks.toLong(), total = 11.94, count = 3))
+                dao.insertPurchaseItems(products.values.map { PurchaseItem(purchaseId = id, productId = it.id, name = it.name, qty = 2, price = 1.99) })
+            }
+        }
+        waitFor { vm.suggestions.value.size == 3 }
+        compose.onNodeWithContentDescription("Mehr").performClick()
+        textNode("Einkaufsvorschlag").performClick()
+        waitForText("3 auf die Liste")
+        capture("forecast", modal = true, folder = "build/promo")
+    }
+
+    @Test
     fun capturePromo() {
         assumeTrue(System.getProperty("screenshots") == "true")
         demoData()

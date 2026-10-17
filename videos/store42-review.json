@@ -1,0 +1,19 @@
+{
+  "mode": "export-technical-and-visual-review",
+  "asset": "videos/einkaufsliste-gerichte.mp4",
+  "sha256": "06585ea52f1e4b34da6615203ec0635c08d3267a09fce2c590a76937a9796312",
+  "duration": 42,
+  "app_commit": "9ece582f3e859b458f21b7289b07bf2e4ff3845b",
+  "findings": {
+    "F01": "24 seconds core flow; timing verified",
+    "F02": "scan before checkout; one shopping trip",
+    "F03": "source gap remains for ~amount; verified shopping preview used instead; no fabricated UI",
+    "F04": "free label before Pro; explicit one-time price",
+    "F05": "new 42s music and v3 speech; timing, loudness and ASR checked; subjective listening not performed",
+    "F06": "existing 2x milk weekly rule, no editor walkthrough",
+    "F07": "no artificial tap circles; native checked rows visible",
+    "F08": "headers/footer outside app content; native German captions; browser checks"
+  },
+  "subjective_audio_review": "not_performed",
+  "review_stage": "before_publication"
+}

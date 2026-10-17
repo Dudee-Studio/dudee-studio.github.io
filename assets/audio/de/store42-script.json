@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "provider": "ElevenLabs",
+    "language": "de-DE",
+    "voice_criteria": {
+      "gender": "female",
+      "age": "young_adult",
+      "delivery": "Zugewandt, lächelnd und lebendig; persönlich erklären, Fragen neugierig, Pro-Einstieg hörbar freudig. Kein aggressiver Werbeton."
+    },
+    "voice_id": "jT8mmBPqq9y1EwCWYWKS",
+    "status": "Selected from available professional voices: German, female, young.",
+    "mix": "Sprache im Vordergrund, Musik während der Sprache absenken; Effekte dezent halten.",
+    "voice_name": "Emily E. - First-Person Games & Audiobooks",
+    "model": "eleven_v3",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "speed": 1.06
+    }
+  },
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.8,
+      "text": "Was fehlt? Abgehakt schlägt vor, was du wieder brauchen könntest.",
+      "performance_text": "[curious] Was fehlt? Abgehakt schlägt vor, was du wieder brauchen könntest."
+    },
+    {
+      "start": 7,
+      "end": 9,
+      "text": "Dein eigener Rhythmus.",
+      "performance_text": "[happily] Dein eigener Rhythmus."
+    },
+    {
+      "start": 9,
+      "end": 15,
+      "text": "Heute Pasta? Gericht wählen. Zutaten auf die Liste!",
+      "performance_text": "[excited] Heute Pasta? Gericht wählen. Zutaten auf die Liste!"
+    },
+    {
+      "start": 16,
+      "end": 21.5,
+      "text": "Im Laden einfach abhaken. Angebote und Coupons inklusive.",
+      "performance_text": "[happily] Im Laden einfach abhaken. Angebote und Coupons inklusive."
+    },
+    {
+      "start": 24,
+      "end": 29.8,
+      "text": "Mit Pro teilst du die Liste. Andere treten kostenlos bei.",
+      "performance_text": "[confident] Mit Pro teilst du die Liste. Andere treten kostenlos bei."
+    },
+    {
+      "start": 30,
+      "end": 33.5,
+      "text": "Spontan entdeckt? Barcode scannen!",
+      "performance_text": "[excited] Spontan entdeckt? Barcode scannen!"
+    },
+    {
+      "start": 34.5,
+      "end": 37,
+      "text": "Ausgaben genauer verstehen.",
+      "performance_text": "[confident] Ausgaben genauer verstehen."
+    },
+    {
+      "start": 37,
+      "end": 42,
+      "text": "Pro: einmalig drei Euro neunundneunzig. Kein Abo.",
+      "performance_text": "[happily] Pro: einmalig drei Euro neunundneunzig. Kein Abo."
+    }
+  ],
+  "timing_note": "42-second approved core-feature-first cut. Deliberate pauses at action results; no presentation narration wall."
+}

@@ -1,251 +1,208 @@
 {
-  "duration": 90,
+  "duration": 42,
   "narration_provider": "ElevenLabs",
+  "narration_model": "eleven_v3",
   "voice_name": "Emily E. - First-Person Games & Audiobooks",
   "voice_id": "jT8mmBPqq9y1EwCWYWKS",
-  "language": "de-DE",
   "music_provider": "ElevenLabs",
-  "music_bpm_prompt": 112,
-  "ducking_gain": 0.28,
+  "music_bpm_prompt": 120,
+  "ducking_gain": 0.4,
   "speech": [
     {
       "segment": 0,
-      "start": 0.3,
-      "end": 4.634,
-      "original_seconds": 4.334,
-      "tempo": 1.0,
-      "text": "Das ist Abgehakt. Deine App für einen entspannteren Einkauf."
+      "start": 0.12,
+      "end": 5.627,
+      "tempo": 1,
+      "original_seconds": 5.507,
+      "text": "Was fehlt? Abgehakt schlägt vor, was du wieder brauchen könntest."
     },
     {
       "segment": 1,
-      "start": 5.1,
-      "end": 10.86,
-      "original_seconds": 5.76,
-      "tempo": 1.0,
-      "text": "Vor dem Einkaufen gehst du deine Artikel durch. Was fehlt, kommt mit einem Tipp auf die Liste."
+      "start": 7.06,
+      "end": 8.94,
+      "tempo": 1.0001,
+      "original_seconds": 1.88,
+      "text": "Dein eigener Rhythmus."
     },
     {
       "segment": 2,
-      "start": 12.1,
-      "end": 18.896,
-      "original_seconds": 7.397,
-      "tempo": 1.0878,
-      "text": "Und was kochen wir? Wähle eines deiner Gerichte und übernimm die Zutaten direkt auf deine Liste."
+      "start": 9.06,
+      "end": 14.023,
+      "tempo": 1,
+      "original_seconds": 4.963,
+      "text": "Heute Pasta? Gericht wählen. Zutaten auf die Liste!"
     },
     {
       "segment": 3,
-      "start": 19.1,
-      "end": 24.903,
-      "original_seconds": 6.315,
-      "tempo": 1.0888,
-      "text": "Im Laden hast du alles dabei. Einfach einkaufen, abhaken und den Überblick behalten."
+      "start": 16.06,
+      "end": 20.441,
+      "tempo": 1,
+      "original_seconds": 4.38,
+      "text": "Im Laden einfach abhaken. Angebote und Coupons inklusive."
     },
     {
       "segment": 4,
-      "start": 25.1,
-      "end": 29.159,
-      "original_seconds": 4.059,
-      "tempo": 1.0,
-      "text": "Ein gutes Angebot? Trage den Preis und den Zeitraum ein."
+      "start": 24.06,
+      "end": 28.055,
+      "tempo": 1,
+      "original_seconds": 3.995,
+      "text": "Mit Pro teilst du die Liste. Andere treten kostenlos bei."
     },
     {
       "segment": 5,
-      "start": 31.1,
-      "end": 34.043,
-      "original_seconds": 2.943,
-      "tempo": 1.0,
-      "text": "Coupons berücksichtigst du beim Bezahlen."
+      "start": 30.06,
+      "end": 32.94,
+      "tempo": 1,
+      "original_seconds": 2.88,
+      "text": "Spontan entdeckt? Barcode scannen!"
     },
     {
       "segment": 6,
-      "start": 36.1,
-      "end": 39.939,
-      "original_seconds": 3.839,
-      "tempo": 1.0,
-      "text": "Dein letzter Angebotspreis. Mit Kaufdatum."
+      "start": 34.56,
+      "end": 36.491,
+      "tempo": 1,
+      "original_seconds": 1.931,
+      "text": "Ausgaben genauer verstehen."
     },
     {
       "segment": 7,
-      "start": 42.1,
-      "end": 47.921,
-      "original_seconds": 6.244,
-      "tempo": 1.0765,
-      "text": "Auch deine Einkäufe und Monatsausgaben hast du im Blick. Das alles ist kostenlos."
-    },
-    {
-      "segment": 8,
-      "start": 48.1,
-      "end": 52.285,
-      "original_seconds": 4.185,
-      "tempo": 1.0,
-      "text": "Du möchtest noch mehr? Dann gibt es Abgehakt Pro!"
-    },
-    {
-      "segment": 9,
-      "start": 53.1,
-      "end": 61.889,
-      "original_seconds": 8.839,
-      "tempo": 1.0045,
-      "text": "Teile deine Liste mit deiner Familie, Freunden oder deiner WG. Mit Pro lädst du ein. Die anderen machen kostenlos mit."
-    },
-    {
-      "segment": 10,
-      "start": 62.1,
-      "end": 69.119,
-      "original_seconds": 7.019,
-      "tempo": 1.0,
-      "text": "Spontan etwas entdeckt? Mit Pro scannst du den Barcode und ergänzt deinen Einkauf."
-    },
-    {
-      "segment": 11,
-      "start": 70.1,
-      "end": 75.571,
-      "original_seconds": 5.471,
-      "tempo": 1.0,
-      "text": "Auch vorhandene Artikel kannst du mit einem Barcode verknüpfen. Ganz ohne Foto."
-    },
-    {
-      "segment": 12,
-      "start": 76.1,
-      "end": 80.808,
-      "original_seconds": 4.708,
-      "tempo": 1.0,
-      "text": "Und mit den erweiterten Auswertungen verstehst du deine Ausgaben noch genauer."
-    },
-    {
-      "segment": 13,
-      "start": 82.1,
-      "end": 89.902,
-      "original_seconds": 8.33,
-      "tempo": 1.0679,
-      "text": "Pro: einmalig drei Euro neunundneunzig. Kein Abo. Einmal kaufen und gemeinsam einkaufen."
+      "start": 37.06,
+      "end": 41.827,
+      "tempo": 1,
+      "original_seconds": 4.767,
+      "text": "Pro: einmalig drei Euro neunundneunzig. Kein Abo."
     }
   ],
   "effects": [
     {
-      "time": 0.45,
-      "cue": "brand-confirm"
+      "time": 5.15,
+      "cue": "add"
     },
     {
-      "time": 8.2,
-      "cue": "tap"
+      "time": 14.0,
+      "cue": "add"
     },
     {
-      "time": 9.2,
-      "cue": "confirm"
+      "time": 16.15,
+      "cue": "tick"
     },
     {
-      "time": 54.95,
-      "cue": "sync"
+      "time": 18.15,
+      "cue": "tick"
     },
     {
-      "time": 63.55,
-      "cue": "scan"
+      "time": 20.15,
+      "cue": "tick"
     },
     {
-      "time": 66.2,
-      "cue": "confirm"
+      "time": 22.15,
+      "cue": "tick"
     },
     {
-      "time": 72.2,
-      "cue": "tap"
+      "time": 27.0,
+      "cue": "add"
     },
     {
-      "time": 73.2,
-      "cue": "confirm"
+      "time": 32.15,
+      "cue": "add"
     },
     {
-      "time": 82.2,
-      "cue": "brand-confirm"
+      "time": 34.3,
+      "cue": "complete"
     }
   ],
   "loudness_target_lufs": -16,
   "true_peak_target_dbtp": -2,
   "transitions": [
     {
-      "start": 4.75,
-      "duration": 0.5,
-      "style": "smoothleft"
+      "time": 1.917,
+      "style": "fade",
+      "duration": 0.16666666666666666
     },
     {
-      "start": 8.75,
-      "duration": 0.5,
-      "style": "fade"
+      "time": 2.667,
+      "style": "fade",
+      "duration": 0.16666666666666666
     },
     {
-      "start": 11.75,
-      "duration": 0.5,
-      "style": "fade"
+      "time": 4.917,
+      "style": "fade",
+      "duration": 0.16666666666666666
     },
     {
-      "start": 14.75,
-      "duration": 0.5,
-      "style": "fade"
+      "time": 6.917,
+      "style": "fade",
+      "duration": 0.16666666666666666
     },
     {
-      "start": 18.75,
-      "duration": 0.5,
-      "style": "fade"
+      "time": 8.917,
+      "style": "smoothleft",
+      "duration": 0.16666666666666666
     },
     {
-      "start": 24.75,
-      "duration": 0.5,
-      "style": "smoothleft"
+      "time": 11.167,
+      "style": "fade",
+      "duration": 0.16666666666666666
     },
     {
-      "start": 30.75,
-      "duration": 0.5,
-      "style": "fade"
+      "time": 13.667,
+      "style": "fade",
+      "duration": 0.16666666666666666
     },
     {
-      "start": 35.75,
-      "duration": 0.5,
-      "style": "fade"
+      "time": 15.917,
+      "style": "fade",
+      "duration": 0.16666666666666666
     },
     {
-      "start": 41.75,
-      "duration": 0.5,
-      "style": "fade"
+      "time": 17.917,
+      "style": "fade",
+      "duration": 0.16666666666666666
     },
     {
-      "start": 47.75,
-      "duration": 0.5,
-      "style": "smoothleft"
+      "time": 19.917,
+      "style": "fade",
+      "duration": 0.16666666666666666
     },
     {
-      "start": 52.75,
-      "duration": 0.5,
-      "style": "smoothleft"
+      "time": 21.917,
+      "style": "fade",
+      "duration": 0.16666666666666666
     },
     {
-      "start": 61.75,
-      "duration": 0.5,
-      "style": "fade"
+      "time": 23.917,
+      "style": "smoothleft",
+      "duration": 0.16666666666666666
     },
     {
-      "start": 65.75,
-      "duration": 0.5,
-      "style": "fade"
+      "time": 26.917,
+      "style": "fade",
+      "duration": 0.16666666666666666
     },
     {
-      "start": 69.75,
-      "duration": 0.5,
-      "style": "fade"
+      "time": 29.917,
+      "style": "smoothleft",
+      "duration": 0.16666666666666666
     },
     {
-      "start": 72.75,
-      "duration": 0.5,
-      "style": "fade"
+      "time": 31.917,
+      "style": "fade",
+      "duration": 0.16666666666666666
     },
     {
-      "start": 75.75,
-      "duration": 0.5,
-      "style": "fade"
+      "time": 33.917,
+      "style": "fade",
+      "duration": 0.16666666666666666
     },
     {
-      "start": 81.75,
-      "duration": 0.5,
-      "style": "fade"
+      "time": 34.917,
+      "style": "fade",
+      "duration": 0.16666666666666666
+    },
+    {
+      "time": 36.917,
+      "style": "fade",
+      "duration": 0.16666666666666666
     }
   ]
 }

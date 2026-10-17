@@ -1,128 +1,135 @@
 [
   [
-    "@intro",
+    0,
+    2,
+    "01-catalog",
+    "Was fehlt?",
+    null
+  ],
+  [
+    2,
+    2.75,
+    "01b-list-forecast",
+    "Abgehakt denkt mit.",
+    null
+  ],
+  [
+    2.75,
     5,
-    "Dein Einkauf.",
-    "Einfach im Griff.",
-    ""
+    "02-forecast",
+    "Vorschläge prüfen.",
+    "01b-list-forecast"
   ],
   [
-    "promo/catalog-before.png",
-    4,
-    "Was fehlt zu Hause?",
-    "Artikel durchgehen. Liste füllen.",
-    "KOSTENLOS"
-  ],
-  [
-    "promo/catalog-after.png",
-    3,
+    5,
+    7,
+    "03-catalog-filled",
     "Mit einem Tipp ergänzt.",
-    "Deine Artikel. Deine Einkaufsliste.",
-    "KOSTENLOS"
+    null
   ],
   [
-    "promo/dishes.png",
-    3,
-    "Was kochen wir?",
-    "Deine Gerichte helfen beim Planen.",
-    "KOSTENLOS"
-  ],
-  [
-    "promo/dish-ingredients.png",
-    4,
-    "Zutaten direkt auf die Liste.",
-    "Gericht wählen. Zutaten übernehmen.",
-    "KOSTENLOS"
-  ],
-  [
-    "promo/list-before.png",
-    6,
-    "Im Laden einfach abhaken.",
-    "Alles Geplante an einem Ort.",
-    "KOSTENLOS"
-  ],
-  [
-    "ui-previews/angebote.png",
-    6,
-    "Angebote festhalten.",
-    "Preis und Zeitraum selbst eintragen.",
-    "KOSTENLOS"
-  ],
-  [
-    "ui-previews/coupons.png",
-    5,
-    "Coupon dabei?",
-    "Rabatt beim Bezahlen berücksichtigen.",
-    "KOSTENLOS"
-  ],
-  [
-    "ui-previews/letzter-angebotskauf-katalog.png",
-    6,
-    "Dein letzter Angebotspreis.",
-    "Mit Datum des Angebotskaufs.",
-    "KOSTENLOS"
-  ],
-  [
-    "screenshots/4-analyse.png",
-    6,
-    "Was hast du ausgegeben?",
-    "Einkäufe und Monatsausgaben im Blick.",
-    "BASIS-AUSWERTUNG · KOSTENLOS"
-  ],
-  [
-    "@pro",
-    5,
-    "Du möchtest noch mehr?",
-    "Dafür gibt es Abgehakt Pro.",
-    "OPTIONAL · EINMALKAUF"
-  ],
-  [
-    "@family",
+    7,
     9,
-    "Eine Liste. Gemeinsam einkaufen.",
-    "Für Paare, WGs, Freunde und Familien.",
-    "ERSTELLEN MIT PRO · BEITRETEN KOSTENLOS"
+    "04-recurring",
+    "Dein eigener Rhythmus.",
+    "03b-list-filled"
   ],
   [
+    9,
+    11.25,
+    "05-dishes",
+    "Heute Pasta?",
+    null
+  ],
+  [
+    11.25,
+    13.75,
+    "06-ingredients",
+    "Zutaten übernehmen.",
+    "05-dishes"
+  ],
+  [
+    13.75,
+    16,
+    "07-prepared",
+    "Deine Liste steht.",
+    null
+  ],
+  [
+    16,
+    18,
+    "08-check-one",
+    "Einfach abhaken.",
+    null
+  ],
+  [
+    18,
+    20,
+    "09-check-two",
+    "Einfach abhaken.",
+    null
+  ],
+  [
+    20,
+    22,
+    "10-check-three",
+    "Alles im Blick.",
+    null
+  ],
+  [
+    22,
+    24,
+    "10b-check-four",
+    "Angebote & Coupons inklusive.",
+    null
+  ],
+  [
+    24,
+    27,
+    "11-group-before",
+    "Gemeinsam einkaufen.",
+    null
+  ],
+  [
+    27,
+    30,
+    "12-group-added",
+    "Zitronen ergänzt.",
+    null
+  ],
+  [
+    30,
+    32,
     "@scan",
-    4,
-    "Spontan etwas entdeckt?",
-    "Mit Pro scannen statt abtippen.",
-    "BARCODE · MIT PRO"
+    "Spontan entdeckt?",
+    null
   ],
   [
-    "promo/spontaneous.png",
-    4,
-    "Direkt auf deiner Liste.",
-    "Produktdaten, wenn verfügbar.",
-    "BARCODE · MIT PRO · DEMO-SCAN"
+    32,
+    34,
+    "13-scanned",
+    "Gescannt. Auf deiner Liste.",
+    null
   ],
   [
-    "promo/barcode-before.png",
-    3,
-    "Artikel schon angelegt?",
-    "Barcode ergänzen. Auch ohne Foto.",
-    "BARCODE · MIT PRO"
+    34,
+    35,
+    "15-finished",
+    "Einkauf erledigt.",
+    null
   ],
   [
-    "promo/barcode-after.png",
-    3,
-    "Beim nächsten Scan erkennen.",
-    "Deinen gespeicherten Artikel wiederfinden.",
-    "BARCODE · MIT PRO"
+    35,
+    37,
+    "16-analysis",
+    "Ausgaben genauer verstehen.",
+    null
   ],
   [
-    "promo/analysis-pro.png",
-    6,
-    "Deine Ausgaben genauer verstehen.",
-    "Monatsverlauf und Abteilungen ansehen.",
-    "ERWEITERTE ANALYSE · MIT PRO"
-  ],
-  [
+    37,
+    42,
     "@end",
-    8,
     "Abgehakt",
-    "Dein Einkauf im Griff.",
-    ""
+    null
   ]
 ]

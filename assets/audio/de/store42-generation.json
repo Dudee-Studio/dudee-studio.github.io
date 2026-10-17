@@ -1,0 +1,52 @@
+[
+  {
+    "kind": "store42",
+    "index": 0,
+    "path": "assets/audio/de/store42/00.mp3",
+    "bytes": 123758,
+    "request_id": "j3HIM9KdGnhrZ4cqPevI"
+  },
+  {
+    "kind": "store42",
+    "index": 1,
+    "path": "assets/audio/de/store42/01.mp3",
+    "cached": true
+  },
+  {
+    "kind": "store42",
+    "index": 2,
+    "path": "assets/audio/de/store42/02.mp3",
+    "bytes": 81545,
+    "request_id": "qQGxhTaCddserYUIhB3A"
+  },
+  {
+    "kind": "store42",
+    "index": 3,
+    "path": "assets/audio/de/store42/03.mp3",
+    "cached": true
+  },
+  {
+    "kind": "store42",
+    "index": 4,
+    "path": "assets/audio/de/store42/04.mp3",
+    "cached": true
+  },
+  {
+    "kind": "store42",
+    "index": 5,
+    "path": "assets/audio/de/store42/05.mp3",
+    "cached": true
+  },
+  {
+    "kind": "store42",
+    "index": 6,
+    "path": "assets/audio/de/store42/06.mp3",
+    "cached": true
+  },
+  {
+    "kind": "store42",
+    "index": 7,
+    "path": "assets/audio/de/store42/07.mp3",
+    "cached": true
+  }
+]

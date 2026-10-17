@@ -1,0 +1,9 @@
+{
+  "provider": "ElevenLabs",
+  "model": "music_v1",
+  "prompt": "Compose an original EXACTLY 42-second instrumental for a lively, warm German grocery-list app store film. 120 BPM, confident fresh indie-electro/pop groove, warm catchy bass, crisp light drums and claps, short clean guitar/keyboard motif. Start immediately with the rhythmic motif, no intro swell. Human, playful but adult, energetic without stress. 0-9 seconds light inviting groove with memorable opening; 9-16 seconds add warm guitar accents as ingredients join a shopping list; 16-24 seconds forward-moving bass and tight percussion, leave small rhythmic response pockets around 19.5 and 22 seconds for shopping checkmarks. At EXACTLY 24 seconds a tasteful clear lift with an additional musical layer introduces group sharing, not a dramatic drop or a different song. 30 seconds a bright small rhythmic accent for a barcode scan result. 34-37 seconds slightly thin the arrangement for a short spending overview. From 37 seconds leave space for the spoken one-time price. Resolve the opening motif in the final 40-42 seconds with a clean satisfying musical ending at 42 seconds, no abrupt cutoff. Leave midrange room for a young female German narrator; no vocals, no singing or speech. Avoid generic corporate looping, toy xylophone, nursery tune, aggressive EDM, huge cymbal wash, excessive treble, or artist imitation. Polished production, rhythmic variations, real sense of progression, music should be clearly enjoyable in the brief narrator pauses.",
+  "duration_ms": 42000,
+  "path": "assets/audio/store42-instrumental.mp3",
+  "bytes": 672540,
+  "request_id": null
+}

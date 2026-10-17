@@ -1,72 +1,90 @@
-# Abgehakt – Store-Videos
+# Abgehakt – kurze Store-Fassung
 
-Die Videos erklären zuerst die kostenlose App und anschließend die optionalen
-Pro-Funktionen. Keine Anzeigenkampagne, keine externen Werbe-CTAs.
+`einkaufsliste-gerichte.mp4` ist die neue 42-Sekunden-Hauptfassung. Sie ersetzt
+die frühere 90-Sekunden-Vorstellung. 720 × 1280, 24 Bilder/s, H.264, AAC Stereo
+48 kHz. Keine lange Logoeröffnung; die App-Handlung beginnt sofort.
 
-- `einkaufsliste-gerichte.mp4`: 90 Sekunden. 0–48 s: Artikel, Gerichte,
-  Einkaufsliste, selbst eingetragene Angebote, Coupons, letzter tatsächlich
-  gekaufter Angebotspreis mit Datum und Basis-Ausgabenübersicht. 48–53 s:
-  Übergang zu Pro. 53–82 s: gemeinsame Einkaufsliste, Barcode-Scanner für neue
-  und bestehende Artikel sowie erweiterte Auswertung. 82–90 s: Einmalkauf.
-- `abgehakt-kurz.mp4`: 30 Sekunden. Kostenloser Grundnutzen zuerst,
-  anschließend gemeinsame Liste und Scanner mit Pro; Einmalkauf zum Schluss.
-- Beide: 720 × 1280, H.264, 24 Bilder/s, AAC Stereo 48 kHz, 0,5 Sekunden
-  lange Überblendungen, keine Schwarzpausen zwischen Szenen.
-- `storyboard.json` / `teaser-storyboard.json`: tatsächliche Szenenfolge.
-- `overview-sound.json` / `teaser-sound.json`: Sprechzeiten, Tempo und Tonregie.
-- `overview-de.vtt` / `teaser-de.vtt`: zuschaltbare deutsche Untertitel.
+## Freigegebener Ablauf
 
-## Aussagen zu Pro
+- 0–9 s: Artikel, echte Einkaufsvorschau und eine fertig angelegte regelmäßige
+  Regel („2× Milch · jede Woche“). Letzter Angebotskauf steht bereits beim Artikel.
+- 9–16 s: Gericht und Zutaten übernehmen, dieselbe Liste weiterverwenden.
+- 16–24 s: Vier aufeinanderfolgende Abhak-Ergebnisse. Angebote und Coupons werden
+  beiläufig erwähnt; kein zusätzlicher Formularrundgang.
+- 24–30 s: Pro-Gruppenliste mit einer Ergänzung; für Freunde, WG und Familie.
+  Einladen mit Pro, andere treten kostenlos bei.
+- 30–34 s: schematischer Barcode-Scan, danach tatsächlich erzeugter Demo-Listeneintrag.
+- 34–37 s: Einkauf abgeschlossen, danach eine erweiterte Pro-Auswertung.
+- 37–42 s: kostenlose Basis, Pro einmalig 3,99 € (deutscher Basispreis), kein Abo.
 
-Deutscher Basispreis: **einmalig 3,99 €, kein Abo**. Preis kann je nach Land
-abweichen. Pro benötigt, wer die Gruppe erstellt/einlädt; Eingeladene können
-kostenlos beitreten und gemeinsam einkaufen. Eigener Scanner und erweiterte
-Auswertung benötigen jeweils eigenes Pro. Die Gruppe ist für Paare, WGs,
-Freunde, Familien und andere gemeinsame Einkäufe gedacht.
+Pro-Scanner und persönliche erweiterte Analyse benötigen eigenes Pro.
+Kostenlose Basis, Prognose und regelmäßiger Bedarf sind früh als kostenlos
+gekennzeichnet. Keine lebenslange Server-Verfügbarkeit versprochen.
+Produktdaten beim Scan nur, wenn verfügbar. Kein automatischer Händlervergleich.
 
-Kein Versprechen eines lebenslangen Serverbetriebs. „Einmal kaufen“ beschreibt
-das Kaufmodell. Keine automatische Händler-Angebotssuche oder Preisgarantie.
-Produktdaten beim Scan werden nur geladen, wenn verfügbar.
+## Aufnahmegrundlage und Grenzen
 
-## Bild und Ton
+Die Ansichten stammen aus der echten Compose-Oberfläche mit bedienten und
+gezielt vorbereiteten Demo-Zuständen im App-Test.
+Es handelt sich um eine geschnittene Folge tatsächlicher UI-Zustände mit kurzen
+Überblendungen/Vergrößerungen, nicht um eine durchgehende Kameraaufnahme eines
+physischen Telefons. Alle Artikel, Einkäufe und Ausgaben sind Demo-Daten.
 
-Echte Android-Compose-Ansichten mit Demo-Daten, automatisiert gerendert mit
-Robolectric. Kein durchgehendes Video eines physischen Telefons. Scan und
-Gruppen-Sync sind ausdrücklich als schematische/simulierte Demos markiert;
-kein vorgetäuschter Kamera-Scan oder aufgezeichneter Zwei-Geräte-Abgleich.
-Alle Ausgaben sind Beispieldaten.
+Die beschriebene Prognoseanzeige „~Anzahl“ lässt sich im zugänglichen App-Stand
+nicht nachweisen. Statt eine Oberfläche nachzubauen, zeigt die Produktion die
+funktionierende separate Einkaufsvorschau. Die abweichende installierte Fassung
+ist noch nicht identifiziert. Keine App-Funktion wurde für den Film verändert.
 
-Das ausgewählte Logo C ist die korrigierte Fassung ohne schwarze Flecken.
-Grafiken: `assets/abgehakt/`. Poster: `assets/einkaufsliste/*poster.jpg`.
+Die Gruppen-Ergänzung ist eine markierte Sync-Demo mit lokalen Test-Doubles,
+kein aufgezeichneter Zwei-Geräte-Abgleich. Der Barcode-Vorgang ist eine ausdrücklich
+schematische Animation; Produktauflösung und anschließender Listeneintrag werden
+über den FakeScanner/FakeLookup der App getestet. Die Haferdrink-Grafik ist eine
+neutrale Illustration, kein Foto eines realen Herstellerprodukts.
 
-Deutsche junge weibliche Bibliotheksstimme von ElevenLabs, jetzt Modell
-`eleven_v3` mit ausdrucksvollerer Regie: neugierige Fragen, freundlich lebendige
-Erklärung und positiv betonter Pro-Übergang. Keine Stimmklonierung. Performance-
-Tags sind von sichtbarem Text und Untertiteln getrennt. Generierte Musik:
-`assets/audio/abgehakt-instrumental.mp3`. Der Mittelteil wird für 90 Sekunden
-weich verlängert, der musikalische Schluss bleibt erhalten. Musik wird unter
-Sprache abgesenkt, Bediengeräusche bleiben dezent. Master-Ziel -16 LUFS / -2 dBTP.
-Weitere Quellen und Generierung: `assets/audio/README.md`.
+Keine versetzten Hervorhebungskreise: der Bildausschnitt, native Auswahl und
+sichtbare Bedienergebnisse leiten den Blick. Eigenständige Texttafeln nur im
+Preisabschluss. Der letzte Angebotspreis ist ein tatsächlich erfasster Demo-Kauf.
+
+## Ton und Quellen
+
+- Neue 42-Sekunden-ElevenLabs-Musik: `assets/audio/store42-instrumental.mp3`.
+- Briefing: `assets/audio/store42-music-brief.json`; angefordert 120 BPM, sofortiger
+  Groove, Lift bei 24 s, Platz für den Preis ab 37 s, Ende bei 42 s. BPM und
+  musikalische Einsätze sind Promptziele, keine separat gemessene Partitur.
+- Neue junge weibliche deutsche Bibliotheksstimme, Modell `eleven_v3`,
+  `assets/audio/de/store42-script.json` und `store42/*.mp3`.
+- Sprechregie pro Passage, natürliche Pausen bei Aktionsergebnissen.
+- Originale Bediengeräusche der App aus `app/src/main/res/raw/snd_*.ogg`.
+- Musik wird unter Sprache um ungefähr 8 dB abgesenkt und in Pausen zurückgeholt.
+  Ziel für den Master -16 LUFS / -2 dBTP. Codierte Ausgabe erneut messen.
+- `overview-sound.json`: tatsächliche Sprech- und Effektzeiten.
+- `overview-de.vtt`: native deutsche Untertitel. Für einen Store-/YouTube-Upload
+  müssen die Untertitel separat übernommen werden; Website-Tracks erledigen das nicht.
+
+Technische Messungen und automatische Transkription ersetzen keine subjektive
+Hörprüfung von Timbre, Wärme und musikalischem Geschmack.
 
 ## Wiederherstellen
 
-Python 3 mit NumPy, FFmpeg mit libx264/drawtext und DejaVu-Schriften sowie ein
-Checkout von `CaptAwesome89/Einkaufsliste` mit erzeugten Testansichten erforderlich.
+Python mit NumPy und Pillow, FFmpeg mit libx264/drawtext und DejaVu-Sans sowie
+der App-Checkout mit Android-Testumgebung werden benötigt.
 
 1. `tools/capture/PromoVideoCapture.kt` vorübergehend nach
    `app/src/test/java/io/github/captawesome89/einkaufsliste/ui/` im App-Repo kopieren.
-2. Dort mit geeigneter Android-Testumgebung:
-   `SCREENSHOTS=true ./gradlew testDebugUnitTest --tests '*StoreScreenshots*' --tests '*ShoppingPreparationUiTest*' --tests '*PromoVideoCapture*'`.
-   Quellen liegen unter `app/build/screenshots`, `app/build/ui-previews` und `app/build/promo`.
-3. Hier `python tools/render-app-video.py /pfad/zur/Einkaufsliste` und für die
-   Kurzfassung zusätzlich `--teaser` ausführen. Die Renderer rufen keine API auf.
-4. Temporäre Capture-Datei im App-Checkout entfernen.
+2. Im App-Repo:
+   `SCREENSHOTS=true ./gradlew testDebugUnitTest --tests '*PromoVideoCapture.captureStore42'`.
+   Ansichten entstehen unter `app/build/store42`.
+3. In diesem Repo:
+   `python tools/render-store-video.py /pfad/zur/Einkaufsliste`.
+4. Temporäre Capture-Klasse im App-Repo entfernen.
 
-Nur den Ton neu mischen: zusätzlich `--audio-only`. Neue Sprache explizit mit
-`tools/generate_elevenlabs.py speech` erzeugen; Zugangsdaten ausschließlich aus
-sicherer Prozessumgebung oder geschützter Datei außerhalb des Repositories.
+Der Renderer ruft keine API auf. Neue Generierung erfolgt ausdrücklich mit
+`tools/generate_elevenlabs.py speech --kind store42` bzw.
+`... music --music-brief assets/audio/store42-music-brief.json`.
+Zugangsdaten ausschließlich aus Prozessumgebung oder geschützter externer Datei.
 
-Website: kein Autoplay, keine Download-Angebote; Start des zweiten Videos
-pausiert das erste. Die Website nennt bis zur Store-Veröffentlichung „Bald bei
-Google Play“. Die Videos selbst verzichten auf diese zeitabhängige Einblendung.
-Ein Upload in Google Play/YouTube ist mit dieser Website-Veröffentlichung nicht erfolgt.
+`abgehakt-kurz.mp4` bleibt die bereits veröffentlichte alternative 30-Sekunden-
+Ansicht. Alte Generatoren/Skripte sind deren historische Produktionsquellen;
+für die neue Hauptfassung ist `render-store-video.py` maßgeblich.
+Kein Autoplay und keine Download-Angebote auf der Website. Noch kein Upload in
+Google Play/YouTube erfolgt. Store-Verfügbarkeit bleibt separat ausgewiesen.

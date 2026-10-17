@@ -1,0 +1,7 @@
+<svg width="240" height="360" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 360">
+ <path d="M45 65 75 22h100l25 43v270H45Z" fill="#FFFFFF" stroke="#246B3D" stroke-width="8" stroke-linejoin="round"/>
+ <path d="M45 65h155M75 22l25 43v270" fill="none" stroke="#246B3D" stroke-width="6"/>
+ <rect x="114" y="104" width="69" height="58" rx="12" fill="#D9EFE3"/>
+ <text x="142" y="205" text-anchor="middle" font-size="17" font-family="sans-serif" fill="#246B3D">Haferdrink</text>
+ <g stroke="#163B2B"><path d="M116 240v48m8-48v48m12-48v48m7-48v48m14-48v48m10-48v48m10-48v48" stroke-width="4"/></g>
+</svg>

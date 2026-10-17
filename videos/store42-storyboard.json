@@ -1,0 +1,135 @@
+[
+  [
+    0,
+    2,
+    "01-catalog",
+    "Was fehlt?",
+    null
+  ],
+  [
+    2,
+    2.75,
+    "01b-list-forecast",
+    "Abgehakt denkt mit.",
+    null
+  ],
+  [
+    2.75,
+    5,
+    "02-forecast",
+    "Vorschläge prüfen.",
+    "01b-list-forecast"
+  ],
+  [
+    5,
+    7,
+    "03-catalog-filled",
+    "Mit einem Tipp ergänzt.",
+    null
+  ],
+  [
+    7,
+    9,
+    "04-recurring",
+    "Dein eigener Rhythmus.",
+    "03b-list-filled"
+  ],
+  [
+    9,
+    11.25,
+    "05-dishes",
+    "Heute Pasta?",
+    null
+  ],
+  [
+    11.25,
+    13.75,
+    "06-ingredients",
+    "Zutaten übernehmen.",
+    "05-dishes"
+  ],
+  [
+    13.75,
+    16,
+    "07-prepared",
+    "Deine Liste steht.",
+    null
+  ],
+  [
+    16,
+    18,
+    "08-check-one",
+    "Einfach abhaken.",
+    null
+  ],
+  [
+    18,
+    20,
+    "09-check-two",
+    "Einfach abhaken.",
+    null
+  ],
+  [
+    20,
+    22,
+    "10-check-three",
+    "Alles im Blick.",
+    null
+  ],
+  [
+    22,
+    24,
+    "10b-check-four",
+    "Angebote & Coupons inklusive.",
+    null
+  ],
+  [
+    24,
+    27,
+    "11-group-before",
+    "Gemeinsam einkaufen.",
+    null
+  ],
+  [
+    27,
+    30,
+    "12-group-added",
+    "Zitronen ergänzt.",
+    null
+  ],
+  [
+    30,
+    32,
+    "@scan",
+    "Spontan entdeckt?",
+    null
+  ],
+  [
+    32,
+    34,
+    "13-scanned",
+    "Gescannt. Auf deiner Liste.",
+    null
+  ],
+  [
+    34,
+    35,
+    "15-finished",
+    "Einkauf erledigt.",
+    null
+  ],
+  [
+    35,
+    37,
+    "16-analysis",
+    "Ausgaben genauer verstehen.",
+    null
+  ],
+  [
+    37,
+    42,
+    "@end",
+    "Abgehakt",
+    null
+  ]
+]

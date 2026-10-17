@@ -20,7 +20,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('mode', choices=['speech', 'music'])
     ap.add_argument('--key-file')
-    ap.add_argument('--kind', choices=['overview', 'teaser', 'all'], default='all')
+    ap.add_argument('--kind', choices=['overview', 'teaser', 'store42', 'all'], default='all')
+    ap.add_argument('--music-brief', help='JSON with prompt, duration_ms and repository-relative output')
     args = ap.parse_args()
     key = Path(args.key_file).read_text().strip() if args.key_file else os.environ.get('ELEVENLABS_API_KEY')
     if not key:
@@ -53,10 +54,14 @@ def main():
             raise RuntimeError(f'ElevenLabs HTTP {e.code}: {status}') from None
 
     if args.mode == 'music':
+        brief = json.loads(Path(args.music_brief).read_text()) if args.music_brief else {}
+        prompt = brief.get('prompt', MUSIC_PROMPT)
+        duration = brief.get('duration_ms', 60000)
+        output = ROOT / brief.get('output', 'assets/audio/abgehakt-instrumental.mp3')
         result = request('/v1/music?output_format=mp3_44100_128',
-            {'prompt':MUSIC_PROMPT, 'music_length_ms':60000, 'force_instrumental':True, 'model_id':'music_v1'},
-            ROOT / 'assets/audio/abgehakt-instrumental.mp3')
-        (ROOT/'assets/audio/music-source.json').write_text(json.dumps({'provider':'ElevenLabs','model':'music_v1','prompt':MUSIC_PROMPT,**result},ensure_ascii=False,indent=2)+'\n')
+            {'prompt':prompt, 'music_length_ms':duration, 'force_instrumental':True, 'model_id':'music_v1'}, output)
+        metadata = output.with_name(output.stem + '-source.json') if args.music_brief else ROOT/'assets/audio/music-source.json'
+        metadata.write_text(json.dumps({'provider':'ElevenLabs','model':'music_v1','prompt':prompt,'duration_ms':duration,**result},ensure_ascii=False,indent=2)+'\n')
         print(json.dumps(result))
         return
 
@@ -67,13 +72,16 @@ def main():
         data['profile'].update({'voice_id':VOICE,'voice_name':'Emily E. - First-Person Games & Audiobooks','status':'Selected from available professional voices: German, female, young.'})
         path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
         for i, segment in enumerate(data['segments']):
+            if segment.get('audio_kind', kind) != kind:
+                continue  # Reuse a generated clip from the other cut.
             model = data['profile'].get('model', 'eleven_multilingual_v2')
             payload={'text':segment.get('performance_text', segment['text']),'model_id':model,'seed':7031,
                      'voice_settings':data['profile'].get('voice_settings', {'stability':0.45,'similarity_boost':0.75,'style':0.2,'use_speaker_boost':True,'speed':1.03})}
             if model != 'eleven_v3':
                 if i: payload['previous_text']=data['segments'][i-1]['text']
                 if i+1<len(data['segments']): payload['next_text']=data['segments'][i+1]['text']
-            jobs.append((kind,i,payload,ROOT/f'assets/audio/de/{kind}/{i:02d}.mp3'))
+            audio_index = segment.get('audio_index', i)
+            jobs.append((kind,audio_index,payload,ROOT/f'assets/audio/de/{kind}/{audio_index:02d}.mp3'))
     results=[]
     def generate(job):
         kind,index,payload,output=job
@@ -82,7 +90,7 @@ def main():
         return {'kind':kind,'index':index,**result}
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
         for result in pool.map(generate,jobs): results.append(result)
-    (ROOT/'assets/audio/de/generation.json').write_text(json.dumps(results,ensure_ascii=False,indent=2)+'\n')
+    (ROOT/('assets/audio/de/store42-generation.json' if args.kind == 'store42' else 'assets/audio/de/generation.json')).write_text(json.dumps(results,ensure_ascii=False,indent=2)+'\n')
 
 
 if __name__=='__main__':
