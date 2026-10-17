@@ -1,0 +1,51 @@
+{
+  "sample_rate": 48000,
+  "bpm": 100,
+  "duration": 20,
+  "events": [
+    {
+      "time": 0.45,
+      "cue": "brand-confirm"
+    },
+    {
+      "time": 3.2,
+      "cue": "confirm"
+    },
+    {
+      "time": 8.95,
+      "cue": "sync"
+    },
+    {
+      "time": 12.2,
+      "cue": "confirm"
+    },
+    {
+      "time": 16.2,
+      "cue": "brand-confirm"
+    }
+  ],
+  "loudness_target_lufs": -18,
+  "true_peak_limit_dbtp": -1.5,
+  "transitions": [
+    {
+      "start": 2.75,
+      "duration": 0.5,
+      "style": "smoothleft"
+    },
+    {
+      "start": 6.75,
+      "duration": 0.5,
+      "style": "smoothleft"
+    },
+    {
+      "start": 11.75,
+      "duration": 0.5,
+      "style": "fade"
+    },
+    {
+      "start": 15.75,
+      "duration": 0.5,
+      "style": "fade"
+    }
+  ]
+}

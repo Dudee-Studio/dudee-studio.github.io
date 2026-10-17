@@ -1,7 +1,7 @@
 # Abgehakt – Dein Einkauf im Griff.
 
 `einkaufsliste-gerichte.mp4`: Hochformat 720 × 1280, H.264, 24 Bilder/s,
-mit eingeblendeten Texten, ohne Ton. Der Player startet erst auf Wunsch.
+mit eingeblendeten Texten, eigener Musik und Bediengeräuschen. Auch ohne Ton verständlich. Der Player startet erst auf Wunsch.
 Die Mediendateinamen bleiben für bestehende Links stabil.
 Das Poster liegt unter `assets/einkaufsliste/poster.jpg`.
 
@@ -12,7 +12,7 @@ Produktsuchergebnisse stammen aus Test-Doubles; keine Kamerabilder werden
 vorgetäuscht. Die Familien-Szene erklärt mit zwei gezeichneten Handyansichten und einem
 übertragenen Artikel das Sync-Prinzip. Sie ist ausdrücklich als schematische
 Demo gekennzeichnet, kein aufgenommener Abgleich zwischen zwei Geräten. Alle Einkäufe und
-Ausgaben sind Beispieldaten. Keine fremden Produktfotos oder Musik verwendet.
+Ausgaben sind Beispieldaten. Keine fremden Produktfotos oder fremden Musikaufnahmen verwendet.
 
 Der Markenauftakt nutzt das ausgewählte Einkaufswagen-Haken-Zeichen (Variante C),
 in der korrigierten Fassung ohne schwarze Flecken. Drei Kapitel ordnen den Ablauf.
@@ -21,7 +21,7 @@ echten App-Ansichten. Wiederverwendbare Grafiken liegen unter `assets/abgehakt/`
 
 ## Wiederherstellen
 
-Benötigt: Python 3, FFmpeg mit libx264/drawtext und DejaVu-Sans-Schriften sowie
+Benötigt: Python 3 mit NumPy, FFmpeg mit libx264/drawtext und DejaVu-Sans-Schriften sowie
 Checkout von `CaptAwesome89/Einkaufsliste` (Stand 06ceac9) mit Android-Testumgebung.
 
 1. `tools/capture/PromoVideoCapture.kt` vorübergehend nach
@@ -58,3 +58,20 @@ Download-Angebot. Beide Filme nennen „Bald bei Google Play“ statt eine noch
 nicht mögliche Installation zu versprechen. Bei Veröffentlichung Store-Link und
 CTA ersetzen. Der Kurzfilm zeigt Familienliste und Barcode mit den jeweiligen
 Pro-Kennzeichnungen; kostenlose Basis und Pro bleiben klar getrennt.
+
+
+## Übergänge und Ton
+
+Beide Fassungen verwenden 0,5 Sekunden lange echte Überblendungen. Kapitelwechsel
+bekommen eine weiche seitliche Bewegung. Zusätzliche Haltezeit vor/nach den
+Überblendungen erhält die Gesamtlaufzeit von 60 bzw. 20 Sekunden. Die bisherigen
+Schwarzblenden zwischen einzelnen Szenen entfallen.
+
+`tools/video_soundtrack.py` erzeugt eine eigene instrumentale Begleitung mit
+100 BPM (weiche Akkorde, gezupfte Melodie, Bass und dezente Percussion). Kurze
+Bestätigungstöne liegen auf den sichtbaren Tipp-, Scan- und Sync-Ergebnissen.
+Es werden keine fremden Musikaufnahmen, Sprachaufnahmen oder Samples geladen.
+Die Mischung blendet weich ein/aus, Ziel: -18 LUFS, maximal -1,5 dBTP,
+AAC Stereo 48 kHz. Kein Sprechertext. Lautstärke bleibt über den nativen Player
+steuerbar; startet ein zweites Video, pausiert das erste automatisch.
+`overview-sound.json` / `teaser-sound.json` dokumentieren Effekte und Übergänge.

@@ -4,9 +4,13 @@ Usage: python tools/render-app-video.py /path/to/Einkaufsliste
 """
 import json
 import subprocess
+import shutil
 import sys
 import tempfile
 from pathlib import Path
+from video_soundtrack import soundtrack
+
+TRANSITION = 0.5
 
 ROOT = Path(__file__).resolve().parents[1]
 APP = Path(sys.argv[1])
@@ -86,7 +90,7 @@ class Shot:
                 self.box(x, 199, 116, 3, '0xF7B62B')
 
     def finish(self, path, duration):
-        self.chain(f'fade=t=in:st=0:d=0.12,fade=t=out:st={duration-0.12}:d=0.12,format=yuv420p')
+        self.chain('format=yuv420p')
         run(*self.args, '-filter_complex_threads', '1', '-filter_complex', ';'.join(self.filters), '-map', f'[{self.base}]', '-t', str(duration), '-c:v', 'libx264', '-preset', 'fast', '-crf', '24', '-threads', '2', '-an', str(path))
 
 
@@ -176,11 +180,40 @@ def main():
                 s.text(badge or 'LISTE · ARTIKEL · GERICHTE · MEHR', 18, 1195, bold=True)
                 s.text('Demo-Daten · Scan und Sync simuliert', 16, 1236, color='0x526256')
             clip = folder / f'{i:02d}.mp4'
-            s.finish(clip, duration)
+            padding = TRANSITION / 2 if i in [0, len(scenes) - 1] else TRANSITION
+            s.finish(clip, duration + padding)
             clips.append(clip)
-        manifest = folder / 'concat.txt'
-        manifest.write_text(''.join(f"file '{p}'\n" for p in clips))
-        run('ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', str(manifest), '-c', 'copy', '-movflags', '+faststart', str(output))
+        # Half a transition hold at the ends and one in the middle preserve
+        # the nominal 20/60 second duration while overlapping every cut.
+        audio = folder / 'soundtrack.wav'
+        audio_metadata = soundtrack(audio, scenes, TRANSITION)
+        args = ['ffmpeg', '-v', 'error', '-y']
+        for clip in clips:
+            args += ['-threads', '1', '-i', str(clip)]
+        args += ['-i', str(audio)]
+        graph = [f'[{j}:v]setpts=PTS-STARTPTS,fps=24,format=yuv420p[v{j}]' for j in range(len(clips))]
+        current = 'v0'
+        length = scenes[0][1] + TRANSITION / 2
+        transitions = []
+        for j in range(1, len(clips)):
+            mode = 'smoothleft' if j in ([1, 2] if teaser else [1, 5, 13]) else 'fade'
+            offset = length - TRANSITION
+            label = f'xf{j}'
+            graph.append(f'[{current}][v{j}]xfade=transition={mode}:duration={TRANSITION}:offset={offset},fps=24[{label}]')
+            transitions.append({'start': offset, 'duration': TRANSITION, 'style': mode})
+            current = label
+            length += scenes[j][1] + (TRANSITION / 2 if j == len(clips) - 1 else TRANSITION) - TRANSITION
+        duration = sum(scene[1] for scene in scenes)
+        graph.append(f'[{current}]fade=t=out:st={duration-.35}:d=0.35,format=yuv420p[video]')
+        graph.append(f'[{len(clips)}:a]loudnorm=I=-18:TP=-1.5:LRA=7,aresample=48000[audio]')
+        rendered = folder / 'final.mp4'
+        run(*args, '-filter_complex_threads', '1', '-filter_complex', ';'.join(graph),
+            '-map', '[video]', '-map', '[audio]', '-t', str(duration),
+            '-c:v', 'libx264', '-preset', 'fast', '-crf', '23', '-threads', '2',
+            '-c:a', 'aac', '-b:a', '128k', '-ar', '48000', '-ac', '2', '-movflags', '+faststart', str(rendered))
+        shutil.copyfile(rendered, output)
+        audio_metadata['transitions'] = transitions
+        (ROOT / ('videos/teaser-sound.json' if teaser else 'videos/overview-sound.json')).write_text(json.dumps(audio_metadata, ensure_ascii=False, indent=2) + '\n')
         run('ffmpeg', '-v', 'error', '-y', '-ss', '1.5', '-i', str(output), '-frames:v', '1', '-q:v', '3', str(poster))
     (ROOT / ('videos/teaser-storyboard.json' if teaser else 'videos/storyboard.json')).write_text(json.dumps(scenes, ensure_ascii=False, indent=2) + '\n')
     print(output)

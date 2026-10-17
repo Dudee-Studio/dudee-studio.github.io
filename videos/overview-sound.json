@@ -1,0 +1,122 @@
+{
+  "sample_rate": 48000,
+  "bpm": 100,
+  "duration": 60,
+  "events": [
+    {
+      "time": 0.45,
+      "cue": "brand-confirm"
+    },
+    {
+      "time": 6.2,
+      "cue": "tap"
+    },
+    {
+      "time": 7.2,
+      "cue": "confirm"
+    },
+    {
+      "time": 22.95,
+      "cue": "sync"
+    },
+    {
+      "time": 28.55,
+      "cue": "scan"
+    },
+    {
+      "time": 31.2,
+      "cue": "confirm"
+    },
+    {
+      "time": 36.2,
+      "cue": "tap"
+    },
+    {
+      "time": 37.2,
+      "cue": "confirm"
+    },
+    {
+      "time": 54.2,
+      "cue": "brand-confirm"
+    }
+  ],
+  "loudness_target_lufs": -18,
+  "true_peak_limit_dbtp": -1.5,
+  "transitions": [
+    {
+      "start": 2.75,
+      "duration": 0.5,
+      "style": "smoothleft"
+    },
+    {
+      "start": 6.75,
+      "duration": 0.5,
+      "style": "fade"
+    },
+    {
+      "start": 9.75,
+      "duration": 0.5,
+      "style": "fade"
+    },
+    {
+      "start": 12.75,
+      "duration": 0.5,
+      "style": "fade"
+    },
+    {
+      "start": 16.75,
+      "duration": 0.5,
+      "style": "smoothleft"
+    },
+    {
+      "start": 20.75,
+      "duration": 0.5,
+      "style": "fade"
+    },
+    {
+      "start": 26.75,
+      "duration": 0.5,
+      "style": "fade"
+    },
+    {
+      "start": 30.75,
+      "duration": 0.5,
+      "style": "fade"
+    },
+    {
+      "start": 34.75,
+      "duration": 0.5,
+      "style": "fade"
+    },
+    {
+      "start": 36.75,
+      "duration": 0.5,
+      "style": "fade"
+    },
+    {
+      "start": 39.75,
+      "duration": 0.5,
+      "style": "fade"
+    },
+    {
+      "start": 42.75,
+      "duration": 0.5,
+      "style": "fade"
+    },
+    {
+      "start": 45.75,
+      "duration": 0.5,
+      "style": "smoothleft"
+    },
+    {
+      "start": 49.75,
+      "duration": 0.5,
+      "style": "fade"
+    },
+    {
+      "start": 53.75,
+      "duration": 0.5,
+      "style": "fade"
+    }
+  ]
+}

@@ -53,8 +53,10 @@ with sync_playwright() as p:
             teaser.evaluate('(v) => v.load()')
             page.wait_for_function('document.querySelector(".teaser-details video").readyState >= 2')
             assert teaser.evaluate('(v) => v.duration') == 20
+            page.locator('video').first.evaluate('(v) => v.play()')
             teaser.evaluate('(v) => v.play()')
             page.wait_for_function('document.querySelector(".teaser-details video").currentTime > 0.8')
+            assert page.locator('video').first.evaluate('(v) => v.paused'), 'Concurrent audio playback'
             teaser.evaluate('(v) => v.pause()')
             assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'Teaser overflow'
             assert not errors, errors
