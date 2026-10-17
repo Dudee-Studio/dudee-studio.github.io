@@ -11,7 +11,7 @@ RATE = 48000
 BPM = 100
 
 
-def soundtrack(path, scenes, transition=0.5):
+def soundtrack(path, scenes, transition=0.5, include_music=True):
     duration = sum(scene[1] for scene in scenes)
     mix = np.zeros((round(duration * RATE), 2), dtype=np.float64)
     rng = np.random.default_rng(6719)
@@ -42,7 +42,7 @@ def soundtrack(path, scenes, transition=0.5):
                 [72, None, 76, 79, 81, None, 79, 76],
                 [69, None, 72, 76, None, 74, 72, 69],
                 [71, None, 74, 79, None, 76, 74, 71]]
-    for bar in range(math.ceil(duration / (4 * beat))):
+    for bar in range(math.ceil(duration / (4 * beat)) if include_music else 0):
         start = bar * 4 * beat
         bass, chord = progression[bar % 4]
         # Sparse warm arpeggio; deliberately leaves space for the on-screen story.

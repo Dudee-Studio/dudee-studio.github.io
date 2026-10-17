@@ -1,8 +1,55 @@
 {
-  "sample_rate": 48000,
-  "bpm": 100,
   "duration": 20,
-  "events": [
+  "narration_provider": "ElevenLabs",
+  "voice_name": "Emily E. - First-Person Games & Audiobooks",
+  "voice_id": "jT8mmBPqq9y1EwCWYWKS",
+  "language": "de-DE",
+  "music_provider": "ElevenLabs",
+  "music_bpm_prompt": 112,
+  "ducking_gain": 0.28,
+  "speech": [
+    {
+      "segment": 0,
+      "start": 0.3,
+      "end": 1.63,
+      "original_seconds": 1.33,
+      "tempo": 1.0,
+      "text": "Schon wieder etwas vergessen?"
+    },
+    {
+      "segment": 1,
+      "start": 3.1,
+      "end": 5.227,
+      "original_seconds": 2.127,
+      "tempo": 1.0,
+      "text": "Deine kostenlose Einkaufsliste."
+    },
+    {
+      "segment": 2,
+      "start": 7.1,
+      "end": 11.588,
+      "original_seconds": 4.488,
+      "tempo": 1.0,
+      "text": "Mit Pro einladen. Kostenlos beitreten."
+    },
+    {
+      "segment": 3,
+      "start": 12.1,
+      "end": 14.644,
+      "original_seconds": 2.544,
+      "tempo": 1.0,
+      "text": "Scanne spontane Einkäufe mit Pro."
+    },
+    {
+      "segment": 4,
+      "start": 16.1,
+      "end": 19.863,
+      "original_seconds": 3.763,
+      "tempo": 1.0,
+      "text": "Pro: einmalig drei Euro neunundneunzig."
+    }
+  ],
+  "effects": [
     {
       "time": 0.45,
       "cue": "brand-confirm"
@@ -24,28 +71,6 @@
       "cue": "brand-confirm"
     }
   ],
-  "loudness_target_lufs": -18,
-  "true_peak_limit_dbtp": -1.5,
-  "transitions": [
-    {
-      "start": 2.75,
-      "duration": 0.5,
-      "style": "smoothleft"
-    },
-    {
-      "start": 6.75,
-      "duration": 0.5,
-      "style": "smoothleft"
-    },
-    {
-      "start": 11.75,
-      "duration": 0.5,
-      "style": "fade"
-    },
-    {
-      "start": 15.75,
-      "duration": 0.5,
-      "style": "fade"
-    }
-  ]
+  "loudness_target_lufs": -16,
+  "true_peak_target_dbtp": -2
 }

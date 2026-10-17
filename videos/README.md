@@ -75,3 +75,18 @@ Die Mischung blendet weich ein/aus, Ziel: -18 LUFS, maximal -1,5 dBTP,
 AAC Stereo 48 kHz. Kein Sprechertext. Lautstärke bleibt über den nativen Player
 steuerbar; startet ein zweites Video, pausiert das erste automatisch.
 `overview-sound.json` / `teaser-sound.json` dokumentieren Effekte und Übergänge.
+
+## Deutsche Sprecherin und neue Musik mit ElevenLabs
+
+Die aktuellen Fassungen ersetzen die bisherige synthetische Musikbegleitung
+durch die eigens erzeugte ElevenLabs-Instrumentalspur und ergänzen eine junge
+weibliche deutsche Bibliotheksstimme. Details und Quellen: `assets/audio/README.md`.
+Die gesprochenen Texte passen zu den jeweiligen Szenen; Randstille wird entfernt,
+Musik während der Sprache abgesenkt. Master-Ziel jetzt -16 LUFS / -2 dBTP.
+Die reinen Musikfassungen oben beschreiben den vorherigen Produktionsstand.
+
+Nur den Ton neu mischen (Bild und Übergänge beibehalten):
+`python tools/render-app-video.py /pfad/zur/Einkaufsliste --audio-only`
+und zusätzlich `--teaser` für die Kurzfassung. Der vollständige Renderer nutzt
+die vorhandenen ElevenLabs-Quellen ebenfalls automatisch. Er ruft keine API auf.
+Generieren neuer Quellen ist ein separater, expliziter Schritt mit Zugangsdaten.

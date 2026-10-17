@@ -22,10 +22,13 @@ with sync_playwright() as p:
             page.locator('.app-title img').evaluate('(i) => i.decode()')
             assert page.get_by_text('Dein Einkauf im Griff.', exact=True).count() == 1
             assert page.locator('a[download]').count() == 0
+            assert page.locator('track[kind=captions][srclang=de]').count() == 2
             assert page.locator('video').first.get_attribute('controlslist') == 'nodownload'
             assert not page.locator('.feature-details').evaluate('(d) => d.open')
             page.locator('video').first.evaluate('(v) => v.load()')
             page.wait_for_function('document.querySelector("video").readyState >= 2')
+            page.locator('video').first.evaluate('(v) => v.textTracks[0].mode = "hidden"')
+            page.wait_for_function('document.querySelector("video").textTracks[0].cues?.length > 0')
             result = page.locator('video').first.evaluate('''async v => {
                 await v.play();
                 return {duration:v.duration, width:v.videoWidth, height:v.videoHeight,

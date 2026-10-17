@@ -1,0 +1,44 @@
+{
+  "profile": {
+    "provider": "ElevenLabs",
+    "language": "de-DE",
+    "voice_criteria": {
+      "gender": "female",
+      "age": "young_adult",
+      "delivery": "Natürlich, warm und freundlich; klare Aussprache, leicht lebendig, keine übertriebene Werbestimme."
+    },
+    "voice_id": "jT8mmBPqq9y1EwCWYWKS",
+    "status": "Selected from available professional voices: German, female, young.",
+    "mix": "Sprache im Vordergrund, Musik während der Sprache absenken; Effekte dezent halten.",
+    "voice_name": "Emily E. - First-Person Games & Audiobooks",
+    "model": "eleven_multilingual_v2"
+  },
+  "segments": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "Schon wieder etwas vergessen?"
+    },
+    {
+      "start": 3,
+      "end": 7,
+      "text": "Deine kostenlose Einkaufsliste."
+    },
+    {
+      "start": 7,
+      "end": 12,
+      "text": "Mit Pro einladen. Kostenlos beitreten."
+    },
+    {
+      "start": 12,
+      "end": 16,
+      "text": "Scanne spontane Einkäufe mit Pro."
+    },
+    {
+      "start": 16,
+      "end": 20,
+      "text": "Pro: einmalig drei Euro neunundneunzig."
+    }
+  ],
+  "timing_note": "Zeitfenster sind Schnittziele. Nach der Sprachgenerierung Laufzeiten prüfen; Pausen oder Schnitt anpassen, ohne die Stimme unnatürlich zu beschleunigen."
+}

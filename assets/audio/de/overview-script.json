@@ -1,0 +1,74 @@
+{
+  "profile": {
+    "provider": "ElevenLabs",
+    "language": "de-DE",
+    "voice_criteria": {
+      "gender": "female",
+      "age": "young_adult",
+      "delivery": "Natürlich, warm und freundlich; klare Aussprache, leicht lebendig, keine übertriebene Werbestimme."
+    },
+    "voice_id": "jT8mmBPqq9y1EwCWYWKS",
+    "status": "Selected from available professional voices: German, female, young.",
+    "mix": "Sprache im Vordergrund, Musik während der Sprache absenken; Effekte dezent halten.",
+    "voice_name": "Emily E. - First-Person Games & Audiobooks",
+    "model": "eleven_multilingual_v2"
+  },
+  "segments": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "Schon wieder etwas vergessen?"
+    },
+    {
+      "start": 3,
+      "end": 10,
+      "text": "Mit Abgehakt gehst du deine Artikel durch und füllst mit wenigen Tipps deine Einkaufsliste."
+    },
+    {
+      "start": 10,
+      "end": 17,
+      "text": "Heute Pasta? Wähle dein Gericht und übernimm die Zutaten direkt auf deine Liste."
+    },
+    {
+      "start": 17,
+      "end": 21,
+      "text": "Im Laden hakst du einfach ab."
+    },
+    {
+      "start": 21,
+      "end": 27,
+      "text": "Erstelle mit Pro eine Familienliste. Eingeladene machen kostenlos mit."
+    },
+    {
+      "start": 27,
+      "end": 35,
+      "text": "Spontan noch etwas entdeckt? Mit Pro scannst du den Barcode und ergänzt deinen Einkauf."
+    },
+    {
+      "start": 35,
+      "end": 40,
+      "text": "Auch bestehende Artikel kannst du mit einem Barcode verknüpfen."
+    },
+    {
+      "start": 40,
+      "end": 46,
+      "text": "Angebote merken. Und Coupons beim Bezahlen berücksichtigen."
+    },
+    {
+      "start": 46,
+      "end": 50,
+      "text": "Dein letzter Angebotspreis. Mit Kaufdatum."
+    },
+    {
+      "start": 50,
+      "end": 54,
+      "text": "Mit Pro behältst du deine Ausgaben genauer im Blick."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Pro: einmalig drei Euro neunundneunzig. Kein Abo."
+    }
+  ],
+  "timing_note": "Zeitfenster sind Schnittziele. Nach der Sprachgenerierung Laufzeiten prüfen; Pausen oder Schnitt anpassen, ohne die Stimme unnatürlich zu beschleunigen."
+}

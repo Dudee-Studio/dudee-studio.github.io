@@ -9,6 +9,7 @@ import sys
 import tempfile
 from pathlib import Path
 from video_soundtrack import soundtrack
+from voice_mix import build_voice_mix
 
 TRANSITION = 0.5
 
@@ -46,6 +47,19 @@ TEASER = [
 
 def run(*args):
     subprocess.run(args, check=True, stdout=subprocess.DEVNULL)
+
+
+def write_sound_outputs(metadata, teaser):
+    prefix = 'teaser' if teaser else 'overview'
+    (ROOT / f'videos/{prefix}-sound.json').write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + '\n')
+    if 'speech' in metadata:
+        def stamp(seconds):
+            ms = round(seconds * 1000)
+            return f'{ms//3600000:02d}:{ms//60000%60:02d}:{ms//1000%60:02d}.{ms%1000:03d}'
+        cues = ['WEBVTT', '']
+        for row in metadata['speech']:
+            cues += [f'{stamp(row["start"])} --> {stamp(row["end"])}', row['text'], '']
+        (ROOT / f'videos/{prefix}-de.vtt').write_text('\n'.join(cues))
 
 
 class Shot:
@@ -99,6 +113,20 @@ def main():
     scenes = TEASER if teaser else SCENES
     output = ROOT / ('videos/abgehakt-kurz.mp4' if teaser else 'videos/einkaufsliste-gerichte.mp4')
     poster = ROOT / ('assets/einkaufsliste/teaser-poster.jpg' if teaser else 'assets/einkaufsliste/poster.jpg')
+    if '--audio-only' in sys.argv[2:]:
+        with tempfile.TemporaryDirectory(prefix='abgehakt-narration-') as tmp:
+            tmp = Path(tmp)
+            audio = tmp / 'mix.wav'
+            metadata = build_voice_mix(audio, scenes, teaser)
+            rendered = tmp / 'narrated.mp4'
+            run('ffmpeg', '-v', 'error', '-y', '-i', str(output), '-i', str(audio),
+                '-map', '0:v:0', '-map', '1:a:0', '-c:v', 'copy', '-af', 'loudnorm=I=-16:TP=-2:LRA=7,aresample=48000',
+                '-c:a', 'aac', '-b:a', '160k', '-ar', '48000', '-ac', '2', '-t', str(sum(s[1] for s in scenes)),
+                '-movflags', '+faststart', str(rendered))
+            shutil.copyfile(rendered, output)
+            write_sound_outputs(metadata, teaser)
+        print(output)
+        return
     with tempfile.TemporaryDirectory(prefix='abgehakt-motion-') as folder:
         folder = Path(folder)
         icons = {}
@@ -186,7 +214,8 @@ def main():
         # Half a transition hold at the ends and one in the middle preserve
         # the nominal 20/60 second duration while overlapping every cut.
         audio = folder / 'soundtrack.wav'
-        audio_metadata = soundtrack(audio, scenes, TRANSITION)
+        narrated = (ROOT / 'assets/audio/abgehakt-instrumental.mp3').exists() and (ROOT / 'assets/audio/de/overview/00.mp3').exists()
+        audio_metadata = build_voice_mix(audio, scenes, teaser) if narrated else soundtrack(audio, scenes, TRANSITION)
         args = ['ffmpeg', '-v', 'error', '-y']
         for clip in clips:
             args += ['-threads', '1', '-i', str(clip)]
@@ -205,7 +234,8 @@ def main():
             length += scenes[j][1] + (TRANSITION / 2 if j == len(clips) - 1 else TRANSITION) - TRANSITION
         duration = sum(scene[1] for scene in scenes)
         graph.append(f'[{current}]fade=t=out:st={duration-.35}:d=0.35,format=yuv420p[video]')
-        graph.append(f'[{len(clips)}:a]loudnorm=I=-18:TP=-1.5:LRA=7,aresample=48000[audio]')
+        target, peak = (-16, -2) if narrated else (-18, -1.5)
+        graph.append(f'[{len(clips)}:a]loudnorm=I={target}:TP={peak}:LRA=7,aresample=48000[audio]')
         rendered = folder / 'final.mp4'
         run(*args, '-filter_complex_threads', '1', '-filter_complex', ';'.join(graph),
             '-map', '[video]', '-map', '[audio]', '-t', str(duration),
@@ -213,7 +243,7 @@ def main():
             '-c:a', 'aac', '-b:a', '128k', '-ar', '48000', '-ac', '2', '-movflags', '+faststart', str(rendered))
         shutil.copyfile(rendered, output)
         audio_metadata['transitions'] = transitions
-        (ROOT / ('videos/teaser-sound.json' if teaser else 'videos/overview-sound.json')).write_text(json.dumps(audio_metadata, ensure_ascii=False, indent=2) + '\n')
+        write_sound_outputs(audio_metadata, teaser)
         run('ffmpeg', '-v', 'error', '-y', '-ss', '1.5', '-i', str(output), '-frames:v', '1', '-q:v', '3', str(poster))
     (ROOT / ('videos/teaser-storyboard.json' if teaser else 'videos/storyboard.json')).write_text(json.dumps(scenes, ensure_ascii=False, indent=2) + '\n')
     print(output)

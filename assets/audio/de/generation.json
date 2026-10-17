@@ -1,0 +1,100 @@
+[
+  {
+    "kind": "overview",
+    "index": 0,
+    "path": "assets/audio/de/overview/00.mp3",
+    "cached": true
+  },
+  {
+    "kind": "overview",
+    "index": 1,
+    "path": "assets/audio/de/overview/01.mp3",
+    "cached": true
+  },
+  {
+    "kind": "overview",
+    "index": 2,
+    "path": "assets/audio/de/overview/02.mp3",
+    "cached": true
+  },
+  {
+    "kind": "overview",
+    "index": 3,
+    "path": "assets/audio/de/overview/03.mp3",
+    "cached": true
+  },
+  {
+    "kind": "overview",
+    "index": 4,
+    "path": "assets/audio/de/overview/04.mp3",
+    "cached": true
+  },
+  {
+    "kind": "overview",
+    "index": 5,
+    "path": "assets/audio/de/overview/05.mp3",
+    "cached": true
+  },
+  {
+    "kind": "overview",
+    "index": 6,
+    "path": "assets/audio/de/overview/06.mp3",
+    "cached": true
+  },
+  {
+    "kind": "overview",
+    "index": 7,
+    "path": "assets/audio/de/overview/07.mp3",
+    "cached": true
+  },
+  {
+    "kind": "overview",
+    "index": 8,
+    "path": "assets/audio/de/overview/08.mp3",
+    "cached": true
+  },
+  {
+    "kind": "overview",
+    "index": 9,
+    "path": "assets/audio/de/overview/09.mp3",
+    "cached": true
+  },
+  {
+    "kind": "overview",
+    "index": 10,
+    "path": "assets/audio/de/overview/10.mp3",
+    "cached": true
+  },
+  {
+    "kind": "teaser",
+    "index": 0,
+    "path": "assets/audio/de/teaser/00.mp3",
+    "cached": true
+  },
+  {
+    "kind": "teaser",
+    "index": 1,
+    "path": "assets/audio/de/teaser/01.mp3",
+    "bytes": 58139,
+    "request_id": "o0OXwzNwjTGYaa57blEB"
+  },
+  {
+    "kind": "teaser",
+    "index": 2,
+    "path": "assets/audio/de/teaser/02.mp3",
+    "bytes": 73185,
+    "request_id": "hliSIWA7Rwieji7jPTd0"
+  },
+  {
+    "kind": "teaser",
+    "index": 3,
+    "path": "assets/audio/de/teaser/03.mp3",
+    "cached": true
+  },
+  {
+    "kind": "teaser",
+    "index": 4,
+    "path": "assets/audio/de/teaser/04.mp3",
+    "cached": true
+  }
+]

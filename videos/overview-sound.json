@@ -1,8 +1,103 @@
 {
-  "sample_rate": 48000,
-  "bpm": 100,
   "duration": 60,
-  "events": [
+  "narration_provider": "ElevenLabs",
+  "voice_name": "Emily E. - First-Person Games & Audiobooks",
+  "voice_id": "jT8mmBPqq9y1EwCWYWKS",
+  "language": "de-DE",
+  "music_provider": "ElevenLabs",
+  "music_bpm_prompt": 112,
+  "ducking_gain": 0.28,
+  "speech": [
+    {
+      "segment": 0,
+      "start": 0.3,
+      "end": 1.613,
+      "original_seconds": 1.313,
+      "tempo": 1.0,
+      "text": "Schon wieder etwas vergessen?"
+    },
+    {
+      "segment": 1,
+      "start": 3.1,
+      "end": 9.101,
+      "original_seconds": 6.001,
+      "tempo": 1.0,
+      "text": "Mit Abgehakt gehst du deine Artikel durch und füllst mit wenigen Tipps deine Einkaufsliste."
+    },
+    {
+      "segment": 2,
+      "start": 10.1,
+      "end": 15.805,
+      "original_seconds": 5.705,
+      "tempo": 1.0,
+      "text": "Heute Pasta? Wähle dein Gericht und übernimm die Zutaten direkt auf deine Liste."
+    },
+    {
+      "segment": 3,
+      "start": 17.1,
+      "end": 18.948,
+      "original_seconds": 1.848,
+      "tempo": 1.0,
+      "text": "Im Laden hakst du einfach ab."
+    },
+    {
+      "segment": 4,
+      "start": 21.1,
+      "end": 26.584,
+      "original_seconds": 5.484,
+      "tempo": 1.0,
+      "text": "Erstelle mit Pro eine Familienliste. Eingeladene machen kostenlos mit."
+    },
+    {
+      "segment": 5,
+      "start": 27.1,
+      "end": 33.326,
+      "original_seconds": 6.226,
+      "tempo": 1.0,
+      "text": "Spontan noch etwas entdeckt? Mit Pro scannst du den Barcode und ergänzt deinen Einkauf."
+    },
+    {
+      "segment": 6,
+      "start": 35.1,
+      "end": 39.145,
+      "original_seconds": 4.045,
+      "tempo": 1.0,
+      "text": "Auch bestehende Artikel kannst du mit einem Barcode verknüpfen."
+    },
+    {
+      "segment": 7,
+      "start": 40.1,
+      "end": 45.542,
+      "original_seconds": 5.442,
+      "tempo": 1.0,
+      "text": "Angebote merken. Und Coupons beim Bezahlen berücksichtigen."
+    },
+    {
+      "segment": 8,
+      "start": 46.1,
+      "end": 49.898,
+      "original_seconds": 4.007,
+      "tempo": 1.0544,
+      "text": "Dein letzter Angebotspreis. Mit Kaufdatum."
+    },
+    {
+      "segment": 9,
+      "start": 50.1,
+      "end": 52.936,
+      "original_seconds": 2.836,
+      "tempo": 1.0,
+      "text": "Mit Pro behältst du deine Ausgaben genauer im Blick."
+    },
+    {
+      "segment": 10,
+      "start": 54.1,
+      "end": 59.892,
+      "original_seconds": 5.792,
+      "tempo": 1.0,
+      "text": "Pro: einmalig drei Euro neunundneunzig. Kein Abo."
+    }
+  ],
+  "effects": [
     {
       "time": 0.45,
       "cue": "brand-confirm"
@@ -40,83 +135,6 @@
       "cue": "brand-confirm"
     }
   ],
-  "loudness_target_lufs": -18,
-  "true_peak_limit_dbtp": -1.5,
-  "transitions": [
-    {
-      "start": 2.75,
-      "duration": 0.5,
-      "style": "smoothleft"
-    },
-    {
-      "start": 6.75,
-      "duration": 0.5,
-      "style": "fade"
-    },
-    {
-      "start": 9.75,
-      "duration": 0.5,
-      "style": "fade"
-    },
-    {
-      "start": 12.75,
-      "duration": 0.5,
-      "style": "fade"
-    },
-    {
-      "start": 16.75,
-      "duration": 0.5,
-      "style": "smoothleft"
-    },
-    {
-      "start": 20.75,
-      "duration": 0.5,
-      "style": "fade"
-    },
-    {
-      "start": 26.75,
-      "duration": 0.5,
-      "style": "fade"
-    },
-    {
-      "start": 30.75,
-      "duration": 0.5,
-      "style": "fade"
-    },
-    {
-      "start": 34.75,
-      "duration": 0.5,
-      "style": "fade"
-    },
-    {
-      "start": 36.75,
-      "duration": 0.5,
-      "style": "fade"
-    },
-    {
-      "start": 39.75,
-      "duration": 0.5,
-      "style": "fade"
-    },
-    {
-      "start": 42.75,
-      "duration": 0.5,
-      "style": "fade"
-    },
-    {
-      "start": 45.75,
-      "duration": 0.5,
-      "style": "smoothleft"
-    },
-    {
-      "start": 49.75,
-      "duration": 0.5,
-      "style": "fade"
-    },
-    {
-      "start": 53.75,
-      "duration": 0.5,
-      "style": "fade"
-    }
-  ]
+  "loudness_target_lufs": -16,
+  "true_peak_target_dbtp": -2
 }

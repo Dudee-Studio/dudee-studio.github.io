@@ -1,0 +1,8 @@
+{
+  "provider": "ElevenLabs",
+  "model": "music_v1",
+  "prompt": "Original instrumental soundtrack for a friendly modern grocery-planning app advertisement. 112 BPM, upbeat indie-electro pop with an organic funky bass groove, warm guitar and keyboard accents, crisp but soft human-feeling drums, subtle claps and tasteful rhythmic fills. Mature, confident, approachable, fresh and positive. NOT a repetitive generic corporate loop, NOT childish, no nursery or toy xylophone sound, no dramatic epic orchestra. Leave ample midrange space for a female German voice-over. A catchy short opening motif in the first 3 seconds; light groove from 3 to 18 seconds; tasteful rhythmic lift and fresh instrumental variation between 18 and 35 seconds; another subtle melodic variation from 35 to 50 seconds; resolve with a memorable clean musical ending from 54 to 60 seconds. Controlled dynamics, polished commercial mix, no abrasive treble. Strictly instrumental: no singing, no voices, no spoken words. Do not imitate an existing song or artist.",
+  "path": "assets/audio/abgehakt-instrumental.mp3",
+  "bytes": 960514,
+  "request_id": null
+}
