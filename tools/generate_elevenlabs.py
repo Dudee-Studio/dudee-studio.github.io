@@ -20,6 +20,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('mode', choices=['speech', 'music'])
     ap.add_argument('--key-file')
+    ap.add_argument('--kind', choices=['overview', 'teaser', 'all'], default='all')
     args = ap.parse_args()
     key = Path(args.key_file).read_text().strip() if args.key_file else os.environ.get('ELEVENLABS_API_KEY')
     if not key:
@@ -60,16 +61,18 @@ def main():
         return
 
     jobs = []
-    for kind in ['overview','teaser']:
+    for kind in (['overview','teaser'] if args.kind == 'all' else [args.kind]):
         path = ROOT / f'assets/audio/de/{kind}-script.json'
         data = json.loads(path.read_text())
-        data['profile'].update({'voice_id':VOICE,'voice_name':'Emily E. - First-Person Games & Audiobooks','model':'eleven_multilingual_v2','status':'Selected from available professional voices: German, female, young.'})
+        data['profile'].update({'voice_id':VOICE,'voice_name':'Emily E. - First-Person Games & Audiobooks','status':'Selected from available professional voices: German, female, young.'})
         path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
         for i, segment in enumerate(data['segments']):
-            payload={'text':segment['text'],'model_id':'eleven_multilingual_v2','seed':7031,
-                     'voice_settings':{'stability':0.45,'similarity_boost':0.75,'style':0.2,'use_speaker_boost':True,'speed':1.03}}
-            if i: payload['previous_text']=data['segments'][i-1]['text']
-            if i+1<len(data['segments']): payload['next_text']=data['segments'][i+1]['text']
+            model = data['profile'].get('model', 'eleven_multilingual_v2')
+            payload={'text':segment.get('performance_text', segment['text']),'model_id':model,'seed':7031,
+                     'voice_settings':data['profile'].get('voice_settings', {'stability':0.45,'similarity_boost':0.75,'style':0.2,'use_speaker_boost':True,'speed':1.03})}
+            if model != 'eleven_v3':
+                if i: payload['previous_text']=data['segments'][i-1]['text']
+                if i+1<len(data['segments']): payload['next_text']=data['segments'][i+1]['text']
             jobs.append((kind,i,payload,ROOT/f'assets/audio/de/{kind}/{i:02d}.mp3'))
     results=[]
     def generate(job):

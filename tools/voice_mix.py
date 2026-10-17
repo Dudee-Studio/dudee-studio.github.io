@@ -36,12 +36,27 @@ def build_voice_mix(path, scenes, teaser=False):
     if teaser:
         # Keep the opening groove and the song's actual ending, rather than
         # abruptly cutting the first twenty seconds out of a longer track.
-        first = source[:round(16.5 * RATE)].copy()
+        first = source[:round((seconds - 3.5) * RATE)].copy()
         ending = source[-4 * RATE:].copy()
         overlap = round(.5 * RATE)
         phase = np.linspace(0, np.pi / 2, overlap)[:, None]
         bridge = first[-overlap:] * np.cos(phase) + ending[:overlap] * np.sin(phase)
         music = np.concatenate([first[:-overlap], bridge, ending[overlap:]])[:length]
+    elif seconds > 60:
+        # Extend the middle of the existing composition with equal-power
+        # crossfades; retain its opening and original musical resolution.
+        overlap = round(.5 * RATE)
+        phase = np.linspace(0, np.pi / 2, overlap)[:, None]
+        body = source[:-4 * RATE].copy()
+        target = length - 4 * RATE + overlap
+        middle = source[16 * RATE:48 * RATE]
+        while len(body) < target:
+            bridge = body[-overlap:] * np.cos(phase) + middle[:overlap] * np.sin(phase)
+            body = np.concatenate([body[:-overlap], bridge, middle[overlap:]])
+        body = body[:target]
+        ending = source[-4 * RATE:]
+        bridge = body[-overlap:] * np.cos(phase) + ending[:overlap] * np.sin(phase)
+        music = np.concatenate([body[:-overlap], bridge, ending[overlap:]])
     else:
         music = source[:length].copy()
     music = rms_normalize(music, -24)

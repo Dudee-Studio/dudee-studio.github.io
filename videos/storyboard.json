@@ -1,112 +1,126 @@
 [
   [
     "@intro",
-    3,
-    "Schon wieder",
-    "etwas vergessen?",
+    5,
+    "Dein Einkauf.",
+    "Einfach im Griff.",
     ""
   ],
   [
     "promo/catalog-before.png",
     4,
     "Was fehlt zu Hause?",
-    "Artikel durchgehen. Mit einem Tipp ergänzen.",
-    ""
+    "Artikel durchgehen. Liste füllen.",
+    "KOSTENLOS"
   ],
   [
     "promo/catalog-after.png",
     3,
-    "Deine Liste steht.",
-    "Vorher planen. Entspannter einkaufen.",
-    ""
+    "Mit einem Tipp ergänzt.",
+    "Deine Artikel. Deine Einkaufsliste.",
+    "KOSTENLOS"
   ],
   [
     "promo/dishes.png",
     3,
     "Was kochen wir?",
     "Deine Gerichte helfen beim Planen.",
-    ""
+    "KOSTENLOS"
   ],
   [
     "promo/dish-ingredients.png",
     4,
     "Zutaten direkt auf die Liste.",
-    "Für dein nächstes Essen vormerken.",
-    ""
+    "Gericht wählen. Zutaten übernehmen.",
+    "KOSTENLOS"
   ],
   [
     "promo/list-before.png",
-    4,
+    6,
     "Im Laden einfach abhaken.",
-    "Alles Geplante auf deiner Liste.",
-    ""
+    "Alles Geplante an einem Ort.",
+    "KOSTENLOS"
+  ],
+  [
+    "ui-previews/angebote.png",
+    6,
+    "Angebote festhalten.",
+    "Preis und Zeitraum selbst eintragen.",
+    "KOSTENLOS"
+  ],
+  [
+    "ui-previews/coupons.png",
+    5,
+    "Coupon dabei?",
+    "Rabatt beim Bezahlen berücksichtigen.",
+    "KOSTENLOS"
+  ],
+  [
+    "ui-previews/letzter-angebotskauf-katalog.png",
+    6,
+    "Dein letzter Angebotspreis.",
+    "Mit Datum des Angebotskaufs.",
+    "KOSTENLOS"
+  ],
+  [
+    "screenshots/4-analyse.png",
+    6,
+    "Was hast du ausgegeben?",
+    "Einkäufe und Monatsausgaben im Blick.",
+    "BASIS-AUSWERTUNG · KOSTENLOS"
+  ],
+  [
+    "@pro",
+    5,
+    "Du möchtest noch mehr?",
+    "Dafür gibt es Abgehakt Pro.",
+    "OPTIONAL · EINMALKAUF"
   ],
   [
     "@family",
-    6,
-    "Eine Liste. Alle wissen Bescheid.",
-    "Gemeinsam planen statt Nachrichten hin und her.",
-    "GRUPPE MIT PRO · BEITRETEN KOSTENLOS"
+    9,
+    "Eine Liste. Gemeinsam einkaufen.",
+    "Für Paare, WGs, Freunde und Familien.",
+    "ERSTELLEN MIT PRO · BEITRETEN KOSTENLOS"
   ],
   [
     "@scan",
     4,
     "Spontan etwas entdeckt?",
     "Mit Pro scannen statt abtippen.",
-    "BARCODE · MIT PRO · DATEN, WENN VERFÜGBAR"
+    "BARCODE · MIT PRO"
   ],
   [
     "promo/spontaneous.png",
     4,
     "Direkt auf deiner Liste.",
-    "Spontanen Einkauf per Barcode ergänzen.",
+    "Produktdaten, wenn verfügbar.",
     "BARCODE · MIT PRO · DEMO-SCAN"
   ],
   [
     "promo/barcode-before.png",
-    2,
-    "Schon als Artikel angelegt?",
-    "Barcode ergänzen – auch ohne Foto.",
+    3,
+    "Artikel schon angelegt?",
+    "Barcode ergänzen. Auch ohne Foto.",
     "BARCODE · MIT PRO"
   ],
   [
     "promo/barcode-after.png",
     3,
-    "Beim nächsten Scan wiederfinden.",
-    "Den gespeicherten Artikel direkt erkennen.",
+    "Beim nächsten Scan erkennen.",
+    "Deinen gespeicherten Artikel wiederfinden.",
     "BARCODE · MIT PRO"
   ],
   [
-    "ui-previews/angebote.png",
-    3,
-    "Ein gutes Angebot?",
-    "Angebotspreis und Zeitraum festhalten.",
-    ""
-  ],
-  [
-    "ui-previews/coupons.png",
-    3,
-    "Coupon dabei?",
-    "Rabatt beim Bezahlen berücksichtigen.",
-    ""
-  ],
-  [
-    "ui-previews/letzter-angebotskauf-katalog.png",
-    4,
-    "War es zuletzt günstiger?",
-    "Letzten gekauften Angebotspreis mit Datum sehen.",
-    ""
-  ],
-  [
     "promo/analysis-pro.png",
-    4,
-    "Wo bleibt dein Einkaufsbudget?",
-    "Mit Pro Monatsverlauf und Abteilungen ansehen.",
+    6,
+    "Deine Ausgaben genauer verstehen.",
+    "Monatsverlauf und Abteilungen ansehen.",
     "ERWEITERTE ANALYSE · MIT PRO"
   ],
   [
     "@end",
-    6,
+    8,
     "Abgehakt",
     "Dein Einkauf im Griff.",
     ""

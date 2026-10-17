@@ -11,33 +11,43 @@
     "status": "Selected from available professional voices: German, female, young.",
     "mix": "Sprache im Vordergrund, Musik während der Sprache absenken; Effekte dezent halten.",
     "voice_name": "Emily E. - First-Person Games & Audiobooks",
-    "model": "eleven_multilingual_v2"
+    "model": "eleven_v3",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "speed": 1.0
+    }
   },
   "segments": [
     {
       "start": 0,
-      "end": 3,
-      "text": "Schon wieder etwas vergessen?"
+      "end": 4,
+      "text": "Abgehakt. Dein Einkauf im Griff.",
+      "performance_text": "[happily] Abgehakt. Dein Einkauf im Griff."
     },
     {
-      "start": 3,
-      "end": 7,
-      "text": "Deine kostenlose Einkaufsliste."
+      "start": 4,
+      "end": 10,
+      "text": "Artikel durchgehen. Liste füllen. Kostenlos.",
+      "performance_text": "Artikel durchgehen. Liste füllen. Kostenlos."
     },
     {
-      "start": 7,
-      "end": 12,
-      "text": "Mit Pro einladen. Kostenlos beitreten."
+      "start": 10,
+      "end": 18,
+      "text": "Mit Pro gemeinsam einkaufen. Kostenlos beitreten.",
+      "performance_text": "[happily] Mit Pro gemeinsam einkaufen. Kostenlos beitreten."
     },
     {
-      "start": 12,
-      "end": 16,
-      "text": "Scanne spontane Einkäufe mit Pro."
+      "start": 18,
+      "end": 24,
+      "text": "Barcodes scannen. Mit Pro.",
+      "performance_text": "Barcodes scannen. Mit Pro."
     },
     {
-      "start": 16,
-      "end": 20,
-      "text": "Pro: einmalig drei Euro neunundneunzig."
+      "start": 24,
+      "end": 30,
+      "text": "Einmalig drei Euro neunundneunzig. Kein Abo.",
+      "performance_text": "[happily] Einmalig drei Euro neunundneunzig. Kein Abo."
     }
   ],
   "timing_note": "Zeitfenster sind Schnittziele. Nach der Sprachgenerierung Laufzeiten prüfen; Pausen oder Schnitt anpassen, ohne die Stimme unnatürlich zu beschleunigen."

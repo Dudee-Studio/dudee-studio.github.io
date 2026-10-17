@@ -18,30 +18,74 @@ APP = Path(sys.argv[1])
 ART = ROOT / 'assets/abgehakt'
 FONT = '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
 BOLD = '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
-SCENES = [
-    ('@intro', 3, 'Schon wieder', 'etwas vergessen?', ''),
-    ('promo/catalog-before.png', 4, 'Was fehlt zu Hause?', 'Artikel durchgehen. Mit einem Tipp ergänzen.', ''),
-    ('promo/catalog-after.png', 3, 'Deine Liste steht.', 'Vorher planen. Entspannter einkaufen.', ''),
-    ('promo/dishes.png', 3, 'Was kochen wir?', 'Deine Gerichte helfen beim Planen.', ''),
-    ('promo/dish-ingredients.png', 4, 'Zutaten direkt auf die Liste.', 'Für dein nächstes Essen vormerken.', ''),
-    ('promo/list-before.png', 4, 'Im Laden einfach abhaken.', 'Alles Geplante auf deiner Liste.', ''),
-    ('@family', 6, 'Eine Liste. Alle wissen Bescheid.', 'Gemeinsam planen statt Nachrichten hin und her.', 'GRUPPE MIT PRO · BEITRETEN KOSTENLOS'),
-    ('@scan', 4, 'Spontan etwas entdeckt?', 'Mit Pro scannen statt abtippen.', 'BARCODE · MIT PRO · DATEN, WENN VERFÜGBAR'),
-    ('promo/spontaneous.png', 4, 'Direkt auf deiner Liste.', 'Spontanen Einkauf per Barcode ergänzen.', 'BARCODE · MIT PRO · DEMO-SCAN'),
-    ('promo/barcode-before.png', 2, 'Schon als Artikel angelegt?', 'Barcode ergänzen – auch ohne Foto.', 'BARCODE · MIT PRO'),
-    ('promo/barcode-after.png', 3, 'Beim nächsten Scan wiederfinden.', 'Den gespeicherten Artikel direkt erkennen.', 'BARCODE · MIT PRO'),
-    ('ui-previews/angebote.png', 3, 'Ein gutes Angebot?', 'Angebotspreis und Zeitraum festhalten.', ''),
-    ('ui-previews/coupons.png', 3, 'Coupon dabei?', 'Rabatt beim Bezahlen berücksichtigen.', ''),
-    ('ui-previews/letzter-angebotskauf-katalog.png', 4, 'War es zuletzt günstiger?', 'Letzten gekauften Angebotspreis mit Datum sehen.', ''),
-    ('promo/analysis-pro.png', 4, 'Wo bleibt dein Einkaufsbudget?', 'Mit Pro Monatsverlauf und Abteilungen ansehen.', 'ERWEITERTE ANALYSE · MIT PRO'),
-    ('@end', 6, 'Abgehakt', 'Dein Einkauf im Griff.', ''),
-]
+SCENES = [('@intro', 5, 'Dein Einkauf.', 'Einfach im Griff.', ''),
+ ('promo/catalog-before.png',
+  4,
+  'Was fehlt zu Hause?',
+  'Artikel durchgehen. Liste füllen.',
+  'KOSTENLOS'),
+ ('promo/catalog-after.png',
+  3,
+  'Mit einem Tipp ergänzt.',
+  'Deine Artikel. Deine Einkaufsliste.',
+  'KOSTENLOS'),
+ ('promo/dishes.png', 3, 'Was kochen wir?', 'Deine Gerichte helfen beim Planen.', 'KOSTENLOS'),
+ ('promo/dish-ingredients.png',
+  4,
+  'Zutaten direkt auf die Liste.',
+  'Gericht wählen. Zutaten übernehmen.',
+  'KOSTENLOS'),
+ ('promo/list-before.png', 6, 'Im Laden einfach abhaken.', 'Alles Geplante an einem Ort.', 'KOSTENLOS'),
+ ('ui-previews/angebote.png',
+  6,
+  'Angebote festhalten.',
+  'Preis und Zeitraum selbst eintragen.',
+  'KOSTENLOS'),
+ ('ui-previews/coupons.png', 5, 'Coupon dabei?', 'Rabatt beim Bezahlen berücksichtigen.', 'KOSTENLOS'),
+ ('ui-previews/letzter-angebotskauf-katalog.png',
+  6,
+  'Dein letzter Angebotspreis.',
+  'Mit Datum des Angebotskaufs.',
+  'KOSTENLOS'),
+ ('screenshots/4-analyse.png',
+  6,
+  'Was hast du ausgegeben?',
+  'Einkäufe und Monatsausgaben im Blick.',
+  'BASIS-AUSWERTUNG · KOSTENLOS'),
+ ('@pro', 5, 'Du möchtest noch mehr?', 'Dafür gibt es Abgehakt Pro.', 'OPTIONAL · EINMALKAUF'),
+ ('@family',
+  9,
+  'Eine Liste. Gemeinsam einkaufen.',
+  'Für Paare, WGs, Freunde und Familien.',
+  'ERSTELLEN MIT PRO · BEITRETEN KOSTENLOS'),
+ ('@scan', 4, 'Spontan etwas entdeckt?', 'Mit Pro scannen statt abtippen.', 'BARCODE · MIT PRO'),
+ ('promo/spontaneous.png',
+  4,
+  'Direkt auf deiner Liste.',
+  'Produktdaten, wenn verfügbar.',
+  'BARCODE · MIT PRO · DEMO-SCAN'),
+ ('promo/barcode-before.png',
+  3,
+  'Artikel schon angelegt?',
+  'Barcode ergänzen. Auch ohne Foto.',
+  'BARCODE · MIT PRO'),
+ ('promo/barcode-after.png',
+  3,
+  'Beim nächsten Scan erkennen.',
+  'Deinen gespeicherten Artikel wiederfinden.',
+  'BARCODE · MIT PRO'),
+ ('promo/analysis-pro.png',
+  6,
+  'Deine Ausgaben genauer verstehen.',
+  'Monatsverlauf und Abteilungen ansehen.',
+  'ERWEITERTE ANALYSE · MIT PRO'),
+ ('@end', 8, 'Abgehakt', 'Dein Einkauf im Griff.', '')]
 TEASER = [
-    ('@intro', 3, 'Schon wieder', 'etwas vergessen?', ''),
-    ('promo/catalog-after.png', 4, 'Entspannter einkaufen.', 'Vorher planen. Mit Artikeln und Gerichten.', 'KOSTENLOSE BASIS'),
-    ('@family', 5, 'Eine Liste. Alle wissen Bescheid.', 'Gemeinsam planen statt Nachrichten hin und her.', 'GRUPPE MIT PRO · BEITRETEN KOSTENLOS'),
-    ('promo/spontaneous.png', 4, 'Scannen statt eintippen.', 'Spontane Einkäufe direkt auf die Liste.', 'BARCODE · MIT PRO · DEMO-SCAN'),
-    ('@teaser-end', 4, 'Abgehakt', 'Dein Einkauf im Griff.', ''),
+    ('@intro', 4, 'Dein Einkauf.', 'Einfach im Griff.', ''),
+    ('promo/catalog-after.png', 6, 'Entspannter einkaufen.', 'Vorher planen. Mit Artikeln und Gerichten.', 'KOSTENLOSE BASIS'),
+    ('@family', 8, 'Eine Liste. Alle wissen Bescheid.', 'Gemeinsam planen statt Nachrichten hin und her.', 'GRUPPE MIT PRO · BEITRETEN KOSTENLOS'),
+    ('promo/spontaneous.png', 6, 'Scannen statt eintippen.', 'Spontane Einkäufe direkt auf die Liste.', 'BARCODE · MIT PRO · DEMO-SCAN'),
+    ('@teaser-end', 6, 'Abgehakt', 'Dein Einkauf im Griff.', ''),
 ]
 
 
@@ -98,7 +142,7 @@ class Shot:
         self.chain(f'drawbox=x={x}:y={y}:w={w}:h={h}:color={color}:t={thickness}{condition}')
 
     def chapter(self, current):
-        for i, (label, x) in enumerate([('VORBEREITEN', 76), ('EINKAUFEN', 315), ('ÜBERBLICK', 537)]):
+        for i, (label, x) in enumerate([('KOSTENLOSE APP', 145), ('MEHR MIT PRO', 435)]):
             self.text(label, 16, 176, bold=i == current, color='0x246B3D' if i == current else '0x788579', x=str(x))
             if i == current:
                 self.box(x, 199, 116, 3, '0xF7B62B')
@@ -138,7 +182,7 @@ def main():
             shotdir = folder / str(i)
             shotdir.mkdir()
             s = Shot(shotdir)
-            chapter = (0 if i < 5 else (1 if i < 13 else 2)) if not teaser else (0 if i < 2 else 1)
+            chapter = (0 if i < 10 else 1) if not teaser else (0 if i < 2 else 1)
             if source == '@intro':
                 s.image(ART / 'mark.png', 160, 160, 280, 140, effects=',fade=t=in:st=0:d=0.5:alpha=1')
                 s.text('DUDEE STUDIO', 20, 83, bold=True)
@@ -156,8 +200,16 @@ def main():
                 s.text('Kostenlose Basis.', 33, 629, bold=True)
                 s.text('Pro einmalig 3,99 € · kein Abo', 29, 708)
                 s.text('Deutscher Basispreis', 18, 760, color='0x526256')
-                s.text('Bald bei Google Play', 29, 929, bold=True)
-                s.text('dudee-studio.com', 33, 1013, bold=True)
+                s.text('Einmal kaufen. Ohne Abo.', 29, 929, bold=True)
+                s.text('Gemeinsam einkaufen.', 30, 1013, bold=True)
+            elif source == '@pro':
+                s.image(ART / 'mark.png', 160, 160, 280, 180)
+                s.text('ABGEHAKT PRO', 26, 404, bold=True)
+                s.text(headline, 39, 490, bold=True)
+                s.text(subtitle, 29, 566)
+                for row, label in enumerate(['Listen gemeinsam nutzen', 'Barcodes scannen', 'Mehr Auswertungen']):
+                    s.text('✓ ' + label, 30, 710 + row * 92, bold=True, extra=f":alpha='clip((t-{row*.6})*3,0,1)'")
+                s.text('Optional. Einmal kaufen. Kein Abo.', 24, 1080)
             elif source == '@end':
                 s.image(ART / 'mark.png', 160, 160, 280, 145)
                 s.text('DUDEE STUDIO', 20, 53, bold=True)
@@ -165,14 +217,14 @@ def main():
                 s.text(subtitle, 32, 438)
                 s.text('Kostenlose Basis.', 29, 529, bold=True)
                 s.text('Mehr mit Pro', 23, 609, bold=True)
-                for name, x, label, fontsize in [('scanner', 119, 'Barcode', 20), ('family', 312, 'Familie erstellen', 18), ('analysis', 505, 'Mehr Auswertungen', 17)]:
+                for name, x, label, fontsize in [('scanner', 119, 'Barcode', 20), ('family', 312, 'Listen teilen', 18), ('analysis', 505, 'Mehr Auswertungen', 17)]:
                     s.image(icons[name], 96, 96, x, 672)
                     s.text(label, fontsize, 790, x=f'{x+48}-text_w/2')
                 s.text('Einmalig 3,99 € · kein Abo', 30, 873, bold=True)
                 s.text('Deutscher Basispreis', 18, 925, color='0x526256')
-                s.text('Bald bei Google Play', 27, 1022)
-                s.text('dudee-studio.com', 30, 1082, bold=True)
-                s.text('Familie: Erstellen mit Pro · kostenlos beitreten', 18, 1198)
+                s.text('Gemeinsame Liste für deine Gruppe', 26, 1022)
+                s.text('Andere treten kostenlos bei.', 27, 1082, bold=True)
+                s.text('Eigener Scanner und volle Analyse: jeweils Pro', 18, 1198)
             else:
                 if source == '@scan':
                     s.image(icons['product'], 240, 360, 79, 365)
@@ -212,7 +264,7 @@ def main():
             s.finish(clip, duration + padding)
             clips.append(clip)
         # Half a transition hold at the ends and one in the middle preserve
-        # the nominal 20/60 second duration while overlapping every cut.
+        # the nominal timeline duration while overlapping every cut.
         audio = folder / 'soundtrack.wav'
         narrated = (ROOT / 'assets/audio/abgehakt-instrumental.mp3').exists() and (ROOT / 'assets/audio/de/overview/00.mp3').exists()
         audio_metadata = build_voice_mix(audio, scenes, teaser) if narrated else soundtrack(audio, scenes, TRANSITION)
@@ -225,7 +277,7 @@ def main():
         length = scenes[0][1] + TRANSITION / 2
         transitions = []
         for j in range(1, len(clips)):
-            mode = 'smoothleft' if j in ([1, 2] if teaser else [1, 5, 13]) else 'fade'
+            mode = 'smoothleft' if j in ([1, 2] if teaser else [1, 6, 10, 11]) else 'fade'
             offset = length - TRANSITION
             label = f'xf{j}'
             graph.append(f'[{current}][v{j}]xfade=transition={mode}:duration={TRANSITION}:offset={offset},fps=24[{label}]')

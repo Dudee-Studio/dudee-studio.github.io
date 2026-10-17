@@ -1,5 +1,5 @@
 {
-  "duration": 20,
+  "duration": 30,
   "narration_provider": "ElevenLabs",
   "voice_name": "Emily E. - First-Person Games & Audiobooks",
   "voice_id": "jT8mmBPqq9y1EwCWYWKS",
@@ -11,42 +11,42 @@
     {
       "segment": 0,
       "start": 0.3,
-      "end": 1.63,
-      "original_seconds": 1.33,
+      "end": 3.241,
+      "original_seconds": 2.941,
       "tempo": 1.0,
-      "text": "Schon wieder etwas vergessen?"
+      "text": "Abgehakt. Dein Einkauf im Griff."
     },
     {
       "segment": 1,
-      "start": 3.1,
-      "end": 5.227,
-      "original_seconds": 2.127,
+      "start": 4.1,
+      "end": 8.62,
+      "original_seconds": 4.52,
       "tempo": 1.0,
-      "text": "Deine kostenlose Einkaufsliste."
+      "text": "Artikel durchgehen. Liste füllen. Kostenlos."
     },
     {
       "segment": 2,
-      "start": 7.1,
-      "end": 11.588,
-      "original_seconds": 4.488,
+      "start": 10.1,
+      "end": 13.912,
+      "original_seconds": 3.812,
       "tempo": 1.0,
-      "text": "Mit Pro einladen. Kostenlos beitreten."
+      "text": "Mit Pro gemeinsam einkaufen. Kostenlos beitreten."
     },
     {
       "segment": 3,
-      "start": 12.1,
-      "end": 14.644,
-      "original_seconds": 2.544,
+      "start": 18.1,
+      "end": 20.187,
+      "original_seconds": 2.087,
       "tempo": 1.0,
-      "text": "Scanne spontane Einkäufe mit Pro."
+      "text": "Barcodes scannen. Mit Pro."
     },
     {
       "segment": 4,
-      "start": 16.1,
-      "end": 19.863,
-      "original_seconds": 3.763,
+      "start": 24.1,
+      "end": 28.432,
+      "original_seconds": 4.332,
       "tempo": 1.0,
-      "text": "Pro: einmalig drei Euro neunundneunzig."
+      "text": "Einmalig drei Euro neunundneunzig. Kein Abo."
     }
   ],
   "effects": [
@@ -55,22 +55,44 @@
       "cue": "brand-confirm"
     },
     {
-      "time": 3.2,
+      "time": 4.2,
       "cue": "confirm"
     },
     {
-      "time": 8.95,
+      "time": 11.95,
       "cue": "sync"
     },
     {
-      "time": 12.2,
+      "time": 18.2,
       "cue": "confirm"
     },
     {
-      "time": 16.2,
+      "time": 24.2,
       "cue": "brand-confirm"
     }
   ],
   "loudness_target_lufs": -16,
-  "true_peak_target_dbtp": -2
+  "true_peak_target_dbtp": -2,
+  "transitions": [
+    {
+      "start": 3.75,
+      "duration": 0.5,
+      "style": "smoothleft"
+    },
+    {
+      "start": 9.75,
+      "duration": 0.5,
+      "style": "smoothleft"
+    },
+    {
+      "start": 17.75,
+      "duration": 0.5,
+      "style": "fade"
+    },
+    {
+      "start": 23.75,
+      "duration": 0.5,
+      "style": "fade"
+    }
+  ]
 }

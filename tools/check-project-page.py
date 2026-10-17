@@ -35,7 +35,7 @@ with sync_playwright() as p:
                         autoplay:v.autoplay, controls:v.controls, paused:v.paused};
             }''')
             assert result['width'] == 720 and result['height'] == 1280, result
-            assert 55 <= result['duration'] <= 70, result
+            assert result['duration'] == 90, result
             assert result['controls'] and not result['autoplay'] and not result['paused'], result
             assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'Horizontal overflow'
             page.wait_for_function('document.querySelector("video").currentTime > 0.8')
@@ -55,7 +55,7 @@ with sync_playwright() as p:
             assert teaser.get_attribute('controlslist') == 'nodownload'
             teaser.evaluate('(v) => v.load()')
             page.wait_for_function('document.querySelector(".teaser-details video").readyState >= 2')
-            assert teaser.evaluate('(v) => v.duration') == 20
+            assert teaser.evaluate('(v) => v.duration') == 30
             page.locator('video').first.evaluate('(v) => v.play()')
             teaser.evaluate('(v) => v.play()')
             page.wait_for_function('document.querySelector(".teaser-details video").currentTime > 0.8')

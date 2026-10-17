@@ -1,92 +1,72 @@
-# Abgehakt – Dein Einkauf im Griff.
+# Abgehakt – Store-Videos
 
-`einkaufsliste-gerichte.mp4`: Hochformat 720 × 1280, H.264, 24 Bilder/s,
-mit eingeblendeten Texten, eigener Musik und Bediengeräuschen. Auch ohne Ton verständlich. Der Player startet erst auf Wunsch.
-Die Mediendateinamen bleiben für bestehende Links stabil.
-Das Poster liegt unter `assets/einkaufsliste/poster.jpg`.
+Die Videos erklären zuerst die kostenlose App und anschließend die optionalen
+Pro-Funktionen. Keine Anzeigenkampagne, keine externen Werbe-CTAs.
 
-Das Video kombiniert echte Android-Compose-Ansichten, die automatisiert
-mit Robolectric gerendert wurden, mit schematischen Erklärgrafiken. Es ist eine geschnittene Funktionsübersicht,
-keine durchgehende Aufnahme eines physischen Telefons. Barcode- und
-Produktsuchergebnisse stammen aus Test-Doubles; keine Kamerabilder werden
-vorgetäuscht. Die Familien-Szene erklärt mit zwei gezeichneten Handyansichten und einem
-übertragenen Artikel das Sync-Prinzip. Sie ist ausdrücklich als schematische
-Demo gekennzeichnet, kein aufgenommener Abgleich zwischen zwei Geräten. Alle Einkäufe und
-Ausgaben sind Beispieldaten. Keine fremden Produktfotos oder fremden Musikaufnahmen verwendet.
+- `einkaufsliste-gerichte.mp4`: 90 Sekunden. 0–48 s: Artikel, Gerichte,
+  Einkaufsliste, selbst eingetragene Angebote, Coupons, letzter tatsächlich
+  gekaufter Angebotspreis mit Datum und Basis-Ausgabenübersicht. 48–53 s:
+  Übergang zu Pro. 53–82 s: gemeinsame Einkaufsliste, Barcode-Scanner für neue
+  und bestehende Artikel sowie erweiterte Auswertung. 82–90 s: Einmalkauf.
+- `abgehakt-kurz.mp4`: 30 Sekunden. Kostenloser Grundnutzen zuerst,
+  anschließend gemeinsame Liste und Scanner mit Pro; Einmalkauf zum Schluss.
+- Beide: 720 × 1280, H.264, 24 Bilder/s, AAC Stereo 48 kHz, 0,5 Sekunden
+  lange Überblendungen, keine Schwarzpausen zwischen Szenen.
+- `storyboard.json` / `teaser-storyboard.json`: tatsächliche Szenenfolge.
+- `overview-sound.json` / `teaser-sound.json`: Sprechzeiten, Tempo und Tonregie.
+- `overview-de.vtt` / `teaser-de.vtt`: zuschaltbare deutsche Untertitel.
 
-Der Markenauftakt nutzt das ausgewählte Einkaufswagen-Haken-Zeichen (Variante C),
-in der korrigierten Fassung ohne schwarze Flecken. Drei Kapitel ordnen den Ablauf.
-Eine animierte Scan-Grafik und ein Pro-Abschluss mit drei Symbolen ergänzen die
-echten App-Ansichten. Wiederverwendbare Grafiken liegen unter `assets/abgehakt/`.
+## Aussagen zu Pro
+
+Deutscher Basispreis: **einmalig 3,99 €, kein Abo**. Preis kann je nach Land
+abweichen. Pro benötigt, wer die Gruppe erstellt/einlädt; Eingeladene können
+kostenlos beitreten und gemeinsam einkaufen. Eigener Scanner und erweiterte
+Auswertung benötigen jeweils eigenes Pro. Die Gruppe ist für Paare, WGs,
+Freunde, Familien und andere gemeinsame Einkäufe gedacht.
+
+Kein Versprechen eines lebenslangen Serverbetriebs. „Einmal kaufen“ beschreibt
+das Kaufmodell. Keine automatische Händler-Angebotssuche oder Preisgarantie.
+Produktdaten beim Scan werden nur geladen, wenn verfügbar.
+
+## Bild und Ton
+
+Echte Android-Compose-Ansichten mit Demo-Daten, automatisiert gerendert mit
+Robolectric. Kein durchgehendes Video eines physischen Telefons. Scan und
+Gruppen-Sync sind ausdrücklich als schematische/simulierte Demos markiert;
+kein vorgetäuschter Kamera-Scan oder aufgezeichneter Zwei-Geräte-Abgleich.
+Alle Ausgaben sind Beispieldaten.
+
+Das ausgewählte Logo C ist die korrigierte Fassung ohne schwarze Flecken.
+Grafiken: `assets/abgehakt/`. Poster: `assets/einkaufsliste/*poster.jpg`.
+
+Deutsche junge weibliche Bibliotheksstimme von ElevenLabs, jetzt Modell
+`eleven_v3` mit ausdrucksvollerer Regie: neugierige Fragen, freundlich lebendige
+Erklärung und positiv betonter Pro-Übergang. Keine Stimmklonierung. Performance-
+Tags sind von sichtbarem Text und Untertiteln getrennt. Generierte Musik:
+`assets/audio/abgehakt-instrumental.mp3`. Der Mittelteil wird für 90 Sekunden
+weich verlängert, der musikalische Schluss bleibt erhalten. Musik wird unter
+Sprache abgesenkt, Bediengeräusche bleiben dezent. Master-Ziel -16 LUFS / -2 dBTP.
+Weitere Quellen und Generierung: `assets/audio/README.md`.
 
 ## Wiederherstellen
 
-Benötigt: Python 3 mit NumPy, FFmpeg mit libx264/drawtext und DejaVu-Sans-Schriften sowie
-Checkout von `CaptAwesome89/Einkaufsliste` (Stand 06ceac9) mit Android-Testumgebung.
+Python 3 mit NumPy, FFmpeg mit libx264/drawtext und DejaVu-Schriften sowie ein
+Checkout von `CaptAwesome89/Einkaufsliste` mit erzeugten Testansichten erforderlich.
 
 1. `tools/capture/PromoVideoCapture.kt` vorübergehend nach
    `app/src/test/java/io/github/captawesome89/einkaufsliste/ui/` im App-Repo kopieren.
-2. Dort `SCREENSHOTS=true ./gradlew testDebugUnitTest --tests '*StoreScreenshots*'
-   --tests '*ShoppingPreparationUiTest*' --tests '*PromoVideoCapture*'` ausführen.
-   Die Tests erzeugen `app/build/screenshots`, `app/build/ui-previews` und
-   `app/build/promo`. Netzwerk-/Proxy-Konfiguration der Testumgebung beachten.
-3. Hier `python tools/render-app-video.py /pfad/zur/Einkaufsliste` ausführen.
-4. Die vorübergehende Capture-Datei im App-Checkout wieder entfernen.
+2. Dort mit geeigneter Android-Testumgebung:
+   `SCREENSHOTS=true ./gradlew testDebugUnitTest --tests '*StoreScreenshots*' --tests '*ShoppingPreparationUiTest*' --tests '*PromoVideoCapture*'`.
+   Quellen liegen unter `app/build/screenshots`, `app/build/ui-previews` und `app/build/promo`.
+3. Hier `python tools/render-app-video.py /pfad/zur/Einkaufsliste` und für die
+   Kurzfassung zusätzlich `--teaser` ausführen. Die Renderer rufen keine API auf.
+4. Temporäre Capture-Datei im App-Checkout entfernen.
 
-`storyboard.json` enthält Reihenfolge, Laufzeiten, Quellansichten und Einblendungen.
-Der deutsche Pro-Basispreis ist 3,99 € einmalig. Scanner und erweiterte Analyse
-benötigen Pro. Familien erstellen/einladen benötigt Pro, Beitreten ist kostenlos.
-Es gibt noch keinen Store-Link: bis zur Veröffentlichung „Bald bei Google Play“.
+Nur den Ton neu mischen: zusätzlich `--audio-only`. Neue Sprache explizit mit
+`tools/generate_elevenlabs.py speech` erzeugen; Zugangsdaten ausschließlich aus
+sicherer Prozessumgebung oder geschützter Datei außerhalb des Repositories.
 
-
-## Käuferorientierte Fassungen
-
-Der Marketing-Review vom 17.10.2026 ersetzt die reine Funktionsabfolge durch
-bekannte Einkaufssituationen und unmittelbar passende App-Belege. Einstieg:
-„Schon wieder etwas vergessen?“; danach Vorbereitung, gemeinsames Einkaufen,
-spontane Ergänzungen und Rückblick auf Preise/Ausgaben. Pro wird nach dem
-kostenlosen Grundnutzen sichtbar. Kein garantierter Spareffekt oder behauptete
-Kundenbegeisterung. Die Wirkung ist eine Marketing-Hypothese, kein Messergebnis.
-
-- `einkaufsliste-gerichte.mp4`: 60 Sekunden, ausführliche Vorstellung.
-- `abgehakt-kurz.mp4`: 20 Sekunden, schneller Einstieg für Website und Social.
-- `storyboard.json` / `teaser-storyboard.json`: Texte, Reihenfolge, Laufzeiten.
-
-Die Kurzfassung erzeugen: `python tools/render-app-video.py /pfad/zur/Einkaufsliste --teaser`.
-Sie steht auf der Website aufklappbar zur Verfügung. Kein Autoplay, kein
-Download-Angebot. Beide Filme nennen „Bald bei Google Play“ statt eine noch
-nicht mögliche Installation zu versprechen. Bei Veröffentlichung Store-Link und
-CTA ersetzen. Der Kurzfilm zeigt Familienliste und Barcode mit den jeweiligen
-Pro-Kennzeichnungen; kostenlose Basis und Pro bleiben klar getrennt.
-
-
-## Übergänge und Ton
-
-Beide Fassungen verwenden 0,5 Sekunden lange echte Überblendungen. Kapitelwechsel
-bekommen eine weiche seitliche Bewegung. Zusätzliche Haltezeit vor/nach den
-Überblendungen erhält die Gesamtlaufzeit von 60 bzw. 20 Sekunden. Die bisherigen
-Schwarzblenden zwischen einzelnen Szenen entfallen.
-
-`tools/video_soundtrack.py` erzeugt eine eigene instrumentale Begleitung mit
-100 BPM (weiche Akkorde, gezupfte Melodie, Bass und dezente Percussion). Kurze
-Bestätigungstöne liegen auf den sichtbaren Tipp-, Scan- und Sync-Ergebnissen.
-Es werden keine fremden Musikaufnahmen, Sprachaufnahmen oder Samples geladen.
-Die Mischung blendet weich ein/aus, Ziel: -18 LUFS, maximal -1,5 dBTP,
-AAC Stereo 48 kHz. Kein Sprechertext. Lautstärke bleibt über den nativen Player
-steuerbar; startet ein zweites Video, pausiert das erste automatisch.
-`overview-sound.json` / `teaser-sound.json` dokumentieren Effekte und Übergänge.
-
-## Deutsche Sprecherin und neue Musik mit ElevenLabs
-
-Die aktuellen Fassungen ersetzen die bisherige synthetische Musikbegleitung
-durch die eigens erzeugte ElevenLabs-Instrumentalspur und ergänzen eine junge
-weibliche deutsche Bibliotheksstimme. Details und Quellen: `assets/audio/README.md`.
-Die gesprochenen Texte passen zu den jeweiligen Szenen; Randstille wird entfernt,
-Musik während der Sprache abgesenkt. Master-Ziel jetzt -16 LUFS / -2 dBTP.
-Die reinen Musikfassungen oben beschreiben den vorherigen Produktionsstand.
-
-Nur den Ton neu mischen (Bild und Übergänge beibehalten):
-`python tools/render-app-video.py /pfad/zur/Einkaufsliste --audio-only`
-und zusätzlich `--teaser` für die Kurzfassung. Der vollständige Renderer nutzt
-die vorhandenen ElevenLabs-Quellen ebenfalls automatisch. Er ruft keine API auf.
-Generieren neuer Quellen ist ein separater, expliziter Schritt mit Zugangsdaten.
+Website: kein Autoplay, keine Download-Angebote; Start des zweiten Videos
+pausiert das erste. Die Website nennt bis zur Store-Veröffentlichung „Bald bei
+Google Play“. Die Videos selbst verzichten auf diese zeitabhängige Einblendung.
+Ein Upload in Google Play/YouTube ist mit dieser Website-Veröffentlichung nicht erfolgt.
