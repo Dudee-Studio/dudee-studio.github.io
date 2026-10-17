@@ -1,0 +1,107 @@
+[
+  [
+    "screenshots/1-liste.png",
+    4,
+    "Dein Einkauf.",
+    "Gemeinsam einfacher.",
+    ""
+  ],
+  [
+    "promo/catalog-before.png",
+    3,
+    "Einfach vorbereiten.",
+    "Artikel von oben nach unten durchgehen.",
+    ""
+  ],
+  [
+    "promo/catalog-after.png",
+    3,
+    "Mit einem Tipp ergänzt.",
+    "Was du brauchst, kommt auf die Liste.",
+    ""
+  ],
+  [
+    "promo/dishes.png",
+    3,
+    "Was kochen wir?",
+    "Deine Gerichte helfen beim Planen.",
+    ""
+  ],
+  [
+    "promo/dish-ingredients.png",
+    3,
+    "Zutaten übernehmen.",
+    "Mengen anpassen. Auf die Liste setzen.",
+    ""
+  ],
+  [
+    "promo/barcode-before.png",
+    4,
+    "Ohne Foto angelegt?",
+    "Dem Artikel einen Barcode zuordnen.",
+    "BARCODE · MIT PRO"
+  ],
+  [
+    "promo/barcode-after.png",
+    3,
+    "Für den nächsten Scan.",
+    "Der Barcode ist am Artikel gespeichert.",
+    "BARCODE · MIT PRO"
+  ],
+  [
+    "promo/list-before.png",
+    4,
+    "Im Laden abhaken.",
+    "Deine Liste begleitet den Einkauf.",
+    ""
+  ],
+  [
+    "promo/spontaneous.png",
+    5,
+    "Spontan noch etwas?",
+    "Per Barcode direkt zur Liste hinzufügen.",
+    "BARCODE · MIT PRO · DEMO-SCAN"
+  ],
+  [
+    "promo/family.png",
+    6,
+    "Gemeinsam einkaufen.",
+    "Eine Familie. Gemeinsame Einkaufslisten.",
+    "GRUPPE MIT PRO · BEITRETEN KOSTENLOS"
+  ],
+  [
+    "ui-previews/angebote.png",
+    3.5,
+    "Angebote eintragen.",
+    "Preis und Zeitraum festhalten.",
+    ""
+  ],
+  [
+    "ui-previews/coupons.png",
+    3.5,
+    "Coupons berücksichtigen.",
+    "Beim Bezahlen den Rabatt eintragen.",
+    ""
+  ],
+  [
+    "ui-previews/letzter-angebotskauf-katalog.png",
+    4,
+    "Zuletzt im Angebot?",
+    "Gekauften Angebotspreis und Datum sehen.",
+    ""
+  ],
+  [
+    "promo/analysis-pro.png",
+    5,
+    "Ausgaben verstehen.",
+    "Monatsverlauf und Abteilungen vergleichen.",
+    "ERWEITERTE ANALYSE · MIT PRO"
+  ],
+  [
+    null,
+    6,
+    "Einkaufsliste",
+    "& Gerichte",
+    ""
+  ]
+]
