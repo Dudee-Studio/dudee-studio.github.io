@@ -1,9 +1,9 @@
 [
   [
-    "screenshots/1-liste.png",
-    4,
+    "@intro",
+    3,
+    "Abgehakt",
     "Dein Einkauf im Griff.",
-    "Deine Einkaufsliste. Deine Gerichte.",
     ""
   ],
   [
@@ -36,10 +36,17 @@
   ],
   [
     "promo/barcode-before.png",
-    4,
+    3,
     "Ohne Foto angelegt?",
     "Dem Artikel einen Barcode zuordnen.",
     "BARCODE · MIT PRO"
+  ],
+  [
+    "@scan",
+    3,
+    "Scannen statt eintippen.",
+    "Produktdaten und Fotos, sofern verfügbar.",
+    "BARCODE · MIT PRO · SCAN-DEMO"
   ],
   [
     "promo/barcode-after.png",
@@ -63,22 +70,22 @@
     "BARCODE · MIT PRO · DEMO-SCAN"
   ],
   [
-    "promo/family.png",
+    "@family",
     6,
     "Gemeinsam einkaufen.",
-    "Eine Familie. Gemeinsame Einkaufslisten.",
+    "Ein Artikel. Auf beiden Listen.",
     "GRUPPE MIT PRO · BEITRETEN KOSTENLOS"
   ],
   [
     "ui-previews/angebote.png",
-    3.5,
+    3,
     "Angebote eintragen.",
     "Preis und Zeitraum festhalten.",
     ""
   ],
   [
     "ui-previews/coupons.png",
-    3.5,
+    3,
     "Coupons berücksichtigen.",
     "Beim Bezahlen den Rabatt eintragen.",
     ""
@@ -98,7 +105,7 @@
     "ERWEITERTE ANALYSE · MIT PRO"
   ],
   [
-    null,
+    "@end",
     6,
     "Abgehakt",
     "Dein Einkauf im Griff.",

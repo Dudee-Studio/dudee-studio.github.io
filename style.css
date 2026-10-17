@@ -173,3 +173,6 @@ footer nav { font-size: .95rem; gap: 8px 20px; }
   .benefits { gap: 14px; }
   .feature-gallery figure { width: 100%; max-width: 310px; justify-self: center; }
 }
+
+.app-title { display: flex; gap: 12px; align-items: center; }
+.app-title img { display: block; width: 48px; height: 48px; border-radius: 10px; flex-shrink: 0; }

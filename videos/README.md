@@ -5,13 +5,19 @@ mit eingeblendeten Texten, ohne Ton. Der Player startet erst auf Wunsch.
 Die Mediendateinamen bleiben für bestehende Links stabil.
 Das Poster liegt unter `assets/einkaufsliste/poster.jpg`.
 
-Das Video besteht aus echten Android-Compose-Ansichten, die automatisiert
-mit Robolectric gerendert wurden. Es ist eine geschnittene Funktionsübersicht,
+Das Video kombiniert echte Android-Compose-Ansichten, die automatisiert
+mit Robolectric gerendert wurden, mit schematischen Erklärgrafiken. Es ist eine geschnittene Funktionsübersicht,
 keine durchgehende Aufnahme eines physischen Telefons. Barcode- und
 Produktsuchergebnisse stammen aus Test-Doubles; keine Kamerabilder werden
-vorgetäuscht. Die Familien-Szene zeigt den Einstieg zur gemeinsamen Liste,
-keinen aufgenommenen Abgleich zwischen zwei Geräten. Alle Einkäufe und
+vorgetäuscht. Die Familien-Szene erklärt mit zwei gezeichneten Handyansichten und einem
+übertragenen Artikel das Sync-Prinzip. Sie ist ausdrücklich als schematische
+Demo gekennzeichnet, kein aufgenommener Abgleich zwischen zwei Geräten. Alle Einkäufe und
 Ausgaben sind Beispieldaten. Keine fremden Produktfotos oder Musik verwendet.
+
+Der Markenauftakt nutzt das ausgewählte Einkaufswagen-Haken-Zeichen (Variante C),
+in der korrigierten Fassung ohne schwarze Flecken. Drei Kapitel ordnen den Ablauf.
+Eine animierte Scan-Grafik und ein Pro-Abschluss mit drei Symbolen ergänzen die
+echten App-Ansichten. Wiederverwendbare Grafiken liegen unter `assets/abgehakt/`.
 
 ## Wiederherstellen
 

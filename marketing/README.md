@@ -86,7 +86,8 @@ passende echte App-Ansichten und das bestehende Übersichtsvideo.
 - Nach Veröffentlichung: echten Google-Play-Link ergänzen, Status aktualisieren,
   Store-Texte und Preis gegen die tatsächliche Veröffentlichung prüfen.
 - Übersichtsvideo: 60 Sekunden, echte App-Ansichten, simulierte Scan-Ergebnisse
-  klar benannt. Familien-Szene zeigt den Einstieg, keinen echten Zwei-Geräte-Sync.
+  klar benannt. Familien-Szene zeigt das Sync-Prinzip als klar gekennzeichnete schematische
+  Zwei-Handy-Demo, keinen echten Geräteabgleich.
   Markenname und Claim sind in Video und Poster angepasst.
 
 ## Weitere Videos bei bestehendem Interesse

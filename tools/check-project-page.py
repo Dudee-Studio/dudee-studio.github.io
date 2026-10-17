@@ -19,6 +19,7 @@ with sync_playwright() as p:
             page.goto(base + '/projekte.html#einkaufsliste')
             page.screenshot(path=f'/tmp/projekte-poster-{width}-{mode}.png', full_page=True)
             assert page.get_by_role('heading', name='Abgehakt', exact=True).count() == 1
+            page.locator('.app-title img').evaluate('(i) => i.decode()')
             assert page.get_by_text('Dein Einkauf im Griff.', exact=True).count() == 1
             assert page.locator('a[download]').count() == 0
             assert page.locator('video').get_attribute('controlslist') == 'nodownload'
