@@ -18,6 +18,11 @@ with sync_playwright() as p:
             page.on('pageerror', lambda e: errors.append(str(e)))
             page.goto(base + '/projekte.html#einkaufsliste')
             page.screenshot(path=f'/tmp/projekte-poster-{width}-{mode}.png', full_page=True)
+            assert page.get_by_role('heading', name='Abgehakt', exact=True).count() == 1
+            assert page.get_by_text('Dein Einkauf im Griff.', exact=True).count() == 1
+            assert page.locator('a[download]').count() == 0
+            assert page.locator('video').get_attribute('controlslist') == 'nodownload'
+            assert not page.locator('.feature-details').evaluate('(d) => d.open')
             page.locator('video').evaluate('(v) => v.load()')
             page.wait_for_function('document.querySelector("video").readyState >= 2')
             result = page.locator('video').evaluate('''async v => {
@@ -33,6 +38,14 @@ with sync_playwright() as p:
             page.locator('video').evaluate('(v) => v.pause()')
             page.wait_for_timeout(300)
             page.screenshot(path=f'/tmp/projekte-{width}-{mode}.png', full_page=True)
+            page.locator('.feature-details summary').click()
+            for image in page.locator('.feature-gallery img').all():
+                image.scroll_into_view_if_needed()
+                image.evaluate('(i) => i.loading = "eager"')
+                image.evaluate('(i) => i.decode()')
+            assert page.locator('.feature-gallery img').count() == 3
+            assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'Expanded gallery overflow'
+            page.screenshot(path=f'/tmp/abgehakt-details-{width}-{mode}.png', full_page=True)
             assert not errors, errors
             page.goto(base + '/')
             page.locator('.card').click()

@@ -15,7 +15,7 @@ APP = Path(sys.argv[1])
 FONT = '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
 BOLD = '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
 SCENES = [
-    ('screenshots/1-liste.png', 4, 'Dein Einkauf.', 'Gemeinsam einfacher.', ''),
+    ('screenshots/1-liste.png', 4, 'Dein Einkauf im Griff.', 'Deine Einkaufsliste. Deine Gerichte.', ''),
     ('promo/catalog-before.png', 3, 'Einfach vorbereiten.', 'Artikel von oben nach unten durchgehen.', ''),
     ('promo/catalog-after.png', 3, 'Mit einem Tipp ergänzt.', 'Was du brauchst, kommt auf die Liste.', ''),
     ('promo/dishes.png', 3, 'Was kochen wir?', 'Deine Gerichte helfen beim Planen.', ''),
@@ -29,7 +29,7 @@ SCENES = [
     ('ui-previews/coupons.png', 3.5, 'Coupons berücksichtigen.', 'Beim Bezahlen den Rabatt eintragen.', ''),
     ('ui-previews/letzter-angebotskauf-katalog.png', 4, 'Zuletzt im Angebot?', 'Gekauften Angebotspreis und Datum sehen.', ''),
     ('promo/analysis-pro.png', 5, 'Ausgaben verstehen.', 'Monatsverlauf und Abteilungen vergleichen.', 'ERWEITERTE ANALYSE · MIT PRO'),
-    (None, 6, 'Einkaufsliste', '& Gerichte', ''),
+    (None, 6, 'Abgehakt', 'Dein Einkauf im Griff.', ''),
 ]
 
 
@@ -53,7 +53,7 @@ def main():
         for i, (source, duration, headline, subtitle, badge) in enumerate(SCENES):
             clip = tmp / f'{i:02d}.mp4'
             args = ['ffmpeg', '-v', 'error', '-y', '-f', 'lavfi', '-i', 'color=c=0xF6F8F0:s=720x1280:r=24']
-            labels = [text('DUDEE STUDIO', 18, 30, bold=True), text(headline, 36, 79, bold=True), text(subtitle, 23, 133)]
+            labels = [text('ABGEHAKT · DUDEE STUDIO', 18, 30, bold=True), text(headline, 36, 79, bold=True), text(subtitle, 23, 133)]
             if source:
                 image = APP / 'app/build' / source
                 if not image.exists():
@@ -63,7 +63,7 @@ def main():
                 labels += [text(badge or 'LISTE · ARTIKEL · GERICHTE · MEHR', 18, 1193, bold=True), text('Demo-Daten · Scan-Ergebnisse simuliert', 16, 1234, color='0x526256')]
             else:
                 graph = '[0:v]'
-                labels = [text('DUDEE STUDIO', 22, 110, bold=True), text(headline, 56, 320, bold=True), text(subtitle, 56, 391, bold=True), text('Dein Einkauf. Gemeinsam einfacher.', 27, 503), text('Kostenlose Basis.', 33, 671, bold=True), text('Pro einmalig 3,99 € · kein Abo', 29, 732), text('Deutscher Basispreis', 18, 781, color='0x526256'), text('Bald bei Google Play', 27, 952), text('dudee-studio.com', 32, 1026, bold=True)]
+                labels = [text('DUDEE STUDIO', 22, 110, bold=True), text(headline, 56, 320, bold=True), text(subtitle, 34, 414, bold=True), text('Deine Einkaufsliste. Deine Gerichte.', 27, 503), text('Kostenlose Basis.', 33, 671, bold=True), text('Pro einmalig 3,99 € · kein Abo', 29, 732), text('Deutscher Basispreis', 18, 781, color='0x526256'), text('Bald bei Google Play', 27, 952), text('dudee-studio.com', 32, 1026, bold=True)]
             if source == 'promo/catalog-before.png':
                 labels.append(text('◯', 90, 703, color='0xF7B62B', x='530') + f":enable='between(t,{duration-0.65},{duration})'")
             if source == 'promo/barcode-before.png':

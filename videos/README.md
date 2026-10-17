@@ -1,7 +1,8 @@
-# Einkaufsliste & Gerichte – App-Vorstellung
+# Abgehakt – Dein Einkauf im Griff.
 
 `einkaufsliste-gerichte.mp4`: Hochformat 720 × 1280, H.264, 24 Bilder/s,
 mit eingeblendeten Texten, ohne Ton. Der Player startet erst auf Wunsch.
+Die Mediendateinamen bleiben für bestehende Links stabil.
 Das Poster liegt unter `assets/einkaufsliste/poster.jpg`.
 
 Das Video besteht aus echten Android-Compose-Ansichten, die automatisiert
