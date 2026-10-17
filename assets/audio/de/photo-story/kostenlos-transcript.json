@@ -1,0 +1,856 @@
+{
+  "language_code": "deu",
+  "language_probability": 1.0,
+  "text": "Was fehlt für heute Abend? Mit Abgehakt planst du deinen Einkauf entspannt zu Hause. Prüfe deine Artikel, lass dir regelmäßig Benötigtes vorschlagen und übernimm Zutaten aus deinen Gerichten. Im Supermarkt hast du deine Liste dabei. Einpacken, abhaken, weiter. Auch Angebote und Coupons behältst du im Blick. Und zu Hause siehst du, was dein Einkauf gekostet hat. Abgehakt, dein Einkauf im Griff.",
+  "words": [
+    {
+      "text": "Was",
+      "start": 0.4,
+      "end": 0.58,
+      "type": "word",
+      "logprob": -0.16044862568378448
+    },
+    {
+      "text": " ",
+      "start": 0.58,
+      "end": 0.68,
+      "type": "spacing",
+      "logprob": -4.172316494077677e-06
+    },
+    {
+      "text": "fehlt",
+      "start": 0.68,
+      "end": 0.94,
+      "type": "word",
+      "logprob": -4.172316494077677e-06
+    },
+    {
+      "text": " ",
+      "start": 0.94,
+      "end": 0.98,
+      "type": "spacing",
+      "logprob": -2.264974000354414e-06
+    },
+    {
+      "text": "für",
+      "start": 0.98,
+      "end": 1.1,
+      "type": "word",
+      "logprob": -2.264974000354414e-06
+    },
+    {
+      "text": " ",
+      "start": 1.1,
+      "end": 1.12,
+      "type": "spacing",
+      "logprob": -9.536738616588991e-07
+    },
+    {
+      "text": "heute",
+      "start": 1.12,
+      "end": 1.4,
+      "type": "word",
+      "logprob": -9.536738616588991e-07
+    },
+    {
+      "text": " ",
+      "start": 1.4,
+      "end": 1.52,
+      "type": "spacing",
+      "logprob": -4.362964682513848e-05
+    },
+    {
+      "text": "Abend?",
+      "start": 1.52,
+      "end": 1.84,
+      "type": "word",
+      "logprob": -3.641764365625022e-05
+    },
+    {
+      "text": " ",
+      "start": 1.84,
+      "end": 1.84,
+      "type": "spacing",
+      "logprob": -0.0041099851951003075
+    },
+    {
+      "text": "Mit",
+      "start": 3.2,
+      "end": 3.4,
+      "type": "word",
+      "logprob": -0.0041099851951003075
+    },
+    {
+      "text": " ",
+      "start": 3.4,
+      "end": 3.48,
+      "type": "spacing",
+      "logprob": -0.4317867159843445
+    },
+    {
+      "text": "Abgehakt",
+      "start": 3.48,
+      "end": 4.18,
+      "type": "word",
+      "logprob": -0.12542256748747604
+    },
+    {
+      "text": " ",
+      "start": 4.18,
+      "end": 4.5,
+      "type": "spacing",
+      "logprob": -0.0002836778585333377
+    },
+    {
+      "text": "planst",
+      "start": 4.5,
+      "end": 4.82,
+      "type": "word",
+      "logprob": -0.00018923778162616145
+    },
+    {
+      "text": " ",
+      "start": 4.82,
+      "end": 4.86,
+      "type": "spacing",
+      "logprob": -0.0001591317413840443
+    },
+    {
+      "text": "du",
+      "start": 4.86,
+      "end": 4.94,
+      "type": "word",
+      "logprob": -0.0001591317413840443
+    },
+    {
+      "text": " ",
+      "start": 4.94,
+      "end": 4.98,
+      "type": "spacing",
+      "logprob": -1.6689286894688848e-06
+    },
+    {
+      "text": "deinen",
+      "start": 4.98,
+      "end": 5.22,
+      "type": "word",
+      "logprob": -1.6689286894688848e-06
+    },
+    {
+      "text": " ",
+      "start": 5.22,
+      "end": 5.28,
+      "type": "spacing",
+      "logprob": -2.0265558760002023e-06
+    },
+    {
+      "text": "Einkauf",
+      "start": 5.28,
+      "end": 5.82,
+      "type": "word",
+      "logprob": -2.0265558760002023e-06
+    },
+    {
+      "text": " ",
+      "start": 5.82,
+      "end": 5.94,
+      "type": "spacing",
+      "logprob": -8.940656698541716e-06
+    },
+    {
+      "text": "entspannt",
+      "start": 5.94,
+      "end": 6.5,
+      "type": "word",
+      "logprob": -3.708633044475896e-05
+    },
+    {
+      "text": " ",
+      "start": 6.5,
+      "end": 6.58,
+      "type": "spacing",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": "zu",
+      "start": 6.58,
+      "end": 6.7,
+      "type": "word",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": " ",
+      "start": 6.7,
+      "end": 6.74,
+      "type": "spacing",
+      "logprob": -3.099436753473128e-06
+    },
+    {
+      "text": "Hause.",
+      "start": 6.74,
+      "end": 7.14,
+      "type": "word",
+      "logprob": -2.9603596279533426e-06
+    },
+    {
+      "text": " ",
+      "start": 7.14,
+      "end": 7.46,
+      "type": "spacing",
+      "logprob": -0.004992281552404165
+    },
+    {
+      "text": "Prüfe",
+      "start": 7.46,
+      "end": 7.8,
+      "type": "word",
+      "logprob": -0.002995988819247941
+    },
+    {
+      "text": " ",
+      "start": 7.8,
+      "end": 7.84,
+      "type": "spacing",
+      "logprob": -2.145764938177308e-06
+    },
+    {
+      "text": "deine",
+      "start": 7.84,
+      "end": 8.06,
+      "type": "word",
+      "logprob": -2.145764938177308e-06
+    },
+    {
+      "text": " ",
+      "start": 8.06,
+      "end": 8.1,
+      "type": "spacing",
+      "logprob": -1.2278481335670222e-05
+    },
+    {
+      "text": "Artikel,",
+      "start": 8.119,
+      "end": 8.64,
+      "type": "word",
+      "logprob": -1.1205606313069438e-05
+    },
+    {
+      "text": " ",
+      "start": 8.64,
+      "end": 8.64,
+      "type": "spacing",
+      "logprob": -0.00023946279543451965
+    },
+    {
+      "text": "lass",
+      "start": 9.24,
+      "end": 9.42,
+      "type": "word",
+      "logprob": -0.00023946279543451965
+    },
+    {
+      "text": " ",
+      "start": 9.42,
+      "end": 9.46,
+      "type": "spacing",
+      "logprob": -2.9802276912960224e-06
+    },
+    {
+      "text": "dir",
+      "start": 9.46,
+      "end": 9.62,
+      "type": "word",
+      "logprob": -2.9802276912960224e-06
+    },
+    {
+      "text": " ",
+      "start": 9.62,
+      "end": 9.68,
+      "type": "spacing",
+      "logprob": -0.00017021637177094817
+    },
+    {
+      "text": "regelmäßig",
+      "start": 9.68,
+      "end": 10.4,
+      "type": "word",
+      "logprob": -0.00017021637177094817
+    },
+    {
+      "text": " ",
+      "start": 10.4,
+      "end": 10.44,
+      "type": "spacing",
+      "logprob": -0.008125226944684982
+    },
+    {
+      "text": "Benötigtes",
+      "start": 10.44,
+      "end": 11.12,
+      "type": "word",
+      "logprob": -0.0025664239262368936
+    },
+    {
+      "text": " ",
+      "start": 11.12,
+      "end": 11.18,
+      "type": "spacing",
+      "logprob": -9.298280929215252e-06
+    },
+    {
+      "text": "vorschlagen",
+      "start": 11.18,
+      "end": 11.96,
+      "type": "word",
+      "logprob": -1.2982877540873067e-05
+    },
+    {
+      "text": " ",
+      "start": 11.96,
+      "end": 12.5,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "und",
+      "start": 12.5,
+      "end": 12.64,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 12.64,
+      "end": 12.7,
+      "type": "spacing",
+      "logprob": -0.2992044687271118
+    },
+    {
+      "text": "übernimm",
+      "start": 12.7,
+      "end": 13.06,
+      "type": "word",
+      "logprob": -0.14966735827556477
+    },
+    {
+      "text": " ",
+      "start": 13.06,
+      "end": 13.18,
+      "type": "spacing",
+      "logprob": -0.00045348849380388856
+    },
+    {
+      "text": "Zutaten",
+      "start": 13.18,
+      "end": 13.8,
+      "type": "word",
+      "logprob": -0.00024305564667364315
+    },
+    {
+      "text": " ",
+      "start": 13.8,
+      "end": 13.86,
+      "type": "spacing",
+      "logprob": -8.106198947643861e-06
+    },
+    {
+      "text": "aus",
+      "start": 13.86,
+      "end": 14.0,
+      "type": "word",
+      "logprob": -8.106198947643861e-06
+    },
+    {
+      "text": " ",
+      "start": 14.0,
+      "end": 14.06,
+      "type": "spacing",
+      "logprob": -1.4305104514278355e-06
+    },
+    {
+      "text": "deinen",
+      "start": 14.06,
+      "end": 14.32,
+      "type": "word",
+      "logprob": -1.4305104514278355e-06
+    },
+    {
+      "text": " ",
+      "start": 14.32,
+      "end": 14.38,
+      "type": "spacing",
+      "logprob": -0.00016032364510465413
+    },
+    {
+      "text": "Gerichten.",
+      "start": 14.38,
+      "end": 14.98,
+      "type": "word",
+      "logprob": -7.44415941881016e-05
+    },
+    {
+      "text": " ",
+      "start": 14.98,
+      "end": 15.24,
+      "type": "spacing",
+      "logprob": -4.172316494077677e-06
+    },
+    {
+      "text": "Im",
+      "start": 15.24,
+      "end": 15.36,
+      "type": "word",
+      "logprob": -4.172316494077677e-06
+    },
+    {
+      "text": " ",
+      "start": 15.36,
+      "end": 15.42,
+      "type": "spacing",
+      "logprob": -1.966933996300213e-05
+    },
+    {
+      "text": "Supermarkt",
+      "start": 15.42,
+      "end": 16.1,
+      "type": "word",
+      "logprob": -9.321461220679339e-05
+    },
+    {
+      "text": " ",
+      "start": 16.1,
+      "end": 16.28,
+      "type": "spacing",
+      "logprob": -5.960462772236497e-07
+    },
+    {
+      "text": "hast",
+      "start": 16.28,
+      "end": 16.44,
+      "type": "word",
+      "logprob": -5.960462772236497e-07
+    },
+    {
+      "text": " ",
+      "start": 16.44,
+      "end": 16.48,
+      "type": "spacing",
+      "logprob": -5.960462772236497e-07
+    },
+    {
+      "text": "du",
+      "start": 16.48,
+      "end": 16.56,
+      "type": "word",
+      "logprob": -5.960462772236497e-07
+    },
+    {
+      "text": " ",
+      "start": 16.56,
+      "end": 16.6,
+      "type": "spacing",
+      "logprob": -4.529942543740617e-06
+    },
+    {
+      "text": "deine",
+      "start": 16.6,
+      "end": 16.82,
+      "type": "word",
+      "logprob": -4.529942543740617e-06
+    },
+    {
+      "text": " ",
+      "start": 16.82,
+      "end": 16.88,
+      "type": "spacing",
+      "logprob": -4.875540980719961e-05
+    },
+    {
+      "text": "Liste",
+      "start": 16.88,
+      "end": 17.18,
+      "type": "word",
+      "logprob": -4.875540980719961e-05
+    },
+    {
+      "text": " ",
+      "start": 17.18,
+      "end": 17.24,
+      "type": "spacing",
+      "logprob": -2.264974000354414e-06
+    },
+    {
+      "text": "dabei.",
+      "start": 17.24,
+      "end": 17.66,
+      "type": "word",
+      "logprob": -1.9073465473695705e-06
+    },
+    {
+      "text": " ",
+      "start": 17.66,
+      "end": 18.42,
+      "type": "spacing",
+      "logprob": -2.9802276912960224e-06
+    },
+    {
+      "text": "Einpacken,",
+      "start": 18.42,
+      "end": 18.96,
+      "type": "word",
+      "logprob": -2.5748450934770516e-05
+    },
+    {
+      "text": " ",
+      "start": 18.96,
+      "end": 19.48,
+      "type": "spacing",
+      "logprob": -0.004749801475554705
+    },
+    {
+      "text": "abhaken,",
+      "start": 19.48,
+      "end": 20.1,
+      "type": "word",
+      "logprob": -0.0018259217431406682
+    },
+    {
+      "text": " ",
+      "start": 20.1,
+      "end": 20.58,
+      "type": "spacing",
+      "logprob": -2.706014311115723e-05
+    },
+    {
+      "text": "weiter.",
+      "start": 20.58,
+      "end": 20.96,
+      "type": "word",
+      "logprob": -2.319440838099191e-05
+    },
+    {
+      "text": " ",
+      "start": 20.96,
+      "end": 21.26,
+      "type": "spacing",
+      "logprob": -3.814689989667386e-06
+    },
+    {
+      "text": "Auch",
+      "start": 21.26,
+      "end": 21.44,
+      "type": "word",
+      "logprob": -3.814689989667386e-06
+    },
+    {
+      "text": " ",
+      "start": 21.44,
+      "end": 21.5,
+      "type": "spacing",
+      "logprob": -1.0967194612021558e-05
+    },
+    {
+      "text": "Angebote",
+      "start": 21.5,
+      "end": 22.1,
+      "type": "word",
+      "logprob": -1.0967194612021558e-05
+    },
+    {
+      "text": " ",
+      "start": 22.1,
+      "end": 22.14,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "und",
+      "start": 22.16,
+      "end": 22.24,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 22.24,
+      "end": 22.34,
+      "type": "spacing",
+      "logprob": -0.006772895343601704
+    },
+    {
+      "text": "Coupons",
+      "start": 22.34,
+      "end": 22.92,
+      "type": "word",
+      "logprob": -0.006772895343601704
+    },
+    {
+      "text": " ",
+      "start": 22.92,
+      "end": 22.96,
+      "type": "spacing",
+      "logprob": -8.344646857949556e-07
+    },
+    {
+      "text": "behältst",
+      "start": 22.96,
+      "end": 23.34,
+      "type": "word",
+      "logprob": -0.001548190775665148
+    },
+    {
+      "text": " ",
+      "start": 23.34,
+      "end": 23.38,
+      "type": "spacing",
+      "logprob": -2.264974000354414e-06
+    },
+    {
+      "text": "du",
+      "start": 23.38,
+      "end": 23.46,
+      "type": "word",
+      "logprob": -2.264974000354414e-06
+    },
+    {
+      "text": " ",
+      "start": 23.46,
+      "end": 23.5,
+      "type": "spacing",
+      "logprob": -9.536738616588991e-07
+    },
+    {
+      "text": "im",
+      "start": 23.5,
+      "end": 23.64,
+      "type": "word",
+      "logprob": -9.536738616588991e-07
+    },
+    {
+      "text": " ",
+      "start": 23.64,
+      "end": 23.7,
+      "type": "spacing",
+      "logprob": -2.50339189733495e-06
+    },
+    {
+      "text": "Blick.",
+      "start": 23.7,
+      "end": 23.96,
+      "type": "word",
+      "logprob": -4.565146059576364e-05
+    },
+    {
+      "text": " ",
+      "start": 23.96,
+      "end": 24.22,
+      "type": "spacing",
+      "logprob": -3.933898824470816e-06
+    },
+    {
+      "text": "Und",
+      "start": 24.22,
+      "end": 24.36,
+      "type": "word",
+      "logprob": -3.933898824470816e-06
+    },
+    {
+      "text": " ",
+      "start": 24.36,
+      "end": 24.42,
+      "type": "spacing",
+      "logprob": -2.264974000354414e-06
+    },
+    {
+      "text": "zu",
+      "start": 24.42,
+      "end": 24.54,
+      "type": "word",
+      "logprob": -2.264974000354414e-06
+    },
+    {
+      "text": " ",
+      "start": 24.54,
+      "end": 24.58,
+      "type": "spacing",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "Hause",
+      "start": 24.58,
+      "end": 25.0,
+      "type": "word",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": " ",
+      "start": 25.0,
+      "end": 25.04,
+      "type": "spacing",
+      "logprob": -0.00011681827891152352
+    },
+    {
+      "text": "siehst",
+      "start": 25.86,
+      "end": 26.14,
+      "type": "word",
+      "logprob": -5.852834873110169e-05
+    },
+    {
+      "text": " ",
+      "start": 26.14,
+      "end": 26.2,
+      "type": "spacing",
+      "logprob": -8.344646857949556e-07
+    },
+    {
+      "text": "du,",
+      "start": 26.2,
+      "end": 26.38,
+      "type": "word",
+      "logprob": -5.960462180117551e-07
+    },
+    {
+      "text": " ",
+      "start": 26.38,
+      "end": 26.6,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "was",
+      "start": 26.6,
+      "end": 26.76,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 26.76,
+      "end": 26.82,
+      "type": "spacing",
+      "logprob": -1.6331539882230572e-05
+    },
+    {
+      "text": "dein",
+      "start": 26.82,
+      "end": 27.0,
+      "type": "word",
+      "logprob": -1.6331539882230572e-05
+    },
+    {
+      "text": " ",
+      "start": 27.0,
+      "end": 27.06,
+      "type": "spacing",
+      "logprob": -1.0132738680113107e-05
+    },
+    {
+      "text": "Einkauf",
+      "start": 27.06,
+      "end": 27.54,
+      "type": "word",
+      "logprob": -1.0132738680113107e-05
+    },
+    {
+      "text": " ",
+      "start": 27.54,
+      "end": 27.58,
+      "type": "spacing",
+      "logprob": -1.2278481335670222e-05
+    },
+    {
+      "text": "gekostet",
+      "start": 27.58,
+      "end": 28.16,
+      "type": "word",
+      "logprob": -1.0952271281894355e-05
+    },
+    {
+      "text": " ",
+      "start": 28.16,
+      "end": 28.22,
+      "type": "spacing",
+      "logprob": -3.576278118089249e-07
+    },
+    {
+      "text": "hat.",
+      "start": 28.22,
+      "end": 28.5,
+      "type": "word",
+      "logprob": -2.6822085885669367e-07
+    },
+    {
+      "text": " ",
+      "start": 28.5,
+      "end": 28.86,
+      "type": "spacing",
+      "logprob": -5.507317473529838e-05
+    },
+    {
+      "text": "Abgehakt,",
+      "start": 28.86,
+      "end": 29.58,
+      "type": "word",
+      "logprob": -0.001040135391829406
+    },
+    {
+      "text": " ",
+      "start": 29.58,
+      "end": 29.98,
+      "type": "spacing",
+      "logprob": -1.3112935448589269e-05
+    },
+    {
+      "text": "dein",
+      "start": 29.98,
+      "end": 30.28,
+      "type": "word",
+      "logprob": -1.3112935448589269e-05
+    },
+    {
+      "text": " ",
+      "start": 30.28,
+      "end": 30.36,
+      "type": "spacing",
+      "logprob": -2.7418097943154862e-06
+    },
+    {
+      "text": "Einkauf",
+      "start": 30.36,
+      "end": 31.04,
+      "type": "word",
+      "logprob": -2.7418097943154862e-06
+    },
+    {
+      "text": " ",
+      "start": 31.04,
+      "end": 31.1,
+      "type": "spacing",
+      "logprob": -4.768360213347478e-06
+    },
+    {
+      "text": "im",
+      "start": 31.1,
+      "end": 31.3,
+      "type": "word",
+      "logprob": -4.768360213347478e-06
+    },
+    {
+      "text": " ",
+      "start": 31.3,
+      "end": 31.34,
+      "type": "spacing",
+      "logprob": -6.437094270950183e-05
+    },
+    {
+      "text": "Griff.",
+      "start": 31.34,
+      "end": 31.74,
+      "type": "word",
+      "logprob": -5.560939386365741e-05
+    }
+  ],
+  "transcription_id": "yC2aRnLrIpZGYEWl1cwM",
+  "audio_duration_secs": 33.0
+}

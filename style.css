@@ -145,8 +145,8 @@ footer nav { font-size: .95rem; gap: 8px 20px; }
   .card .media { transition: none; }
 }
 
-/* App-Vorstellung: lokales Video, Hochformat und kurze Projektbeschreibung. */
-.project-demo { margin: 0; min-width: 0; width: 100%; max-width: 350px; justify-self: center; }
+/* App-Vorstellung: Fotofilme im Querformat und kurze Projektbeschreibung. */
+.project-demo { margin: 0; min-width: 0; width: 100%; max-width: 680px; justify-self: center; }
 .media.portrait { aspect-ratio: 9 / 16; background: #F6F8F0; }
 .project-demo figcaption { margin-top: 10px; color: var(--muted); font-size: .82rem; line-height: 1.5; }
 .project-cover img { display: block; width: 100%; height: 100%; object-fit: contain; background: #F6F8F0; }
@@ -180,5 +180,5 @@ footer nav { font-size: .95rem; gap: 8px 20px; }
 .teaser-details { border-top: 1px solid var(--line); padding-block: 18px; }
 .teaser-details summary { cursor: pointer; font-weight: 700; color: var(--accent); }
 .teaser-details summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
-.teaser-demo { max-width: 350px; margin: 24px auto 8px; }
+.teaser-demo { max-width: 900px; margin: 24px auto 8px; }
 .teaser-demo figcaption { color: var(--muted); font-size: .85rem; margin-top: 12px; }

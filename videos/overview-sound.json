@@ -1,208 +1,46 @@
 {
-  "duration": 42,
-  "narration_provider": "ElevenLabs",
-  "narration_model": "eleven_v3",
-  "voice_name": "Emily E. - First-Person Games & Audiobooks",
-  "voice_id": "jT8mmBPqq9y1EwCWYWKS",
-  "music_provider": "ElevenLabs",
-  "music_bpm_prompt": 120,
-  "ducking_gain": 0.4,
-  "speech": [
+  "kind": "kostenlos",
+  "duration": 33,
+  "voice": "jT8mmBPqq9y1EwCWYWKS",
+  "model": "eleven_v3",
+  "segments": [
     {
-      "segment": 0,
-      "start": 0.12,
-      "end": 5.627,
-      "tempo": 1,
-      "original_seconds": 5.507,
-      "text": "Was fehlt? Abgehakt schlägt vor, was du wieder brauchen könntest."
+      "start": 0.35,
+      "end": 7.238,
+      "text": "Was fehlt für heute Abend? Mit Abgehakt planst du deinen Einkauf entspannt zu Hause.",
+      "performance_text": "[curious] Was fehlt für heute Abend? Mit Abgehakt planst du deinen Einkauf entspannt zu Hause."
     },
     {
-      "segment": 1,
-      "start": 7.06,
-      "end": 8.94,
-      "tempo": 1.0001,
-      "original_seconds": 1.88,
-      "text": "Dein eigener Rhythmus."
+      "start": 7.418,
+      "end": 15.006,
+      "text": "Prüfe deine Artikel, lass dir regelmäßig Benötigtes vorschlagen und übernimm Zutaten aus deinen Gerichten.",
+      "performance_text": "Prüfe deine Artikel, lass dir regelmäßig Benötigtes vorschlagen und übernimm Zutaten aus deinen Gerichten."
     },
     {
-      "segment": 2,
-      "start": 9.06,
-      "end": 14.023,
-      "tempo": 1,
-      "original_seconds": 4.963,
-      "text": "Heute Pasta? Gericht wählen. Zutaten auf die Liste!"
+      "start": 15.186,
+      "end": 20.997,
+      "text": "Im Supermarkt hast du deine Liste dabei. Einpacken, abhaken, weiter.",
+      "performance_text": "[happily] Im Supermarkt hast du deine Liste dabei. Einpacken, abhaken, weiter."
     },
     {
-      "segment": 3,
-      "start": 16.06,
-      "end": 20.441,
-      "tempo": 1,
-      "original_seconds": 4.38,
-      "text": "Im Laden einfach abhaken. Angebote und Coupons inklusive."
+      "start": 21.177,
+      "end": 23.993,
+      "text": "Auch Angebote und Coupons behältst du im Blick.",
+      "performance_text": "Auch Angebote und Coupons behältst du im Blick."
     },
     {
-      "segment": 4,
-      "start": 24.06,
-      "end": 28.055,
-      "tempo": 1,
-      "original_seconds": 3.995,
-      "text": "Mit Pro teilst du die Liste. Andere treten kostenlos bei."
+      "start": 24.173,
+      "end": 28.61,
+      "text": "Und zu Hause? Siehst du, was dein Einkauf gekostet hat.",
+      "performance_text": "Und zu Hause? Siehst du, was dein Einkauf gekostet hat."
     },
     {
-      "segment": 5,
-      "start": 30.06,
-      "end": 32.94,
-      "tempo": 1,
-      "original_seconds": 2.88,
-      "text": "Spontan entdeckt? Barcode scannen!"
-    },
-    {
-      "segment": 6,
-      "start": 34.56,
-      "end": 36.491,
-      "tempo": 1,
-      "original_seconds": 1.931,
-      "text": "Ausgaben genauer verstehen."
-    },
-    {
-      "segment": 7,
-      "start": 37.06,
-      "end": 41.827,
-      "tempo": 1,
-      "original_seconds": 4.767,
-      "text": "Pro: einmalig drei Euro neunundneunzig. Kein Abo."
+      "start": 28.79,
+      "end": 31.83,
+      "text": "Abgehakt. Dein Einkauf im Griff.",
+      "performance_text": "[happily] Abgehakt. Dein Einkauf im Griff."
     }
   ],
-  "effects": [
-    {
-      "time": 5.15,
-      "cue": "add"
-    },
-    {
-      "time": 14.0,
-      "cue": "add"
-    },
-    {
-      "time": 16.15,
-      "cue": "tick"
-    },
-    {
-      "time": 18.15,
-      "cue": "tick"
-    },
-    {
-      "time": 20.15,
-      "cue": "tick"
-    },
-    {
-      "time": 22.15,
-      "cue": "tick"
-    },
-    {
-      "time": 27.0,
-      "cue": "add"
-    },
-    {
-      "time": 32.15,
-      "cue": "add"
-    },
-    {
-      "time": 34.3,
-      "cue": "complete"
-    }
-  ],
-  "loudness_target_lufs": -16,
-  "true_peak_target_dbtp": -2,
-  "transitions": [
-    {
-      "time": 1.917,
-      "style": "fade",
-      "duration": 0.16666666666666666
-    },
-    {
-      "time": 2.667,
-      "style": "fade",
-      "duration": 0.16666666666666666
-    },
-    {
-      "time": 4.917,
-      "style": "fade",
-      "duration": 0.16666666666666666
-    },
-    {
-      "time": 6.917,
-      "style": "fade",
-      "duration": 0.16666666666666666
-    },
-    {
-      "time": 8.917,
-      "style": "smoothleft",
-      "duration": 0.16666666666666666
-    },
-    {
-      "time": 11.167,
-      "style": "fade",
-      "duration": 0.16666666666666666
-    },
-    {
-      "time": 13.667,
-      "style": "fade",
-      "duration": 0.16666666666666666
-    },
-    {
-      "time": 15.917,
-      "style": "fade",
-      "duration": 0.16666666666666666
-    },
-    {
-      "time": 17.917,
-      "style": "fade",
-      "duration": 0.16666666666666666
-    },
-    {
-      "time": 19.917,
-      "style": "fade",
-      "duration": 0.16666666666666666
-    },
-    {
-      "time": 21.917,
-      "style": "fade",
-      "duration": 0.16666666666666666
-    },
-    {
-      "time": 23.917,
-      "style": "smoothleft",
-      "duration": 0.16666666666666666
-    },
-    {
-      "time": 26.917,
-      "style": "fade",
-      "duration": 0.16666666666666666
-    },
-    {
-      "time": 29.917,
-      "style": "smoothleft",
-      "duration": 0.16666666666666666
-    },
-    {
-      "time": 31.917,
-      "style": "fade",
-      "duration": 0.16666666666666666
-    },
-    {
-      "time": 33.917,
-      "style": "fade",
-      "duration": 0.16666666666666666
-    },
-    {
-      "time": 34.917,
-      "style": "fade",
-      "duration": 0.16666666666666666
-    },
-    {
-      "time": 36.917,
-      "style": "fade",
-      "duration": 0.16666666666666666
-    }
-  ]
+  "music": "Existing commissioned ElevenLabs store42 instrumental",
+  "tempo_change": 1
 }

@@ -1,0 +1,181 @@
+{
+  "kind": "kostenlos",
+  "duration": 33,
+  "voice": "jT8mmBPqq9y1EwCWYWKS",
+  "model": "eleven_v3",
+  "segments": [
+    {
+      "start": 0.35,
+      "end": 7.238,
+      "text": "Was fehlt für heute Abend? Mit Abgehakt planst du deinen Einkauf entspannt zu Hause.",
+      "performance_text": "[curious] Was fehlt für heute Abend? Mit Abgehakt planst du deinen Einkauf entspannt zu Hause."
+    },
+    {
+      "start": 7.418,
+      "end": 15.006,
+      "text": "Prüfe deine Artikel, lass dir regelmäßig Benötigtes vorschlagen und übernimm Zutaten aus deinen Gerichten.",
+      "performance_text": "Prüfe deine Artikel, lass dir regelmäßig Benötigtes vorschlagen und übernimm Zutaten aus deinen Gerichten."
+    },
+    {
+      "start": 15.186,
+      "end": 20.997,
+      "text": "Im Supermarkt hast du deine Liste dabei. Einpacken, abhaken, weiter.",
+      "performance_text": "[happily] Im Supermarkt hast du deine Liste dabei. Einpacken, abhaken, weiter."
+    },
+    {
+      "start": 21.177,
+      "end": 23.993,
+      "text": "Auch Angebote und Coupons behältst du im Blick.",
+      "performance_text": "Auch Angebote und Coupons behältst du im Blick."
+    },
+    {
+      "start": 24.173,
+      "end": 28.61,
+      "text": "Und zu Hause? Siehst du, was dein Einkauf gekostet hat.",
+      "performance_text": "Und zu Hause? Siehst du, was dein Einkauf gekostet hat."
+    },
+    {
+      "start": 28.79,
+      "end": 31.83,
+      "text": "Abgehakt. Dein Einkauf im Griff.",
+      "performance_text": "[happily] Abgehakt. Dein Einkauf im Griff."
+    }
+  ],
+  "music": "Existing commissioned ElevenLabs store42 instrumental",
+  "tempo_change": 1,
+  "timeline": [
+    {
+      "scene": "sofa",
+      "state": 0,
+      "start": 0,
+      "duration": 6.25,
+      "app_insert": null
+    },
+    {
+      "scene": "sofa",
+      "state": 0,
+      "start": 6.25,
+      "duration": 0.875,
+      "app_insert": "01-catalog"
+    },
+    {
+      "scene": "sofa",
+      "state": 1,
+      "start": 7.125,
+      "duration": 0.5,
+      "app_insert": "01-catalog"
+    },
+    {
+      "scene": "sofa",
+      "state": 2,
+      "start": 7.625,
+      "duration": 0.5,
+      "app_insert": "01-catalog"
+    },
+    {
+      "scene": "sofa",
+      "state": 3,
+      "start": 8.125,
+      "duration": 1.9166666666666667,
+      "app_insert": "01-catalog"
+    },
+    {
+      "scene": "sofa",
+      "state": 3,
+      "start": 10.042,
+      "duration": 2.0833333333333335,
+      "app_insert": "02-forecast"
+    },
+    {
+      "scene": "sofa",
+      "state": 3,
+      "start": 12.125,
+      "duration": 3.0833333333333335,
+      "app_insert": "05-dishes"
+    },
+    {
+      "scene": "market",
+      "state": 0,
+      "start": 15.186,
+      "duration": 0.7083333333333334,
+      "app_insert": null
+    },
+    {
+      "scene": "market",
+      "state": 0,
+      "start": 15.894,
+      "duration": 3.2916666666666665,
+      "app_insert": "09-check-two"
+    },
+    {
+      "scene": "market",
+      "state": 1,
+      "start": 19.186,
+      "duration": 0.5,
+      "app_insert": "09-check-two"
+    },
+    {
+      "scene": "market",
+      "state": 2,
+      "start": 19.686,
+      "duration": 0.5,
+      "app_insert": "09-check-two"
+    },
+    {
+      "scene": "market",
+      "state": 3,
+      "start": 20.186,
+      "duration": 0.8333333333333334,
+      "app_insert": "09-check-two"
+    },
+    {
+      "scene": "market",
+      "state": 3,
+      "start": 21.019,
+      "duration": 3.1666666666666665,
+      "app_insert": null
+    },
+    {
+      "scene": "table",
+      "state": 0,
+      "start": 24.173,
+      "duration": 0.4166666666666667,
+      "app_insert": null
+    },
+    {
+      "scene": "table",
+      "state": 0,
+      "start": 24.59,
+      "duration": 1.4166666666666667,
+      "app_insert": "@basic"
+    },
+    {
+      "scene": "table",
+      "state": 1,
+      "start": 26.006,
+      "duration": 0.5,
+      "app_insert": "@basic"
+    },
+    {
+      "scene": "table",
+      "state": 2,
+      "start": 26.506,
+      "duration": 0.5,
+      "app_insert": "@basic"
+    },
+    {
+      "scene": "table",
+      "state": 3,
+      "start": 27.006,
+      "duration": 1.7916666666666667,
+      "app_insert": "@basic"
+    },
+    {
+      "scene": "table",
+      "state": 3,
+      "start": 28.79,
+      "duration": 4.208333333333333,
+      "app_insert": null
+    }
+  ]
+}

@@ -1,0 +1,660 @@
+{
+  "language_code": "deu",
+  "language_probability": 1.0,
+  "text": "Du kaufst ein, zu Hause fällt noch etwas ein. Mit Abgehakt Pro teilt ihr eine Einkaufsliste für Familie, Freunde oder WG. Andere treten kostenlos bei. Spontan entdeckt? Barcode scannen statt abtippen und danach helfen erweiterte Analysen, eure Ausgaben genauer zu verstehen. Abgehakt Pro. Einmal kaufen ohne Abo.",
+  "words": [
+    {
+      "text": "Du",
+      "start": 0.38,
+      "end": 0.44,
+      "type": "word",
+      "logprob": -0.11283310502767563
+    },
+    {
+      "text": " ",
+      "start": 0.44,
+      "end": 0.52,
+      "type": "spacing",
+      "logprob": -4.51792984677013e-05
+    },
+    {
+      "text": "kaufst",
+      "start": 0.52,
+      "end": 0.9,
+      "type": "word",
+      "logprob": -1.2417439847922651e-05
+    },
+    {
+      "text": " ",
+      "start": 0.9,
+      "end": 1.0,
+      "type": "spacing",
+      "logprob": -2.145764938177308e-06
+    },
+    {
+      "text": "ein,",
+      "start": 1.0,
+      "end": 1.22,
+      "type": "word",
+      "logprob": -0.017880573867046223
+    },
+    {
+      "text": " ",
+      "start": 1.22,
+      "end": 1.78,
+      "type": "spacing",
+      "logprob": -2.7179348762729205e-05
+    },
+    {
+      "text": "zu",
+      "start": 1.78,
+      "end": 1.9,
+      "type": "word",
+      "logprob": -2.7179348762729205e-05
+    },
+    {
+      "text": " ",
+      "start": 1.9,
+      "end": 1.94,
+      "type": "spacing",
+      "logprob": -9.536738616588991e-07
+    },
+    {
+      "text": "Hause",
+      "start": 1.94,
+      "end": 2.22,
+      "type": "word",
+      "logprob": -9.536738616588991e-07
+    },
+    {
+      "text": " ",
+      "start": 2.22,
+      "end": 2.34,
+      "type": "spacing",
+      "logprob": -1.9073304429184645e-05
+    },
+    {
+      "text": "fällt",
+      "start": 2.34,
+      "end": 2.58,
+      "type": "word",
+      "logprob": -1.9073304429184645e-05
+    },
+    {
+      "text": " ",
+      "start": 2.58,
+      "end": 2.64,
+      "type": "spacing",
+      "logprob": -2.3841855067985307e-07
+    },
+    {
+      "text": "noch",
+      "start": 2.64,
+      "end": 2.8,
+      "type": "word",
+      "logprob": -2.3841855067985307e-07
+    },
+    {
+      "text": " ",
+      "start": 2.8,
+      "end": 2.86,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "etwas",
+      "start": 2.86,
+      "end": 3.24,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 3.24,
+      "end": 3.34,
+      "type": "spacing",
+      "logprob": -1.1920922133867862e-06
+    },
+    {
+      "text": "ein.",
+      "start": 3.34,
+      "end": 3.66,
+      "type": "word",
+      "logprob": -8.940691600400896e-07
+    },
+    {
+      "text": " ",
+      "start": 3.66,
+      "end": 3.66,
+      "type": "spacing",
+      "logprob": -7.867782187531702e-06
+    },
+    {
+      "text": "Mit",
+      "start": 4.3,
+      "end": 4.5,
+      "type": "word",
+      "logprob": -7.867782187531702e-06
+    },
+    {
+      "text": " ",
+      "start": 4.5,
+      "end": 4.56,
+      "type": "spacing",
+      "logprob": -0.009905233047902584
+    },
+    {
+      "text": "Abgehakt",
+      "start": 4.56,
+      "end": 5.18,
+      "type": "word",
+      "logprob": -0.004802981025022746
+    },
+    {
+      "text": " ",
+      "start": 5.18,
+      "end": 5.3,
+      "type": "spacing",
+      "logprob": -8.05822346592322e-05
+    },
+    {
+      "text": "Pro",
+      "start": 5.3,
+      "end": 5.58,
+      "type": "word",
+      "logprob": -8.05822346592322e-05
+    },
+    {
+      "text": " ",
+      "start": 5.58,
+      "end": 5.88,
+      "type": "spacing",
+      "logprob": -0.00013767725613433868
+    },
+    {
+      "text": "teilt",
+      "start": 5.88,
+      "end": 6.22,
+      "type": "word",
+      "logprob": -5.6572937592136444e-05
+    },
+    {
+      "text": " ",
+      "start": 6.22,
+      "end": 6.28,
+      "type": "spacing",
+      "logprob": -7.510157047363464e-06
+    },
+    {
+      "text": "ihr",
+      "start": 6.28,
+      "end": 6.42,
+      "type": "word",
+      "logprob": -7.510157047363464e-06
+    },
+    {
+      "text": " ",
+      "start": 6.42,
+      "end": 6.48,
+      "type": "spacing",
+      "logprob": -1.0847986231965479e-05
+    },
+    {
+      "text": "eine",
+      "start": 6.48,
+      "end": 6.68,
+      "type": "word",
+      "logprob": -1.0847986231965479e-05
+    },
+    {
+      "text": " ",
+      "start": 6.68,
+      "end": 6.74,
+      "type": "spacing",
+      "logprob": -4.2199197196168825e-05
+    },
+    {
+      "text": "Einkaufsliste",
+      "start": 6.74,
+      "end": 7.7,
+      "type": "word",
+      "logprob": -5.750189414426971e-05
+    },
+    {
+      "text": " ",
+      "start": 7.7,
+      "end": 8.06,
+      "type": "spacing",
+      "logprob": -2.622600959512056e-06
+    },
+    {
+      "text": "für",
+      "start": 8.06,
+      "end": 8.2,
+      "type": "word",
+      "logprob": -2.622600959512056e-06
+    },
+    {
+      "text": " ",
+      "start": 8.2,
+      "end": 8.24,
+      "type": "spacing",
+      "logprob": -3.9219088648678735e-05
+    },
+    {
+      "text": "Familie,",
+      "start": 8.24,
+      "end": 8.72,
+      "type": "word",
+      "logprob": -3.4346504886428875e-05
+    },
+    {
+      "text": " ",
+      "start": 8.72,
+      "end": 8.88,
+      "type": "spacing",
+      "logprob": -1.9192511899746023e-05
+    },
+    {
+      "text": "Freunde",
+      "start": 8.88,
+      "end": 9.3,
+      "type": "word",
+      "logprob": -1.9192511899746023e-05
+    },
+    {
+      "text": " ",
+      "start": 9.3,
+      "end": 9.36,
+      "type": "spacing",
+      "logprob": -6.9141146923357155e-06
+    },
+    {
+      "text": "oder",
+      "start": 9.36,
+      "end": 9.5,
+      "type": "word",
+      "logprob": -6.9141146923357155e-06
+    },
+    {
+      "text": " ",
+      "start": 9.5,
+      "end": 9.58,
+      "type": "spacing",
+      "logprob": -0.0017777367029339075
+    },
+    {
+      "text": "WG.",
+      "start": 9.58,
+      "end": 9.94,
+      "type": "word",
+      "logprob": -0.0011851578019559383
+    },
+    {
+      "text": " ",
+      "start": 9.94,
+      "end": 9.94,
+      "type": "spacing",
+      "logprob": -0.0002162222663173452
+    },
+    {
+      "text": "Andere",
+      "start": 10.68,
+      "end": 11.12,
+      "type": "word",
+      "logprob": -0.0002162222663173452
+    },
+    {
+      "text": " ",
+      "start": 11.12,
+      "end": 11.28,
+      "type": "spacing",
+      "logprob": -8.415821503149346e-05
+    },
+    {
+      "text": "treten",
+      "start": 11.28,
+      "end": 11.58,
+      "type": "word",
+      "logprob": -8.415821503149346e-05
+    },
+    {
+      "text": " ",
+      "start": 11.58,
+      "end": 11.64,
+      "type": "spacing",
+      "logprob": -1.9192511899746023e-05
+    },
+    {
+      "text": "kostenlos",
+      "start": 11.64,
+      "end": 12.22,
+      "type": "word",
+      "logprob": -1.9192511899746023e-05
+    },
+    {
+      "text": " ",
+      "start": 12.22,
+      "end": 12.34,
+      "type": "spacing",
+      "logprob": -1.0609570381348021e-05
+    },
+    {
+      "text": "bei.",
+      "start": 12.34,
+      "end": 12.6,
+      "type": "word",
+      "logprob": -7.957177786011016e-06
+    },
+    {
+      "text": " ",
+      "start": 12.6,
+      "end": 12.98,
+      "type": "spacing",
+      "logprob": -8.344646857949556e-07
+    },
+    {
+      "text": "Spontan",
+      "start": 12.98,
+      "end": 13.6,
+      "type": "word",
+      "logprob": -0.00014736158680404645
+    },
+    {
+      "text": " ",
+      "start": 13.6,
+      "end": 13.64,
+      "type": "spacing",
+      "logprob": -2.753696753643453e-05
+    },
+    {
+      "text": "entdeckt?",
+      "start": 13.64,
+      "end": 14.18,
+      "type": "word",
+      "logprob": -2.4490549952657955e-05
+    },
+    {
+      "text": " ",
+      "start": 14.18,
+      "end": 14.18,
+      "type": "spacing",
+      "logprob": -0.0006972504197619855
+    },
+    {
+      "text": "Barcode",
+      "start": 14.9,
+      "end": 15.4,
+      "type": "word",
+      "logprob": -0.002142430391229157
+    },
+    {
+      "text": " ",
+      "start": 15.4,
+      "end": 15.46,
+      "type": "spacing",
+      "logprob": -0.005301701836287975
+    },
+    {
+      "text": "scannen",
+      "start": 15.46,
+      "end": 15.86,
+      "type": "word",
+      "logprob": -0.003122881819893207
+    },
+    {
+      "text": " ",
+      "start": 15.86,
+      "end": 15.94,
+      "type": "spacing",
+      "logprob": -1.1801649634435307e-05
+    },
+    {
+      "text": "statt",
+      "start": 15.94,
+      "end": 16.26,
+      "type": "word",
+      "logprob": -1.1801649634435307e-05
+    },
+    {
+      "text": " ",
+      "start": 16.26,
+      "end": 16.34,
+      "type": "spacing",
+      "logprob": -0.013519749976694584
+    },
+    {
+      "text": "abtippen",
+      "start": 16.34,
+      "end": 16.8,
+      "type": "word",
+      "logprob": -0.0034357838085270487
+    },
+    {
+      "text": " ",
+      "start": 16.8,
+      "end": 17.02,
+      "type": "spacing",
+      "logprob": -0.020545169711112976
+    },
+    {
+      "text": "und",
+      "start": 17.02,
+      "end": 17.14,
+      "type": "word",
+      "logprob": -0.020545169711112976
+    },
+    {
+      "text": " ",
+      "start": 17.14,
+      "end": 17.18,
+      "type": "spacing",
+      "logprob": -1.3112935448589269e-05
+    },
+    {
+      "text": "danach",
+      "start": 17.18,
+      "end": 17.7,
+      "type": "word",
+      "logprob": -1.3112935448589269e-05
+    },
+    {
+      "text": " ",
+      "start": 17.7,
+      "end": 17.88,
+      "type": "spacing",
+      "logprob": -1.3708974620385561e-05
+    },
+    {
+      "text": "helfen",
+      "start": 17.88,
+      "end": 18.2,
+      "type": "word",
+      "logprob": -1.3708974620385561e-05
+    },
+    {
+      "text": " ",
+      "start": 18.2,
+      "end": 18.24,
+      "type": "spacing",
+      "logprob": -0.0009336879593320191
+    },
+    {
+      "text": "erweiterte",
+      "start": 18.24,
+      "end": 18.82,
+      "type": "word",
+      "logprob": -0.00020783726504305377
+    },
+    {
+      "text": " ",
+      "start": 18.82,
+      "end": 18.9,
+      "type": "spacing",
+      "logprob": -7.772143726469949e-05
+    },
+    {
+      "text": "Analysen,",
+      "start": 18.9,
+      "end": 19.5,
+      "type": "word",
+      "logprob": -9.918964739578466e-05
+    },
+    {
+      "text": " ",
+      "start": 19.5,
+      "end": 19.7,
+      "type": "spacing",
+      "logprob": -1.1920922133867862e-06
+    },
+    {
+      "text": "eure",
+      "start": 19.7,
+      "end": 19.9,
+      "type": "word",
+      "logprob": -1.1920922133867862e-06
+    },
+    {
+      "text": " ",
+      "start": 19.9,
+      "end": 20.02,
+      "type": "spacing",
+      "logprob": -6.198863957251888e-06
+    },
+    {
+      "text": "Ausgaben",
+      "start": 20.02,
+      "end": 20.62,
+      "type": "word",
+      "logprob": -3.8146883980516577e-06
+    },
+    {
+      "text": " ",
+      "start": 20.62,
+      "end": 20.76,
+      "type": "spacing",
+      "logprob": -1.3470558769768104e-05
+    },
+    {
+      "text": "genauer",
+      "start": 20.76,
+      "end": 21.18,
+      "type": "word",
+      "logprob": -2.1440388081828132e-05
+    },
+    {
+      "text": " ",
+      "start": 21.18,
+      "end": 21.24,
+      "type": "spacing",
+      "logprob": -2.622600959512056e-06
+    },
+    {
+      "text": "zu",
+      "start": 21.24,
+      "end": 21.38,
+      "type": "word",
+      "logprob": -2.622600959512056e-06
+    },
+    {
+      "text": " ",
+      "start": 21.38,
+      "end": 21.42,
+      "type": "spacing",
+      "logprob": -4.768370445162873e-07
+    },
+    {
+      "text": "verstehen.",
+      "start": 21.42,
+      "end": 21.92,
+      "type": "word",
+      "logprob": -4.2915334006465857e-07
+    },
+    {
+      "text": " ",
+      "start": 21.92,
+      "end": 22.18,
+      "type": "spacing",
+      "logprob": -5.61460001335945e-05
+    },
+    {
+      "text": "Abgehakt",
+      "start": 22.18,
+      "end": 22.72,
+      "type": "word",
+      "logprob": -4.1215720330001204e-05
+    },
+    {
+      "text": " ",
+      "start": 22.72,
+      "end": 22.84,
+      "type": "spacing",
+      "logprob": -1.3470558769768104e-05
+    },
+    {
+      "text": "Pro.",
+      "start": 22.84,
+      "end": 23.18,
+      "type": "word",
+      "logprob": -0.0019234032852182281
+    },
+    {
+      "text": " ",
+      "start": 23.18,
+      "end": 23.54,
+      "type": "spacing",
+      "logprob": -0.00017045476124621928
+    },
+    {
+      "text": "Einmal",
+      "start": 23.54,
+      "end": 23.82,
+      "type": "word",
+      "logprob": -8.594263584882356e-05
+    },
+    {
+      "text": " ",
+      "start": 23.82,
+      "end": 23.94,
+      "type": "spacing",
+      "logprob": -8.344646857949556e-07
+    },
+    {
+      "text": "kaufen",
+      "start": 23.94,
+      "end": 24.36,
+      "type": "word",
+      "logprob": -8.344646857949556e-07
+    },
+    {
+      "text": " ",
+      "start": 24.36,
+      "end": 24.62,
+      "type": "spacing",
+      "logprob": -8.821098163025454e-05
+    },
+    {
+      "text": "ohne",
+      "start": 24.62,
+      "end": 24.82,
+      "type": "word",
+      "logprob": -8.821098163025454e-05
+    },
+    {
+      "text": " ",
+      "start": 24.82,
+      "end": 24.94,
+      "type": "spacing",
+      "logprob": -2.586808113846928e-05
+    },
+    {
+      "text": "Abo.",
+      "start": 24.94,
+      "end": 25.24,
+      "type": "word",
+      "logprob": -0.002781366212730063
+    }
+  ],
+  "transcription_id": "DoUXIC6p3rQXvgoeERuR",
+  "audio_duration_secs": 26.0
+}

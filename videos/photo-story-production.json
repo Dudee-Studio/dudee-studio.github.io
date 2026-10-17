@@ -1,0 +1,18 @@
+{
+  "output": "build/photo-story",
+  "app": "../Einkaufsliste",
+  "sheets": {
+    "sofa": "assets/einkaufsliste/photo-story/sofa.png",
+    "market": "assets/einkaufsliste/photo-story/market.png",
+    "scanner": "assets/einkaufsliste/photo-story/scanner.png",
+    "table": "assets/einkaufsliste/photo-story/table.png",
+    "pro": "assets/einkaufsliste/photo-story/pro.png"
+  },
+  "audio_source": "assets/audio/de/photo-story",
+  "format": "1280x720, 24fps",
+  "image_provider": "OpenAI image generation",
+  "image_reference": "assets/einkaufsliste/photo-story/family-reference.png",
+  "voice_provider": "ElevenLabs",
+  "production": "Sequential photographs: four different action states per scene; no image-to-video API used.",
+  "people": "Same fictional family; mother and child on sofa, mother alone in supermarket, mother and father at dining table, father alone at home for shared-list demonstration. No other people."
+}

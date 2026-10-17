@@ -1,0 +1,175 @@
+{
+  "kind": "pro",
+  "duration": 26,
+  "voice": "jT8mmBPqq9y1EwCWYWKS",
+  "model": "eleven_v3",
+  "segments": [
+    {
+      "start": 0.35,
+      "end": 7.808,
+      "text": "Du kaufst ein, zu Hause fällt noch etwas ein. Mit Abgehakt Pro teilt ihr eine Einkaufsliste.",
+      "performance_text": "[curious] Du kaufst ein, zu Hause fällt noch etwas ein. Mit Abgehakt Pro teilt ihr eine Einkaufsliste."
+    },
+    {
+      "start": 7.988,
+      "end": 12.695,
+      "text": "Für Familie, Freunde oder WG. Andere treten kostenlos bei.",
+      "performance_text": "Für Familie, Freunde oder WG. Andere treten kostenlos bei."
+    },
+    {
+      "start": 12.875,
+      "end": 16.813,
+      "text": "Spontan entdeckt? Barcode scannen statt abtippen.",
+      "performance_text": "[happily] Spontan entdeckt? Barcode scannen statt abtippen."
+    },
+    {
+      "start": 16.993,
+      "end": 21.928,
+      "text": "Und danach helfen erweiterte Analysen, eure Ausgaben genauer zu verstehen.",
+      "performance_text": "Und danach helfen erweiterte Analysen, eure Ausgaben genauer zu verstehen."
+    },
+    {
+      "start": 22.108,
+      "end": 25.277,
+      "text": "Abgehakt Pro. Einmal kaufen, ohne Abo.",
+      "performance_text": "[happily] Abgehakt Pro. Einmal kaufen, ohne Abo."
+    }
+  ],
+  "music": "Existing commissioned ElevenLabs store42 instrumental",
+  "tempo_change": 1,
+  "timeline": [
+    {
+      "scene": "pro",
+      "state": 0,
+      "start": 0,
+      "duration": 3.5,
+      "app_insert": null
+    },
+    {
+      "scene": "pro",
+      "state": 1,
+      "start": 3.5,
+      "duration": 0.5,
+      "app_insert": null
+    },
+    {
+      "scene": "pro",
+      "state": 2,
+      "start": 4.0,
+      "duration": 0.5,
+      "app_insert": null
+    },
+    {
+      "scene": "pro",
+      "state": 3,
+      "start": 4.5,
+      "duration": 3.5,
+      "app_insert": null
+    },
+    {
+      "scene": "market",
+      "state": 0,
+      "start": 7.988,
+      "duration": 1.9583333333333333,
+      "app_insert": "12-group-added"
+    },
+    {
+      "scene": "market",
+      "state": 1,
+      "start": 9.946,
+      "duration": 0.5,
+      "app_insert": "12-group-added"
+    },
+    {
+      "scene": "market",
+      "state": 2,
+      "start": 10.446,
+      "duration": 0.5,
+      "app_insert": "12-group-added"
+    },
+    {
+      "scene": "market",
+      "state": 3,
+      "start": 10.946,
+      "duration": 1.9583333333333333,
+      "app_insert": "12-group-added"
+    },
+    {
+      "scene": "scanner",
+      "state": 0,
+      "start": 12.875,
+      "duration": 1.5416666666666667,
+      "app_insert": null
+    },
+    {
+      "scene": "scanner",
+      "state": 1,
+      "start": 14.417,
+      "duration": 0.4583333333333333,
+      "app_insert": null
+    },
+    {
+      "scene": "scanner",
+      "state": 1,
+      "start": 14.875,
+      "duration": 0.041666666666666664,
+      "app_insert": null
+    },
+    {
+      "scene": "scanner",
+      "state": 2,
+      "start": 14.917,
+      "duration": 0.5,
+      "app_insert": "13-scanned"
+    },
+    {
+      "scene": "scanner",
+      "state": 3,
+      "start": 15.417,
+      "duration": 1.5416666666666667,
+      "app_insert": "13-scanned"
+    },
+    {
+      "scene": "table",
+      "state": 0,
+      "start": 16.993,
+      "duration": 0.2916666666666667,
+      "app_insert": null
+    },
+    {
+      "scene": "table",
+      "state": 0,
+      "start": 17.285,
+      "duration": 1.75,
+      "app_insert": "16-analysis"
+    },
+    {
+      "scene": "table",
+      "state": 1,
+      "start": 19.035,
+      "duration": 0.5,
+      "app_insert": "16-analysis"
+    },
+    {
+      "scene": "table",
+      "state": 2,
+      "start": 19.535,
+      "duration": 0.5,
+      "app_insert": "16-analysis"
+    },
+    {
+      "scene": "table",
+      "state": 3,
+      "start": 20.035,
+      "duration": 2.0416666666666665,
+      "app_insert": "16-analysis"
+    },
+    {
+      "scene": "table",
+      "state": 3,
+      "start": 22.108,
+      "duration": 3.875,
+      "app_insert": null
+    }
+  ]
+}

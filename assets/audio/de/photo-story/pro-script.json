@@ -1,0 +1,38 @@
+{
+  "kind": "pro",
+  "duration": 25,
+  "voice": "jT8mmBPqq9y1EwCWYWKS",
+  "model": "eleven_v3",
+  "segments": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "Du kaufst ein, zu Hause fällt noch etwas ein. Mit Abgehakt Pro teilt ihr eine Einkaufsliste.",
+      "performance_text": "[curious] Du kaufst ein, zu Hause fällt noch etwas ein. Mit Abgehakt Pro teilt ihr eine Einkaufsliste."
+    },
+    {
+      "start": 8,
+      "end": 13,
+      "text": "Für Familie, Freunde oder WG. Andere treten kostenlos bei.",
+      "performance_text": "Für Familie, Freunde oder WG. Andere treten kostenlos bei."
+    },
+    {
+      "start": 13,
+      "end": 17,
+      "text": "Spontan entdeckt? Barcode scannen statt abtippen.",
+      "performance_text": "[happily] Spontan entdeckt? Barcode scannen statt abtippen."
+    },
+    {
+      "start": 17,
+      "end": 22,
+      "text": "Und danach helfen erweiterte Analysen, eure Ausgaben genauer zu verstehen.",
+      "performance_text": "Und danach helfen erweiterte Analysen, eure Ausgaben genauer zu verstehen."
+    },
+    {
+      "start": 22,
+      "end": 25,
+      "text": "Abgehakt Pro. Einmal kaufen, ohne Abo.",
+      "performance_text": "[happily] Abgehakt Pro. Einmal kaufen, ohne Abo."
+    }
+  ]
+}

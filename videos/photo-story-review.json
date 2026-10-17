@@ -1,0 +1,37 @@
+{
+  "stage": "Ready for publication",
+  "format": "1280x720 H.264 / AAC 48kHz",
+  "free": {
+    "path": "videos/einkaufsliste-gerichte.mp4",
+    "duration": 33,
+    "sha256": "4cff613f679b36ae23d3b2d6c119053026a45b5dfc71e64cc9e91b24110c9332",
+    "integrated_lufs": -16.22,
+    "true_peak_dbtp": -1.99
+  },
+  "pro": {
+    "path": "videos/abgehakt-kurz.mp4",
+    "duration": 26,
+    "sha256": "84dd5201c2ff40ee1ccc66dd797c27ccbfb2429d9d9cd55e424e5c937554f5d5",
+    "integrated_lufs": -16.14,
+    "true_peak_dbtp": -4.15
+  },
+  "visual_review": "All five generated sequences inspected; final free and scanner frames inspected. Consistent fictional family, no other people depicted. Four different phases per scene. Free expenses insert crops the real free overview; scan and sync are demos.",
+  "audio_review": "ASR checked against approved narration; no performance tags spoken. Natural source speed. Music ducking and export loudness checked. Subjective listening not performed.",
+  "browser_checks": [
+    "390 light",
+    "390 dark",
+    "1440 light",
+    "1440 dark",
+    "Both actual videos play",
+    "German captions load",
+    "No horizontal overflow",
+    "No autoplay",
+    "Exclusive playback",
+    "No download links"
+  ],
+  "limitations": [
+    "Still-image sequence, no continuous live footage",
+    "Schematic sync and scan; true two-device capture not available",
+    "No fabricated article ~quantity forecast; actual forecast dialog used"
+  ]
+}

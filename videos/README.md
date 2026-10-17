@@ -1,3 +1,23 @@
+## Aktuelle Fotofilme: kostenlose App und Pro getrennt
+
+Die aktuelle Hauptfassung zeigt die kostenlose App in 33 Sekunden. Der zweite Film zeigt Pro in 26 Sekunden. Beide sind Fotosequenzen in 1280 × 720 bei 24 fps: vier verschiedene Handlungsschritte je Szene, kurze Stop-Motion-Wechsel, leichte Kamerabewegung und echte App-Einblendungen. Sie ersetzen die frühere 42-Sekunden-Montage und den 30-Sekunden-Teaser unter denselben öffentlichen Dateinamen.
+
+Die fiktive Familie bleibt visuell konsistent: Frau und Kind auf dem Sofa; Frau allein im Supermarkt; Frau und Mann beim Auspacken und bei der Ausgabenübersicht am Esstisch. Der Pro-Film zeigt zusätzlich den Mann allein zu Hause beim Ergänzen der Liste sowie die Frau beim Barcode-Scan. Es sind keine weiteren Personen dargestellt. Die kostenlosen Ausgaben zeigen ausschließlich den tatsächlich kostenlosen Bereich der App; der Pro-Hinweis im ursprünglichen Screenshot ist außerhalb des gewählten Ausschnitts.
+
+Bildquellen: `assets/einkaufsliste/photo-story/` (OpenAI-Bildgenerierung; je ein 2×2-Bogen mit vier unterschiedlichen Phasen). Keine ElevenLabs-Video-API, da das Creator-Konto dort nicht berechtigt war. Neue deutsche Sprecheraufnahmen mit derselben ElevenLabs-Stimme und `eleven_v3`; vorhandene beauftragte Musik, automatische Absenkung unter der Stimme und dezente App-Klänge. Kein neuer Musikauftrag, keine Preisfolie. Die Untertitel sind kurze, automatisch transkribierte und mit dem Skript verglichene Sprechabschnitte. Sprachtempo beim Schnitt unverändert. Die Stimmemotion wurde nicht durch menschliches Anhören geprüft.
+
+App-Ansichten stammen aus dem realen Compose-Capture. Scan und Gruppen-Synchronisation sind vorbereitete Demonstrationen, keine Aufnahme eines echten Scans oder einer aktiven Zwei-Geräte-Synchronisation. Die Prognose wird im tatsächlichen Einkaufsvorschlag gezeigt; eine nicht belegte `~Anzahl`-Oberfläche wird nicht nachgebaut.
+
+Reproduktion (benötigt FFmpeg, Pillow, NumPy und die bestehenden App-Captures):
+
+```sh
+python tools/render-photo-story.py videos/photo-story-production.json
+```
+
+Die Quellen liegen im Repository. Der Renderer benötigt keinen API-Schlüssel und löst keine kostenpflichtige Generierung aus. Ergebnis: `build/photo-story/`. Die Projektseite verwendet native Videosteuerung ohne Autoplay oder Download-Link. Beide Filme sind auch mit eingeblendeten Untertiteln verständlich.
+
+---
+
 # Abgehakt – kurze Store-Fassung
 
 `einkaufsliste-gerichte.mp4` ist die neue 42-Sekunden-Hauptfassung. Sie ersetzt

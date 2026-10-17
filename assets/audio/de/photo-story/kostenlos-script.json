@@ -1,0 +1,44 @@
+{
+  "kind": "kostenlos",
+  "duration": 32,
+  "voice": "jT8mmBPqq9y1EwCWYWKS",
+  "model": "eleven_v3",
+  "segments": [
+    {
+      "start": 0,
+      "end": 5,
+      "text": "Was fehlt für heute Abend? Mit Abgehakt planst du deinen Einkauf entspannt zu Hause.",
+      "performance_text": "[curious] Was fehlt für heute Abend? Mit Abgehakt planst du deinen Einkauf entspannt zu Hause."
+    },
+    {
+      "start": 5,
+      "end": 12,
+      "text": "Prüfe deine Artikel, lass dir regelmäßig Benötigtes vorschlagen und übernimm Zutaten aus deinen Gerichten.",
+      "performance_text": "Prüfe deine Artikel, lass dir regelmäßig Benötigtes vorschlagen und übernimm Zutaten aus deinen Gerichten."
+    },
+    {
+      "start": 12,
+      "end": 17,
+      "text": "Im Supermarkt hast du deine Liste dabei. Einpacken, abhaken, weiter.",
+      "performance_text": "[happily] Im Supermarkt hast du deine Liste dabei. Einpacken, abhaken, weiter."
+    },
+    {
+      "start": 17,
+      "end": 22,
+      "text": "Auch Angebote und Coupons behältst du im Blick.",
+      "performance_text": "Auch Angebote und Coupons behältst du im Blick."
+    },
+    {
+      "start": 22,
+      "end": 29,
+      "text": "Und zu Hause? Siehst du, was dein Einkauf gekostet hat.",
+      "performance_text": "Und zu Hause? Siehst du, was dein Einkauf gekostet hat."
+    },
+    {
+      "start": 29,
+      "end": 32,
+      "text": "Abgehakt. Dein Einkauf im Griff.",
+      "performance_text": "[happily] Abgehakt. Dein Einkauf im Griff."
+    }
+  ]
+}

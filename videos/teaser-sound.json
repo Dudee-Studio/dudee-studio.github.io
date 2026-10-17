@@ -1,98 +1,40 @@
 {
-  "duration": 30,
-  "narration_provider": "ElevenLabs",
-  "voice_name": "Emily E. - First-Person Games & Audiobooks",
-  "voice_id": "jT8mmBPqq9y1EwCWYWKS",
-  "language": "de-DE",
-  "music_provider": "ElevenLabs",
-  "music_bpm_prompt": 112,
-  "ducking_gain": 0.28,
-  "speech": [
+  "kind": "pro",
+  "duration": 26,
+  "voice": "jT8mmBPqq9y1EwCWYWKS",
+  "model": "eleven_v3",
+  "segments": [
     {
-      "segment": 0,
-      "start": 0.3,
-      "end": 3.241,
-      "original_seconds": 2.941,
-      "tempo": 1.0,
-      "text": "Abgehakt. Dein Einkauf im Griff."
+      "start": 0.35,
+      "end": 7.808,
+      "text": "Du kaufst ein, zu Hause fällt noch etwas ein. Mit Abgehakt Pro teilt ihr eine Einkaufsliste.",
+      "performance_text": "[curious] Du kaufst ein, zu Hause fällt noch etwas ein. Mit Abgehakt Pro teilt ihr eine Einkaufsliste."
     },
     {
-      "segment": 1,
-      "start": 4.1,
-      "end": 8.62,
-      "original_seconds": 4.52,
-      "tempo": 1.0,
-      "text": "Artikel durchgehen. Liste füllen. Kostenlos."
+      "start": 7.988,
+      "end": 12.695,
+      "text": "Für Familie, Freunde oder WG. Andere treten kostenlos bei.",
+      "performance_text": "Für Familie, Freunde oder WG. Andere treten kostenlos bei."
     },
     {
-      "segment": 2,
-      "start": 10.1,
-      "end": 13.912,
-      "original_seconds": 3.812,
-      "tempo": 1.0,
-      "text": "Mit Pro gemeinsam einkaufen. Kostenlos beitreten."
+      "start": 12.875,
+      "end": 16.813,
+      "text": "Spontan entdeckt? Barcode scannen statt abtippen.",
+      "performance_text": "[happily] Spontan entdeckt? Barcode scannen statt abtippen."
     },
     {
-      "segment": 3,
-      "start": 18.1,
-      "end": 20.187,
-      "original_seconds": 2.087,
-      "tempo": 1.0,
-      "text": "Barcodes scannen. Mit Pro."
+      "start": 16.993,
+      "end": 21.928,
+      "text": "Und danach helfen erweiterte Analysen, eure Ausgaben genauer zu verstehen.",
+      "performance_text": "Und danach helfen erweiterte Analysen, eure Ausgaben genauer zu verstehen."
     },
     {
-      "segment": 4,
-      "start": 24.1,
-      "end": 28.432,
-      "original_seconds": 4.332,
-      "tempo": 1.0,
-      "text": "Einmalig drei Euro neunundneunzig. Kein Abo."
+      "start": 22.108,
+      "end": 25.277,
+      "text": "Abgehakt Pro. Einmal kaufen, ohne Abo.",
+      "performance_text": "[happily] Abgehakt Pro. Einmal kaufen, ohne Abo."
     }
   ],
-  "effects": [
-    {
-      "time": 0.45,
-      "cue": "brand-confirm"
-    },
-    {
-      "time": 4.2,
-      "cue": "confirm"
-    },
-    {
-      "time": 11.95,
-      "cue": "sync"
-    },
-    {
-      "time": 18.2,
-      "cue": "confirm"
-    },
-    {
-      "time": 24.2,
-      "cue": "brand-confirm"
-    }
-  ],
-  "loudness_target_lufs": -16,
-  "true_peak_target_dbtp": -2,
-  "transitions": [
-    {
-      "start": 3.75,
-      "duration": 0.5,
-      "style": "smoothleft"
-    },
-    {
-      "start": 9.75,
-      "duration": 0.5,
-      "style": "smoothleft"
-    },
-    {
-      "start": 17.75,
-      "duration": 0.5,
-      "style": "fade"
-    },
-    {
-      "start": 23.75,
-      "duration": 0.5,
-      "style": "fade"
-    }
-  ]
+  "music": "Existing commissioned ElevenLabs store42 instrumental",
+  "tempo_change": 1
 }
