@@ -1,12 +1,12 @@
-# Aktuelles Hauptvideo: Abgehakt V11
+# Aktuelles Hauptvideo: Abgehakt V12
 
-`einkaufsliste-gerichte.mp4` zeigt die überarbeitete 59-Sekunden-Fassung in 1920×1080 bei 30 fps mit deutschem Ton. Die Website nutzt den Export ohne eingebrannte Untertitel und die zuschaltbaren deutschen Untertitel aus `overview-de.vtt`. Start- und Projektseite verwenden das passende Vorschaubild. Kein Autoplay oder Download-Angebot.
+`einkaufsliste-gerichte.mp4` zeigt die freigegebene 59-Sekunden-Fassung in 1920×1080 bei 30 fps. Fotos und die drei Bilder im Pro-Nachsatz reichen ohne helle Außenränder bis an alle Bildkanten. Die Protexte liegen direkt über der Fotografie. Echte Appansichten bleiben vollständig und proportional; die Hervorhebungen und Schnittzeiten entsprechen V11.
 
-Änderungen: Titel „Dein Einkauf im Griff“ unter dem Startlogo (0–1,5 s); alle Hervorhebungen nach konkreten UI-Elementen und tatsächlichen Sprecherwörtern neu zugeordnet; Zutaten vor Übernahmebutton, Mehr-Tab, Monatswerte nacheinander, Einstellungen und Hilfe gezielt. Echte Appbilder bleiben vollständig. Am Ende folgt von 56–59 s „Mehr zur Pro-Version / Im separaten Video“. Keine neue Sprachaufnahme, keine Beschleunigung oder Kamerabewegung.
+Der Musikausklang um Sekunde 55 wurde ersetzt: ein durchgehender Ausschnitt der vorhandenen Musik, Absenkung unter Sprache und weiche Ausblendung. Der separate Musikansatz bei 56 Sekunden entfällt. Alle Sprecheraufnahmen, Untertitel und Bildzeiten bleiben erhalten. PCM vor 53,4 Sekunden unverändert. Keine neue Sprach-/Musikgenerierung für diese Korrektur. Der Ton wurde anhand getrennter Spuren und Messwerte geprüft; keine subjektive Hörprüfung.
 
-Die Einkaufskosten bleiben 70,10 € gesamt, 57,12 € im Wagen und 12,98 € offen. Der Film verwendet die bestehenden Querformatfotos; die neu erstellten nativen Hochkantfotos sind in den separaten Handyfassungen eingesetzt. Die Handyfassungen werden ausschließlich im Medienbranch abgelegt und nicht auf der Website eingebunden.
+Unter dem Logo steht „Dein Einkauf im Griff“. Gerichte und Zutatenübernahme kommen vor der Milch. Einkaufskosten: 70,10 € gesamt, 57,12 € im Wagen und 12,98 € offen. Der Schluss verweist auf das separate Video zur Pro-Version. Kein Kamerawackeln. Die Website verwendet den sauberen Export mit zuschaltbaren deutschen Untertiteln; kein Autoplay und kein Download-Angebot.
 
-Technische Messwerte und exakte SHA-256: `overview-production.json`. Beide MP4s vollständig decodiert; alle 33 exportierten Zustände, Quellkoordinaten und semantischen Ziele geprüft. Keine subjektive Hörprüfung. Produktionsmappe: `/workspace/artifacts/abgehakt-video-v11`. Wiedergabeprüfung: `python tools/serve-preview.py --port 8765`, danach `python tools/check-project-page.py http://127.0.0.1:8765`.
+Technischer Produktionsnachweis, Prüfsummen und Review: `overview-production.json`. Hauptfilm lokal: `/workspace/artifacts/abgehakt-video-v12`. Die Handyfassung liegt ausschließlich auf dem separaten Medienbranch, ohne Websiteveröffentlichung. Die früheren Produktionen unten sind archivierte Stände.
 
 ---
 

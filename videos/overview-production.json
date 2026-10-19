@@ -1,42 +1,31 @@
 {
-  "version": "V11",
+  "version": "V12",
   "published_file": "videos/einkaufsliste-gerichte.mp4",
-  "source": "Autorisierte Titel-/Fokuskorrekturen19.10.2026 und Hinweis auf separates Video zur Pro-Version",
+  "source": "Nutzerkorrekturen: Musikausklang um55s bereinigen und Fotos randlos setzen",
   "website_export": "clean; optional German WebVTT",
   "video": {
-    "sha256": "23136fc34de4626d5aed3587c15a32f7b7a155bb463e88ea3d146d0d091dec5b",
-    "bytes": 6384382,
+    "sha256": "e4ce5f6813f8b7499b559affc46b98407eee7f6074e5d139e5144ee1c1d31a92",
+    "bytes": 8338719,
     "full_decode": "passed",
     "frames": 1770,
-    "audio": {
-      "input_i": "-16.23",
-      "input_tp": "-2.37",
-      "input_lra": "3.70",
-      "input_thresh": "-26.42",
-      "output_i": "-16.09",
-      "output_tp": "-2.50",
-      "output_lra": "3.50",
-      "output_thresh": "-26.22",
-      "normalization_type": "dynamic",
-      "target_offset": "0.09"
-    },
-    "black_frames_detected": false,
+    "black_frames": false,
+    "audio_packet_hash": "SHA256=ed2396741b2781b497cdfcadf11d853bb2a91d1e1c65d06fe3ba5e6cc94b6f52",
+    "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -15.9 LUFS\n    Threshold: -26.2 LUFS\n\n  Loudness range:\n    LRA:         3.7 LU\n    Threshold: -36.1 LUFS\n    LRA low:   -18.0 LUFS\n    LRA high:  -14.4 LUFS\n\n  True peak:\n    Peak:       -2.4 dBFS\n[out#0/null @ 0x55d292665f40] video:761KiB audio:11064KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe= 1770 fps=470 q=-0.0 Lsize=N/A time=00:00:59.00 bitrate=N/A speed=15.7x    \n",
     "duration": 59,
     "resolution": [
       1920,
       1080
     ],
-    "fps": "30/1",
-    "color": "bt709"
+    "fps": "30/1"
   },
-  "reviewed_store_export_sha256": "c91ea0f73114cc050d10e4e90a2598818b8583693ec967d5c7cbe93dc272f5d1",
+  "reviewed_store_export_sha256": "b8283ecb33d1c8e6d8c62ad960b49f79d62bc41e6c9d2077683cc9711539d36b",
   "captions": {
     "file": "videos/overview-de.vtt",
     "sha256": "37d393423efc62bad6a7eb742a584144375a3f43448ce34efcec5f844d58321c"
   },
   "poster": {
     "file": "assets/einkaufsliste/poster.jpg",
-    "sha256": "859752f5a332c2cdcf371f02374c17240188b3e0c4a37d08b5aa857e623176de"
+    "sha256": "f278850d55db38dc41ff5464af96bcb86ec043759ad74e1ea8166b329ec0f704"
   },
   "changes": {
     "title": [
@@ -52,9 +41,31 @@
     ],
     "full_app": true,
     "focus_source": "Semantisches Einzelreview anhand tatsächlicher Quellkontrollen und Sprecherwortzeiten; keine OCR-Sammelrahmen.",
-    "camera_motion": false
+    "camera_motion": false,
+    "full_bleed_photos": true,
+    "music_tail_correction": {
+      "source": "/workspace/artifacts/abgehakt-video-v11/audio/master.wav",
+      "affected_interval_sec": [
+        53.4,
+        59
+      ],
+      "prefix_pcm_identical_before_sec": 53.4,
+      "voice_words_unchanged": true,
+      "last_word_end_sec": 54.94,
+      "music_source": "/workspace/artifacts/abgehakt-video-v10/audio/music-55s.mp3",
+      "music_source_interval_sec": [
+        43.4,
+        49
+      ],
+      "fade_in_sec": 0.35,
+      "fade_out_sec": 0.9,
+      "old_55s_instrumental_removed": true,
+      "old_56s_restart_removed": true,
+      "new_generation": false,
+      "subjective_listening": false
+    }
   },
-  "review": "Abgehakt Hauptfilm V11 – gezielte Korrekturprüfung\n\n59 Sekunden,1920×1080,30fps. Die aktuelle Enddatei und alle33Einstellungen wurden anhand ihrer aus dem MP4 extrahierten Kontaktbögen angesehen. Kritische Szenen: Zutaten zuerst, danach echter Übernahmebutton; Milch-Mengensteuerung und Artikelzustand; Tomaten-Checkbox vor/nach; Kostenblock57,12/12,98/70,10; Mehr-Tab und danach unmarkierter Überblick; Vorratszeile; Monatswerte nacheinander; Seitentitel und echte Hilfe-Karte. Die Rechtecke stammen aus semantischem Quellreview des dedizierten Hauptfilm-/Portraitagenten, keine automatische OCR-Vereinigung. Alle echten Appbilder bleiben vollständig und proportional.\n\nStartlogo mit Titel Dein Einkauf im Griff von0–1,5s. Vorhandene komplette Sprachaufnahmen um1s verschoben, keine Beschleunigung. Die Nachsatzvorteile bleiben nach Markenabschluss getrennt. Neue Endkarte56–59s: Mehr zur Pro-Version / Im separaten Video. Dies ist ein Filmhinweis, keine Behauptung einer automatisch abspielenden oder bereits verlinkten Folgedatei.\n\nBild-/Produkt-/Formal-/Technikprüfung bestanden. Hauptfilm im Querformat verwendet die bisherigen freigegebenen Querfotos. Die neu erstellten nativen Hochkantbilder sind in den separaten Handyfassungen eingesetzt und werden dort nochmals geprüft. Kein Kamerawackeln.\n\nKeine subjektive Hörprüfung, kein Nutzertest. AAC-Pegel ersetzen diese Prüfung nicht.\nGeprüfterSHA256:c91ea0f73114cc050d10e4e90a2598818b8583693ec967d5c7cbe93dc272f5d1\nLautheit:-16.23LUFS,TruePeak-2.37dBTP\n",
+  "review": "Abgehakt V12 Querformat – gezielte Abschlussprüfung\nSHA-256: b8283ecb33d1c8e6d8c62ad960b49f79d62bc41e6c9d2077683cc9711539d36b\nDauer59s, 1920×1080,30fps. Nutzerauftrag: Rauschen um55s beheben und Fotos ohne helle Außenränder einsetzen.\n\nAlle33 tatsächlichen Endexport-Zustände wurden im Kontaktbogen visuell geprüft. Alle Lifestylefotos und drei Pro-Nachsatz-Fotos sind randlos bis zu allen vier Bildkanten gesetzt. Gesichter und zentrale Requisiten bleiben sichtbar; die Detailaufnahme zeigt ausdrücklich nur Hände/Spielbrett. Protexte sind weiß auf einem dunklen Verlauf über der Fotografie. Keine hellen Fotopanels, kein Kamerawackeln. Startlogo und abschließende Textkarte behalten ihren Marken-Hintergrund.\n\nAlle17 Appzustände, Quellbilder, Positionen und Hervorhebungen sind identisch zur V11-Komposition. Vollständige proportionale App. Bildfolge,59s-Dauer und sämtliche Untertitelzeiten/-texte bleiben erhalten. Alle Untertitel an ihren tatsächlich codierten Pixelpositionen geprüft, auch über randloser Fotografie. Formale Szenenprüfung bestanden.\n\nMusik: störender alter Instrumental-Ausklang und getrennter56s-Musikansatz ab53,4s ersetzt. Ein durchgehender vorhandener Ausschnitt43,4–49s trägt nun den Schluss, mit350ms Einblendung, Absenkung unter Sprache und900ms Ausblendung. Kein neuer Musik-/Sprachauftrag. Die PCM-Samples vor53,4s sind unverändert. Sprecherworte und zeitliche Platzierung sind unverändert; das Ende der Sprecheraufnahme bleibt erhalten. Alle vier sauberen/untertitelten Quer-/Hochformatexporte tragen denselben korrigierten AAC-Payload.\n\nTechnik: vollständiges Decoding beider Dateien bestanden,1770Frames, kein Schwarzbild. Alle randlosen Bildkanten gegen die Foto-Komposition verglichen; keine hellen Paddingflächen. Vollständige App und Untertitel separat geprüft. Messdaten in validation.json.\n\nHörgrenze: Audio nicht subjektiv gehört. Die Ursache wurde anhand der separaten Musik-/Sprecher-/Effektspuren eingegrenzt und der betroffene Musikabschnitt ersetzt. Kein behauptetes subjektives Urteil über Rauschfreiheit, Stimmemotion oder musikalischen Geschmack.\n",
   "website": {
     "autoplay": false,
     "download_link": false,
