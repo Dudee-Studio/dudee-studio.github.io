@@ -1,0 +1,831 @@
+{
+  "version": "V11 Hochformat",
+  "storage_branch": "media/abgehakt-mobile-v11",
+  "website_embedded": false,
+  "website_deployed": false,
+  "reason": "Nur die ausdrücklich beauftragte Handyfassung mit zugehörigen Untertiteln, Poster und Produktionsnachweis wird im nicht produktiven Medienbranch gespeichert.",
+  "files": {
+    "einkaufsliste-gerichte-hochformat.mp4": {
+      "sha256": "fb7e419e7c635b7e131764f54a4895decada6476ba9fd4c3321627bcdd327121",
+      "bytes": 7023366
+    },
+    "overview-portrait-de.vtt": {
+      "sha256": "9d6922a8ca7164ba7bd65a2bae470b5ba9ede0a4d5a37d35e9265c253e667f84",
+      "bytes": 2357
+    },
+    "overview-portrait-poster.jpg": {
+      "sha256": "400542a80a1a332390eca19d4a06fa85cd2ceafc3dbeb6c565d73a7554268153",
+      "bytes": 144582
+    }
+  },
+  "video": {
+    "duration_seconds": 59,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "fps": "30/1",
+    "frames": 1770,
+    "codec": "H.264 / yuv420p / BT.709",
+    "audio": "AAC / 48000Hz / stereo"
+  },
+  "source_landscape": {
+    "file": "videos/einkaufsliste-gerichte.mp4",
+    "sha256": "23136fc34de4626d5aed3587c15a32f7b7a155bb463e88ea3d146d0d091dec5b",
+    "commit": "b5fcb85"
+  },
+  "checks": {
+    "full_decode": "passed",
+    "black_frames_detected": false,
+    "audio_payload_identical": true,
+    "audio_payload_hash": "SHA256=69bde5c1e64b355ea31b9426a4c0edb894565157c5b70ec39a4ff25dc0df5e38",
+    "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -16.0 LUFS\n    Threshold: -26.2 LUFS\n\n  Loudness range:\n    LRA:         3.7 LU\n    Threshold: -36.1 LUFS\n    LRA low:   -18.0 LUFS\n    LRA high:  -14.4 LUFS\n\n  True peak:\n    Peak:       -2.4 dBFS\n[out#0/null @ 0x55da43905fc0] video:761KiB audio:11064KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe= 1770 fps=313 q=-0.0 Lsize=N/A time=00:00:59.00 bitrate=N/A speed=10.4x",
+    "source_cut_boundaries_exact_30fps": true,
+    "cut_boundaries_sampled": 64,
+    "full_app_shots_checked": 17,
+    "app_frame_px": [
+      168,
+      152,
+      744,
+      1488
+    ],
+    "app_source_px": [
+      1080,
+      2160
+    ],
+    "caption_pixel_checks": 23,
+    "caption_safezone_px": [
+      72,
+      1660,
+      936,
+      180
+    ],
+    "caption_mode": "Deutsche Untertitel eingebrannt; VTT mit identischen Zeiten zusätzlich vorhanden.",
+    "subjective_audio": "nicht gehört; emotionale Wirkung, Klangfarbe, Groove und subjektive Verständlichkeit nicht geprüft. Payloadgleichheit belegt unveränderten Ton."
+  },
+  "review": "Abgehakt V11 Hochformat – Abschlussreview · 19.10.2026\nPrüfmuster: /workspace/artifacts/abgehakt-video-v11-hochformat/abgehakt-hochformat.mp4\nSHA-256: fb7e419e7c635b7e131764f54a4895decada6476ba9fd4c3321627bcdd327121\n59,000 s · 1080×1920 · 30 fps · 1.770 Frames · H.264/yuv420p/BT.709/limited · AAC 48 kHz Stereo.\nDateigröße: 7023366 Bytes. Keine Repository- oder Websiteänderung durch diesen Agenten.\n\nErgebnis: zusätzliche Handyfassung mit deutschen eingebrannten Untertiteln fertig. Titel 0–1,5 s: „Dein Einkauf im Griff“. Neue Pro-Video-Endkarte 56–59 s: „Mehr zur Pro-Version“ / „Im separaten Video“. Keine neue Sprachproduktion.\n\nKonkrete Bild-/Schnittprüfung:\n- Alle 33 festen Einstellungen/Fokuszustände und beide Seiten sämtlicher 32 Grenzen im tatsächlichen Endexport extrahiert. Kontaktbogen, kritische Vollbilder und 360-px-Handyansicht visuell angesehen.\n- Alle Lifestylebilder verwenden das neue native 9:16-Paket. Paar/Familie mit vollständigen Gesichtern; Penne, Milch, Tomaten, Einkaufstasche und Handy passend erhalten. Spielbrettdetail aus derselben neuen Familienaufnahme, ohne halbes Gesicht. Keine Kameraanimation oder Wackler.\n- Vollständige 1080×2160-Appaufnahmen proportional in [168,152,744,1488]. 17 Appzustände: 16 gezielte Hervorhebungen und ein bewusster Überblick ohne Rahmen. Keine UI-Crops und keine Fantasie-UI.\n- Semantische Prüfung gegen tatsächliche Wortzeiten: Gerichtskarte; drei Zutaten vor dem Übernahmebutton bei „einem Tipp“; übernommene Tomaten in Liste; Milch-Plus/Menge und danach grüne Ergebniszeile; echte Tomatencheckbox vor/nach Scrollwechsel; Kostenkarte; tatsächlicher Mehr-Tab; Vorratszeile; diesen Monat links und letzten Monat rechts; Einstellungen-Titel und echte Hilfe-Karte. Alle 16 Ziele stimmen mit genehmigten Control-Rechtecken plus Außenpadding und +1 s-Zeitbasis überein. Rahmen berühren weder Glyphen noch Controls.\n- Drei Pro-Seiten verwenden vorhandene editierbare SVG-Symbole und die neuen Portraitfotos. Je ein Nutzen, „Die Pro-Version“, kein Preis. Fotos ohne Beschnitt oder Seitenverzerrung eingepasst.\n\nUntertitel: 23 Cues im tatsächlichen untertitelten Export gegen die saubere Fassung geprüft. Pixelgrenzen y1716–1840 innerhalb 1660–1840, maximal 2 Zeilen und 52 px. Keine App-/Fotoüberdeckung. VTT hat identische Zeiten und Text.\n\nFindings geschlossen:\nF01 – Semantisch zu breite/zu frühe Hervorhebungen ersetzt: Zutaten→Button, Mehr-Navigation, Monat links→rechts, Einstellungen→Hilfe sowie genaue Artikel-/Checkbox-Ziele. Quell- und Exportframes geprüft.\nF02 – Tasche vor Einkauf wirkte gefüllt: ausschließlich S01 durch die von Root korrigierte Aufnahme mit eindeutig leerer Tasche ersetzt. Drei Äpfel bleiben als Vorrat auf dem Tisch. Alle übrigen 32 Stilldateien sind SHA-identisch zum davor geprüften Stand (review/s01-only-change.json).\nF03 – Seitliche Wiederholungsstreifen im ersten Pro-Zwischenraster: explizite Berechnung des unveränderten Foto-Seitenverhältnisses korrigiert den SVG-Rasterexport. Tatsächliche Endframes ohne Streifen geprüft.\nKeine offenen P0-/P1-Befunde in den ausgeführten Prüfungen.\n\nTechnik: vollständiges FFmpeg-Decoding mit -xerror bestanden; alle 1.770 Frames decodiert. Kein Schwarzbild gemeldet. Keine Stille ≥ 1 s unter −50 dBFS gemeldet. Alle Schnitt-/Fokusgrenzen entsprechen der verbindlichen V11-Quelle und sind 30-fps-genau. Formale Szenenprüfung einschließlich Dateien bestanden.\nAudio: AAC-Payload im V11-Querformat und beiden Portraitfassungen identisch:\nSHA256=69bde5c1e64b355ea31b9426a4c0edb894565157c5b70ec39a4ff25dc0df5e38\nAm endgültigen MP4 gemessen: −16,0 LUFS integriert, LRA 3,7 LU, True Peak −2,4 dBFS. Keine Neucodierung oder Mischung der Tonspur.\nHörgrenze: Audio nicht subjektiv gehört. Emotion, Klangfarbe, Groove und subjektive Verständlichkeit bleiben nicht geprüft; Payloadgleichheit und Pegelmessung ersetzen keine Hörprüfung.\n\nGrenze der Bildprüfung: Alle festen Zustände und Wechsel gezielt geprüft, keine behauptete unabhängige Zuschauerstudie. Sehr kleine UI-Nebentexte bleiben auf 360 px klein; Kernbeträge, Fokus und Untertitel sind in der Handyvorschau erkennbar.\n\nLieferung: abgehakt-hochformat.mp4; optionale abgehakt-hochformat-clean.mp4; abgehakt-hochformat-de.vtt; poster.jpg. Quellen, Produktion und Prüfung in produce.py/manifest.py/validate.py/semantic_check.py, art/*.svg, validation.json, semantic-validation.json und review/.\n",
+  "semantic_validation": {
+    "sha256": "fb7e419e7c635b7e131764f54a4895decada6476ba9fd4c3321627bcdd327121",
+    "duration": 59,
+    "semantic_focus_events": [
+      {
+        "source": "app/05-dishes.png",
+        "start": 6.266666666666667,
+        "end": 7.6,
+        "control_rect_px": [
+          48,
+          696,
+          984,
+          210
+        ],
+        "padding_source_px": 12,
+        "source_rect_px": [
+          36,
+          684,
+          1008,
+          234
+        ],
+        "rendered_rect_px": [
+          193,
+          623,
+          694,
+          161
+        ],
+        "intent": "Die echte ausgewählte Gerichtskarte Pasta mit Tomaten einschließlich Zutatenzeile",
+        "actual_words_during_target": [
+          {
+            "text": "Über",
+            "start": 6.42,
+            "end": 6.6
+          },
+          {
+            "text": "Gerichte",
+            "start": 6.62,
+            "end": 7.1
+          },
+          {
+            "text": "landen",
+            "start": 7.26,
+            "end": 7.52
+          },
+          {
+            "text": "die",
+            "start": 7.56,
+            "end": 7.66
+          }
+        ],
+        "semantic_source_review": "full-source screenshot and actual final-frame contact viewed",
+        "passed": true
+      },
+      {
+        "source": "app/06-ingredients.png",
+        "start": 7.6,
+        "end": 8.466666666666667,
+        "control_rect_px": [
+          48,
+          516,
+          984,
+          480
+        ],
+        "padding_source_px": 12,
+        "source_rect_px": [
+          36,
+          504,
+          1008,
+          504
+        ],
+        "rendered_rect_px": [
+          193,
+          499,
+          694,
+          347
+        ],
+        "intent": "Zuerst die drei tatsächlichen Zutaten Parmesan, Penne, Tomaten",
+        "actual_words_during_target": [
+          {
+            "text": "die",
+            "start": 7.56,
+            "end": 7.66
+          },
+          {
+            "text": "Zutaten",
+            "start": 7.74,
+            "end": 8.280000000000001
+          },
+          {
+            "text": "mit",
+            "start": 8.32,
+            "end": 8.42
+          },
+          {
+            "text": "einem",
+            "start": 8.46,
+            "end": 8.68
+          }
+        ],
+        "semantic_source_review": "full-source screenshot and actual final-frame contact viewed",
+        "passed": true
+      },
+      {
+        "source": "app/06-ingredients.png",
+        "start": 8.466666666666667,
+        "end": 8.9,
+        "control_rect_px": [
+          696,
+          2016,
+          326,
+          96
+        ],
+        "padding_source_px": 18,
+        "source_rect_px": [
+          678,
+          1998,
+          362,
+          132
+        ],
+        "rendered_rect_px": [
+          635,
+          1528,
+          249,
+          91
+        ],
+        "intent": "Erst bei einem Tipp den echten Button 3 auf die Liste führen",
+        "actual_words_during_target": [
+          {
+            "text": "einem",
+            "start": 8.46,
+            "end": 8.68
+          },
+          {
+            "text": "Tipp",
+            "start": 8.719999999999999,
+            "end": 8.92
+          }
+        ],
+        "semantic_source_review": "full-source screenshot and actual final-frame contact viewed",
+        "passed": true
+      },
+      {
+        "source": "app/07-list-ready.png",
+        "start": 8.9,
+        "end": 11.266666666666667,
+        "control_rect_px": [
+          48,
+          648,
+          500,
+          144
+        ],
+        "padding_source_px": 12,
+        "source_rect_px": [
+          36,
+          636,
+          524,
+          168
+        ],
+        "rendered_rect_px": [
+          193,
+          590,
+          361,
+          116
+        ],
+        "intent": "Das sichtbare übernommene Zutatenbeispiel Tomaten in der echten Liste",
+        "actual_words_during_target": [
+          {
+            "text": "Tipp",
+            "start": 8.719999999999999,
+            "end": 8.92
+          },
+          {
+            "text": "auf",
+            "start": 8.96,
+            "end": 9.08
+          },
+          {
+            "text": "deiner",
+            "start": 9.12,
+            "end": 9.36
+          },
+          {
+            "text": "Liste.",
+            "start": 9.4,
+            "end": 9.74
+          }
+        ],
+        "semantic_source_review": "full-source screenshot and actual final-frame contact viewed",
+        "passed": true
+      },
+      {
+        "source": "app/01-articles-before.png",
+        "start": 11.266666666666667,
+        "end": 13.0,
+        "control_rect_px": [
+          24,
+          540,
+          1032,
+          168
+        ],
+        "padding_source_px": 12,
+        "source_rect_px": [
+          12,
+          528,
+          1056,
+          192
+        ],
+        "rendered_rect_px": [
+          176,
+          516,
+          727,
+          132
+        ],
+        "intent": "Die fehlende Milch als echte Artikelzeile mit Name, Preis und Hinzufügen",
+        "actual_words_during_target": [
+          {
+            "text": "Gehe",
+            "start": 11.43,
+            "end": 11.63
+          },
+          {
+            "text": "deine",
+            "start": 11.67,
+            "end": 11.89
+          },
+          {
+            "text": "Artikel",
+            "start": 11.93,
+            "end": 12.29
+          },
+          {
+            "text": "durch",
+            "start": 12.37,
+            "end": 12.69
+          },
+          {
+            "text": "und",
+            "start": 12.85,
+            "end": 13.01
+          }
+        ],
+        "semantic_source_review": "full-source screenshot and actual final-frame contact viewed",
+        "passed": true
+      },
+      {
+        "source": "app/02-articles-added.png",
+        "start": 13.0,
+        "end": 13.5,
+        "control_rect_px": [
+          810,
+          552,
+          234,
+          144
+        ],
+        "padding_source_px": 12,
+        "source_rect_px": [
+          798,
+          540,
+          258,
+          168
+        ],
+        "rendered_rect_px": [
+          718,
+          524,
+          178,
+          116
+        ],
+        "intent": "Beim Ergänzen zum realen Plus-/Mengenbereich der Milch führen",
+        "actual_words_during_target": [
+          {
+            "text": "und",
+            "start": 12.85,
+            "end": 13.01
+          },
+          {
+            "text": "ergänze,",
+            "start": 13.05,
+            "end": 13.45
+          }
+        ],
+        "semantic_source_review": "full-source screenshot and actual final-frame contact viewed",
+        "passed": true
+      },
+      {
+        "source": "app/02-articles-added.png",
+        "start": 13.5,
+        "end": 14.266666666666667,
+        "control_rect_px": [
+          24,
+          540,
+          1032,
+          168
+        ],
+        "padding_source_px": 12,
+        "source_rect_px": [
+          12,
+          528,
+          1056,
+          192
+        ],
+        "rendered_rect_px": [
+          176,
+          516,
+          727,
+          132
+        ],
+        "intent": "Danach gesamte grüne Milchzeile als Ergebnis sichtbar halten",
+        "actual_words_during_target": [
+          {
+            "text": "was",
+            "start": 13.51,
+            "end": 13.71
+          },
+          {
+            "text": "fehlt.",
+            "start": 13.75,
+            "end": 14.03
+          }
+        ],
+        "semantic_source_review": "full-source screenshot and actual final-frame contact viewed",
+        "passed": true
+      },
+      {
+        "source": "app/09-tomatoes-before.png",
+        "start": 20.5,
+        "end": 21.5,
+        "control_rect_px": [
+          48,
+          862,
+          440,
+          124
+        ],
+        "padding_source_px": 12,
+        "source_rect_px": [
+          36,
+          850,
+          464,
+          148
+        ],
+        "rendered_rect_px": [
+          193,
+          738,
+          320,
+          102
+        ],
+        "intent": "Offene echte Checkbox und zugehörige Tomatenbezeichnung/Preis",
+        "actual_words_during_target": [],
+        "semantic_source_review": "full-source screenshot and actual final-frame contact viewed",
+        "passed": true
+      },
+      {
+        "source": "app/09b-tomatoes-checked.png",
+        "start": 21.5,
+        "end": 24.0,
+        "control_rect_px": [
+          48,
+          928,
+          440,
+          124
+        ],
+        "padding_source_px": 12,
+        "source_rect_px": [
+          36,
+          916,
+          464,
+          148
+        ],
+        "rendered_rect_px": [
+          193,
+          783,
+          320,
+          102
+        ],
+        "intent": "Erledigte Tomaten mit echtem Häkchen, durchgestrichenem Namen und Preis",
+        "actual_words_during_target": [
+          {
+            "text": "Abhaken.",
+            "start": 21.5,
+            "end": 22.02
+          }
+        ],
+        "semantic_source_review": "full-source screenshot and actual final-frame contact viewed",
+        "passed": true
+      },
+      {
+        "source": "app/10-totals-after-tomatoes.png",
+        "start": 24.0,
+        "end": 28.0,
+        "control_rect_px": [
+          48,
+          216,
+          984,
+          300
+        ],
+        "padding_source_px": 12,
+        "source_rect_px": [
+          36,
+          204,
+          1008,
+          324
+        ],
+        "rendered_rect_px": [
+          193,
+          293,
+          694,
+          223
+        ],
+        "intent": "Die echte Kostenübersicht mit57,12/12,98/70,10 als ein zusammengehöriger Kostenblock",
+        "actual_words_during_target": [
+          {
+            "text": "Die",
+            "start": 24.25,
+            "end": 24.35
+          },
+          {
+            "text": "Kosten",
+            "start": 24.39,
+            "end": 24.85
+          },
+          {
+            "text": "bleiben",
+            "start": 24.95,
+            "end": 25.27
+          },
+          {
+            "text": "beim",
+            "start": 25.31,
+            "end": 25.47
+          },
+          {
+            "text": "Abhaken",
+            "start": 25.53,
+            "end": 26.03
+          },
+          {
+            "text": "im",
+            "start": 26.07,
+            "end": 26.21
+          },
+          {
+            "text": "Blick.",
+            "start": 26.23,
+            "end": 26.49
+          }
+        ],
+        "semantic_source_review": "full-source screenshot and actual final-frame contact viewed",
+        "passed": true
+      },
+      {
+        "source": "app/20-more.png",
+        "start": 30.0,
+        "end": 31.0,
+        "control_rect_px": [
+          858,
+          1956,
+          192,
+          156
+        ],
+        "padding_source_px": 12,
+        "source_rect_px": [
+          846,
+          1944,
+          216,
+          180
+        ],
+        "rendered_rect_px": [
+          751,
+          1491,
+          149,
+          124
+        ],
+        "intent": "Echten ausgewählten Mehr-Tab einschließlich Icon und Beschriftung führen",
+        "actual_words_during_target": [
+          {
+            "text": "Unter",
+            "start": 30.23,
+            "end": 30.45
+          },
+          {
+            "text": "Mehr",
+            "start": 30.53,
+            "end": 30.75
+          },
+          {
+            "text": "findest",
+            "start": 30.97,
+            "end": 31.27
+          }
+        ],
+        "semantic_source_review": "full-source screenshot and actual final-frame contact viewed",
+        "passed": true
+      },
+      {
+        "source": "app/21-stock.png",
+        "start": 33.0,
+        "end": 36.0,
+        "control_rect_px": [
+          48,
+          660,
+          984,
+          192
+        ],
+        "padding_source_px": 12,
+        "source_rect_px": [
+          36,
+          648,
+          1008,
+          216
+        ],
+        "rendered_rect_px": [
+          193,
+          598,
+          694,
+          149
+        ],
+        "intent": "Eingetragenen Parmesan-Vorrat mit Mengensteuerung als konkretes Beispiel zeigen",
+        "actual_words_during_target": [
+          {
+            "text": "Zum",
+            "start": 33.27,
+            "end": 33.39
+          },
+          {
+            "text": "Beispiel",
+            "start": 33.43,
+            "end": 33.93
+          },
+          {
+            "text": "deinen",
+            "start": 33.99,
+            "end": 34.29
+          },
+          {
+            "text": "Vorrat",
+            "start": 34.33,
+            "end": 34.69
+          },
+          {
+            "text": "zu",
+            "start": 34.73,
+            "end": 34.85
+          },
+          {
+            "text": "Hause.",
+            "start": 34.89,
+            "end": 35.27
+          }
+        ],
+        "semantic_source_review": "full-source screenshot and actual final-frame contact viewed",
+        "passed": true
+      },
+      {
+        "source": "app/22-analysis.png",
+        "start": 36.0,
+        "end": 38.266666666666666,
+        "control_rect_px": [
+          36,
+          504,
+          492,
+          228
+        ],
+        "padding_source_px": 12,
+        "source_rect_px": [
+          24,
+          492,
+          516,
+          252
+        ],
+        "rendered_rect_px": [
+          185,
+          491,
+          355,
+          174
+        ],
+        "intent": "Nur Diesen Monat samt359,90€ und10Einkäufen",
+        "actual_words_during_target": [
+          {
+            "text": "Und",
+            "start": 36.29,
+            "end": 36.45
+          },
+          {
+            "text": "deine",
+            "start": 36.49,
+            "end": 36.69
+          },
+          {
+            "text": "Ausgaben",
+            "start": 36.81,
+            "end": 37.35
+          },
+          {
+            "text": "für",
+            "start": 37.49,
+            "end": 37.63
+          },
+          {
+            "text": "diesen",
+            "start": 37.67,
+            "end": 37.99
+          },
+          {
+            "text": "und",
+            "start": 38.11,
+            "end": 38.25
+          }
+        ],
+        "semantic_source_review": "full-source screenshot and actual final-frame contact viewed",
+        "passed": true
+      },
+      {
+        "source": "app/22-analysis.png",
+        "start": 38.266666666666666,
+        "end": 40.0,
+        "control_rect_px": [
+          552,
+          504,
+          492,
+          228
+        ],
+        "padding_source_px": 12,
+        "source_rect_px": [
+          540,
+          492,
+          516,
+          252
+        ],
+        "rendered_rect_px": [
+          540,
+          491,
+          355,
+          174
+        ],
+        "intent": "Nur Letzten Monat samt405,08€ und13Einkäufen",
+        "actual_words_during_target": [
+          {
+            "text": "letzten",
+            "start": 38.29,
+            "end": 38.65
+          },
+          {
+            "text": "Monat.",
+            "start": 38.69,
+            "end": 39.07
+          }
+        ],
+        "semantic_source_review": "full-source screenshot and actual final-frame contact viewed",
+        "passed": true
+      },
+      {
+        "source": "app/23-settings.png",
+        "start": 40.0,
+        "end": 41.1,
+        "control_rect_px": [
+          48,
+          36,
+          750,
+          108
+        ],
+        "padding_source_px": 12,
+        "source_rect_px": [
+          36,
+          24,
+          774,
+          132
+        ],
+        "rendered_rect_px": [
+          193,
+          169,
+          533,
+          91
+        ],
+        "intent": "Echten Seitentitel Einstellungen & Hilfe zur Orientierung zeigen",
+        "actual_words_during_target": [
+          {
+            "text": "Einstellungen",
+            "start": 40.22,
+            "end": 40.86
+          },
+          {
+            "text": "und",
+            "start": 40.94,
+            "end": 41.06
+          }
+        ],
+        "semantic_source_review": "full-source screenshot and actual final-frame contact viewed",
+        "passed": true
+      },
+      {
+        "source": "app/23-settings.png",
+        "start": 41.1,
+        "end": 43.0,
+        "control_rect_px": [
+          48,
+          1308,
+          984,
+          204
+        ],
+        "padding_source_px": 10,
+        "source_rect_px": [
+          38,
+          1298,
+          1004,
+          224
+        ],
+        "rendered_rect_px": [
+          194,
+          1046,
+          692,
+          154
+        ],
+        "intent": "Bei Hilfe die echte Hilfe-&-Kontakt-Karte unten führen",
+        "actual_words_during_target": [
+          {
+            "text": "Hilfe",
+            "start": 41.1,
+            "end": 41.48
+          },
+          {
+            "text": "sind",
+            "start": 41.66,
+            "end": 41.82
+          },
+          {
+            "text": "gleich",
+            "start": 41.86,
+            "end": 42.12
+          },
+          {
+            "text": "daneben.",
+            "start": 42.16,
+            "end": 42.56
+          }
+        ],
+        "semantic_source_review": "full-source screenshot and actual final-frame contact viewed",
+        "passed": true
+      }
+    ],
+    "focus_event_count": 16,
+    "app_shot_count": 17,
+    "orientation_interval": [
+      31,
+      33
+    ],
+    "full_app_preserved": true,
+    "title": "Dein Einkauf im Griff",
+    "title_interval": [
+      0,
+      1.5
+    ],
+    "cta": [
+      "Mehr zur Pro-Version",
+      "Im separaten Video"
+    ],
+    "cta_interval": [
+      56,
+      59
+    ],
+    "audio_listening": "not performed; exact V11 AAC payload checked separately"
+  },
+  "native_portrait_photos": {
+    "location": "Lokale Produktionsmappe; nicht im GitHub-Repository veröffentlicht",
+    "count": 9
+  }
+}

@@ -8,6 +8,14 @@ Die Einkaufskosten bleiben 70,10 € gesamt, 57,12 € im Wagen und 12,98 € of
 
 Technische Messwerte und exakte SHA-256: `overview-production.json`. Beide MP4s vollständig decodiert; alle 33 exportierten Zustände, Quellkoordinaten und semantischen Ziele geprüft. Keine subjektive Hörprüfung. Produktionsmappe: `/workspace/artifacts/abgehakt-video-v11`. Wiedergabeprüfung: `python tools/serve-preview.py --port 8765`, danach `python tools/check-project-page.py http://127.0.0.1:8765`.
 
+## Handyfassung im Repository
+
+`einkaufsliste-gerichte-hochformat.mp4` ist die neue V11-Fassung mit 59 Sekunden, 1080×1920 (9:16), 30 fps und eingebrannten deutschen Untertiteln. Sie verwendet neue native Hochkantfotos derselben fiktiven Familie. Die echten Appbilder bleiben vollständig und proportional. Hervorhebungen sind auf die tatsächlichen Bedienelemente und Sprechzeiten abgestimmt. Feste Bildausschnitte ohne Kamerawackeln.
+
+Unter dem Startlogo steht „Dein Einkauf im Griff“. Der Schluss verweist auf das separate Video zur Pro-Version. Ton und Schnittzeiten entsprechen der geprüften V11-Querfassung. Die beiliegende `overview-portrait-de.vtt` enthält dieselben Untertitelzeiten. Bei eingebrannten Untertiteln keine zweite Untertitelspur aktivieren.
+
+Nur die Handyfassung mit Untertiteln, Poster und Produktionsnachweis liegt auf dem Medienbranch `media/abgehakt-mobile-v11`, neben der Querformatdatei im Ordner `videos/`. Die Handydatei wird nicht auf der Website veröffentlicht. Weitere Detailfilme und Bildquellen sind in diesem Branch nicht enthalten. Technische Messwerte, Quellenbindung und Review: `overview-portrait-production.json`. Bild, Vollbild-App, Schnittgrenzen, Untertitel und Decodierung wurden geprüft; eine subjektive Hörprüfung steht aus.
+
 ---
 
 # Archiv früherer Produktionen
