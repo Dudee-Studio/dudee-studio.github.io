@@ -1,12 +1,12 @@
-# Aktuelles Hauptvideo: Abgehakt V10
+# Aktuelles Hauptvideo: Abgehakt V11
 
-`einkaufsliste-gerichte.mp4` zeigt die freigegebene 55-Sekunden-Fassung in 1920×1080 bei 30 fps mit deutschem Ton. Die Website nutzt den Export ohne eingebrannte Untertitel und die zuschaltbaren deutschen Untertitel aus `overview-de.vtt`. Auf Start- und Projektseite ist das dazugehörige Vorschaubild eingebunden. Kein Autoplay oder Download-Angebot.
+`einkaufsliste-gerichte.mp4` zeigt die überarbeitete 59-Sekunden-Fassung in 1920×1080 bei 30 fps mit deutschem Ton. Die Website nutzt den Export ohne eingebrannte Untertitel und die zuschaltbaren deutschen Untertitel aus `overview-de.vtt`. Start- und Projektseite verwenden das passende Vorschaubild. Kein Autoplay oder Download-Angebot.
 
-Ablauf:0,5sLogo; Gerichte und Zutatenübernahme vor dem Ergänzen der Milch; Einkauf über70,10€ mit57,12€imWagen und12,98€offen bei23s; kostenloser Rückblick; Handybild42–43s; Markenslogan und Pause; kurzer Nachsatz zur Pro-Version48–55s. Die drei Vorteile erscheinen nacheinander: geteilte Liste, Barcode-Scanner und Ausgaben nach Kategorien. Echte Appansichten bleiben vollständig; feste Bilder ohne Kamerawackeln. KI-Fotografien und App mit Demo-Daten, keine tatsächliche Scan- oder Zwei-Geräte-Sync-Vorführung.
+Änderungen: Titel „Dein Einkauf im Griff“ unter dem Startlogo (0–1,5 s); alle Hervorhebungen nach konkreten UI-Elementen und tatsächlichen Sprecherwörtern neu zugeordnet; Zutaten vor Übernahmebutton, Mehr-Tab, Monatswerte nacheinander, Einstellungen und Hilfe gezielt. Echte Appbilder bleiben vollständig. Am Ende folgt von 56–59 s „Mehr zur Pro-Version / Im separaten Video“. Keine neue Sprachaufnahme, keine Beschleunigung oder Kamerabewegung.
 
-Technischer Produktionsnachweis mit SHA-256: `overview-production.json`. Beide Originalexporte wurden vollständig decodiert und das konkrete Schlussstück erneut aus Gestaltungs- und Produktsicht geprüft. Stimme, Betonung und musikalische Wirkung wurden nicht subjektiv gehört. Neue Aufnahme mit der bereits gewählten Livia-Stimme; vorhandene Musik und gültige Sprachpassagen wiederverwendet. Die vollständige lokale Produktionsmappe liegt unter `/workspace/artifacts/abgehakt-video-v10`; die älteren Renderer unten reproduzieren historische Fassungen.
+Die Einkaufskosten bleiben 70,10 € gesamt, 57,12 € im Wagen und 12,98 € offen. Der Film verwendet die bestehenden Querformatfotos; die neu erstellten nativen Hochkantfotos sind in den separaten Handyfassungen eingesetzt. Die Handyfassungen werden ausschließlich im Medienbranch abgelegt und nicht auf der Website eingebunden.
 
-Wiedergabeprüfung: `python tools/serve-preview.py --port 8765`, danach `python tools/check-project-page.py http://127.0.0.1:8765`. Mobile/Desktop, hell/dunkel, Untertitel und exklusiver Ton werden an der tatsächlich geladenen Datei geprüft.
+Technische Messwerte und exakte SHA-256: `overview-production.json`. Beide MP4s vollständig decodiert; alle 33 exportierten Zustände, Quellkoordinaten und semantischen Ziele geprüft. Keine subjektive Hörprüfung. Produktionsmappe: `/workspace/artifacts/abgehakt-video-v11`. Wiedergabeprüfung: `python tools/serve-preview.py --port 8765`, danach `python tools/check-project-page.py http://127.0.0.1:8765`.
 
 ---
 

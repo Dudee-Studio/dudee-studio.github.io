@@ -1,67 +1,63 @@
 {
-  "version": "V10",
+  "version": "V11",
   "published_file": "videos/einkaufsliste-gerichte.mp4",
-  "source": "Abgehakt-V10, freigegebene Videoüberarbeitung19.10.2026",
-  "website_export": "Clean export with optional native German captions; same cut as reviewed captioned store export",
+  "source": "Autorisierte Titel-/Fokuskorrekturen19.10.2026 und Hinweis auf separates Video zur Pro-Version",
+  "website_export": "clean; optional German WebVTT",
   "video": {
-    "sha256": "301448d8c3781725806f136c1f54bbb249424ab5c2885e9c9e1e4175136106d0",
-    "duration": 55.0,
+    "sha256": "23136fc34de4626d5aed3587c15a32f7b7a155bb463e88ea3d146d0d091dec5b",
+    "bytes": 6384382,
+    "full_decode": "passed",
+    "frames": 1770,
+    "audio": {
+      "input_i": "-16.23",
+      "input_tp": "-2.37",
+      "input_lra": "3.70",
+      "input_thresh": "-26.42",
+      "output_i": "-16.09",
+      "output_tp": "-2.50",
+      "output_lra": "3.50",
+      "output_thresh": "-26.22",
+      "normalization_type": "dynamic",
+      "target_offset": "0.09"
+    },
+    "black_frames_detected": false,
+    "duration": 59,
     "resolution": [
       1920,
       1080
     ],
-    "frames": 1650,
     "fps": "30/1",
-    "color": "bt709",
-    "full_decode": "passed",
-    "unintended_full_black_frames": "none detected",
-    "audio": {
-      "input_i": "-16.06",
-      "input_tp": "-2.37",
-      "input_lra": "3.30",
-      "input_thresh": "-26.19",
-      "output_i": "-16.11",
-      "output_tp": "-2.50",
-      "output_lra": "3.10",
-      "output_thresh": "-26.18",
-      "normalization_type": "dynamic",
-      "target_offset": "0.11"
-    }
+    "color": "bt709"
   },
-  "reviewed_store_export_sha256": "7e4fc60eb280cbf62648b711e1ce0ea12e1fdbd09b20a0e5b50dad7439dd5db5",
+  "reviewed_store_export_sha256": "c91ea0f73114cc050d10e4e90a2598818b8583693ec967d5c7cbe93dc272f5d1",
   "captions": {
     "file": "videos/overview-de.vtt",
-    "sha256": "f6c0982d014ca0f3476282689dcbd55d1bb6edf536269468bb175b69cd28ff7d"
+    "sha256": "37d393423efc62bad6a7eb742a584144375a3f43448ce34efcec5f844d58321c"
   },
   "poster": {
     "file": "assets/einkaufsliste/poster.jpg",
-    "sha256": "bb9a86e1b015fa34c54aed8b2fb121993eb4ca73a8a8008c5859f1b700c8f752"
+    "sha256": "859752f5a332c2cdcf371f02374c17240188b3e0c4a37d08b5aa857e623176de"
   },
-  "corrections": {
-    "logo_sec": 0.5,
-    "main_story": "Gerichte → Zutaten auf die Liste → Milch ergänzen → Einkauf → Rückblick",
-    "shopping_total_eur": 70.1,
-    "shopping_cart_eur": 57.12,
-    "shopping_open_eur": 12.98,
-    "phone_sec": [
-      42,
-      43
+  "changes": {
+    "title": [
+      "Dein Einkauf im Griff",
+      0,
+      1.5
     ],
-    "pro_version_teaser_sec": [
-      48,
-      55
+    "cta": [
+      "Mehr zur Pro-Version",
+      "Im separaten Video",
+      56,
+      59
     ],
-    "claim_to_teaser_pause_sec": 1.54,
-    "three_teaser_benefits": [
-      "Gemeinsam planen",
-      "Weniger tippen / Barcode-Scanner",
-      "Ausgaben nach Kategorien verstehen"
-    ]
+    "full_app": true,
+    "focus_source": "Semantisches Einzelreview anhand tatsächlicher Quellkontrollen und Sprecherwortzeiten; keine OCR-Sammelrahmen.",
+    "camera_motion": false
   },
-  "review": "Bild, Ablauf und Produktversprechen erneut geprüft; keine weiteren Pflichtkorrekturen im beauftragten Umfang. Keine subjektive Hörprüfung.",
+  "review": "Abgehakt Hauptfilm V11 – gezielte Korrekturprüfung\n\n59 Sekunden,1920×1080,30fps. Die aktuelle Enddatei und alle33Einstellungen wurden anhand ihrer aus dem MP4 extrahierten Kontaktbögen angesehen. Kritische Szenen: Zutaten zuerst, danach echter Übernahmebutton; Milch-Mengensteuerung und Artikelzustand; Tomaten-Checkbox vor/nach; Kostenblock57,12/12,98/70,10; Mehr-Tab und danach unmarkierter Überblick; Vorratszeile; Monatswerte nacheinander; Seitentitel und echte Hilfe-Karte. Die Rechtecke stammen aus semantischem Quellreview des dedizierten Hauptfilm-/Portraitagenten, keine automatische OCR-Vereinigung. Alle echten Appbilder bleiben vollständig und proportional.\n\nStartlogo mit Titel Dein Einkauf im Griff von0–1,5s. Vorhandene komplette Sprachaufnahmen um1s verschoben, keine Beschleunigung. Die Nachsatzvorteile bleiben nach Markenabschluss getrennt. Neue Endkarte56–59s: Mehr zur Pro-Version / Im separaten Video. Dies ist ein Filmhinweis, keine Behauptung einer automatisch abspielenden oder bereits verlinkten Folgedatei.\n\nBild-/Produkt-/Formal-/Technikprüfung bestanden. Hauptfilm im Querformat verwendet die bisherigen freigegebenen Querfotos. Die neu erstellten nativen Hochkantbilder sind in den separaten Handyfassungen eingesetzt und werden dort nochmals geprüft. Kein Kamerawackeln.\n\nKeine subjektive Hörprüfung, kein Nutzertest. AAC-Pegel ersetzen diese Prüfung nicht.\nGeprüfterSHA256:c91ea0f73114cc050d10e4e90a2598818b8583693ec967d5c7cbe93dc272f5d1\nLautheit:-16.23LUFS,TruePeak-2.37dBTP\n",
   "website": {
     "autoplay": false,
     "download_link": false,
-    "captions": "optional German WebVTT"
+    "portrait_embedded": false
   }
 }

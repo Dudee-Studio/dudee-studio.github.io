@@ -35,7 +35,7 @@ with sync_playwright() as p:
                         autoplay:v.autoplay, controls:v.controls, paused:v.paused};
             }''')
             assert result['width'] == 1920 and result['height'] == 1080, result
-            assert 54.9 <= result['duration'] <= 55.1, result
+            assert 58.9 <= result['duration'] <= 59.1, result
             assert result['controls'] and not result['autoplay'] and not result['paused'], result
             assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'Horizontal overflow'
             page.wait_for_function('document.querySelector("video").currentTime > 0.8')
