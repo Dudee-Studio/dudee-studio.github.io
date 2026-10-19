@@ -1,3 +1,17 @@
+# Aktuelles Hauptvideo: Abgehakt V10
+
+`einkaufsliste-gerichte.mp4` zeigt die freigegebene 55-Sekunden-Fassung in 1920×1080 bei 30 fps mit deutschem Ton. Die Website nutzt den Export ohne eingebrannte Untertitel und die zuschaltbaren deutschen Untertitel aus `overview-de.vtt`. Auf Start- und Projektseite ist das dazugehörige Vorschaubild eingebunden. Kein Autoplay oder Download-Angebot.
+
+Ablauf:0,5sLogo; Gerichte und Zutatenübernahme vor dem Ergänzen der Milch; Einkauf über70,10€ mit57,12€imWagen und12,98€offen bei23s; kostenloser Rückblick; Handybild42–43s; Markenslogan und Pause; kurzer Nachsatz zur Pro-Version48–55s. Die drei Vorteile erscheinen nacheinander: geteilte Liste, Barcode-Scanner und Ausgaben nach Kategorien. Echte Appansichten bleiben vollständig; feste Bilder ohne Kamerawackeln. KI-Fotografien und App mit Demo-Daten, keine tatsächliche Scan- oder Zwei-Geräte-Sync-Vorführung.
+
+Technischer Produktionsnachweis mit SHA-256: `overview-production.json`. Beide Originalexporte wurden vollständig decodiert und das konkrete Schlussstück erneut aus Gestaltungs- und Produktsicht geprüft. Stimme, Betonung und musikalische Wirkung wurden nicht subjektiv gehört. Neue Aufnahme mit der bereits gewählten Livia-Stimme; vorhandene Musik und gültige Sprachpassagen wiederverwendet. Die vollständige lokale Produktionsmappe liegt unter `/workspace/artifacts/abgehakt-video-v10`; die älteren Renderer unten reproduzieren historische Fassungen.
+
+Wiedergabeprüfung: `python tools/serve-preview.py --port 8765`, danach `python tools/check-project-page.py http://127.0.0.1:8765`. Mobile/Desktop, hell/dunkel, Untertitel und exklusiver Ton werden an der tatsächlich geladenen Datei geprüft.
+
+---
+
+# Archiv früherer Produktionen
+
 ## Aktuelle Fotofilme: kostenlose App und Pro getrennt
 
 Die aktuelle Hauptfassung zeigt die kostenlose App in 33 Sekunden. Der zweite Film zeigt Pro in 26 Sekunden. Beide sind Fotosequenzen in 1280 × 720 bei 24 fps: vier verschiedene Handlungsschritte je Szene, kurze Stop-Motion-Wechsel, leichte Kamerabewegung und echte App-Einblendungen. Sie ersetzen die frühere 42-Sekunden-Montage und den 30-Sekunden-Teaser unter denselben öffentlichen Dateinamen.

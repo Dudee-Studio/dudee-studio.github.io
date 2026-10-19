@@ -34,8 +34,8 @@ with sync_playwright() as p:
                 return {duration:v.duration, width:v.videoWidth, height:v.videoHeight,
                         autoplay:v.autoplay, controls:v.controls, paused:v.paused};
             }''')
-            assert result['width'] == 1280 and result['height'] == 720, result
-            assert 32.8 <= result['duration'] <= 33.2, result
+            assert result['width'] == 1920 and result['height'] == 1080, result
+            assert 54.9 <= result['duration'] <= 55.1, result
             assert result['controls'] and not result['autoplay'] and not result['paused'], result
             assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'Horizontal overflow'
             page.wait_for_function('document.querySelector("video").currentTime > 0.8')
