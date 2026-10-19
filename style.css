@@ -149,6 +149,14 @@ footer nav { font-size: .95rem; gap: 8px 20px; }
 .project-demo { margin: 0; min-width: 0; width: 100%; max-width: 680px; justify-self: center; }
 .media.portrait { aspect-ratio: 9 / 16; background: #F6F8F0; }
 .project-demo figcaption { margin-top: 10px; color: var(--muted); font-size: .82rem; line-height: 1.5; }
+.video-formats { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.video-formats label { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 6px 16px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: .9rem; cursor: pointer; }
+.video-formats input:checked + label { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.video-formats input:focus-visible + label { outline: 3px solid var(--accent); outline-offset: 3px; }
+.video-formats .video-pane { flex: 0 0 100%; width: 100%; }
+.video-formats .video-portrait { flex-basis: auto; max-width: 360px; }
+#format-landscape:not(:checked) ~ .video-landscape,
+#format-portrait:not(:checked) ~ .video-portrait { display: none; }
 .project-cover img { display: block; width: 100%; height: 100%; object-fit: contain; background: #F6F8F0; }
 .info .project-lead { color: var(--fg); font-weight: 700; }
 .facts small { color: var(--muted); font-size: .82rem; }

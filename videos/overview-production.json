@@ -89,6 +89,7 @@
   "website": {
     "autoplay": false,
     "download_link": false,
-    "portrait_embedded": false
+    "portrait_embedded": true,
+    "format_selector": true
   }
 }

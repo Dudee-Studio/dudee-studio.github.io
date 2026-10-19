@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Projekte | Dudee Studio</title>
 <meta name="description" content="Abgehakt: Dein Einkauf im Griff. Einkaufslisten, Gerichte und Angebote – mit kostenloser Basis und optionalem Pro. Eine Android-App von Dudee Studio.">
-<link rel="stylesheet" href="style.css?v=9">
+<link rel="stylesheet" href="style.css?v=10">
 </head>
 <body>
 <div class="wrap">
@@ -24,12 +24,25 @@
       <div class="group-head"><h2 id="aktuelle-projekte">Aktuelle Projekte</h2></div>
       <article class="project" id="einkaufsliste" aria-labelledby="einkaufsliste-titel">
         <figure class="project-demo">
-          <div class="media">
+          <div class="video-formats" role="group" aria-label="Videoformat">
+            <input class="sr-only" type="radio" name="videoformat" id="format-landscape" aria-controls="main-landscape" checked>
+            <label for="format-landscape">Querformat</label>
+            <input class="sr-only" type="radio" name="videoformat" id="format-portrait" aria-controls="main-portrait">
+            <label for="format-portrait">Hochformat</label>
+            <div class="media video-pane video-landscape" id="main-landscape">
             <video controls controlslist="nodownload" playsinline preload="none" poster="assets/einkaufsliste/poster.jpg?v=13" width="1920" height="1080" aria-label="Abgehakt: planen, einkaufen und Ausgaben verstehen; zum Schluss ein Hinweis auf die Pro-Version" aria-describedby="video-hinweis">
               <source src="videos/einkaufsliste-gerichte.mp4?v=13" type="video/mp4">
               <track kind="captions" src="videos/overview-de.vtt?v=13" srclang="de" label="Deutsch">
               Dein Browser unterstützt keine Videowiedergabe. Bitte nutze einen aktuellen Browser.
             </video>
+            </div>
+            <div class="media portrait video-pane video-portrait" id="main-portrait">
+              <video controls controlslist="nodownload" playsinline preload="none" poster="videos/overview-portrait-poster.jpg?v=13" width="1080" height="1920" aria-label="Abgehakt im Hochformat: planen, einkaufen und Ausgaben verstehen; zum Schluss ein Hinweis auf die Pro-Version" aria-describedby="video-hinweis">
+                <source src="videos/einkaufsliste-gerichte-hochformat.mp4?v=13" type="video/mp4">
+                <track kind="captions" src="videos/overview-portrait-de.vtt?v=13" srclang="de" label="Deutsch">
+                Dein Browser unterstützt keine Videowiedergabe. Bitte nutze einen aktuellen Browser.
+              </video>
+            </div>
           </div>
           <figcaption id="video-hinweis">Dein Einkauf im Griff – in 59 Sekunden. Kostenlose Funktionen und ein kurzer Ausblick auf die Pro-Version. KI-Bilder und echte App-Ansichten mit Demo-Daten.</figcaption>
         </figure>
@@ -101,6 +114,6 @@
     </nav>
   </footer>
 </div>
-<script src="script.js?v=2"></script>
+<script src="script.js?v=3"></script>
 </body>
 </html>

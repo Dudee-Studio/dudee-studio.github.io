@@ -8,7 +8,7 @@ Der Musikausklang um Sekunde 55 wurde ersetzt: ein durchgehender Ausschnitt der 
 
 Unter dem Logo steht „Dein Einkauf im Griff“. Gerichte und Zutatenübernahme kommen vor der Milch. Einkaufskosten: 70,10 € gesamt, 57,12 € im Wagen und 12,98 € offen. Der Schluss verweist auf das separate Video zur Pro-Version. Kein Kamerawackeln. Die Website verwendet den sauberen Export mit zuschaltbaren deutschen Untertiteln; kein Autoplay und kein Download-Angebot.
 
-Technischer Produktionsnachweis, Prüfsummen und Review: `overview-production.json`. Hauptfilm lokal: `/workspace/artifacts/abgehakt-video-v13`. Die Handyfassung liegt ausschließlich auf dem separaten Medienbranch, ohne Websiteveröffentlichung. Die früheren Produktionen unten sind archivierte Stände.
+Technischer Produktionsnachweis, Prüfsummen und Review: `overview-production.json`. Hauptfilm lokal: `/workspace/artifacts/abgehakt-video-v13`. Die zusätzliche Handyfassung ist jetzt ebenfalls auf der Projektseite veröffentlicht. Über „Querformat“ / „Hochformat“ ist jeweils ein Player sichtbar; ein Formatwechsel pausiert die Wiedergabe. Beide Websitefassungen verwenden saubere MP4s mit optionalen deutschen Untertiteln. Kein Autoplay oder Download-Angebot. Dateien: `einkaufsliste-gerichte-hochformat.mp4`, `overview-portrait-de.vtt`, `overview-portrait-poster.jpg`; Prüfsummen und Review: `overview-portrait-production.json`. Der Nutzer hat die Veröffentlichung beider Hauptfassungen ausdrücklich freigegeben. Die früheren Produktionen unten sind archivierte Stände.
 
 ---
 
