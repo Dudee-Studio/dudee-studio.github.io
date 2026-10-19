@@ -1,16 +1,16 @@
 {
-  "version": "V12",
+  "version": "V13",
   "published_file": "videos/einkaufsliste-gerichte.mp4",
-  "source": "Nutzerkorrekturen: Musikausklang um55s bereinigen und Fotos randlos setzen",
+  "source": "Nutzerauftrag: Hinweis auf separates Video zur Pro-Version ab56s mit bestehender Sprecherin vertonen",
   "website_export": "clean; optional German WebVTT",
   "video": {
-    "sha256": "e4ce5f6813f8b7499b559affc46b98407eee7f6074e5d139e5144ee1c1d31a92",
-    "bytes": 8338719,
+    "sha256": "9f2b5b7943dc7b14323460e0dcaf3d13f83c977f4d48ac7e8417e74c908846c2",
+    "bytes": 8334944,
     "full_decode": "passed",
     "frames": 1770,
     "black_frames": false,
-    "audio_packet_hash": "SHA256=ed2396741b2781b497cdfcadf11d853bb2a91d1e1c65d06fe3ba5e6cc94b6f52",
-    "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -15.9 LUFS\n    Threshold: -26.2 LUFS\n\n  Loudness range:\n    LRA:         3.7 LU\n    Threshold: -36.1 LUFS\n    LRA low:   -18.0 LUFS\n    LRA high:  -14.4 LUFS\n\n  True peak:\n    Peak:       -2.4 dBFS\n[out#0/null @ 0x55d292665f40] video:761KiB audio:11064KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe= 1770 fps=470 q=-0.0 Lsize=N/A time=00:00:59.00 bitrate=N/A speed=15.7x    \n",
+    "audio_hash": "SHA256=92d7eee5e6ef883761e71e3387ab689fd24e9ba407ef08b3bd063415e3cdbc2e",
+    "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -15.9 LUFS\n    Threshold: -26.0 LUFS\n\n  Loudness range:\n    LRA:         3.5 LU\n    Threshold: -35.9 LUFS\n    LRA low:   -17.8 LUFS\n    LRA high:  -14.4 LUFS\n\n  True peak:\n    Peak:       -2.4 dBFS\n[out#0/null @ 0x56122c064f40] video:761KiB audio:11064KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe= 1770 fps=425 q=-0.0 Lsize=N/A time=00:00:59.00 bitrate=N/A speed=14.2x    \n",
     "duration": 59,
     "resolution": [
       1920,
@@ -18,10 +18,10 @@
     ],
     "fps": "30/1"
   },
-  "reviewed_store_export_sha256": "b8283ecb33d1c8e6d8c62ad960b49f79d62bc41e6c9d2077683cc9711539d36b",
+  "reviewed_store_export_sha256": "df8867e5682f3ae778600392bf1514a507e38ea35862548dbce977ec9ac89f0a",
   "captions": {
     "file": "videos/overview-de.vtt",
-    "sha256": "37d393423efc62bad6a7eb742a584144375a3f43448ce34efcec5f844d58321c"
+    "sha256": "67136537352979b2b5730ffb69770e76208f2d7fdd936b13e156129206668600"
   },
   "poster": {
     "file": "assets/einkaufsliste/poster.jpg",
@@ -63,9 +63,29 @@
       "old_56s_restart_removed": true,
       "new_generation": false,
       "subjective_listening": false
+    },
+    "spoken_cta": {
+      "text": "Mehr zur Pro-Version im separaten Video.",
+      "voice": "Livia",
+      "model": "eleven_v3",
+      "native_speed": 1,
+      "voice_interval_sec": [
+        56,
+        58.48
+      ],
+      "caption_interval_sec": [
+        56.08,
+        58.5
+      ],
+      "source": "/workspace/artifacts/abgehakt-video-v13/audio/new-outro/pro-video-hinweis.mp3",
+      "pcm_prefix_identical_before_sec": 56,
+      "previous_speech_end_sec": 54.94,
+      "duration_sec": 59,
+      "new_takes": 1,
+      "subjective_listening": false
     }
   },
-  "review": "Abgehakt V12 Querformat – gezielte Abschlussprüfung\nSHA-256: b8283ecb33d1c8e6d8c62ad960b49f79d62bc41e6c9d2077683cc9711539d36b\nDauer59s, 1920×1080,30fps. Nutzerauftrag: Rauschen um55s beheben und Fotos ohne helle Außenränder einsetzen.\n\nAlle33 tatsächlichen Endexport-Zustände wurden im Kontaktbogen visuell geprüft. Alle Lifestylefotos und drei Pro-Nachsatz-Fotos sind randlos bis zu allen vier Bildkanten gesetzt. Gesichter und zentrale Requisiten bleiben sichtbar; die Detailaufnahme zeigt ausdrücklich nur Hände/Spielbrett. Protexte sind weiß auf einem dunklen Verlauf über der Fotografie. Keine hellen Fotopanels, kein Kamerawackeln. Startlogo und abschließende Textkarte behalten ihren Marken-Hintergrund.\n\nAlle17 Appzustände, Quellbilder, Positionen und Hervorhebungen sind identisch zur V11-Komposition. Vollständige proportionale App. Bildfolge,59s-Dauer und sämtliche Untertitelzeiten/-texte bleiben erhalten. Alle Untertitel an ihren tatsächlich codierten Pixelpositionen geprüft, auch über randloser Fotografie. Formale Szenenprüfung bestanden.\n\nMusik: störender alter Instrumental-Ausklang und getrennter56s-Musikansatz ab53,4s ersetzt. Ein durchgehender vorhandener Ausschnitt43,4–49s trägt nun den Schluss, mit350ms Einblendung, Absenkung unter Sprache und900ms Ausblendung. Kein neuer Musik-/Sprachauftrag. Die PCM-Samples vor53,4s sind unverändert. Sprecherworte und zeitliche Platzierung sind unverändert; das Ende der Sprecheraufnahme bleibt erhalten. Alle vier sauberen/untertitelten Quer-/Hochformatexporte tragen denselben korrigierten AAC-Payload.\n\nTechnik: vollständiges Decoding beider Dateien bestanden,1770Frames, kein Schwarzbild. Alle randlosen Bildkanten gegen die Foto-Komposition verglichen; keine hellen Paddingflächen. Vollständige App und Untertitel separat geprüft. Messdaten in validation.json.\n\nHörgrenze: Audio nicht subjektiv gehört. Die Ursache wurde anhand der separaten Musik-/Sprecher-/Effektspuren eingegrenzt und der betroffene Musikabschnitt ersetzt. Kein behauptetes subjektives Urteil über Rauschfreiheit, Stimmemotion oder musikalischen Geschmack.\n",
+  "review": "Abgehakt V13 – gezielte Prüfung des vertonten Schluss-Hinweises\nPrüfmuster: /workspace/artifacts/abgehakt-video-v13/abgehakt-store.mp4\nSHA-256: df8867e5682f3ae778600392bf1514a507e38ea35862548dbce977ec9ac89f0a\n59 Sekunden. Nutzerauftrag: „Mehr zur Pro-Version im separaten Video“ ab Sekunde 56 vertonen.\n\nEin vollständiger neuer ElevenLabs-Take mit der bestehenden Livia-Stimme, Modell eleven_v3, seed13716, native Geschwindigkeit1.0. Wortlaut durch Transkription bestätigt. Aufnahme ab56,00s, erstes Wort ab56,08s, letztes Wort bis58,42s, Aufnahmeende58,508s. Kein Beschleunigen, keine Überlagerung mit der vorherigen Passage (Ende54,94s). Untertitel56,08–58,50s stimmen mit dem gesprochenen Satz überein.\n\nDie sauberen Bildstreams sind nachweislich paketidentisch zu V12: alle Fotos randlos, vollständige App, Hervorhebungen und Bildzeiten unverändert. Untertiteldateien um genau einen Cue ergänzt. Tatsächlicher neuer Schlussframe in Quer- und Hochformat visuell geprüft; Überschrift, Untertitel und Logo frei sichtbar. Stichproben der bisherigen eingebrannten Bildzustände unverändert. Gesamtlänge59s.\n\nAlle vier Exporte vollständig decodiert,1770Frames, kein Schwarzbild. Genau derselbe korrigierte AAC-Payload in beiden Formaten und beiden Untertitelfassungen. PCM vor56s byteidentisch zu V12. Ab56s vorhandene Musik unter dem neuen Take abgesenkt; bisheriger weicher Ausklang bleibt erhalten. Gemessener True Peak−2,4dBFS. Neue Untertitel im endgültigen MP4 an tatsächlichen Pixelgrenzen geprüft. Formaler Szenenplan bestanden.\n\nHörgrenze: technische Prüfung und Transkription, keine subjektive Beurteilung von Betonung, Klangfarbe oder musikalischer Wirkung. Keine neue unabhängige Agentenprüfung behauptet.\n",
   "website": {
     "autoplay": false,
     "download_link": false,

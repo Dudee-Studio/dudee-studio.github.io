@@ -1,12 +1,14 @@
-# Aktuelles Hauptvideo: Abgehakt V12
+# Aktuelles Hauptvideo: Abgehakt V13
 
 `einkaufsliste-gerichte.mp4` zeigt die freigegebene 59-Sekunden-Fassung in 1920×1080 bei 30 fps. Fotos und die drei Bilder im Pro-Nachsatz reichen ohne helle Außenränder bis an alle Bildkanten. Die Protexte liegen direkt über der Fotografie. Echte Appansichten bleiben vollständig und proportional; die Hervorhebungen und Schnittzeiten entsprechen V11.
 
-Der Musikausklang um Sekunde 55 wurde ersetzt: ein durchgehender Ausschnitt der vorhandenen Musik, Absenkung unter Sprache und weiche Ausblendung. Der separate Musikansatz bei 56 Sekunden entfällt. Alle Sprecheraufnahmen, Untertitel und Bildzeiten bleiben erhalten. PCM vor 53,4 Sekunden unverändert. Keine neue Sprach-/Musikgenerierung für diese Korrektur. Der Ton wurde anhand getrennter Spuren und Messwerte geprüft; keine subjektive Hörprüfung.
+Neu in V13: Von 56,00 bis 58,51 Sekunden spricht die bestehende Livia-Stimme „Mehr zur Pro-Version im separaten Video“. Ein vollständiger neuer Take bei natürlicher Geschwindigkeit; Untertitel entsprechend ergänzt. Die vorhandene Musik ist darunter abgesenkt. Bilder, Appansichten und 59-Sekunden-Länge bleiben unverändert.
+
+Der Musikausklang um Sekunde 55 wurde ersetzt: ein durchgehender Ausschnitt der vorhandenen Musik, Absenkung unter Sprache und weiche Ausblendung. Der separate Musikansatz bei 56 Sekunden entfällt. Die übrigen Sprecheraufnahmen, Untertitel und Bildzeiten bleiben erhalten. PCM vor 53,4 Sekunden unverändert. Für die V12-Musikkorrektur war keine neue Sprach-/Musikgenerierung nötig. V13 ergänzt ausschließlich den genannten Sprecher-Take. Der Ton wurde anhand getrennter Spuren und Messwerte geprüft; keine subjektive Hörprüfung.
 
 Unter dem Logo steht „Dein Einkauf im Griff“. Gerichte und Zutatenübernahme kommen vor der Milch. Einkaufskosten: 70,10 € gesamt, 57,12 € im Wagen und 12,98 € offen. Der Schluss verweist auf das separate Video zur Pro-Version. Kein Kamerawackeln. Die Website verwendet den sauberen Export mit zuschaltbaren deutschen Untertiteln; kein Autoplay und kein Download-Angebot.
 
-Technischer Produktionsnachweis, Prüfsummen und Review: `overview-production.json`. Hauptfilm lokal: `/workspace/artifacts/abgehakt-video-v12`. Die Handyfassung liegt ausschließlich auf dem separaten Medienbranch, ohne Websiteveröffentlichung. Die früheren Produktionen unten sind archivierte Stände.
+Technischer Produktionsnachweis, Prüfsummen und Review: `overview-production.json`. Hauptfilm lokal: `/workspace/artifacts/abgehakt-video-v13`. Die Handyfassung liegt ausschließlich auf dem separaten Medienbranch, ohne Websiteveröffentlichung. Die früheren Produktionen unten sind archivierte Stände.
 
 ---
 
