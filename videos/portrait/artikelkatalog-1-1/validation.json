@@ -1,0 +1,150 @@
+{
+  "film": "artikelkatalog-1-1",
+  "frames": 990,
+  "duration": 33.0,
+  "files": [
+    {
+      "file": "abgehakt.mp4",
+      "sha256": "657495e7eb9dd7e04d67564cd994737916560e8e3435a4bb6c8447ca7cf46217",
+      "bytes": 2950293,
+      "full_decode": true,
+      "source_audio_identical": true
+    },
+    {
+      "file": "abgehakt-store.mp4",
+      "sha256": "c101a561f0fdfcbaed37cfa900b7e4df038ce4948874fef374455c0ffb06b919",
+      "bytes": 2963186,
+      "full_decode": true,
+      "source_audio_identical": true
+    }
+  ],
+  "states": [
+    {
+      "index": 0,
+      "kind": "logo",
+      "actual_frame_mae": 1.4200514403292182,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 1,
+      "kind": "photo",
+      "actual_frame_mae": 2.6227406442901233,
+      "four_encoded_edges_mae": [
+        1.0350694444444446,
+        2.4868827160493825,
+        2.6003038194444446,
+        2.358984375
+      ],
+      "photo_full_bleed": true
+    },
+    {
+      "index": 2,
+      "kind": "app",
+      "actual_frame_mae": 1.3236738040123457,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 3,
+      "kind": "app",
+      "actual_frame_mae": 1.3381381815843623,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 4,
+      "kind": "app",
+      "actual_frame_mae": 1.3399422903806586,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 5,
+      "kind": "app",
+      "actual_frame_mae": 1.3382400977366256,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 6,
+      "kind": "app",
+      "actual_frame_mae": 1.5086442258230452,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 7,
+      "kind": "app",
+      "actual_frame_mae": 1.510314268261317,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 8,
+      "kind": "app",
+      "actual_frame_mae": 1.4961493698559671,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 9,
+      "kind": "app",
+      "actual_frame_mae": 1.5380640753600823,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 10,
+      "kind": "app",
+      "actual_frame_mae": 1.5124683320473251,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 11,
+      "kind": "app",
+      "actual_frame_mae": 1.5212704153806584,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 12,
+      "kind": "app",
+      "actual_frame_mae": 1.4760144997427984,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 13,
+      "kind": "app",
+      "actual_frame_mae": 1.5148813657407407,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 14,
+      "kind": "photo",
+      "actual_frame_mae": 2.52699620627572,
+      "four_encoded_edges_mae": [
+        1.1047067901234568,
+        2.327391975308642,
+        2.2934895833333333,
+        2.25390625
+      ],
+      "photo_full_bleed": true
+    },
+    {
+      "index": 15,
+      "kind": "photo",
+      "actual_frame_mae": 2.7491488233024692,
+      "four_encoded_edges_mae": [
+        1.5564043209876541,
+        2.039158950617284,
+        2.2317708333333335,
+        3.157335069444444
+      ],
+      "photo_full_bleed": true
+    },
+    {
+      "index": 16,
+      "kind": "photo",
+      "actual_frame_mae": 2.5487488747427984,
+      "four_encoded_edges_mae": [
+        1.105594135802469,
+        2.3289351851851854,
+        2.3020616319444445,
+        2.264301215277778
+      ],
+      "photo_full_bleed": true
+    }
+  ],
+  "passed": true
+}

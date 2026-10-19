@@ -1,0 +1,120 @@
+{
+  "film": "pro-version",
+  "frames": 1110,
+  "duration": 37.0,
+  "files": [
+    {
+      "file": "abgehakt.mp4",
+      "sha256": "447ec2c04f5838c4f93586c7d618465f64191504d61c3646098084e19b550e50",
+      "bytes": 2944118,
+      "full_decode": true,
+      "source_audio_identical": true
+    },
+    {
+      "file": "abgehakt-store.mp4",
+      "sha256": "a83f5231a1c483e02ae7b1ad0daf600575a69e541aea7f351a97d2bb6651263a",
+      "bytes": 3031765,
+      "full_decode": true,
+      "source_audio_identical": true
+    }
+  ],
+  "states": [
+    {
+      "index": 0,
+      "kind": "logo",
+      "actual_frame_mae": 1.3946227173353911,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 1,
+      "kind": "photo",
+      "actual_frame_mae": 2.338969425154321,
+      "four_encoded_edges_mae": [
+        0.9324845679012346,
+        2.5305555555555554,
+        2.2526692708333336,
+        2.0667100694444445
+      ],
+      "photo_full_bleed": true
+    },
+    {
+      "index": 2,
+      "kind": "app",
+      "actual_frame_mae": 1.2421230388374485,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 3,
+      "kind": "app",
+      "actual_frame_mae": 1.2723615933641976,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 4,
+      "kind": "app",
+      "actual_frame_mae": 1.5156947659465019,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 5,
+      "kind": "app",
+      "actual_frame_mae": 1.203956243569959,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 6,
+      "kind": "app",
+      "actual_frame_mae": 1.3888867991255145,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 7,
+      "kind": "app",
+      "actual_frame_mae": 1.526147762345679,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 8,
+      "kind": "app",
+      "actual_frame_mae": 1.4943537808641976,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 9,
+      "kind": "app",
+      "actual_frame_mae": 1.4348739711934158,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 10,
+      "kind": "photo",
+      "actual_frame_mae": 2.5222069508744855,
+      "four_encoded_edges_mae": [
+        0.9535108024691358,
+        2.5896219135802467,
+        2.273654513888889,
+        2.3348958333333334
+      ],
+      "photo_full_bleed": true
+    },
+    {
+      "index": 11,
+      "kind": "photo",
+      "actual_frame_mae": 2.528908661265432,
+      "four_encoded_edges_mae": [
+        1.1047067901234568,
+        2.3361496913580244,
+        2.2973958333333333,
+        2.2602647569444447
+      ],
+      "photo_full_bleed": true
+    },
+    {
+      "index": 12,
+      "kind": "logo-end",
+      "actual_frame_mae": 1.4037501607510288,
+      "original_app_or_title_identical": true
+    }
+  ],
+  "passed": true
+}

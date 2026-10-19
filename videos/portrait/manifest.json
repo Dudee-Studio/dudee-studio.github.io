@@ -1,0 +1,206 @@
+{
+  "publication": "Repository-only; this branch is not deployed by GitHub Pages.",
+  "branch": "media/abgehakt-portrait-20261019",
+  "photo_fit": "Full-bleed 1080x1920; static photos without white margins.",
+  "app_screens": "Complete and proportional; not cropped.",
+  "films": [
+    {
+      "id": "hauptvideo-de",
+      "title": "Dein Einkauf im Griff",
+      "language": "de",
+      "files": [
+        {
+          "file": "hauptvideo-de/abgehakt-hochformat-clean.mp4",
+          "bytes": 9066819,
+          "sha256": "12da10a24cd5fa17685d10b1d5a9d5c3f3eb71d6c4a407fbccc4f8ac70b31e09"
+        },
+        {
+          "file": "hauptvideo-de/abgehakt-hochformat.mp4",
+          "bytes": 9104335,
+          "sha256": "cccb9dad3abcc3bae97176063c14b719770442d1dcebc7533f1b112d9fc808b6"
+        },
+        {
+          "file": "hauptvideo-de/captions.vtt",
+          "bytes": 2473,
+          "sha256": "62f7a0697dbc775bddd134cd04c0530726363527fb4651f95e22a0b6000c42b7"
+        },
+        {
+          "file": "hauptvideo-de/poster.jpg",
+          "bytes": 28619,
+          "sha256": "f80827ec91b6f027fe3b4b5015afc0177ac1f3f8e5fdbf2292877af46acd6c21"
+        },
+        {
+          "file": "hauptvideo-de/validation.json",
+          "bytes": 3015,
+          "sha256": "5c268ef8f7bf03cfa1ca8c9a444c070d4e23f75054537b8076fc4c8afc4fe330"
+        }
+      ],
+      "source": "/workspace/artifacts/abgehakt-video-v13-hochformat"
+    },
+    {
+      "id": "main-video-en",
+      "title": "Shopping, sorted.",
+      "language": "en",
+      "files": [
+        {
+          "file": "main-video-en/abgehakt-hochformat-clean.mp4",
+          "bytes": 8816796,
+          "sha256": "750abc44ef6ac969b47e7105f9f0fedcbfda0b4b8be989cf7094cd41a8bc4c5f"
+        },
+        {
+          "file": "main-video-en/abgehakt-hochformat.mp4",
+          "bytes": 8937447,
+          "sha256": "c66e1ea453998036326924993fc76c497fb32d0e7f8ba581db3904b89f39546d"
+        },
+        {
+          "file": "main-video-en/captions.vtt",
+          "bytes": 2523,
+          "sha256": "20792be4b8c393cfea04b811cb67c522a03064cc9afe0ad926ce81b5f9202e5d"
+        },
+        {
+          "file": "main-video-en/poster.jpg",
+          "bytes": 28954,
+          "sha256": "6b1e4df339f88cc1130435e222e34d52585bcf807ff5fc1c81ba43428e90e5a6"
+        },
+        {
+          "file": "main-video-en/validation.json",
+          "bytes": 16226,
+          "sha256": "081ae5e151304e482f466e22ee8ceb28859473fa38e4514cfec27a927df3116a"
+        }
+      ],
+      "source": "/workspace/artifacts/abgehakt-main-en-v1/portrait"
+    },
+    {
+      "id": "kostenlos",
+      "title": "Kostenlose Funktionen",
+      "language": "de",
+      "files": [
+        {
+          "file": "kostenlos/abgehakt-hochformat-clean.mp4",
+          "bytes": 3508644,
+          "sha256": "b26ae462ff335904813ae43d7c98198d3764b02660ca6b84c8621c8411b675c6"
+        },
+        {
+          "file": "kostenlos/abgehakt-hochformat.mp4",
+          "bytes": 3652589,
+          "sha256": "2a2b1b71f7672c3f6816c1b0cc3f0d333388ca00acc4782674541c427a8aca8d"
+        },
+        {
+          "file": "kostenlos/captions.vtt",
+          "bytes": 1778,
+          "sha256": "1c5a6b7281753af4dc293257facce91be1af7e333d1ec2c5f05528a8f5ad36b7"
+        },
+        {
+          "file": "kostenlos/poster.jpg",
+          "bytes": 130959,
+          "sha256": "62335e554824413d14ba9d51d94d8418d4e9e4c81e8789b2e97580be32e24778"
+        },
+        {
+          "file": "kostenlos/validation.json",
+          "bytes": 4135,
+          "sha256": "79d65a6f7e6810b68e95010dd0eacddd54c35d52b360e03da0a39aa08e2ec10b"
+        }
+      ],
+      "source": "/workspace/artifacts/abgehakt-hochformat-randlos-v1/kostenlos"
+    },
+    {
+      "id": "pro-version",
+      "title": "Die Pro-Version",
+      "language": "de",
+      "files": [
+        {
+          "file": "pro-version/abgehakt-hochformat-clean.mp4",
+          "bytes": 2944118,
+          "sha256": "447ec2c04f5838c4f93586c7d618465f64191504d61c3646098084e19b550e50"
+        },
+        {
+          "file": "pro-version/abgehakt-hochformat.mp4",
+          "bytes": 3031765,
+          "sha256": "a83f5231a1c483e02ae7b1ad0daf600575a69e541aea7f351a97d2bb6651263a"
+        },
+        {
+          "file": "pro-version/captions.vtt",
+          "bytes": 1305,
+          "sha256": "617053f2c20a052ea13359ef23df963e52afd0f8a25cfb50d5560d816c21c795"
+        },
+        {
+          "file": "pro-version/poster.jpg",
+          "bytes": 134535,
+          "sha256": "2d9801950b24f29f41ee95119b99ca3a723a204e24fef6aa320422b3d541f31f"
+        },
+        {
+          "file": "pro-version/validation.json",
+          "bytes": 2853,
+          "sha256": "e5ec422655edcaee5de8291729762d2e190e7e7bcee70ae768a413d3fffb2ea8"
+        }
+      ],
+      "source": "/workspace/artifacts/abgehakt-hochformat-randlos-v1/pro-version"
+    },
+    {
+      "id": "analyse",
+      "title": "Ausgaben verstehen",
+      "language": "de",
+      "files": [
+        {
+          "file": "analyse/abgehakt-hochformat-clean.mp4",
+          "bytes": 3319767,
+          "sha256": "05515491331b8b22c9b347e38b35ae6a718a6252fc36241a3afbfb4f7e3adae1"
+        },
+        {
+          "file": "analyse/abgehakt-hochformat.mp4",
+          "bytes": 3340495,
+          "sha256": "f1c08b3ac8310a32a5d49badae97530f4bfb5d5efa2ed7eb9d0a35f2f05e2547"
+        },
+        {
+          "file": "analyse/captions.vtt",
+          "bytes": 1141,
+          "sha256": "9e410e51b33324dc2884a21a7c2e917e624cd1fc75dd0f0bccaefb9342a86cb1"
+        },
+        {
+          "file": "analyse/poster.jpg",
+          "bytes": 70456,
+          "sha256": "3c63ff3910c42a7c1a8951cb1190cb4b95f76d723fcfaea9463e5d6f52f2641a"
+        },
+        {
+          "file": "analyse/validation.json",
+          "bytes": 3112,
+          "sha256": "d1d0916805fb5eeb38fc22802ddb23204ff7005f616310c39da287f8758ecf2e"
+        }
+      ],
+      "source": "/workspace/artifacts/abgehakt-hochformat-randlos-v1/analyse"
+    },
+    {
+      "id": "artikelkatalog-1-1",
+      "title": "Community-Katalog – Vorschau 1.1",
+      "language": "de",
+      "files": [
+        {
+          "file": "artikelkatalog-1-1/abgehakt-hochformat-clean.mp4",
+          "bytes": 2950293,
+          "sha256": "657495e7eb9dd7e04d67564cd994737916560e8e3435a4bb6c8447ca7cf46217"
+        },
+        {
+          "file": "artikelkatalog-1-1/abgehakt-hochformat.mp4",
+          "bytes": 2963186,
+          "sha256": "c101a561f0fdfcbaed37cfa900b7e4df038ce4948874fef374455c0ffb06b919"
+        },
+        {
+          "file": "artikelkatalog-1-1/captions.vtt",
+          "bytes": 1166,
+          "sha256": "49b5a1536b4097fedeca003aff4b1a46c3015853b6cd53d408a53ada9179a2ba"
+        },
+        {
+          "file": "artikelkatalog-1-1/poster.jpg",
+          "bytes": 132599,
+          "sha256": "6832627d8a73f89269705ee0f75f1beb97f525ff59b02bdc2d46a3e39637280d"
+        },
+        {
+          "file": "artikelkatalog-1-1/validation.json",
+          "bytes": 3557,
+          "sha256": "4662c6c1f9633c17bf2ce115291823a757e9744d7244c2b6ba4cbac95cc2526e"
+        }
+      ],
+      "source": "/workspace/artifacts/abgehakt-hochformat-randlos-v1/artikelkatalog-1-1"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "film": "analyse",
+  "frames": 831,
+  "duration": 27.7,
+  "files": [
+    {
+      "file": "abgehakt.mp4",
+      "sha256": "05515491331b8b22c9b347e38b35ae6a718a6252fc36241a3afbfb4f7e3adae1",
+      "bytes": 3319767,
+      "full_decode": true,
+      "source_audio_identical": true
+    },
+    {
+      "file": "abgehakt-store.mp4",
+      "sha256": "f1c08b3ac8310a32a5d49badae97530f4bfb5d5efa2ed7eb9d0a35f2f05e2547",
+      "bytes": 3340495,
+      "full_decode": true,
+      "source_audio_identical": true
+    }
+  ],
+  "states": [
+    {
+      "index": 0,
+      "kind": "logo",
+      "actual_frame_mae": 1.4006917116769546,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 1,
+      "kind": "photo",
+      "actual_frame_mae": 2.7795632394547325,
+      "four_encoded_edges_mae": [
+        2.1248456790123456,
+        1.8599537037037035,
+        1.7126736111111114,
+        4.3478515625
+      ],
+      "photo_full_bleed": true
+    },
+    {
+      "index": 2,
+      "kind": "app",
+      "actual_frame_mae": 1.4398226916152261,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 3,
+      "kind": "app",
+      "actual_frame_mae": 1.414524659207819,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 4,
+      "kind": "app",
+      "actual_frame_mae": 1.321236818415638,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 5,
+      "kind": "app",
+      "actual_frame_mae": 1.4403534915123457,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 6,
+      "kind": "photo",
+      "actual_frame_mae": 2.4836339377572014,
+      "four_encoded_edges_mae": [
+        1.3981481481481481,
+        2.4140046296296296,
+        2.088064236111111,
+        2.4169053819444444
+      ],
+      "photo_full_bleed": true
+    },
+    {
+      "index": 7,
+      "kind": "app",
+      "actual_frame_mae": 1.5078504372427985,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 8,
+      "kind": "app",
+      "actual_frame_mae": 1.4429732510288067,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 9,
+      "kind": "app",
+      "actual_frame_mae": 1.3746826774691359,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 10,
+      "kind": "photo",
+      "actual_frame_mae": 2.546397247942387,
+      "four_encoded_edges_mae": [
+        1.1707561728395062,
+        2.323070987654321,
+        2.3013454861111113,
+        2.309809027777778
+      ],
+      "photo_full_bleed": true
+    },
+    {
+      "index": 11,
+      "kind": "photo",
+      "actual_frame_mae": 2.889291087962963,
+      "four_encoded_edges_mae": [
+        3.237538580246914,
+        2.0432484567901237,
+        2.347634548611111,
+        3.351215277777778
+      ],
+      "photo_full_bleed": true
+    },
+    {
+      "index": 12,
+      "kind": "photo",
+      "actual_frame_mae": 2.5454092721193415,
+      "four_encoded_edges_mae": [
+        1.105594135802469,
+        2.330671296296296,
+        2.2908203124999997,
+        2.2663194444444446
+      ],
+      "photo_full_bleed": true
+    }
+  ],
+  "passed": true
+}

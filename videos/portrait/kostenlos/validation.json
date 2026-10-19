@@ -1,0 +1,174 @@
+{
+  "film": "kostenlos",
+  "frames": 1410,
+  "duration": 47.0,
+  "files": [
+    {
+      "file": "abgehakt.mp4",
+      "sha256": "b26ae462ff335904813ae43d7c98198d3764b02660ca6b84c8621c8411b675c6",
+      "bytes": 3508644,
+      "full_decode": true,
+      "source_audio_identical": true
+    },
+    {
+      "file": "abgehakt-store.mp4",
+      "sha256": "2a2b1b71f7672c3f6816c1b0cc3f0d333388ca00acc4782674541c427a8aca8d",
+      "bytes": 3652589,
+      "full_decode": true,
+      "source_audio_identical": true
+    }
+  ],
+  "states": [
+    {
+      "index": 0,
+      "kind": "logo",
+      "actual_frame_mae": 1.4048209233539095,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 1,
+      "kind": "photo",
+      "actual_frame_mae": 2.654706468621399,
+      "four_encoded_edges_mae": [
+        1.4645833333333333,
+        2.4934413580246915,
+        2.625759548611111,
+        2.4246961805555554
+      ],
+      "photo_full_bleed": true
+    },
+    {
+      "index": 2,
+      "kind": "app",
+      "actual_frame_mae": 1.511815200617284,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 3,
+      "kind": "app",
+      "actual_frame_mae": 1.2832761059670783,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 4,
+      "kind": "app",
+      "actual_frame_mae": 1.3404124871399177,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 5,
+      "kind": "app",
+      "actual_frame_mae": 1.2749487204218106,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 6,
+      "kind": "app",
+      "actual_frame_mae": 1.3840311535493826,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 7,
+      "kind": "app",
+      "actual_frame_mae": 1.227761863425926,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 8,
+      "kind": "app",
+      "actual_frame_mae": 1.2585075874485596,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 9,
+      "kind": "app",
+      "actual_frame_mae": 1.2123051697530864,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 10,
+      "kind": "app",
+      "actual_frame_mae": 1.4242232510288064,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 11,
+      "kind": "app",
+      "actual_frame_mae": 1.631160140174897,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 12,
+      "kind": "app",
+      "actual_frame_mae": 1.245452996399177,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 13,
+      "kind": "app",
+      "actual_frame_mae": 1.256269933127572,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 14,
+      "kind": "app",
+      "actual_frame_mae": 1.3026091499485597,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 15,
+      "kind": "app",
+      "actual_frame_mae": 1.3654975244341563,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 16,
+      "kind": "app",
+      "actual_frame_mae": 1.5108306005658436,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 17,
+      "kind": "app",
+      "actual_frame_mae": 1.489851144547325,
+      "original_app_or_title_identical": true
+    },
+    {
+      "index": 18,
+      "kind": "photo",
+      "actual_frame_mae": 2.546397247942387,
+      "four_encoded_edges_mae": [
+        1.1707561728395062,
+        2.323070987654321,
+        2.3013454861111113,
+        2.309809027777778
+      ],
+      "photo_full_bleed": true
+    },
+    {
+      "index": 19,
+      "kind": "photo",
+      "actual_frame_mae": 2.889291087962963,
+      "four_encoded_edges_mae": [
+        3.237538580246914,
+        2.0432484567901237,
+        2.347634548611111,
+        3.351215277777778
+      ],
+      "photo_full_bleed": true
+    },
+    {
+      "index": 20,
+      "kind": "photo",
+      "actual_frame_mae": 2.5454092721193415,
+      "four_encoded_edges_mae": [
+        1.105594135802469,
+        2.330671296296296,
+        2.2908203124999997,
+        2.2663194444444446
+      ],
+      "photo_full_bleed": true
+    }
+  ],
+  "passed": true
+}

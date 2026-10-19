@@ -1,0 +1,715 @@
+{
+  "duration_sec": 54.833333333333336,
+  "resolution_px": [
+    1080,
+    1920
+  ],
+  "subjective_listening": false,
+  "exports": {
+    "abgehakt.mp4": {
+      "sha256": "750abc44ef6ac969b47e7105f9f0fedcbfda0b4b8be989cf7094cd41a8bc4c5f",
+      "bytes": 8816796,
+      "frames": 1645,
+      "full_decode": "passed",
+      "black_frames": false,
+      "aac_payload_sha256": "SHA256=364469ad2e4e061feb49b7fd88d94208047ff0d3b6e6eed8375d7e076e05bdb1",
+      "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -16.9 LUFS\n    Threshold: -27.7 LUFS\n\n  Loudness range:\n    LRA:         2.8 LU\n    Threshold: -37.6 LUFS\n    LRA low:   -19.0 LUFS\n    LRA high:  -16.3 LUFS\n\n  True peak:\n    Peak:       -2.0 dBFS\n[out#0/null @ 0x55cdff489b00] video:707KiB audio:10284KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe= 1645 fps=133 q=-0.0 Lsize=N/A time=00:00:54.83 bitrate=N/A speed=4.42x    \n"
+    },
+    "abgehakt-store.mp4": {
+      "sha256": "c66e1ea453998036326924993fc76c497fb32d0e7f8ba581db3904b89f39546d",
+      "bytes": 8937447,
+      "frames": 1645,
+      "full_decode": "passed",
+      "black_frames": false,
+      "aac_payload_sha256": "SHA256=364469ad2e4e061feb49b7fd88d94208047ff0d3b6e6eed8375d7e076e05bdb1",
+      "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -16.9 LUFS\n    Threshold: -27.7 LUFS\n\n  Loudness range:\n    LRA:         2.8 LU\n    Threshold: -37.6 LUFS\n    LRA low:   -19.0 LUFS\n    LRA high:  -16.3 LUFS\n\n  True peak:\n    Peak:       -2.0 dBFS\n[out#0/null @ 0x564f55c63b40] video:707KiB audio:10284KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe= 1645 fps=125 q=-0.0 Lsize=N/A time=00:00:54.83 bitrate=N/A speed=4.17x    \n"
+    }
+  },
+  "app_ui_languages": [
+    "en"
+  ],
+  "state_checks": [
+    {
+      "index": 0,
+      "time_sec": 0.75,
+      "source_pixel_mae": 1.4555999228395062
+    },
+    {
+      "index": 1,
+      "time_sec": 2.8,
+      "source_pixel_mae": 2.6314713541666666
+    },
+    {
+      "index": 2,
+      "time_sec": 5.283333333333333,
+      "source_pixel_mae": 2.338651941872428
+    },
+    {
+      "index": 3,
+      "time_sec": 7.2,
+      "source_pixel_mae": 1.1493539416152263
+    },
+    {
+      "index": 4,
+      "time_sec": 8.850000000000001,
+      "source_pixel_mae": 1.429191261574074
+    },
+    {
+      "index": 5,
+      "time_sec": 10.033333333333335,
+      "source_pixel_mae": 1.3831238747427983
+    },
+    {
+      "index": 6,
+      "time_sec": 10.833333333333334,
+      "source_pixel_mae": 1.4715091306584362
+    },
+    {
+      "index": 7,
+      "time_sec": 12.083333333333334,
+      "source_pixel_mae": 2.2877946566358025
+    },
+    {
+      "index": 8,
+      "time_sec": 13.05,
+      "source_pixel_mae": 2.451116898148148
+    },
+    {
+      "index": 9,
+      "time_sec": 13.933333333333334,
+      "source_pixel_mae": 2.5385958397633743
+    },
+    {
+      "index": 10,
+      "time_sec": 15.166666666666668,
+      "source_pixel_mae": 2.4526118827160492
+    },
+    {
+      "index": 11,
+      "time_sec": 17.266666666666666,
+      "source_pixel_mae": 2.682593878600823
+    },
+    {
+      "index": 12,
+      "time_sec": 19.383333333333333,
+      "source_pixel_mae": 2.57280574845679
+    },
+    {
+      "index": 13,
+      "time_sec": 20.383333333333333,
+      "source_pixel_mae": 1.3893574781378601
+    },
+    {
+      "index": 14,
+      "time_sec": 21.28333333333333,
+      "source_pixel_mae": 1.6420185506687244
+    },
+    {
+      "index": 15,
+      "time_sec": 23.4,
+      "source_pixel_mae": 1.3832934670781893
+    },
+    {
+      "index": 16,
+      "time_sec": 25.95,
+      "source_pixel_mae": 2.520516814557613
+    },
+    {
+      "index": 17,
+      "time_sec": 27.7,
+      "source_pixel_mae": 1.1226694315843622
+    },
+    {
+      "index": 18,
+      "time_sec": 28.9,
+      "source_pixel_mae": 1.1319159915123458
+    },
+    {
+      "index": 19,
+      "time_sec": 30.616666666666667,
+      "source_pixel_mae": 1.1878161972736625
+    },
+    {
+      "index": 20,
+      "time_sec": 33.13333333333333,
+      "source_pixel_mae": 1.2920492541152264
+    },
+    {
+      "index": 21,
+      "time_sec": 34.983333333333334,
+      "source_pixel_mae": 1.2972596772119342
+    },
+    {
+      "index": 22,
+      "time_sec": 36.1,
+      "source_pixel_mae": 1.1105090985082304
+    },
+    {
+      "index": 23,
+      "time_sec": 37.6,
+      "source_pixel_mae": 1.1368753215020577
+    },
+    {
+      "index": 24,
+      "time_sec": 38.983333333333334,
+      "source_pixel_mae": 2.8566403034979424
+    },
+    {
+      "index": 25,
+      "time_sec": 41.3,
+      "source_pixel_mae": 2.5242579732510286
+    },
+    {
+      "index": 26,
+      "time_sec": 43.63333333333333,
+      "source_pixel_mae": 2.982827449845679
+    },
+    {
+      "index": 27,
+      "time_sec": 44.41666666666667,
+      "source_pixel_mae": 2.530804558899177
+    },
+    {
+      "index": 28,
+      "time_sec": 45.333333333333336,
+      "source_pixel_mae": 2.39290412808642
+    },
+    {
+      "index": 29,
+      "time_sec": 47.11666666666667,
+      "source_pixel_mae": 2.1125305426954735
+    },
+    {
+      "index": 30,
+      "time_sec": 48.81666666666666,
+      "source_pixel_mae": 2.411374582047325
+    },
+    {
+      "index": 31,
+      "time_sec": 50.43333333333334,
+      "source_pixel_mae": 2.2549365033436213
+    },
+    {
+      "index": 32,
+      "time_sec": 53.233333333333334,
+      "source_pixel_mae": 1.4116263181584363
+    }
+  ],
+  "app_checks": [
+    {
+      "index": 3,
+      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/05-dishes.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 4,
+      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/06-ingredients.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 5,
+      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/06-ingredients.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 6,
+      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/07-list-ready.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 7,
+      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/01-articles-before.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 8,
+      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/02-articles-added.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 9,
+      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/02-articles-added.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 13,
+      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/09-tomatoes-before.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 14,
+      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/09b-tomatoes-checked.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 15,
+      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/10-totals-after-tomatoes.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 17,
+      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/20-more.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 18,
+      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/20-more.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 19,
+      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/21-stock.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 20,
+      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/22-analysis.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 21,
+      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/22-analysis.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 22,
+      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/23-settings.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 23,
+      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/23-settings.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    }
+  ],
+  "full_bleed_checks": [
+    {
+      "index": 1,
+      "photo_edges_match": true,
+      "edge_mae": [
+        1.4587448559670781,
+        2.489531893004115,
+        2.640625,
+        2.4612123842592593
+      ]
+    },
+    {
+      "index": 2,
+      "photo_edges_match": true,
+      "edge_mae": [
+        1.3480452674897119,
+        2.5368569958847735,
+        2.2567708333333334,
+        2.1924334490740742
+      ]
+    },
+    {
+      "index": 10,
+      "photo_edges_match": true,
+      "edge_mae": [
+        2.0685699588477364,
+        1.7368055555555555,
+        2.775752314814815,
+        2.569357638888889
+      ]
+    },
+    {
+      "index": 11,
+      "photo_edges_match": true,
+      "edge_mae": [
+        2.0440586419753086,
+        1.8189814814814815,
+        1.6871383101851851,
+        4.2553096064814815
+      ]
+    },
+    {
+      "index": 12,
+      "photo_edges_match": true,
+      "edge_mae": [
+        3.0368055555555555,
+        1.5530349794238683,
+        1.9082175925925926,
+        3.958449074074074
+      ]
+    },
+    {
+      "index": 16,
+      "photo_edges_match": true,
+      "edge_mae": [
+        1.3063014403292181,
+        2.596141975308642,
+        2.29771412037037,
+        2.443894675925926
+      ]
+    },
+    {
+      "index": 24,
+      "photo_edges_match": true,
+      "edge_mae": [
+        1.4635030864197531,
+        2.918801440329218,
+        2.4367042824074074,
+        2.7062355324074074
+      ]
+    },
+    {
+      "index": 25,
+      "photo_edges_match": true,
+      "edge_mae": [
+        1.1695216049382715,
+        2.32690329218107,
+        2.302228009259259,
+        2.364742476851852
+      ]
+    },
+    {
+      "index": 26,
+      "photo_edges_match": true,
+      "edge_mae": [
+        3.097505144032922,
+        1.9153292181069959,
+        2.5811053240740742,
+        3.3081597222222223
+      ]
+    },
+    {
+      "index": 27,
+      "photo_edges_match": true,
+      "edge_mae": [
+        1.1744341563786007,
+        2.3477109053497944,
+        2.314192708333333,
+        2.3597511574074073
+      ]
+    },
+    {
+      "index": 28,
+      "photo_edges_match": true,
+      "edge_mae": [
+        1.9059413580246913,
+        1.3957561728395063,
+        2.222800925925926,
+        2.059548611111111
+      ]
+    },
+    {
+      "index": 29,
+      "photo_edges_match": true,
+      "edge_mae": [
+        2.0659207818930043,
+        1.4897633744855967,
+        2.1796440972222224,
+        1.840379050925926
+      ]
+    },
+    {
+      "index": 30,
+      "photo_edges_match": true,
+      "edge_mae": [
+        2.3253600823045266,
+        1.575488683127572,
+        1.8557002314814814,
+        3.3230902777777778
+      ]
+    },
+    {
+      "index": 31,
+      "photo_edges_match": true,
+      "edge_mae": [
+        2.235262345679012,
+        1.5250514403292181,
+        1.9777777777777779,
+        2.1533854166666666
+      ]
+    }
+  ],
+  "all_cut_boundaries": "passed",
+  "caption_checks": [
+    {
+      "text": "A good grocery run starts at home.",
+      "time_sec": 2.8,
+      "bounds_px": [
+        216,
+        1717,
+        865,
+        1839
+      ]
+    },
+    {
+      "text": "How about pasta?",
+      "time_sec": 4.719999999999999,
+      "bounds_px": [
+        330,
+        1769,
+        750,
+        1839
+      ]
+    },
+    {
+      "text": "Sounds good.",
+      "time_sec": 5.91,
+      "bounds_px": [
+        379,
+        1769,
+        701,
+        1839
+      ]
+    },
+    {
+      "text": "Choose a dish.",
+      "time_sec": 7.036666666666666,
+      "bounds_px": [
+        367,
+        1769,
+        713,
+        1839
+      ]
+    },
+    {
+      "text": "Add its ingredients to your list in one tap.",
+      "time_sec": 9.166666666666666,
+      "bounds_px": [
+        166,
+        1717,
+        914,
+        1839
+      ]
+    },
+    {
+      "text": "Check your items and add anything you're missing.",
+      "time_sec": 12.896666666666667,
+      "bounds_px": [
+        237,
+        1717,
+        843,
+        1839
+      ]
+    },
+    {
+      "text": "Let's go!",
+      "time_sec": 15.076666666666666,
+      "bounds_px": [
+        434,
+        1769,
+        646,
+        1839
+      ]
+    },
+    {
+      "text": "At the store, you know what you need.",
+      "time_sec": 17.28666666666667,
+      "bounds_px": [
+        168,
+        1717,
+        912,
+        1839
+      ]
+    },
+    {
+      "text": "In the basket.",
+      "time_sec": 19.386666666666667,
+      "bounds_px": [
+        391,
+        1769,
+        703,
+        1839
+      ]
+    },
+    {
+      "text": "Tick it off.",
+      "time_sec": 20.8,
+      "bounds_px": [
+        420,
+        1769,
+        660,
+        1839
+      ]
+    },
+    {
+      "text": "Watch your total as you tick things off.",
+      "time_sec": 23.07,
+      "bounds_px": [
+        216,
+        1717,
+        863,
+        1839
+      ]
+    },
+    {
+      "text": "Got everything?",
+      "time_sec": 25.47,
+      "bounds_px": [
+        352,
+        1769,
+        728,
+        1839
+      ]
+    },
+    {
+      "text": "Everything.",
+      "time_sec": 26.470000000000002,
+      "bounds_px": [
+        403,
+        1769,
+        677,
+        1839
+      ]
+    },
+    {
+      "text": "Find the rest under More.",
+      "time_sec": 27.83,
+      "bounds_px": [
+        247,
+        1769,
+        833,
+        1839
+      ]
+    },
+    {
+      "text": "Like what's already in your pantry.",
+      "time_sec": 30.540000000000003,
+      "bounds_px": [
+        143,
+        1769,
+        937,
+        1839
+      ]
+    },
+    {
+      "text": "And your spending this month and last month.",
+      "time_sec": 33.56333333333333,
+      "bounds_px": [
+        193,
+        1717,
+        887,
+        1839
+      ]
+    },
+    {
+      "text": "Plus settings and help, all in one place.",
+      "time_sec": 37.013333333333335,
+      "bounds_px": [
+        168,
+        1717,
+        912,
+        1839
+      ]
+    },
+    {
+      "text": "Abgehakt.",
+      "time_sec": 39.903333333333336,
+      "bounds_px": [
+        417,
+        1769,
+        663,
+        1839
+      ]
+    },
+    {
+      "text": "Shopping, sorted.",
+      "time_sec": 41.81333333333333,
+      "bounds_px": [
+        333,
+        1769,
+        746,
+        1839
+      ]
+    },
+    {
+      "text": "More time for life.",
+      "time_sec": 44.013333333333335,
+      "bounds_px": [
+        332,
+        1769,
+        748,
+        1839
+      ]
+    },
+    {
+      "text": "The Pro version:",
+      "time_sec": 46.49333333333334,
+      "bounds_px": [
+        350,
+        1769,
+        730,
+        1839
+      ]
+    },
+    {
+      "text": "plan together,",
+      "time_sec": 47.78333333333333,
+      "bounds_px": [
+        374,
+        1769,
+        707,
+        1839
+      ]
+    },
+    {
+      "text": "type less,",
+      "time_sec": 48.75333333333334,
+      "bounds_px": [
+        434,
+        1769,
+        656,
+        1839
+      ]
+    },
+    {
+      "text": "and understand spending by category.",
+      "time_sec": 50.28333333333333,
+      "bounds_px": [
+        210,
+        1717,
+        870,
+        1836
+      ]
+    },
+    {
+      "text": "Explore the Pro version in our other video.",
+      "time_sec": 53.053333333333335,
+      "bounds_px": [
+        199,
+        1717,
+        881,
+        1839
+      ]
+    }
+  ],
+  "formal_validation": "passed"
+}

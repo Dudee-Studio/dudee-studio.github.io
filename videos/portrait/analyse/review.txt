@@ -1,0 +1,5 @@
+Hochformat randlos V1 – analyse
+
+Die fertigen Clean- und Untertitel-MP4s wurden vollständig decodiert: 1080×1920,30fps,27.7s. Alle Bildzustände wurden als echte codierte Frames mit den Quellkompositionen verglichen. Alle Fotos reichen bis an jede der vier Bildkanten; keine weißen Rahmen. Kontaktbogen visuell geprüft. Statische Bilder, kein Kamerawackeln. Vollständige Appansichten und Titelkompositionen sind pixelidentisch zu den freigegebenen Originalen. Ton-Payload, Untertitel und Schnittzeiten sind unverändert.
+
+Kein neues Hörreview: Sprecherintonation und musikalische Wirkung wurden nicht subjektiv beurteilt.
