@@ -8,15 +8,28 @@ DE / EN im Kopf jeder Seite wechselt auf die entsprechende Seite. Die Sprache bl
 beim Navigieren erhalten; ein geöffneter Abschnitt bleibt beim Wechsel erhalten.
 Keine zusätzlichen Cookies, Analyse-Dienste oder externen Übersetzungsdienste.
 
-Die sechs englischen Seiten liegen unter `en/`. Nach Änderungen an den deutschen
+Die englischen Seiten liegen unter `en/`. Nach Änderungen an den deutschen
 Seiten und den Übersetzungen in `tools/build-language-pages.py` bzw.
 `tools/i18n/privacy.en.html`: `python tools/build-language-pages.py`.
 Die englische Datenschutzerklärung muss bei inhaltlichen Änderungen ebenfalls
 aktualisiert werden; sie wird nicht automatisch maschinell übersetzt.
 
+## Apps und Games
+
+Die Hauptnavigation trennt `/apps.html` und `/games.html`. Unter Apps führt
+Abgehakt auf seine Produktseite `/apps/abgehakt.html` mit Beschreibung, Videos und
+Hilfe. Die englischen Gegenstücke liegen unter `/en/`. Die Hilfe zeigt die
+Navigation Apps → Abgehakt → Hilfe; alte Links auf `projekte.html` und
+`en/projects.html` bleiben mit ihren Sprungmarken erreichbar und verweisen per
+Canonical auf die Produktseite. Games enthält den aktuellen Leerzustand, bis ein
+Spiel vorgestellt wird.
+
+Produkttexte und ihre Übersetzungen: `tools/product_pages.py`. Die gemeinsamen
+Kopf- und Fußbereiche werden durch `tools/build-language-pages.py` erzeugt.
+
 ## Videos
 
-Die Projektseite zeigt fünf sichtbare Vorschaubilder in der gewählten Sprache und einen gemeinsamen Player:
+Die Abgehakt-Seite zeigt fünf sichtbare Vorschaubilder in der gewählten Sprache und einen gemeinsamen Player:
 Hauptfilm Deutsch/Englisch, kostenlose Funktionen, Pro-Version, Analyse und
 Community-Katalog. Alle fünf Filme gibt es auf Deutsch und Englisch; die Galerie zeigt ausschließlich die gewählte Sprache.
 Der Katalogfilm ist eine Vorschau auf Version 1.1; die Live-Freigabe steht noch aus.
@@ -55,7 +68,9 @@ Jede Anleitung enthält zwei bis sieben vollständige Appbilder mit passenden
 Hervorhebungen, jeweils in der ausgewählten Sprache. Insgesamt sind es 176
 Bildverweise pro Sprache und 233 wiederverwendete WebP-Dateien. Ein Tipp öffnet
 die vergrößerte Bildfolge mit Vor/Zurück und Tastaturbedienung. Bilder laden erst
-bei Bedarf; die App enthält dieselben Dateien offline.
+bei Bedarf; die App verlinkt auf diese Seiten und enthält keine Hilfefotos. Die kurzen
+Textanleitungen bleiben offline in der App verfügbar. Bildverweise und Hervorhebungen
+liegen ausschließlich in `assets/abgehakt/help-images.json`.
 Mit `python tools/sync-app-help.py --app-repo ../Einkaufsliste` übernehmen und
 anschließend `python tools/build-language-pages.py` ausführen.
 

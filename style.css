@@ -237,3 +237,31 @@ footer nav { font-size: .95rem; gap: 8px 20px; }
 .help-note { padding: 0 16px 16px; font-size: .9rem; color: var(--muted); margin: 0; }
 .help-back { margin-top: 28px; }
 [hidden] { display: none !important; }
+
+/* Product catalogue and Abgehakt detail: concise sections with direct guide links. */
+.breadcrumbs { align-items: center; gap: 8px; padding-top: 24px; font-size: .9rem; color: var(--muted); }
+.product-heading .page-title { padding-top: 20px; }
+.product-heading .app-title img { width: 56px; height: 56px; }
+.product-tagline { margin-top: 14px; font-size: clamp(1.25rem, 3vw, 1.8rem); font-weight: 650; }
+.product-links { margin: 20px 0 4px; }
+.page-intro { margin-top: 12px; color: var(--muted); }
+.app-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.card h2 { font-size: 1.4rem; }
+.empty-catalog { padding: 32px 0 64px; }
+.empty-catalog h2 { margin-bottom: 16px; font-size: 1.4rem; }
+.product-description > h2, .product-section > h2 { font-size: clamp(1.5rem, 4vw, 2rem); margin-bottom: 16px; }
+.section-intro { color: var(--muted); margin-bottom: 28px; }
+.description-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 40px; }
+.description-grid article { border-top: 1px solid var(--line); padding-top: 20px; min-width: 0; }
+.description-grid h3 { font-size: 1.2rem; margin-bottom: 12px; }
+.description-grid p { font-size: 1rem; }
+.description-grid a { font-size: .95rem; }
+.product-section { padding: 32px 0; border-top: 1px solid var(--line); }
+.product-list { padding-left: 24px; margin: 0 0 20px; }
+.product-extras { border-top: 1px solid var(--line); padding: 24px 0; }
+.product-extras summary { cursor: pointer; font-weight: 650; }
+.product-extras p { margin-top: 18px; }
+.product-help { padding-bottom: 0; }
+@media (max-width: 800px) {
+  .app-cards, .description-grid { grid-template-columns: minmax(0, 1fr); }
+}

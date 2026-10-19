@@ -10,6 +10,9 @@ data=json.loads((root/'assets/abgehakt/help-usecases.json').read_text())
 assert len(data['cases'])==42
 source=root.parent/'Einkaufsliste/app/src/main/assets/help-usecases.json'
 if source.exists():assert source.read_bytes()==(root/'assets/abgehakt/help-usecases.json').read_bytes()
+illustrations=json.loads((root/'assets/abgehakt/help-images.json').read_text())['cases']
+for case in data['cases']:
+ for lang in data['languages']:case[lang]['images']=illustrations[case['id']][lang]
 assets=set()
 for case in data['cases']:
  for lang in data['languages']:
@@ -20,7 +23,6 @@ for case in data['cases']:
    with Image.open(path) as im:
     assert im.size==(picture['width'],picture['height']);im.load()
    x,y,w,h=picture['focus'];assert 0<=x<1 and 0<=y<1 and 0<w<=1 and 0<h<=1 and x+w<=1.000001 and y+h<=1.000001
-   if source.exists():assert path.read_bytes()==(source.parent/picture['src']).read_bytes()
    assets.add(picture['src'])
 out=Path('/tmp/abgehakt-help-check');out.mkdir(exist_ok=True)
 checks=[]

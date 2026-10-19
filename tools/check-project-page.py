@@ -12,7 +12,8 @@ from playwright.sync_api import sync_playwright
 base = (sys.argv[1] if len(sys.argv) > 1 else 'http://127.0.0.1:8766').rstrip('/')
 root = Path(__file__).resolve().parents[1]
 films = json.loads((root / 'videos/library.json').read_text())['films']
-pairs = [('/', '/en/'), ('/projekte.html', '/en/projects.html'),
+pairs = [('/', '/en/'), ('/projekte.html', '/en/projects.html'), ('/apps.html', '/en/apps.html'),
+         ('/games.html', '/en/games.html'), ('/apps/abgehakt.html', '/en/apps/abgehakt.html'),
          ('/kontakt.html', '/en/contact.html'), ('/impressum.html', '/en/legal.html'),
          ('/datenschutz.html', '/en/privacy.html'), ('/hilfe.html','/en/help.html')]
 proof = Path('/tmp/abgehakt-site-check'); proof.mkdir(exist_ok=True)
@@ -37,10 +38,26 @@ with sync_playwright() as p:
                     assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), url
                     assert page.locator('link[rel=alternate][hreflang=de]').count() == 1
                     assert page.locator('link[rel=alternate][hreflang=en]').count() == 1
-                    for a in page.locator('header nav > a, footer nav a').all():
+                    for a in page.locator('header.top nav > a, footer nav a').all():
                         href = a.get_attribute('href')
                         assert href.startswith('/en/') == (lang == 'en'), (url, href)
-            for lang, url in [('de', '/projekte.html'), ('en', '/en/projects.html')]:
+            # A visitor can discover the app and its help through the new tabs.
+            for lang in ['de', 'en']:
+                prefix='/en' if lang=='en' else ''
+                page.goto(base+prefix+'/apps.html')
+                assert page.locator('header.top a[aria-current=page]').inner_text()=='Apps'
+                page.locator('.card').click()
+                assert page.url==base+prefix+'/apps/abgehakt.html'
+                assert page.locator('h1').inner_text()=='Abgehakt'
+                assert page.locator('.help-link').count()==1
+                page.locator('.product-links a').last.click()
+                assert page.url==base+('/en/help.html' if lang=='en' else '/hilfe.html')
+                page.locator('.breadcrumbs a').last.click()
+                assert page.url==base+prefix+'/apps/abgehakt.html'
+                page.locator('header.top nav > a').filter(has_text='Games').click()
+                assert page.url==base+prefix+'/games.html'
+                assert page.locator('header.top a[aria-current=page]').inner_text()=='Games'
+            for lang, url in [('de', '/apps/abgehakt.html'), ('en', '/en/apps/abgehakt.html')]:
                 page.goto(base + url + '#einkaufsliste')
                 assert page.locator('video').count() == 1
                 video = page.locator('#abgehakt-player')
@@ -86,7 +103,7 @@ with sync_playwright() as p:
                 page.wait_for_function('!document.querySelector("video").paused')
                 video.evaluate('(v) => v.pause()')
                 assert page.locator('.language-switch a').first.get_attribute('href').endswith('#einkaufsliste')
-                page.locator('header').screenshot(path=str(proof / f'header-{lang}-{width}-{mode}.png'))
+                page.locator('header.top').screenshot(path=str(proof / f'header-{lang}-{width}-{mode}.png'))
                 page.locator('.project-demo').screenshot(path=str(proof / f'gallery-{lang}-{width}-{mode}.png'))
                 assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
                 assert not errors, errors

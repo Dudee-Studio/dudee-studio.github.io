@@ -1,5 +1,5 @@
 {
-  "schema": 2,
+  "schema": 1,
   "app": "Abgehakt",
   "languages": [
     "de",
@@ -82,61 +82,7 @@
           "Öffne bei Bedarf Weitere Angaben und wähle Abteilung, Einheit, Preis und Markt.",
           "Tippe auf Anlegen."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/eaecd9ec21673f36d5c6.webp",
-            "caption": "Neuer Artikel",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0222222,
-              0.8222222,
-              0.9555556,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/455e5d198b2e5d36e62a.webp",
-            "caption": "Name",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.1,
-              0.9111111,
-              0.1
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/fb938916ba7574944111.webp",
-            "caption": "Abteilung",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.3833333,
-              0.1935185,
-              0.0388889
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/fb938916ba7574944111.webp",
-            "caption": "Anlegen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7314815,
-              0.9222222,
-              0.2351852,
-              0.0666667
-            ]
-          }
-        ]
+        "note": ""
       },
       "en": {
         "title": "Create an item",
@@ -146,61 +92,7 @@
           "If needed, open More details and choose a category, unit, price and store.",
           "Tap Create."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/6649569248805b434a0f.webp",
-            "caption": "New item",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0222222,
-              0.8222222,
-              0.9555556,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/c4c24fbc4759c815e86b.webp",
-            "caption": "Name",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.1,
-              0.9111111,
-              0.1
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/5ce136e33e4fa429b2af.webp",
-            "caption": "Category",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.3833333,
-              0.1833333,
-              0.0388889
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/5ce136e33e4fa429b2af.webp",
-            "caption": "Create",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7592593,
-              0.9222222,
-              0.2074074,
-              0.0666667
-            ]
-          }
-        ]
+        "note": ""
       }
     },
     {
@@ -215,87 +107,7 @@
           "Wechsle zu Gerichte, wenn du Zutaten ergänzen möchtest. Deine Position unter Artikel bleibt erhalten.",
           "Öffne Liste für deinen Einkauf."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/eaecd9ec21673f36d5c6.webp",
-            "caption": "Artikel",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.2444444,
-              0.8833333,
-              0.2555556,
-              0.1166667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/eaecd9ec21673f36d5c6.webp",
-            "caption": "Milch mehr",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.8222222,
-              0.3291667,
-              0.1555556,
-              0.0777778
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/eaecd9ec21673f36d5c6.webp",
-            "caption": "Gerichte",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.5,
-              0.8833333,
-              0.2555556,
-              0.1166667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/e0315ed6ac4a9da8e56b.webp",
-            "caption": "Artikel",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.2444444,
-              0.8833333,
-              0.2555556,
-              0.1166667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/3efbbb7620671e0c780b.webp",
-            "caption": "Liste",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.8833333,
-              0.2444444,
-              0.1166667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/117c6fbc8b37d7b296ea.webp",
-            "caption": "Milch bearbeiten",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.8444444,
-              0.3944444,
-              0.1333333,
-              0.0666667
-            ]
-          }
-        ]
+        "note": ""
       },
       "en": {
         "title": "Check your items before shopping",
@@ -305,87 +117,7 @@
           "Switch to Dishes if you want to add ingredients. Your position in Items is kept.",
           "Open List when you go shopping."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/6649569248805b434a0f.webp",
-            "caption": "Items",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.2444444,
-              0.8833333,
-              0.2555556,
-              0.1166667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/6649569248805b434a0f.webp",
-            "caption": "Increase Milk",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.8222222,
-              0.25,
-              0.1555556,
-              0.0777778
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/6649569248805b434a0f.webp",
-            "caption": "Dishes",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.5,
-              0.8833333,
-              0.2555556,
-              0.1166667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/a9304a7a5d7644e3c57f.webp",
-            "caption": "Items",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.2444444,
-              0.8833333,
-              0.2555556,
-              0.1166667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/24218f4238bd6cfcf57b.webp",
-            "caption": "List",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.8833333,
-              0.2444444,
-              0.1166667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/7922855da35fb5fc9591.webp",
-            "caption": "Edit Milk",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.8444444,
-              0.3944444,
-              0.1333333,
-              0.0666667
-            ]
-          }
-        ]
+        "note": ""
       }
     },
     {
@@ -399,74 +131,7 @@
           "Ändere den Namen oder öffne Abteilung & Einheit beziehungsweise Preis & Märkte.",
           "Trage deine Angaben ein und tippe auf Fertig."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/eaecd9ec21673f36d5c6.webp",
-            "caption": "Milch",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.3236111,
-              1.0,
-              0.0888889
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/2937fb7015fc41c83ea0.webp",
-            "caption": "Abteilung & Einheit",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.4666667,
-              0.9111111,
-              0.1055556
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/021e2bd928a8534aa9cc.webp",
-            "caption": "Einheit",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.6888889,
-              0.1453704,
-              0.0388889
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/36cfe2d0cca38fdb4ead.webp",
-            "caption": "Preis ohne Markt",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.8,
-              0.8222222,
-              0.1
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/36cfe2d0cca38fdb4ead.webp",
-            "caption": "Fertig",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7722222,
-              0.9222222,
-              0.1944444,
-              0.0666667
-            ]
-          }
-        ]
+        "note": ""
       },
       "en": {
         "title": "Change an item’s name, price or unit",
@@ -475,74 +140,7 @@
           "Change the name, or open Category & unit or Price & stores.",
           "Enter your details and tap Done."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/6649569248805b434a0f.webp",
-            "caption": "Milk",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.2444444,
-              1.0,
-              0.0888889
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/6bf63551aac3183ff1db.webp",
-            "caption": "Category & unit",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.4666667,
-              0.9111111,
-              0.1055556
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/27d105822dad2b6539cc.webp",
-            "caption": "Unit",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.6888889,
-              0.0944444,
-              0.0388889
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/38a7eef0ef0dcd077e94.webp",
-            "caption": "Price without store",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.8,
-              0.8222222,
-              0.1
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/38a7eef0ef0dcd077e94.webp",
-            "caption": "Done",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7833333,
-              0.9222222,
-              0.1833333,
-              0.0666667
-            ]
-          }
-        ]
+        "note": ""
       }
     },
     {
@@ -557,74 +155,7 @@
           "Wähle bei Bedarf Drehen / zuschneiden und bestätige den Ausschnitt mit Übernehmen.",
           "Schließe den Artikel mit Fertig."
         ],
-        "note": "Kamera und Galerie können je nach Handy anders aussehen.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/b1449f66896b6816a768.webp",
-            "caption": "Äpfel",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.2444444,
-              1.0,
-              0.0888889
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/0b59056dba340387d7c6.webp",
-            "caption": "Aus Galerie wählen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.3888889,
-              0.8333333,
-              0.4305556,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/4733c80c6b5fba00eaf4.webp",
-            "caption": "Drehen / zuschneiden",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.3888889,
-              0.8333333,
-              0.4740741,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/608519a87d7942d1b75e.webp",
-            "caption": "Übernehmen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.5833333,
-              0.9111111,
-              0.3833333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/4733c80c6b5fba00eaf4.webp",
-            "caption": "Fertig",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7722222,
-              0.9222222,
-              0.1944444,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Kamera und Galerie können je nach Handy anders aussehen."
       },
       "en": {
         "title": "Add or change an item photo",
@@ -634,74 +165,7 @@
           "If needed, choose Rotate / crop and confirm the crop with Apply.",
           "Close the item with Done."
         ],
-        "note": "Camera and gallery screens may differ by device.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/ff2d19fcef594dc5e753.webp",
-            "caption": "Apples",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.2444444,
-              1.0,
-              0.0888889
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/f6c5f78384d9dba25d1a.webp",
-            "caption": "Choose from gallery",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.3888889,
-              0.8333333,
-              0.4481481,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/7663a835b1e02768d97c.webp",
-            "caption": "Rotate / crop",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.3888889,
-              0.8333333,
-              0.3212963,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/f2dc370b7bc1d1ee5080.webp",
-            "caption": "Apply",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7101852,
-              0.9111111,
-              0.2564815,
-              0.0666667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/30346c3ee974da8a19d3.webp",
-            "caption": "Done",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7833333,
-              0.9222222,
-              0.1833333,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Camera and gallery screens may differ by device."
       }
     },
     {
@@ -715,48 +179,7 @@
           "Aktiviere ★ Favorit und tippe auf Fertig.",
           "Tippe unter Artikel auf das Stern-Symbol, um nur Favoriten zu sehen."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/1662580a18f56f1d48f3.webp",
-            "caption": "Vorrat & Favorit",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.7722222,
-              0.9111111,
-              0.1277778
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/376d537abfda3a8640ea.webp",
-            "caption": "★ Favorit",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.8611111,
-              0.6777778,
-              0.0388889
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/63373cc940006053bfef.webp",
-            "caption": "Nur Favoriten",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.8555556,
-              0.0111111,
-              0.1333333,
-              0.0666667
-            ]
-          }
-        ]
+        "note": ""
       },
       "en": {
         "title": "Mark frequently used items",
@@ -765,48 +188,7 @@
           "Enable ★ Favorite and tap Done.",
           "Tap the star icon in Items to show only favorites."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/ad6720e0bcdfc5fd9cce.webp",
-            "caption": "Pantry & favorite",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.7944444,
-              0.9111111,
-              0.1055556
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/1748907374239e8c5863.webp",
-            "caption": "★ Favorite",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.8611111,
-              0.6777778,
-              0.0388889
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/1718597cc540ffbd7843.webp",
-            "caption": "Favorites only",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.8555556,
-              0.0111111,
-              0.1333333,
-              0.0666667
-            ]
-          }
-        ]
+        "note": ""
       }
     },
     {
@@ -820,61 +202,7 @@
           "Prüfe die vorgeschlagenen Artikel und Mengen. Eingetragener Vorrat ist berücksichtigt.",
           "Wähle die benötigten Vorschläge aus und tippe auf die Schaltfläche zum Hinzufügen zur Liste."
         ],
-        "note": "Die Angabe ~ bei einem Artikel ist eine ungefähre Prognose, keine garantierte Verbrauchsmenge.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/43d39b24f720a11a8c55.webp",
-            "caption": "Mehr",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.8555556,
-              0.0111111,
-              0.1333333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/a69a3f392ce472e5ae6d.webp",
-            "caption": "Kaffee",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.5111111,
-              0.8888889,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/a69a3f392ce472e5ae6d.webp",
-            "caption": "1 auf die Liste",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.6037037,
-              0.6055556,
-              0.3407407,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/ba8b57972f5a76a9b3d0.webp",
-            "caption": "Kaffee",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1444444,
-              0.6763889,
-              0.3611111,
-              0.1
-            ]
-          }
-        ]
+        "note": "Die Angabe ~ bei einem Artikel ist eine ungefähre Prognose, keine garantierte Verbrauchsmenge."
       },
       "en": {
         "title": "Use shopping suggestions",
@@ -883,61 +211,7 @@
           "Check the suggested items and quantities. Your entered pantry stock is taken into account.",
           "Select what you need and tap the button to add the selection to your list."
         ],
-        "note": "A ~ quantity on an item is an estimate, not a guaranteed measure of consumption.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/e85382dcc4c47c70e03a.webp",
-            "caption": "More",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.8555556,
-              0.0111111,
-              0.1333333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/5dde95755542345795eb.webp",
-            "caption": "Coffee",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.5222222,
-              0.8888889,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/5dde95755542345795eb.webp",
-            "caption": "Add 1 to list",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.6416667,
-              0.6166667,
-              0.3027778,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/2f25946a2f7e215fdc75.webp",
-            "caption": "Coffee",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1444444,
-              0.6763889,
-              0.3611111,
-              0.1
-            ]
-          }
-        ]
+        "note": "A ~ quantity on an item is an estimate, not a guaranteed measure of consumption."
       }
     },
     {
@@ -952,87 +226,7 @@
           "Trage Menge, Abstand in Tagen und den nächsten Bedarf ein. Das Datumsformat ist TT.MM.JJJJ.",
           "Tippe auf Speichern und Fertig. Eine bestehende Regel kannst du dort bearbeiten, pausieren oder löschen."
         ],
-        "note": "Nach einem gespeicherten Kauf beginnt das Intervall neu.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/a78a45b52b52d6514871.webp",
-            "caption": "Regelmäßigen Bedarf hinzufügen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.4888889,
-              0.6824074,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/41702247e6bad4b1c300.webp",
-            "caption": "Hinzufügen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.5398148,
-              0.5305556,
-              0.2935185,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/a8a961a4541196625fce.webp",
-            "caption": "Kaffee",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.3611111,
-              0.2074074,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/2e27e9a11d6fd6d292af.webp",
-            "caption": "Alle wie viele Tage?",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.3222222,
-              0.9111111,
-              0.1
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/2e27e9a11d6fd6d292af.webp",
-            "caption": "Speichern",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.6990741,
-              0.9222222,
-              0.2675926,
-              0.0666667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/4653442e6b37dc9b8966.webp",
-            "caption": "Pause",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7435185,
-              0.45,
-              0.2009259,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Nach einem gespeicherten Kauf beginnt das Intervall neu."
       },
       "en": {
         "title": "Set up a recurring need",
@@ -1042,87 +236,7 @@
           "Enter the quantity, days between purchases and next needed date. Use DD.MM.YYYY.",
           "Tap Save and Done. You can also edit, pause or delete an existing rule here."
         ],
-        "note": "The interval restarts after you save a purchase.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/ec60d436374da5d9210a.webp",
-            "caption": "Add a recurring need",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.5,
-              0.4592593,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/3a170305e3401dd5dbd3.webp",
-            "caption": "Add",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.65,
-              0.5305556,
-              0.1833333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/e12d17f0a40a94596595.webp",
-            "caption": "Coffee",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.3611111,
-              0.2092593,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/13330bbb696244c516bb.webp",
-            "caption": "How many days between purchases?",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.3222222,
-              0.9111111,
-              0.1
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/13330bbb696244c516bb.webp",
-            "caption": "Save",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7833333,
-              0.9222222,
-              0.1833333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/2a7f09b256d30a126f82.webp",
-            "caption": "Pause",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7435185,
-              0.45,
-              0.2009259,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "The interval restarts after you save a purchase."
       }
     },
     {
@@ -1136,61 +250,7 @@
           "Trage unter Einkaufshinweis zum Beispiel „Bitte ungesüßt“ oder eine Alternative ein.",
           "Tippe auf Fertig. Der Hinweis steht auch am Artikel auf der Liste."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/eaecd9ec21673f36d5c6.webp",
-            "caption": "Milch",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.3236111,
-              1.0,
-              0.0888889
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/79e60cf48cbca4012315.webp",
-            "caption": "Einkaufshinweis",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.2055556,
-              0.9111111,
-              0.1277778
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/79e60cf48cbca4012315.webp",
-            "caption": "Fertig",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7722222,
-              0.9222222,
-              0.1944444,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/7f6c8c83b69283269ea6.webp",
-            "caption": "Milch",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1444444,
-              0.3777778,
-              0.3611111,
-              0.1222222
-            ]
-          }
-        ]
+        "note": ""
       },
       "en": {
         "title": "Leave a short shopping note",
@@ -1199,61 +259,7 @@
           "Enter a Shopping note, such as “Unsweetened, please” or an alternative product.",
           "Tap Done. The note also appears beside the item on your list."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/6649569248805b434a0f.webp",
-            "caption": "Milk",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.2444444,
-              1.0,
-              0.0888889
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/b70b336e54b1b341c814.webp",
-            "caption": "Shopping note",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.2055556,
-              0.9111111,
-              0.1277778
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/b70b336e54b1b341c814.webp",
-            "caption": "Done",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7833333,
-              0.9222222,
-              0.1833333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/86a94b58d62890dad82f.webp",
-            "caption": "Milk",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1444444,
-              0.3777778,
-              0.3611111,
-              0.1444444
-            ]
-          }
-        ]
+        "note": ""
       }
     },
     {
@@ -1268,74 +274,7 @@
           "Unter Foto & Gruppe kannst du das Gericht zuordnen oder bebildern.",
           "Tippe auf Speichern."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/e0315ed6ac4a9da8e56b.webp",
-            "caption": "Neues Gericht",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0222222,
-              0.8222222,
-              0.9555556,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/4d1458357f3f36229893.webp",
-            "caption": "Name",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.1,
-              0.9111111,
-              0.1
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/f342e965a331afae089e.webp",
-            "caption": "+ Zutat",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.5055556,
-              0.2138889,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/b775a78e5990d74672cd.webp",
-            "caption": "Foto & Gruppe",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.2,
-              0.9111111,
-              0.1055556
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/b775a78e5990d74672cd.webp",
-            "caption": "Speichern",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.6990741,
-              0.9222222,
-              0.2675926,
-              0.0666667
-            ]
-          }
-        ]
+        "note": ""
       },
       "en": {
         "title": "Save a dish with ingredients",
@@ -1345,74 +284,7 @@
           "Under Photo & group, you can organize the dish or add a picture.",
           "Tap Save."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/a9304a7a5d7644e3c57f.webp",
-            "caption": "New dish",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0222222,
-              0.8222222,
-              0.9555556,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/8dc512eff031cd2acadb.webp",
-            "caption": "Name",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.1,
-              0.9111111,
-              0.1
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/fd85344569d11985dfdd.webp",
-            "caption": "+ Ingredient",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.5055556,
-              0.3018519,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/4063cc9a12f27a27494d.webp",
-            "caption": "Photo & group",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.2,
-              0.9111111,
-              0.1055556
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/4063cc9a12f27a27494d.webp",
-            "caption": "Save",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7833333,
-              0.9222222,
-              0.1833333,
-              0.0666667
-            ]
-          }
-        ]
+        "note": ""
       }
     },
     {
@@ -1427,61 +299,7 @@
           "Tippe auf die Schaltfläche zum Übernehmen der ausgewählten Zutaten.",
           "Wechsle zu Liste und prüfe die ergänzten Artikel."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/e0315ed6ac4a9da8e56b.webp",
-            "caption": "Pasta mit Tomaten",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.3166667,
-              0.9333333,
-              0.1083333
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/5598b3ffb665f5229bc9.webp",
-            "caption": "Tomaten",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1777778,
-              0.3944444,
-              0.4277778,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/5598b3ffb665f5229bc9.webp",
-            "caption": "3 auf die Liste",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.6259259,
-              0.9222222,
-              0.3407407,
-              0.0666667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/2ac1fbcda3851b28ec1d.webp",
-            "caption": "Tomaten",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1444444,
-              0.6194444,
-              0.3611111,
-              0.1
-            ]
-          }
-        ]
+        "note": ""
       },
       "en": {
         "title": "Add a dish’s ingredients to your list",
@@ -1491,61 +309,7 @@
           "Tap the button to add the selected ingredients.",
           "Switch to List and check the added items."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/a9304a7a5d7644e3c57f.webp",
-            "caption": "Pasta with tomatoes",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.35,
-              0.9333333,
-              0.1083333
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/73afebf9a3e211c53850.webp",
-            "caption": "Tomatoes",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1777778,
-              0.3944444,
-              0.4277778,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/73afebf9a3e211c53850.webp",
-            "caption": "Add 3 to list",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.6638889,
-              0.9222222,
-              0.3027778,
-              0.0666667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/486119360d5ec7557f90.webp",
-            "caption": "Tomatoes",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1444444,
-              0.6194444,
-              0.3611111,
-              0.1
-            ]
-          }
-        ]
+        "note": ""
       }
     },
     {
@@ -1559,61 +323,7 @@
           "Öffne die vorgeschlagene Essensidee und prüfe die Zutatenmengen.",
           "Tippe auf Auswählen & Zutaten übernehmen. Bereits ausgewählte Ideen werden nicht doppelt übernommen."
         ],
-        "note": "Lokal kostenlos. In einer verbundenen Gruppe werden Vorschläge geteilt; für den Listen-Sync reicht die Pro-Version eines Mitglieds.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/0cb5e0e004e02741b8bd.webp",
-            "caption": "Gericht vorschlagen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.8222222,
-              1.0,
-              0.0666667
-            ]
-          },
-          {
-            "step": 1,
-            "src": "help-images/de/b06779a5bb088a33fffc.webp",
-            "caption": "Pasta mit Tomaten",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.45,
-              0.8888889,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/23e0c20e60fe668c3e71.webp",
-            "caption": "Pasta mit Tomaten",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.2,
-              0.9333333,
-              0.1055556
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/b7fe9aba35bbae461c6b.webp",
-            "caption": "Auswählen & Zutaten übernehmen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.2703704,
-              0.9222222,
-              0.6962963,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Lokal kostenlos. In einer verbundenen Gruppe werden Vorschläge geteilt; für den Listen-Sync reicht die Pro-Version eines Mitglieds."
       },
       "en": {
         "title": "Decide together what to eat",
@@ -1622,61 +332,7 @@
           "Open the proposed meal idea and check the ingredient quantities.",
           "Tap Choose & add ingredients. Already selected ideas are not added twice."
         ],
-        "note": "Free locally. Ideas are shared in a connected group; one member’s Pro version is enough for list sync.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/45a5440789da94be725f.webp",
-            "caption": "Suggest a dish",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.8222222,
-              1.0,
-              0.0666667
-            ]
-          },
-          {
-            "step": 1,
-            "src": "help-images/en/a07089dd0a900aa6da3f.webp",
-            "caption": "Pasta with tomatoes",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.45,
-              0.8888889,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/bd13a22e9159d3329380.webp",
-            "caption": "Pasta with tomatoes",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.2,
-              0.9333333,
-              0.1055556
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/9d300b6defed30fb77f7.webp",
-            "caption": "Choose & add ingredients",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.4222222,
-              0.9222222,
-              0.5444444,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Free locally. Ideas are shared in a connected group; one member’s Pro version is enough for list sync."
       }
     },
     {
@@ -1691,61 +347,7 @@
           "Tippe auf Vorlage speichern.",
           "Öffne die Vorlage, prüfe die Mengen und tippe auf Auf die Liste."
         ],
-        "note": "Eine Vorlage speichert die gewählten Zutatenmengen. Spätere Rezeptänderungen ändern sie nicht automatisch.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/5c0d854eaa8d64f0268d.webp",
-            "caption": "Neue Vorlage",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.8222222,
-              1.0,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/ac1d14a14276986dc0ac.webp",
-            "caption": "Alles für …",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.1,
-              0.9111111,
-              0.1
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/ac1d14a14276986dc0ac.webp",
-            "caption": "Vorlage speichern",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.5546296,
-              0.9222222,
-              0.412037,
-              0.0666667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/30d16b258ac2b7458ccd.webp",
-            "caption": "Auf die Liste",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.6537037,
-              0.9222222,
-              0.312963,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Eine Vorlage speichert die gewählten Zutatenmengen. Spätere Rezeptänderungen ändern sie nicht automatisch."
       },
       "en": {
         "title": "Reuse an “Everything for…” template",
@@ -1755,61 +357,7 @@
           "Tap Save template.",
           "Open the template, check the quantities and tap Add to list."
         ],
-        "note": "A template saves the chosen ingredient quantities. Later recipe changes do not update it automatically.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/8d5dffbf6ce3158fd911.webp",
-            "caption": "New template",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.8222222,
-              1.0,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/fd690011a678fca5485f.webp",
-            "caption": "Everything for …",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.1,
-              0.9111111,
-              0.1
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/fd690011a678fca5485f.webp",
-            "caption": "Save template",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.6222222,
-              0.9222222,
-              0.3444444,
-              0.0666667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/4009f36f7007010fef74.webp",
-            "caption": "Add to list",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.6962963,
-              0.9222222,
-              0.2703704,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "A template saves the chosen ingredient quantities. Later recipe changes do not update it automatically."
       }
     },
     {
@@ -1824,61 +372,7 @@
           "Prüfe beim nächsten Gericht oder Einkaufsvorschlag die verbleibenden Mengen.",
           "Beim Einkaufabschluss kannst du Gekauftes in den Vorrat übernehmen aktivieren."
         ],
-        "note": "Die App erkennt den Verbrauch zu Hause nicht automatisch. Passe den Vorrat bei Bedarf an.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/97f739ff6259b5a1e4e6.webp",
-            "caption": "Vorrat",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.0833333,
-              0.9333333,
-              0.1277778
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/bef8fe4fa41ec9c6fc0c.webp",
-            "caption": "Tomaten mehr",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.8111111,
-              0.2666667,
-              0.1555556,
-              0.0777778
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/6c03737bdad1c75624e6.webp",
-            "caption": "Tomaten",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1777778,
-              0.3888889,
-              0.4277778,
-              0.0888889
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/bbd30ab133dc5652cd66.webp",
-            "caption": "Gekauftes in den Vorrat übernehmen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.3277778,
-              0.9111111,
-              0.0444444
-            ]
-          }
-        ]
+        "note": "Die App erkennt den Verbrauch zu Hause nicht automatisch. Passe den Vorrat bei Bedarf an."
       },
       "en": {
         "title": "Take pantry stock into account",
@@ -1888,61 +382,7 @@
           "Check the remaining quantities in your next dish or shopping suggestion.",
           "When finishing a shopping trip, you can enable Add purchases to pantry."
         ],
-        "note": "The app does not automatically detect consumption at home. Update your pantry stock when needed.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/e908f574055cfaf23bdd.webp",
-            "caption": "Pantry",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.0833333,
-              0.9333333,
-              0.1277778
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/826aa3f5ced50501d59a.webp",
-            "caption": "Increase Tomatoes",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.8111111,
-              0.2666667,
-              0.1555556,
-              0.0777778
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/df271570b74479f90b46.webp",
-            "caption": "Tomatoes",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1777778,
-              0.3888889,
-              0.4277778,
-              0.0888889
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/a9afd252d15ffd41bcc7.webp",
-            "caption": "Add purchases to pantry",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.3277778,
-              0.9111111,
-              0.0444444
-            ]
-          }
-        ]
+        "note": "The app does not automatically detect consumption at home. Update your pantry stock when needed."
       }
     },
     {
@@ -1957,61 +397,7 @@
           "Tippe auf + oder die Bestätigungstaste der Tastatur.",
           "Nutze bei Bedarf die Vorschläge für bereits gespeicherte Artikel."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/97f739ff6259b5a1e4e6.webp",
-            "caption": "Liste",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.8833333,
-              0.2444444,
-              0.1166667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/37130c6cac61198548b3.webp",
-            "caption": "Was brauchst du?",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.7805556,
-              0.6555556,
-              0.1
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/a8a4d177580c342a2143.webp",
-            "caption": "Hinzufügen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.8222222,
-              0.7972222,
-              0.1333333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/3be73ebc807cd2e53892.webp",
-            "caption": "Milch",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1444444,
-              0.3777778,
-              0.3611111,
-              0.1
-            ]
-          }
-        ]
+        "note": ""
       },
       "en": {
         "title": "Add a spontaneous purchase",
@@ -2021,61 +407,7 @@
           "Tap + or the keyboard’s confirmation key.",
           "Use suggestions for existing items if helpful."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/e908f574055cfaf23bdd.webp",
-            "caption": "List",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.8833333,
-              0.2444444,
-              0.1166667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/278fbe00fbae02bea9f2.webp",
-            "caption": "What do you need?",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.7805556,
-              0.6555556,
-              0.1
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/4181faa0088ce4ee3c1f.webp",
-            "caption": "Add",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.8222222,
-              0.7972222,
-              0.1333333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/9124c38c42e62f1b858c.webp",
-            "caption": "Milk",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1444444,
-              0.3777778,
-              0.3611111,
-              0.1
-            ]
-          }
-        ]
+        "note": ""
       }
     },
     {
@@ -2090,74 +422,7 @@
           "Tippe auf den Artikel oder seine Checkbox, sobald er im Wagen liegt.",
           "Öffne Im Wagen, wenn du einen Haken zurücknehmen möchtest."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/28087b67baa27fb00957.webp",
-            "caption": "Milch",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1444444,
-              0.3777778,
-              0.3611111,
-              0.1
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/28087b67baa27fb00957.webp",
-            "caption": "Milch mehr",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7,
-              0.3888889,
-              0.1555556,
-              0.0777778
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/28087b67baa27fb00957.webp",
-            "caption": "Milch",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1444444,
-              0.3777778,
-              0.3611111,
-              0.1
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/67f549cdc1a49e3cb084.webp",
-            "caption": "▸ IM WAGEN",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.6152778,
-              1.0,
-              0.0722222
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/8d3be2ea55d67dfae973.webp",
-            "caption": "Milch",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1444444,
-              0.6763889,
-              0.3611111,
-              0.1
-            ]
-          }
-        ]
+        "note": ""
       },
       "en": {
         "title": "Adjust quantities and tick items off",
@@ -2167,74 +432,7 @@
           "Tap the item or its checkbox once it is in your basket.",
           "Open In basket if you need to undo a checkmark."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/0c0e68a83a60b5732001.webp",
-            "caption": "Milk",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1444444,
-              0.3777778,
-              0.3611111,
-              0.1
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/0c0e68a83a60b5732001.webp",
-            "caption": "Increase Milk",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7,
-              0.3888889,
-              0.1555556,
-              0.0777778
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/0c0e68a83a60b5732001.webp",
-            "caption": "Milk",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1444444,
-              0.3777778,
-              0.3611111,
-              0.1
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/7873ee9beac77ac1575b.webp",
-            "caption": "▸ IN BASKET",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.5944444,
-              1.0,
-              0.0722222
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/b9dc28ccdb650cf6ffe4.webp",
-            "caption": "Milk",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1444444,
-              0.6555556,
-              0.3611111,
-              0.1
-            ]
-          }
-        ]
+        "note": ""
       }
     },
     {
@@ -2248,61 +446,7 @@
           "Trage fehlende Preise über das Stift-Symbol am Artikel unter Preis & Märkte ein.",
           "Hake Artikel ab und vergleiche Im Wagen, Noch offen und Gesamt."
         ],
-        "note": "Die Summe nutzt deine eingetragenen Preise. Fehlende Preise, abweichende Kassenpreise und noch nicht erfasste Rabatte können den tatsächlichen Betrag verändern.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/28087b67baa27fb00957.webp",
-            "caption": "Kostenübersicht",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0777778,
-              0.1166667,
-              0.312963,
-              0.0388889
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/28087b67baa27fb00957.webp",
-            "caption": "Milch bearbeiten",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.8444444,
-              0.3944444,
-              0.1333333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/dbb5bab1483e9ce688bf.webp",
-            "caption": "Preis ohne Markt",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.7833333,
-              0.8222222,
-              0.1
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/28087b67baa27fb00957.webp",
-            "caption": "Gesamt",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.6,
-              0.1555556,
-              0.137963,
-              0.0333333
-            ]
-          }
-        ]
+        "note": "Die Summe nutzt deine eingetragenen Preise. Fehlende Preise, abweichende Kassenpreise und noch nicht erfasste Rabatte können den tatsächlichen Betrag verändern."
       },
       "en": {
         "title": "See your total as you tick items off",
@@ -2311,61 +455,7 @@
           "Add missing prices using an item’s pencil icon and Price & stores.",
           "Tick off items and compare In basket, Still needed and Total."
         ],
-        "note": "The estimate uses the prices you entered. Missing prices, different checkout prices and discounts not yet entered can change the actual total.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/0c0e68a83a60b5732001.webp",
-            "caption": "Cost overview",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0777778,
-              0.1166667,
-              0.2731481,
-              0.0388889
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/0c0e68a83a60b5732001.webp",
-            "caption": "Edit Milk",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.8444444,
-              0.3944444,
-              0.1333333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/66fc256945320f620cc9.webp",
-            "caption": "Price without store",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.7833333,
-              0.8222222,
-              0.1
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/44bbf207850b3e66fc2a.webp",
-            "caption": "Total",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.6,
-              0.1555556,
-              0.0981481,
-              0.0333333
-            ]
-          }
-        ]
+        "note": "The estimate uses the prices you entered. Missing prices, different checkout prices and discounts not yet entered can change the actual total."
       }
     },
     {
@@ -2379,61 +469,7 @@
           "Trage Angebotspreis, Zeitraum und gegebenenfalls Markt ein.",
           "Tippe auf Angebot speichern und anschließend auf Fertig. Das Angebot gilt nur im eingetragenen Zeitraum."
         ],
-        "note": "Der Normalpreis bleibt getrennt gespeichert.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/303069129713766a5c12.webp",
-            "caption": "Befristetes Angebot",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.5777778,
-              0.9111111,
-              0.1055556
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/083c78c17c249e618ad0.webp",
-            "caption": "Angebotspreis",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.5888889,
-              0.8222222,
-              0.1
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/c7da0f0471256ff60295.webp",
-            "caption": "Angebot speichern",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.8333333,
-              0.4907407,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/c7da0f0471256ff60295.webp",
-            "caption": "Fertig",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7722222,
-              0.9222222,
-              0.1944444,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Der Normalpreis bleibt getrennt gespeichert."
       },
       "en": {
         "title": "Record a temporary offer",
@@ -2442,61 +478,7 @@
           "Enter the offer price, date range and store if applicable.",
           "Tap Save offer, then Done. The offer only applies within the dates you entered."
         ],
-        "note": "The regular price is kept separately.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/c9d38a21aa50deb4ebce.webp",
-            "caption": "Limited-time offer",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.5777778,
-              0.9111111,
-              0.1055556
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/bd4cc0b9e8ab7ba44fd7.webp",
-            "caption": "Offer price",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.5888889,
-              0.8222222,
-              0.1
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/4052fed48cd2176fe198.webp",
-            "caption": "Save offer",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.8333333,
-              0.337963,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/4052fed48cd2176fe198.webp",
-            "caption": "Done",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7833333,
-              0.9222222,
-              0.1833333,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "The regular price is kept separately."
       }
     },
     {
@@ -2510,61 +492,7 @@
           "Lies Zuletzt im Angebot mit Preis und Kaufdatum. Die Angabe steht auch im geöffneten Artikel.",
           "Vergleiche den gespeicherten Kaufpreis mit dem aktuellen Angebot."
         ],
-        "note": "Die Angabe entsteht aus einem abgeschlossenen, gespeicherten Angebotskauf. Ohne solchen Kauf gibt es keinen letzten Angebotspreis.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/46ccce640bbf418e4bdd.webp",
-            "caption": "Kaffee",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.2444444,
-              1.0,
-              0.1444444
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/db8587fb5bc5143a875d.webp",
-            "caption": "Kaffee",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.2444444,
-              1.0,
-              0.1444444
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/28da4836c7f7557e89e2.webp",
-            "caption": "Zuletzt im Angebot: 5,49 €/Stück · gekauft am Mo. 5.10.26 · Supermarkt",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.5777778,
-              0.9111111,
-              0.0555556
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/2cedbcdb61739f071d89.webp",
-            "caption": "Angebotspreis",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.8,
-              0.8222222,
-              0.1
-            ]
-          }
-        ]
+        "note": "Die Angabe entsteht aus einem abgeschlossenen, gespeicherten Angebotskauf. Ohne solchen Kauf gibt es keinen letzten Angebotspreis."
       },
       "en": {
         "title": "Compare an offer with your last offer purchase",
@@ -2573,61 +501,7 @@
           "Read Last bought on offer with its price and purchase date. It also appears inside the item editor.",
           "Compare that recorded purchase price with the current offer."
         ],
-        "note": "This information comes from a finished, saved offer purchase. Without one, no previous offer price is available.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/5e5506d2805040411dac.webp",
-            "caption": "Coffee",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.2444444,
-              1.0,
-              0.1444444
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/55a2856d21b7157a5063.webp",
-            "caption": "Coffee",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.2444444,
-              1.0,
-              0.1444444
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/7ed4edbfc6544000e3ca.webp",
-            "caption": "Last bought on offer: €5.49/piece · bought on Mon, Oct 5, 26 · Supermarket",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.5777778,
-              0.9111111,
-              0.0555556
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/423edb8880196f32cbbf.webp",
-            "caption": "Offer price",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.8,
-              0.8222222,
-              0.1
-            ]
-          }
-        ]
+        "note": "This information comes from a finished, saved offer purchase. Without one, no previous offer price is available."
       }
     },
     {
@@ -2642,74 +516,7 @@
           "Trage einen Euro- oder Prozent-Rabatt auf den Einkauf beziehungsweise einzelne Artikel ein.",
           "Prüfe Zu bezahlen und tippe auf Einkauf speichern. Offene Artikel bleiben auf der Liste."
         ],
-        "note": "Ein Coupon wird als Rabatt erfasst; die App löst ihn nicht beim Händler ein.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/28087b67baa27fb00957.webp",
-            "caption": "Milch",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1444444,
-              0.3777778,
-              0.3611111,
-              0.1
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/d448c469a183bfe6841d.webp",
-            "caption": "Einkauf abschließen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.7083333,
-              0.9333333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/bbd30ab133dc5652cd66.webp",
-            "caption": "Coupons & Rabatte",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.2111111,
-              0.9111111,
-              0.1055556
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/8e999469c7221212cc0f.webp",
-            "caption": "Rabatt auf den Einkauf",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.3444444,
-              0.8222222,
-              0.1
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/8e999469c7221212cc0f.webp",
-            "caption": "Einkauf speichern",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.9222222,
-              0.9333333,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Ein Coupon wird als Rabatt erfasst; die App löst ihn nicht beim Händler ein."
       },
       "en": {
         "title": "Apply coupons and save your shopping trip",
@@ -2719,74 +526,7 @@
           "Enter a euro or percentage discount for the shopping trip or individual items.",
           "Check To pay and tap Save shopping trip. Unchecked items stay on the list."
         ],
-        "note": "A coupon is recorded as a discount; the app does not redeem it with the retailer.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/0c0e68a83a60b5732001.webp",
-            "caption": "Milk",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1444444,
-              0.3777778,
-              0.3611111,
-              0.1
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/44bbf207850b3e66fc2a.webp",
-            "caption": "Finish shopping",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.7083333,
-              0.9333333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/a9afd252d15ffd41bcc7.webp",
-            "caption": "Coupons & discounts",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.2111111,
-              0.9111111,
-              0.1055556
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/bf0b438ca1b7c18ee45a.webp",
-            "caption": "Discount on the shopping trip",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.3444444,
-              0.8222222,
-              0.1
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/bf0b438ca1b7c18ee45a.webp",
-            "caption": "Save shopping trip",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.9222222,
-              0.9333333,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "A coupon is recorded as a discount; the app does not redeem it with the retailer."
       }
     },
     {
@@ -2800,35 +540,7 @@
           "Wähle eine App oder einen Kontakt im Android-Teilen-Menü.",
           "Prüfe den Text und sende ihn selbst ab."
         ],
-        "note": "Das ist eine Textkopie. Für laufend synchronisierte Änderungen nutze die gemeinsame Liste. Das Android-Teilen-Menü kann je nach Handy anders aussehen.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/97f739ff6259b5a1e4e6.webp",
-            "caption": "Liste",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.8833333,
-              0.2444444,
-              0.1166667
-            ]
-          },
-          {
-            "step": 1,
-            "src": "help-images/de/28087b67baa27fb00957.webp",
-            "caption": "Liste teilen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7222222,
-              0.0111111,
-              0.1333333,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Das ist eine Textkopie. Für laufend synchronisierte Änderungen nutze die gemeinsame Liste. Das Android-Teilen-Menü kann je nach Handy anders aussehen."
       },
       "en": {
         "title": "Share your list as text",
@@ -2837,35 +549,7 @@
           "Choose an app or contact in Android’s share menu.",
           "Check the text and send it yourself."
         ],
-        "note": "This sends a text copy. Use a shared list for changes that stay in sync. The Android share sheet may differ by device.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/e908f574055cfaf23bdd.webp",
-            "caption": "List",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.8833333,
-              0.2444444,
-              0.1166667
-            ]
-          },
-          {
-            "step": 1,
-            "src": "help-images/en/0c0e68a83a60b5732001.webp",
-            "caption": "Share list",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7222222,
-              0.0111111,
-              0.1333333,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "This sends a text copy. Use a shared list for changes that stay in sync. The Android share sheet may differ by device."
       }
     },
     {
@@ -2880,74 +564,7 @@
           "Ändere die Reihenfolge mit den Pfeilen und tippe auf Fertig.",
           "Ordne Artikel im Artikel-Editor unter Abteilung & Einheit zu."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/eaecd9ec21673f36d5c6.webp",
-            "caption": "Abteilungen verwalten",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.5888889,
-              0.0111111,
-              0.1333333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/e56b375b54c4a845470c.webp",
-            "caption": "Neue Abteilung",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.25,
-              0.9111111,
-              0.1
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/e56b375b54c4a845470c.webp",
-            "caption": "Abteilung hinzufügen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.3611111,
-              0.5333333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/3e3edfac83c20d8861f0.webp",
-            "caption": "Picknick nach oben",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.6777778,
-              0.8277778,
-              0.1333333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/021e2bd928a8534aa9cc.webp",
-            "caption": "Abteilung",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.5611111,
-              0.1935185,
-              0.0388889
-            ]
-          }
-        ]
+        "note": ""
       },
       "en": {
         "title": "Create and reorder your own categories",
@@ -2957,74 +574,7 @@
           "Use the arrows to change the order, then tap Done.",
           "Assign items in the item editor under Category & unit."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/6649569248805b434a0f.webp",
-            "caption": "Manage categories",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.5888889,
-              0.0111111,
-              0.1333333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/5d0a0caca1feebe3e480.webp",
-            "caption": "New category",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.2166667,
-              0.9111111,
-              0.1
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/5d0a0caca1feebe3e480.webp",
-            "caption": "Add category",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.3277778,
-              0.3925926,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/224fd9eb7e0c7e1b256e.webp",
-            "caption": "Move Picnic up",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.6777778,
-              0.7944444,
-              0.1333333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/27d105822dad2b6539cc.webp",
-            "caption": "Category",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.5611111,
-              0.1833333,
-              0.0388889
-            ]
-          }
-        ]
+        "note": ""
       }
     },
     {
@@ -3038,87 +588,7 @@
           "Öffne einen Artikel → Preis & Märkte → ＋ Markt und trage den Preis ein.",
           "Wähle auf Liste beim Artikel den passenden Markt aus, wenn mehrere verfügbar sind."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/0c7d4c9cf1ea920430c8.webp",
-            "caption": "Märkte",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0777778,
-              0.5388889,
-              0.2157407,
-              0.0666667
-            ]
-          },
-          {
-            "step": 1,
-            "src": "help-images/de/2fadd5f811be8f73314b.webp",
-            "caption": "＋ Neuer Markt",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.5277778,
-              0.3592593,
-              0.0666667
-            ]
-          },
-          {
-            "step": 1,
-            "src": "help-images/de/0e8834d6f5155021105a.webp",
-            "caption": "Hofladen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.5083333,
-              0.4888889,
-              0.0388889
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/3c9c1405f98ffd4ea800.webp",
-            "caption": "＋ Markt",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.8333333,
-              0.3768519,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/6464903b62fd49b271f0.webp",
-            "caption": "€",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.4,
-              0.8111111,
-              0.3777778,
-              0.0888889
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/4cce9fcb1f8b19254089.webp",
-            "caption": "bei Supermarkt ▾",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1555556,
-              0.45,
-              0.2935185,
-              0.0393519
-            ]
-          }
-        ]
+        "note": ""
       },
       "en": {
         "title": "Save stores and their prices",
@@ -3127,87 +597,7 @@
           "Open an item → Price & stores → ＋ Store and enter its price.",
           "Choose the appropriate store beside the item on List when several are available."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/e9674de00f21f7ec0991.webp",
-            "caption": "Stores",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0777778,
-              0.5388889,
-              0.2046296,
-              0.0666667
-            ]
-          },
-          {
-            "step": 1,
-            "src": "help-images/en/ae08f9c271b761181b6a.webp",
-            "caption": "＋ New store",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.5277778,
-              0.3185185,
-              0.0666667
-            ]
-          },
-          {
-            "step": 1,
-            "src": "help-images/en/21c0a19fbc8aadb860d8.webp",
-            "caption": "Farm shop",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.5083333,
-              0.4888889,
-              0.0388889
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/67f00dad3967f560b94f.webp",
-            "caption": "＋ Store",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.8333333,
-              0.3666667,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/ffed85b8443f8713728e.webp",
-            "caption": "€",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.4,
-              0.8111111,
-              0.3777778,
-              0.0888889
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/3dd2b9dfba27460d4db2.webp",
-            "caption": "at Supermarket ▾",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1555556,
-              0.45,
-              0.2962963,
-              0.0393519
-            ]
-          }
-        ]
+        "note": ""
       }
     },
     {
@@ -3222,61 +612,7 @@
           "Prüfe neue Produktdaten. Bei unbekanntem Barcode gib einen Namen ein.",
           "Für einen vorhandenen Artikel ohne Foto: Artikel öffnen → Foto & Barcode → Scannen."
         ],
-        "note": "Produktdaten und Bilder von Open Food Facts werden nur übernommen, wenn verfügbar. Online-Abfragen brauchen Internet.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/28087b67baa27fb00957.webp",
-            "caption": "Barcode scannen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.6888889,
-              0.7972222,
-              0.1333333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/21aef3d19b41396ef823.webp",
-            "caption": "Müsliriegel",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1444444,
-              0.6875,
-              0.3611111,
-              0.0777778
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/fc70d5c9902dc5685b99.webp",
-            "caption": "Name",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.1,
-              0.9111111,
-              0.1
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/c9293b22390046c84304.webp",
-            "caption": "Scannen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.6685185,
-              0.8333333,
-              0.2425926,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Produktdaten und Bilder von Open Food Facts werden nur übernommen, wenn verfügbar. Online-Abfragen brauchen Internet."
       },
       "en": {
         "title": "Add an item by barcode",
@@ -3286,61 +622,7 @@
           "Check new product data. If the barcode is unknown, enter a name.",
           "For an existing item without a photo: open it → Photo & barcode → Scan."
         ],
-        "note": "Product data and images are imported from Open Food Facts only when available. Online lookups require internet.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/0c0e68a83a60b5732001.webp",
-            "caption": "Scan barcode",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.6888889,
-              0.7972222,
-              0.1333333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/684cd27813cd902860b9.webp",
-            "caption": "Granola bar",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.1444444,
-              0.6875,
-              0.3611111,
-              0.0777778
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/4bdc8f889729cbe2aa57.webp",
-            "caption": "Name",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.1,
-              0.9111111,
-              0.1
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/55cd9d9d6f5523dcac20.webp",
-            "caption": "Scan",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7277778,
-              0.8333333,
-              0.1833333,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Product data and images are imported from Open Food Facts only when available. Online lookups require internet."
       }
     },
     {
@@ -3354,61 +636,7 @@
           "Gib ein Suchwort ein und tippe auf Suchen.",
           "Tippe einen Treffer an, um ihn auf die Liste zu setzen. Prüfe danach Name, Bild und Kategorie."
         ],
-        "note": "Die Ergebnisse kommen von Open Food Facts und sind keine aktuelle Angebotssuche des Händlers.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/d5c089965d8272b85bad.webp",
-            "caption": "Artikel online suchen",
-            "width": 720,
-            "height": 1058,
-            "focus": [
-              0.6875,
-              0.0170213,
-              0.15,
-              0.1021277
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/d3b9a6fbab2114e1bf22.webp",
-            "caption": "Suchwort",
-            "width": 720,
-            "height": 1058,
-            "focus": [
-              0.0625,
-              0.1680851,
-              0.875,
-              0.1531915
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/d3b9a6fbab2114e1bf22.webp",
-            "caption": "Suchen",
-            "width": 720,
-            "height": 1058,
-            "focus": [
-              0.0625,
-              0.4829787,
-              0.2479167,
-              0.1021277
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/0c0d3f122d8da25c4638.webp",
-            "caption": "H",
-            "width": 720,
-            "height": 1058,
-            "focus": [
-              0.0625,
-              0.6212766,
-              0.875,
-              0.1446809
-            ]
-          }
-        ]
+        "note": "Die Ergebnisse kommen von Open Food Facts und sind keine aktuelle Angebotssuche des Händlers."
       },
       "en": {
         "title": "Find an item online",
@@ -3417,61 +645,7 @@
           "Enter a search term and tap Search.",
           "Tap a result to add it to your list. Then check its name, photo and category."
         ],
-        "note": "Results come from Open Food Facts, not a retailer’s current offer feed.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/6c72a33b646376f4c0dc.webp",
-            "caption": "Find items online",
-            "width": 720,
-            "height": 1058,
-            "focus": [
-              0.6875,
-              0.0170213,
-              0.15,
-              0.1021277
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/24e9bd9f3f911bd5fcaa.webp",
-            "caption": "Search term",
-            "width": 720,
-            "height": 1058,
-            "focus": [
-              0.0625,
-              0.1851064,
-              0.875,
-              0.1531915
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/24e9bd9f3f911bd5fcaa.webp",
-            "caption": "Search",
-            "width": 720,
-            "height": 1058,
-            "focus": [
-              0.0625,
-              0.5,
-              0.2395833,
-              0.1021277
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/7524783904c756c014c3.webp",
-            "caption": "O",
-            "width": 720,
-            "height": 1058,
-            "focus": [
-              0.0625,
-              0.6212766,
-              0.875,
-              0.1446809
-            ]
-          }
-        ]
+        "note": "Results come from Open Food Facts, not a retailer’s current offer feed."
       }
     },
     {
@@ -3485,61 +659,7 @@
           "Öffne Mehr → Ausgaben → Ausgaben.",
           "Vergleiche Diesen Monat und Letzten Monat. Öffne darunter einen Einkauf für seine Details."
         ],
-        "note": "Die Auswertung enthält nur Einkäufe, die du in der App gespeichert hast.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/bbd30ab133dc5652cd66.webp",
-            "caption": "Einkauf speichern",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.9222222,
-              0.9333333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/237bfc482de98bafe98b.webp",
-            "caption": "Diesen Monat",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.05,
-              0.2416667,
-              0.2287037,
-              0.0333333
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/237bfc482de98bafe98b.webp",
-            "caption": "Letzten Monat",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.5277778,
-              0.2416667,
-              0.2398148,
-              0.0333333
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/237bfc482de98bafe98b.webp",
-            "caption": "EINKÄUFE",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.4361111,
-              0.8925926,
-              0.0388889
-            ]
-          }
-        ]
+        "note": "Die Auswertung enthält nur Einkäufe, die du in der App gespeichert hast."
       },
       "en": {
         "title": "Compare this month with last month",
@@ -3548,61 +668,7 @@
           "Open More → Spending → Spending.",
           "Compare This month and Last month. Open a purchase below for its details."
         ],
-        "note": "The overview includes only purchases you have saved in the app.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/a9afd252d15ffd41bcc7.webp",
-            "caption": "Save shopping trip",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.9222222,
-              0.9333333,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/90b5268daa8daf998301.webp",
-            "caption": "This month",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.05,
-              0.2416667,
-              0.1907407,
-              0.0333333
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/90b5268daa8daf998301.webp",
-            "caption": "Last month",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.5277778,
-              0.2416667,
-              0.1916667,
-              0.0333333
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/90b5268daa8daf998301.webp",
-            "caption": "SHOPPING TRIPS",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.4472222,
-              0.8925926,
-              0.0388889
-            ]
-          }
-        ]
+        "note": "The overview includes only purchases you have saved in the app."
       }
     },
     {
@@ -3616,48 +682,7 @@
           "Suche den Artikel und tippe auf ihn.",
           "Vergleiche die gespeicherten Preise und Daten im Preisverlauf."
         ],
-        "note": "Das sind deine gespeicherten Preise, keine automatische Marktbeobachtung.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/2b1c8ae393d777e331a9.webp",
-            "caption": "Preise",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.487037,
-              0.1,
-              0.4796296,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/a531f9871df6eb20a151.webp",
-            "caption": "Kaffee",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.3388889,
-              1.0,
-              0.0944444
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/0df34c5acba6513f6025.webp",
-            "caption": "Preisverlauf",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.3388889,
-              1.0,
-              0.3555556
-            ]
-          }
-        ]
+        "note": "Das sind deine gespeicherten Preise, keine automatische Marktbeobachtung."
       },
       "en": {
         "title": "See how an item’s recorded price has changed",
@@ -3666,48 +691,7 @@
           "Find the item and tap it.",
           "Compare recorded prices and dates in the price history."
         ],
-        "note": "These are your recorded prices, not automatic market monitoring.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/9b0c66feab382f2a3eb9.webp",
-            "caption": "Prices",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.487037,
-              0.1,
-              0.4796296,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/c35797fecfb3dbcd981e.webp",
-            "caption": "Coffee",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.3388889,
-              1.0,
-              0.0944444
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/78130bdd98d025395722.webp",
-            "caption": "Price history",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.3388889,
-              1.0,
-              0.3555556
-            ]
-          }
-        ]
+        "note": "These are your recorded prices, not automatic market monitoring."
       }
     },
     {
@@ -3721,48 +705,7 @@
           "Tippe auf Weitere Auswertungen anzeigen.",
           "Scrolle zu Ausgaben pro Abteilung und vergleiche Beträge und Anteile."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/650d5edcdb69793d3fe4.webp",
-            "caption": "Weitere Auswertungen anzeigen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0222222,
-              0.35,
-              0.662037,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/65413e49278296cf9855.webp",
-            "caption": "AUSGABEN PRO ABTEILUNG",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.7472222,
-              0.9333333,
-              0.0388889
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/9c3adad3a25defd1fdeb.webp",
-            "caption": "Milchprodukte",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.85,
-              0.6027778,
-              0.0444444
-            ]
-          }
-        ]
+        "note": ""
       },
       "en": {
         "title": "Review spending by category",
@@ -3771,48 +714,7 @@
           "Tap Show more insights.",
           "Scroll to Spending by category and compare amounts and shares."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/591c2b7ee62138e90872.webp",
-            "caption": "Show more insights",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0222222,
-              0.35,
-              0.4398148,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/f10f5d77eb6966237824.webp",
-            "caption": "SPENDING BY CATEGORY",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.7694444,
-              0.9333333,
-              0.0388889
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/74ecb87a38b54f7d4ef7.webp",
-            "caption": "Dairy",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.85,
-              0.6027778,
-              0.0444444
-            ]
-          }
-        ]
+        "note": ""
       }
     },
     {
@@ -3826,48 +728,7 @@
           "Scrolle zu Wofür das Geld draufgeht.",
           "Vergleiche die Artikelbeträge."
         ],
-        "note": "Die Liste ist nach Ausgaben sortiert und keine Rangliste der Kaufhäufigkeit.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/650d5edcdb69793d3fe4.webp",
-            "caption": "Weitere Auswertungen anzeigen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0222222,
-              0.35,
-              0.662037,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/28b328db31643d583d3c.webp",
-            "caption": "WOFÜR DAS GELD DRAUFGEHT",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.3472222,
-              0.9333333,
-              0.0388889
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/28b328db31643d583d3c.webp",
-            "caption": "K",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.3833333,
-              1.0,
-              0.0944444
-            ]
-          }
-        ]
+        "note": "Die Liste ist nach Ausgaben sortiert und keine Rangliste der Kaufhäufigkeit."
       },
       "en": {
         "title": "See which items take the largest share of spending",
@@ -3876,48 +737,7 @@
           "Scroll to Where your money goes.",
           "Compare the amounts spent on items."
         ],
-        "note": "The list is ranked by spending, not by how often items are bought.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/591c2b7ee62138e90872.webp",
-            "caption": "Show more insights",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0222222,
-              0.35,
-              0.4398148,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/14df0ff6fcc5f55a8bfe.webp",
-            "caption": "WHERE YOUR MONEY GOES",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.3694444,
-              0.9333333,
-              0.0388889
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/14df0ff6fcc5f55a8bfe.webp",
-            "caption": "C",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.4055556,
-              1.0,
-              0.0944444
-            ]
-          }
-        ]
+        "note": "The list is ranked by spending, not by how often items are bought."
       }
     },
     {
@@ -3931,48 +751,7 @@
           "Scrolle zu Ausgaben pro Markt.",
           "Vergleiche die Summen der Märkte deiner gespeicherten Einkäufe."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/650d5edcdb69793d3fe4.webp",
-            "caption": "Weitere Auswertungen anzeigen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0222222,
-              0.35,
-              0.662037,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/28b328db31643d583d3c.webp",
-            "caption": "AUSGABEN PRO MARKT",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.1638889,
-              0.9333333,
-              0.0388889
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/28b328db31643d583d3c.webp",
-            "caption": "Supermarkt",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.2083333,
-              0.6027778,
-              0.0444444
-            ]
-          }
-        ]
+        "note": ""
       },
       "en": {
         "title": "Compare spending by store",
@@ -3981,48 +760,7 @@
           "Scroll to Spending by store.",
           "Compare store totals from your saved purchases."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/591c2b7ee62138e90872.webp",
-            "caption": "Show more insights",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0222222,
-              0.35,
-              0.4398148,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/14df0ff6fcc5f55a8bfe.webp",
-            "caption": "SPENDING BY STORE",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.1861111,
-              0.9333333,
-              0.0388889
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/14df0ff6fcc5f55a8bfe.webp",
-            "caption": "Supermarket",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.2305556,
-              0.6027778,
-              0.0444444
-            ]
-          }
-        ]
+        "note": ""
       }
     },
     {
@@ -4037,100 +775,7 @@
           "Tippe auf Jemanden einladen und dann auf Code teilen.",
           "Die andere Person nimmt den Code auf ihrem Handy an. Für weitere Personen: Schließen → Gemeinsam einkaufen erneut öffnen → Jemanden einladen."
         ],
-        "note": "Für den Listen-Sync reicht eine gültige Pro-Version in der Gruppe. Einladungen sind einmalig und 48 Stunden gültig. Eigener Scanner und erweiterte Analyse benötigen jeweils eine eigene Pro-Version.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/97f739ff6259b5a1e4e6.webp",
-            "caption": "Gemeinsam einkaufen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.3777778,
-              0.9333333,
-              0.1277778
-            ]
-          },
-          {
-            "step": 1,
-            "src": "help-images/de/5fc2ea3305c1954b0122.webp",
-            "caption": "Eigene Familienliste starten",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.2666667,
-              0.5842593,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/67007e900c56109f5f68.webp",
-            "caption": "Dein Name",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.2611111,
-              0.9111111,
-              0.1
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/67007e900c56109f5f68.webp",
-            "caption": "Neue gemeinsame Liste starten",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.3694444,
-              0.6564815,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/5bfc615f6b8cba3c7324.webp",
-            "caption": "Jemanden einladen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.4013889,
-              0.437963,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/f412029771850af922d9.webp",
-            "caption": "Code teilen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.5875,
-              0.2907407,
-              0.0666667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/15eebe261e9b233a003e.webp",
-            "caption": "Jemanden einladen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.4013889,
-              0.437963,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Für den Listen-Sync reicht eine gültige Pro-Version in der Gruppe. Einladungen sind einmalig und 48 Stunden gültig. Eigener Scanner und erweiterte Analyse benötigen jeweils eine eigene Pro-Version."
       },
       "en": {
         "title": "Create a shared list and invite others",
@@ -4140,100 +785,7 @@
           "Tap Invite someone, then Share code.",
           "The other person accepts the code on their phone. To invite more people: Close → open Shop together again → Invite someone."
         ],
-        "note": "One valid Pro version in the group is enough for list sync. Each invite is valid once and for 48 hours. Personal scanner and detailed analysis access each require that person’s own Pro version.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/e908f574055cfaf23bdd.webp",
-            "caption": "Shop together",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.35,
-              0.9333333,
-              0.1277778
-            ]
-          },
-          {
-            "step": 1,
-            "src": "help-images/en/ed4dd2036e4766f3783c.webp",
-            "caption": "Start your own shared list",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.2666667,
-              0.5416667,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/7ed979ec2151142ce7b4.webp",
-            "caption": "Your name",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.2611111,
-              0.9111111,
-              0.1
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/7ed979ec2151142ce7b4.webp",
-            "caption": "Start a new shared list",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.3694444,
-              0.4851852,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/1ecac0a5bf278da8522c.webp",
-            "caption": "Invite someone",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.4013889,
-              0.362963,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/df9d52b3a506f51b2317.webp",
-            "caption": "Share code",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.5652778,
-              0.2888889,
-              0.0666667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/2ba5126a6dd382dbf563.webp",
-            "caption": "Invite someone",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.4013889,
-              0.362963,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "One valid Pro version in the group is enough for list sync. Each invite is valid once and for 48 hours. Personal scanner and detailed analysis access each require that person’s own Pro version."
       }
     },
     {
@@ -4247,61 +799,7 @@
           "Öffne Mehr → Gemeinsam einkaufen → Einladung annehmen.",
           "Gib deinen Namen und den Code ein und tippe auf Beitreten."
         ],
-        "note": "Plane mit Partnern, Freunden, einer WG, Familie oder einer anderen Gruppe. Eine Internetverbindung ist für den Abgleich nötig.",
-        "images": [
-          {
-            "step": 2,
-            "src": "help-images/de/97f739ff6259b5a1e4e6.webp",
-            "caption": "Gemeinsam einkaufen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.3777778,
-              0.9333333,
-              0.1277778
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/5fc2ea3305c1954b0122.webp",
-            "caption": "Einladung annehmen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.1861111,
-              0.9111111,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/c25f24103b4735f30cca.webp",
-            "caption": "Einladungscode",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.3638889,
-              0.9111111,
-              0.1
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/c25f24103b4735f30cca.webp",
-            "caption": "Beitreten",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.4722222,
-              0.2527778,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Plane mit Partnern, Freunden, einer WG, Familie oder einer anderen Gruppe. Eine Internetverbindung ist für den Abgleich nötig."
       },
       "en": {
         "title": "Join a shared list for free",
@@ -4310,61 +808,7 @@
           "Open More → Shop together → Accept an invitation.",
           "Enter your name and the code, then tap Join."
         ],
-        "note": "Plan with a partner, friends, housemates, family or another group. Sync requires an internet connection.",
-        "images": [
-          {
-            "step": 2,
-            "src": "help-images/en/e908f574055cfaf23bdd.webp",
-            "caption": "Shop together",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.35,
-              0.9333333,
-              0.1277778
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/ed4dd2036e4766f3783c.webp",
-            "caption": "Accept invitation",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.1861111,
-              0.9111111,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/ce1c6d1f89244da967b4.webp",
-            "caption": "Invitation code",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.3638889,
-              0.9111111,
-              0.1
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/ce1c6d1f89244da967b4.webp",
-            "caption": "Join",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.4722222,
-              0.1833333,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Plan with a partner, friends, housemates, family or another group. Sync requires an internet connection."
       }
     },
     {
@@ -4378,61 +822,7 @@
           "Auf dem neuen Handy: Öffne Mehr → Gemeinsam einkaufen → Nach Handywechsel zurückkehren.",
           "Tippe auf Mit Google anmelden und wähle dasselbe Google-Konto."
         ],
-        "note": "Die Google-Verknüpfung sichert die Mitgliedschaft. Sichere lokale Gerichte und Preisverläufe zusätzlich per Export. Dein Google-Konto wählst du im Android-Dialog aus.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/7240660daf81c4c7f4b8.webp",
-            "caption": "Mit Google-Konto sichern",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.3722222,
-              0.5416667,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/97f739ff6259b5a1e4e6.webp",
-            "caption": "Gemeinsam einkaufen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.3777778,
-              0.9333333,
-              0.1277778
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/e3e2ae939ada1777d42a.webp",
-            "caption": "Nach Handywechsel zurückkehren",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.4,
-              0.9111111,
-              0.1277778
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/025bb7b58f5e4ea658e2.webp",
-            "caption": "Mit Google anmelden",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.5222222,
-              0.4694444,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Die Google-Verknüpfung sichert die Mitgliedschaft. Sichere lokale Gerichte und Preisverläufe zusätzlich per Export. Dein Google-Konto wählst du im Android-Dialog aus."
       },
       "en": {
         "title": "Return to your group after changing phones",
@@ -4441,61 +831,7 @@
           "On the new phone, open More → Shop together → Return after switching phones.",
           "Tap Sign in with Google and choose the same Google account."
         ],
-        "note": "Linking Google protects your membership. Also export local dishes and price histories separately. Choose your Google account in the Android dialog.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/63cb32c46613619f6f3e.webp",
-            "caption": "Back up with Google account",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.3722222,
-              0.6037037,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/e908f574055cfaf23bdd.webp",
-            "caption": "Shop together",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.35,
-              0.9333333,
-              0.1277778
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/1822601a640069033d4c.webp",
-            "caption": "Return after switching phones",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.4,
-              0.9111111,
-              0.1055556
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/e9abc3d634091ab50055.webp",
-            "caption": "Sign in with Google",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.5,
-              0.4296296,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Linking Google protects your membership. Also export local dishes and price histories separately. Choose your Google account in the Android dialog."
       }
     },
     {
@@ -4509,74 +845,7 @@
           "Unter Mitglieder kann die verwaltende Person ein Mitglied entfernen oder Zum Verwalter machen wählen.",
           "Zum Verlassen: Liste verwalten → Liste verlassen → Ja, verlassen."
         ],
-        "note": "„Liste für alle auflösen“ beendet die gemeinsame Liste für alle Mitglieder. Wähle diese Aktion nur, wenn das beabsichtigt ist.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/97f739ff6259b5a1e4e6.webp",
-            "caption": "Gemeinsam einkaufen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.3777778,
-              0.9333333,
-              0.1277778
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/c8e7fdde46ef7cc14986.webp",
-            "caption": "Zum Verwalter machen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.3138889,
-              0.5009259,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/c8e7fdde46ef7cc14986.webp",
-            "caption": "Entfernen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.5675926,
-              0.3138889,
-              0.262037,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/bf2d407eea5c67f3d323.webp",
-            "caption": "Liste verlassen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.8333333,
-              0.3592593,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/881770bd71c51c1bba7a.webp",
-            "caption": "Ja, verlassen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.8333333,
-              0.3231481,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "„Liste für alle auflösen“ beendet die gemeinsame Liste für alle Mitglieder. Wähle diese Aktion nur, wenn das beabsichtigt ist."
       },
       "en": {
         "title": "Leave a group or manage a member",
@@ -4585,74 +854,7 @@
           "Under Members, the manager can remove a member or choose Make manager.",
           "To leave, choose Manage list → Leave list → Yes, leave."
         ],
-        "note": "“Delete the list for everyone” ends the shared list for every member. Choose it only if that is what you intend.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/e908f574055cfaf23bdd.webp",
-            "caption": "Shop together",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.35,
-              0.9333333,
-              0.1277778
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/df5f18123987be6ad88b.webp",
-            "caption": "Make list owner",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.3138889,
-              0.3712963,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/df5f18123987be6ad88b.webp",
-            "caption": "Remove",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.437963,
-              0.3138889,
-              0.2342593,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/f500f68ac938c1db8665.webp",
-            "caption": "Leave list",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.8333333,
-              0.2601852,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/b10e66ad6e3174b7fca3.webp",
-            "caption": "Yes, leave",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.8333333,
-              0.2685185,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "“Delete the list for everyone” ends the shared list for every member. Choose it only if that is what you intend."
       }
     },
     {
@@ -4667,74 +869,7 @@
           "Zum Wiederherstellen: Import aus Datei öffnen, Vorrat übernehmen und Einkaufsliste übernehmen nach Bedarf wählen, dann Datei wählen.",
           "Wähle deine Sicherungsdatei und prüfe die Importmeldung."
         ],
-        "note": "Eine Sicherung kann eigene Fotos und Einkaufsdaten enthalten. Bewahre sie passend auf. Die Dateiauswahl kann je nach Handy anders aussehen.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/603ecf402ab89319e62e.webp",
-            "caption": "Daten sichern",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.5722222,
-              0.9333333,
-              0.1055556
-            ]
-          },
-          {
-            "step": 1,
-            "src": "help-images/de/2fa67b1480cf23ed5aac.webp",
-            "caption": "Export in Datei",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0777778,
-              0.8722222,
-              0.3490741,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/c9509d8a52f523f8e0e6.webp",
-            "caption": "Import aus Datei",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0777778,
-              0.9388889,
-              0.3842593,
-              0.0611111
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/e792b0c16330b0b90009.webp",
-            "caption": "Vorrat übernehmen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.3166667,
-              0.7666667,
-              0.0444444
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/e792b0c16330b0b90009.webp",
-            "caption": "Datei wählen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.6490741,
-              0.9222222,
-              0.3175926,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Eine Sicherung kann eigene Fotos und Einkaufsdaten enthalten. Bewahre sie passend auf. Die Dateiauswahl kann je nach Handy anders aussehen."
       },
       "en": {
         "title": "Export and import your data",
@@ -4744,74 +879,7 @@
           "To restore, open Import from file, choose whether to import pantry stock and the shopping list, then tap Choose file.",
           "Select your backup file and check the import result."
         ],
-        "note": "A backup can contain your photos and shopping data. Store it appropriately. The file picker may differ by device.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/3eed65216ab682a67806.webp",
-            "caption": "Back up data",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.5722222,
-              0.9333333,
-              0.1055556
-            ]
-          },
-          {
-            "step": 1,
-            "src": "help-images/en/058e414ea678cb1c9c57.webp",
-            "caption": "Export to file",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0777778,
-              0.8722222,
-              0.3148148,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/1cd1cab852d4d08dc9ac.webp",
-            "caption": "Import from file",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0777778,
-              0.9388889,
-              0.3675926,
-              0.0611111
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/bcf41397fe40922c4fce.webp",
-            "caption": "Import pantry",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.2833333,
-              0.7666667,
-              0.0444444
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/bcf41397fe40922c4fce.webp",
-            "caption": "Choose file",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.6787037,
-              0.9222222,
-              0.287963,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "A backup can contain your photos and shopping data. Store it appropriately. The file picker may differ by device."
       }
     },
     {
@@ -4825,61 +893,7 @@
           "Tippe auf Sprache und wähle Deutsch oder English.",
           "Mit Systemsprache folgt die App wieder der Sprache deines Geräts."
         ],
-        "note": "Deine Artikel-, Gerichts- und Marktnamen bleiben so, wie du sie eingegeben hast.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/97f739ff6259b5a1e4e6.webp",
-            "caption": "Einstellungen & Hilfe",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.4958333,
-              0.9333333,
-              0.1277778
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/603ecf402ab89319e62e.webp",
-            "caption": "Sprache · Deutsch",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.2055556,
-              0.4101852,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/d222842c28fa06a943a6.webp",
-            "caption": "English",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.5027778,
-              0.8888889,
-              0.0611111
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/d222842c28fa06a943a6.webp",
-            "caption": "Systemsprache",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.4027778,
-              0.8888889,
-              0.0611111
-            ]
-          }
-        ]
+        "note": "Deine Artikel-, Gerichts- und Marktnamen bleiben so, wie du sie eingegeben hast."
       },
       "en": {
         "title": "Choose German or English for the app",
@@ -4888,61 +902,7 @@
           "Tap Language and choose Deutsch or English.",
           "Choose System language to follow your device’s language again."
         ],
-        "note": "Your own item, dish and store names stay as you entered them.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/e908f574055cfaf23bdd.webp",
-            "caption": "Settings & help",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.4680556,
-              0.9333333,
-              0.1277778
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/3eed65216ab682a67806.webp",
-            "caption": "Language · English",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.2055556,
-              0.425,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/97187ac2d6999704de4c.webp",
-            "caption": "English",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.5027778,
-              0.8888889,
-              0.0611111
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/97187ac2d6999704de4c.webp",
-            "caption": "System language",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.4027778,
-              0.8888889,
-              0.0611111
-            ]
-          }
-        ]
+        "note": "Your own item, dish and store names stay as you entered them."
       }
     },
     {
@@ -4956,61 +916,7 @@
           "Tippe auf Farbschema und wähle Hell, Dunkel oder Wie System sowie die gewünschte Palette.",
           "Mit Töne schaltest du Rückmeldungen ein oder aus."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/603ecf402ab89319e62e.webp",
-            "caption": "Aussehen & Töne",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.4722222,
-              0.9333333,
-              0.1055556
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/7e4215d94d9ba05bacf0.webp",
-            "caption": "Farbschema",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0777778,
-              0.5722222,
-              0.3101852,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/8ad3bd8e687e41a630b4.webp",
-            "caption": "Dunkel",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.225,
-              0.8888889,
-              0.05
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/7e4215d94d9ba05bacf0.webp",
-            "caption": "Töne",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0777778,
-              0.6666667,
-              0.7,
-              0.0444444
-            ]
-          }
-        ]
+        "note": ""
       },
       "en": {
         "title": "Change the theme and sounds",
@@ -5019,61 +925,7 @@
           "Tap Color scheme and choose Light, Dark or System, plus your preferred palette.",
           "Use Sounds to turn audio feedback on or off."
         ],
-        "note": "",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/3eed65216ab682a67806.webp",
-            "caption": "Appearance & sounds",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.4722222,
-              0.9333333,
-              0.1055556
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/6c9bd233d8f869c63fc7.webp",
-            "caption": "Color scheme",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0777778,
-              0.5722222,
-              0.3351852,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/a4a9a12d89779d8339d3.webp",
-            "caption": "Dark",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.225,
-              0.8888889,
-              0.05
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/6c9bd233d8f869c63fc7.webp",
-            "caption": "Sounds",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0777778,
-              0.6666667,
-              0.7,
-              0.0444444
-            ]
-          }
-        ]
+        "note": ""
       }
     },
     {
@@ -5087,48 +939,7 @@
           "Prüfe den in Google Play angezeigten einmaligen Preis und wähle bei Bedarf Pro kaufen.",
           "Bei einem vorhandenen Kauf: Nutze dasselbe Play-Konto und tippe auf Käufe wiederherstellen / erneut laden."
         ],
-        "note": "Kein Abo. Der aktuelle Preis wird von Google Play angezeigt und kann je nach Land abweichen. Kaufbestätigung und Bezahlung erfolgen in Google Play.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/21557ee4089698d34b6a.webp",
-            "caption": "Pro & Käufe wiederherstellen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0777778,
-              0.5555556,
-              0.6046296,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/3bb1951192c32b446b8b.webp",
-            "caption": "Kosten",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.7666667,
-              0.1657407,
-              0.0444444
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/213900718c267f7751e1.webp",
-            "caption": "Käufe wiederherstellen / erneut laden",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.9388889,
-              0.7546296,
-              0.0611111
-            ]
-          }
-        ]
+        "note": "Kein Abo. Der aktuelle Preis wird von Google Play angezeigt und kann je nach Land abweichen. Kaufbestätigung und Bezahlung erfolgen in Google Play."
       },
       "en": {
         "title": "Buy or restore the Pro version",
@@ -5137,48 +948,7 @@
           "Check the one-time price shown by Google Play and choose Buy Pro if wanted.",
           "For an existing purchase, use the same Play account and tap Restore purchases / reload."
         ],
-        "note": "No subscription. Google Play shows the current price, which can vary by country. Google Play handles payment and purchase confirmation.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/498d90baffdb0f59aa56.webp",
-            "caption": "Pro version & restore purchases",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0777778,
-              0.5555556,
-              0.6564815,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/8b01a4268f63c0afe54f.webp",
-            "caption": "Cost",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.6555556,
-              0.1175926,
-              0.0444444
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/8b01a4268f63c0afe54f.webp",
-            "caption": "Restore purchases / reload",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.8972222,
-              0.5694444,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "No subscription. Google Play shows the current price, which can vary by country. Google Play handles payment and purchase confirmation."
       }
     },
     {
@@ -5192,48 +962,7 @@
           "Wähle Konto löschen und lies die Bestätigung.",
           "Bestätige mit Ja, Konto löschen, wenn du Konto und Mitgliedschaften entfernen möchtest."
         ],
-        "note": "Die App erklärt die Folgen für verwaltete Listen. Lokale Daten auf diesem Handy bleiben erhalten. Ohne App erreichst du uns unter info@dudee-studio.com.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/97f739ff6259b5a1e4e6.webp",
-            "caption": "Gemeinsam einkaufen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.3777778,
-              0.9333333,
-              0.1277778
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/fb8dbbc2ec0ab4feb96e.webp",
-            "caption": "Konto löschen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.8180556,
-              0.3416667,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/39fc6e1dc610fe793a98.webp",
-            "caption": "Ja, Konto löschen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.8180556,
-              0.4027778,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Die App erklärt die Folgen für verwaltete Listen. Lokale Daten auf diesem Handy bleiben erhalten. Ohne App erreichst du uns unter info@dudee-studio.com."
       },
       "en": {
         "title": "Delete your group account",
@@ -5242,48 +971,7 @@
           "Choose Delete account and read the confirmation.",
           "Confirm with Yes, delete account if you want to remove the account and memberships."
         ],
-        "note": "The app explains the effect on lists you manage. Local data on this phone is kept. Without the app, contact info@dudee-studio.com.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/e908f574055cfaf23bdd.webp",
-            "caption": "Shop together",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0333333,
-              0.35,
-              0.9333333,
-              0.1277778
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/59930330966820b1d719.webp",
-            "caption": "Delete account",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.7958333,
-              0.3555556,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/1783ea22762c018bb52b.webp",
-            "caption": "Yes, delete account",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0888889,
-              0.7958333,
-              0.4361111,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "The app explains the effect on lists you manage. Local data on this phone is kept. Without the app, contact info@dudee-studio.com."
       }
     },
     {
@@ -5297,35 +985,7 @@
           "Suche Abgehakt beziehungsweise Einkaufsliste und platziere das Widget.",
           "Öffne die App über das Widget, wenn du weitere Angaben ändern möchtest."
         ],
-        "note": "Die Bezeichnungen im Startbildschirm-Menü hängen von deinem Android-Gerät ab. Die Widget-Auswahl hängt vom Startbildschirm deines Handys ab.",
-        "images": [
-          {
-            "step": 2,
-            "src": "help-images/de/7b65daba4ef683d68200.webp",
-            "caption": "Widget",
-            "width": 720,
-            "height": 540,
-            "focus": [
-              0.025,
-              0.0333333,
-              0.95,
-              0.1236111
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/152fbfadc608e9446fcf.webp",
-            "caption": "Liste",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.8833333,
-              0.2444444,
-              0.1166667
-            ]
-          }
-        ]
+        "note": "Die Bezeichnungen im Startbildschirm-Menü hängen von deinem Android-Gerät ab. Die Widget-Auswahl hängt vom Startbildschirm deines Handys ab."
       },
       "en": {
         "title": "Show your list on the home screen",
@@ -5334,35 +994,7 @@
           "Find Abgehakt or Einkaufsliste and place the widget.",
           "Open the app from the widget when you want to change more details."
         ],
-        "note": "Home screen menu labels vary by Android device. The widget picker depends on your home screen app.",
-        "images": [
-          {
-            "step": 2,
-            "src": "help-images/en/4df1733dc16c8554d3ab.webp",
-            "caption": "Widget",
-            "width": 720,
-            "height": 540,
-            "focus": [
-              0.025,
-              0.0333333,
-              0.95,
-              0.1236111
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/1c0ddfbfbde190542912.webp",
-            "caption": "List",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0,
-              0.8833333,
-              0.2444444,
-              0.1166667
-            ]
-          }
-        ]
+        "note": "Home screen menu labels vary by Android device. The widget picker depends on your home screen app."
       }
     },
     {
@@ -5377,100 +1009,7 @@
           "Wähle einen passenden Treffer mit Übernehmen.",
           "Prüfe deine eigene Kopie, passe die Abteilung an und tippe auf Anlegen."
         ],
-        "note": "Vorschau Version 1.1: Die Live-Freischaltung steht noch aus. Der Katalog enthält Beiträge anderer App-Nutzer; gemeldete Preise sind keine Preisgarantie.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/eaecd9ec21673f36d5c6.webp",
-            "caption": "Neuer Artikel",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0222222,
-              0.8222222,
-              0.9555556,
-              0.0666667
-            ]
-          },
-          {
-            "step": 1,
-            "src": "help-images/de/b8fde8c94c8f13fffa13.webp",
-            "caption": "Name",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.1,
-              0.9111111,
-              0.1
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/b8fde8c94c8f13fffa13.webp",
-            "caption": "Im gemeinsamen Katalog suchen · Pro",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.2111111,
-              0.7722222,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/29d52c8605f4b27a1a87.webp",
-            "caption": "Zustimmen & aktivieren",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.4342593,
-              0.7916667,
-              0.5101852,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/70d9f87d5245989a8be8.webp",
-            "caption": "Übernehmen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0722222,
-              0.3805556,
-              0.3166667,
-              0.0666667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/7e2224b2eaa2a5348194.webp",
-            "caption": "Weitere Angaben",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.7277778,
-              0.9111111,
-              0.1055556
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/2364f3bde3ca60ee0605.webp",
-            "caption": "Anlegen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7314815,
-              0.9222222,
-              0.2351852,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Vorschau Version 1.1: Die Live-Freischaltung steht noch aus. Der Katalog enthält Beiträge anderer App-Nutzer; gemeldete Preise sind keine Preisgarantie."
       },
       "en": {
         "title": "Import an item from the community catalog",
@@ -5480,100 +1019,7 @@
           "Choose a suitable result with Apply.",
           "Check your own copy, adjust the category and tap Create."
         ],
-        "note": "Version 1.1 preview: live activation is still pending. The catalog contains contributions from app users; reported prices are not guaranteed current prices.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/6649569248805b434a0f.webp",
-            "caption": "New item",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0222222,
-              0.8222222,
-              0.9555556,
-              0.0666667
-            ]
-          },
-          {
-            "step": 1,
-            "src": "help-images/en/e0fe800bc4de8fe26ff2.webp",
-            "caption": "Name",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.1,
-              0.9111111,
-              0.1
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/e0fe800bc4de8fe26ff2.webp",
-            "caption": "Search the community catalog · Pro version",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.2111111,
-              0.8601852,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/eff1a0520bcb844bf615.webp",
-            "caption": "Agree & enable",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.5851852,
-              0.7777778,
-              0.3592593,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/94e33b713215ded82995.webp",
-            "caption": "Apply",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0722222,
-              0.3805556,
-              0.1898148,
-              0.0666667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/5b488e565c7f7a5a9729.webp",
-            "caption": "More details",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.7277778,
-              0.9111111,
-              0.1055556
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/f872d939d1f1738d6e74.webp",
-            "caption": "Create",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.7592593,
-              0.9222222,
-              0.2074074,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Version 1.1 preview: live activation is still pending. The catalog contains contributions from app users; reported prices are not guaranteed current prices."
       }
     },
     {
@@ -5588,61 +1034,7 @@
           "Wähle zusätzliches Teilen eines eigenen Fotos oder Preises nur, wenn du das möchtest.",
           "Tippe auf Jetzt veröffentlichen."
         ],
-        "note": "Vorschau Version 1.1. Veröffentlichen ist auch ohne Pro-Version möglich. Keine persönlichen Kaufverläufe; teile nur Inhalte, für die du die nötigen Rechte hast.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/b295ea7e673311fa05c5.webp",
-            "caption": "Artikel öffentlich bereitstellen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.8333333,
-              0.6194444,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/d6b8c0f0f867987b8860.webp",
-            "caption": "Neue Artikel automatisch teilen (ohne Foto und Preis)",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.2527778,
-              0.7444444,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/d6b8c0f0f867987b8860.webp",
-            "caption": "Eigenes Foto teilen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.625,
-              0.7444444,
-              0.0666667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/de/d6b8c0f0f867987b8860.webp",
-            "caption": "Jetzt veröffentlichen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.7083333,
-              0.4564815,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Vorschau Version 1.1. Veröffentlichen ist auch ohne Pro-Version möglich. Keine persönlichen Kaufverläufe; teile nur Inhalte, für die du die nötigen Rechte hast."
       },
       "en": {
         "title": "Choose to share your own item with the community",
@@ -5652,61 +1044,7 @@
           "Opt in to sharing your own photo or a price only if you want to.",
           "Tap Publish now."
         ],
-        "note": "Version 1.1 preview. Publishing does not require the Pro version. Personal purchase history is not shared; publish only content you have the right to share.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/bd57354b985625e7db25.webp",
-            "caption": "Share items publicly",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0444444,
-              0.8333333,
-              0.4490741,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/e994f37edbab1686af49.webp",
-            "caption": "Automatically share new items (without photo or price)",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.2527778,
-              0.7444444,
-              0.0666667
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/99a834a013f77463027b.webp",
-            "caption": "Share your own photo",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.625,
-              0.7444444,
-              0.0666667
-            ]
-          },
-          {
-            "step": 4,
-            "src": "help-images/en/99a834a013f77463027b.webp",
-            "caption": "Publish now",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.7083333,
-              0.3055556,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Version 1.1 preview. Publishing does not require the Pro version. Personal purchase history is not shared; publish only content you have the right to share."
       }
     },
     {
@@ -5720,48 +1058,7 @@
           "Prüfe die Meldung Freigabe zurückgezogen.",
           "Einen fremden problematischen Suchtreffer meldest du im Katalog mit Melden."
         ],
-        "note": "Vorschau Version 1.1. Eine Rücknahme entfernt die Veröffentlichung; bereits von anderen übernommene Kopien bleiben bestehen.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/de/5d4aa53744d54118d810.webp",
-            "caption": "Zurückziehen",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.6157407,
-              0.6194444,
-              0.3287037,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/de/c897cc4518e63967f9bc.webp",
-            "caption": "Freigabe zurückgezogen.",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.6527778,
-              0.4203704,
-              0.0333333
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/de/30b5a0371a1ee674bd21.webp",
-            "caption": "Melden",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.3666667,
-              0.3805556,
-              0.2222222,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Vorschau Version 1.1. Eine Rücknahme entfernt die Veröffentlichung; bereits von anderen übernommene Kopien bleiben bestehen."
       },
       "en": {
         "title": "Withdraw a shared item or report a contribution",
@@ -5770,48 +1067,7 @@
           "Check for the Shared item withdrawn confirmation.",
           "Use Report on an inappropriate catalog search result."
         ],
-        "note": "Version 1.1 preview. Withdrawal removes the publication; copies already imported by other users remain.",
-        "images": [
-          {
-            "step": 1,
-            "src": "help-images/en/86c4423466d55e93283b.webp",
-            "caption": "Withdraw",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.687963,
-              0.6194444,
-              0.2564815,
-              0.0666667
-            ]
-          },
-          {
-            "step": 2,
-            "src": "help-images/en/2c9b10058414ad8b1574.webp",
-            "caption": "Shared item withdrawn.",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.0555556,
-              0.6527778,
-              0.3981481,
-              0.0333333
-            ]
-          },
-          {
-            "step": 3,
-            "src": "help-images/en/d8390ce109f5ca01eec9.webp",
-            "caption": "Report",
-            "width": 720,
-            "height": 1440,
-            "focus": [
-              0.2398148,
-              0.3805556,
-              0.2092593,
-              0.0666667
-            ]
-          }
-        ]
+        "note": "Version 1.1 preview. Withdrawal removes the publication; copies already imported by other users remain."
       }
     }
   ]
