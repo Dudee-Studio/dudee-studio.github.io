@@ -1,0 +1,648 @@
+{
+  "version": "V12 Hochformat",
+  "storage_branch": "media/abgehakt-mobile-v12",
+  "website_embedded": false,
+  "website_deployed": false,
+  "reason": "Nur die ausdrücklich beauftragte Hauptfilm-Handyfassung und ihre Begleitdateien im Medienbranch; keine weiteren Detailfilme oder Bildquellen.",
+  "files": {
+    "einkaufsliste-gerichte-hochformat.mp4": {
+      "sha256": "109b066b667265e057106ffd7041f86eaeac0925dd8acd8d9899f2c30927a6a7",
+      "bytes": 9098192
+    },
+    "overview-portrait-de.vtt": {
+      "sha256": "9d6922a8ca7164ba7bd65a2bae470b5ba9ede0a4d5a37d35e9265c253e667f84",
+      "bytes": 2357
+    },
+    "overview-portrait-poster.jpg": {
+      "sha256": "f80827ec91b6f027fe3b4b5015afc0177ac1f3f8e5fdbf2292877af46acd6c21",
+      "bytes": 28619
+    }
+  },
+  "video": {
+    "duration_seconds": 59,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "fps": "30/1",
+    "frames": 1770,
+    "codec": "H.264 / yuv420p / BT.709",
+    "audio": "AAC / 48000 Hz / stereo"
+  },
+  "source_landscape": {
+    "file": "videos/einkaufsliste-gerichte.mp4",
+    "sha256": "e4ce5f6813f8b7499b559affc46b98407eee7f6074e5d139e5144ee1c1d31a92",
+    "commit": "d6e7926"
+  },
+  "full_bleed_photos": true,
+  "native_portrait_photos": {
+    "count": 9,
+    "source_location": "Lokale Produktionsmappe; Bildquellen nicht im Repo veröffentlicht"
+  },
+  "checks": {
+    "version": "V12",
+    "duration_sec": 59,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "subjective_listening": false,
+    "exports": {
+      "abgehakt-hochformat-clean.mp4": {
+        "sha256": "fb1059e65d1dbdfae8a0fdd74e2a782c0476f87b2c8a9a1da68a7b8777286d43",
+        "bytes": 9070594,
+        "full_decode": "passed",
+        "frames": 1770,
+        "black_frames": false,
+        "audio_packet_hash": "SHA256=ed2396741b2781b497cdfcadf11d853bb2a91d1e1c65d06fe3ba5e6cc94b6f52",
+        "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -15.9 LUFS\n    Threshold: -26.2 LUFS\n\n  Loudness range:\n    LRA:         3.7 LU\n    Threshold: -36.1 LUFS\n    LRA low:   -18.0 LUFS\n    LRA high:  -14.4 LUFS\n\n  True peak:\n    Peak:       -2.4 dBFS\n[out#0/null @ 0x5588e9be1f80] video:761KiB audio:11064KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe= 1770 fps=480 q=-0.0 Lsize=N/A time=00:00:59.00 bitrate=N/A speed=  16x    \n"
+      },
+      "abgehakt-hochformat.mp4": {
+        "sha256": "109b066b667265e057106ffd7041f86eaeac0925dd8acd8d9899f2c30927a6a7",
+        "bytes": 9098192,
+        "full_decode": "passed",
+        "frames": 1770,
+        "black_frames": false,
+        "audio_packet_hash": "SHA256=ed2396741b2781b497cdfcadf11d853bb2a91d1e1c65d06fe3ba5e6cc94b6f52",
+        "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -15.9 LUFS\n    Threshold: -26.2 LUFS\n\n  Loudness range:\n    LRA:         3.7 LU\n    Threshold: -36.1 LUFS\n    LRA low:   -18.0 LUFS\n    LRA high:  -14.4 LUFS\n\n  True peak:\n    Peak:       -2.4 dBFS\n[out#0/null @ 0x5579b6928f80] video:761KiB audio:11064KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe= 1770 fps=478 q=-0.0 Lsize=N/A time=00:00:59.00 bitrate=N/A speed=15.9x    \n"
+      }
+    },
+    "app_checks": [
+      {
+        "index": 3,
+        "unchanged_source_and_focus": true,
+        "complete_app": true
+      },
+      {
+        "index": 4,
+        "unchanged_source_and_focus": true,
+        "complete_app": true
+      },
+      {
+        "index": 5,
+        "unchanged_source_and_focus": true,
+        "complete_app": true
+      },
+      {
+        "index": 6,
+        "unchanged_source_and_focus": true,
+        "complete_app": true
+      },
+      {
+        "index": 7,
+        "unchanged_source_and_focus": true,
+        "complete_app": true
+      },
+      {
+        "index": 8,
+        "unchanged_source_and_focus": true,
+        "complete_app": true
+      },
+      {
+        "index": 9,
+        "unchanged_source_and_focus": true,
+        "complete_app": true
+      },
+      {
+        "index": 13,
+        "unchanged_source_and_focus": true,
+        "complete_app": true
+      },
+      {
+        "index": 14,
+        "unchanged_source_and_focus": true,
+        "complete_app": true
+      },
+      {
+        "index": 15,
+        "unchanged_source_and_focus": true,
+        "complete_app": true
+      },
+      {
+        "index": 17,
+        "unchanged_source_and_focus": true,
+        "complete_app": true
+      },
+      {
+        "index": 18,
+        "unchanged_source_and_focus": true,
+        "complete_app": true
+      },
+      {
+        "index": 19,
+        "unchanged_source_and_focus": true,
+        "complete_app": true
+      },
+      {
+        "index": 20,
+        "unchanged_source_and_focus": true,
+        "complete_app": true
+      },
+      {
+        "index": 21,
+        "unchanged_source_and_focus": true,
+        "complete_app": true
+      },
+      {
+        "index": 22,
+        "unchanged_source_and_focus": true,
+        "complete_app": true
+      },
+      {
+        "index": 23,
+        "unchanged_source_and_focus": true,
+        "complete_app": true
+      }
+    ],
+    "full_bleed_checks": [
+      {
+        "index": 1,
+        "full_bleed_frame_px": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "edge_source_delta": [
+          1.4587448559670781,
+          2.489531893004115,
+          2.640625,
+          2.4612123842592593
+        ]
+      },
+      {
+        "index": 2,
+        "full_bleed_frame_px": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "edge_source_delta": [
+          1.3480452674897119,
+          2.525385802469136,
+          2.2575376157407407,
+          2.190046296296296
+        ]
+      },
+      {
+        "index": 10,
+        "full_bleed_frame_px": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "edge_source_delta": [
+          2.0685699588477364,
+          1.7368055555555555,
+          2.775752314814815,
+          2.5684027777777776
+        ]
+      },
+      {
+        "index": 11,
+        "full_bleed_frame_px": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "edge_source_delta": [
+          2.0440586419753086,
+          1.8189814814814815,
+          1.6871383101851851,
+          4.2553096064814815
+        ]
+      },
+      {
+        "index": 12,
+        "full_bleed_frame_px": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "edge_source_delta": [
+          3.0368055555555555,
+          1.5530349794238683,
+          1.9063078703703704,
+          3.958449074074074
+        ]
+      },
+      {
+        "index": 16,
+        "full_bleed_frame_px": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "edge_source_delta": [
+          1.3063014403292181,
+          2.596141975308642,
+          2.29771412037037,
+          2.443894675925926
+        ]
+      },
+      {
+        "index": 24,
+        "full_bleed_frame_px": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "edge_source_delta": [
+          1.4621913580246915,
+          2.928858024691358,
+          2.4026186342592593,
+          2.691059027777778
+        ]
+      },
+      {
+        "index": 25,
+        "full_bleed_frame_px": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "edge_source_delta": [
+          1.1695216049382715,
+          2.32690329218107,
+          2.302228009259259,
+          2.364742476851852
+        ]
+      },
+      {
+        "index": 26,
+        "full_bleed_frame_px": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "edge_source_delta": [
+          3.0718364197530863,
+          1.9135802469135803,
+          2.583868634259259,
+          3.289453125
+        ]
+      },
+      {
+        "index": 27,
+        "full_bleed_frame_px": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "edge_source_delta": [
+          1.1725051440329217,
+          2.3629115226337447,
+          2.316536458333333,
+          2.3625578703703702
+        ]
+      },
+      {
+        "index": 28,
+        "full_bleed_frame_px": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "edge_source_delta": [
+          1.9059413580246913,
+          1.38804012345679,
+          2.221310763888889,
+          2.060648148148148
+        ]
+      },
+      {
+        "index": 29,
+        "full_bleed_frame_px": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "edge_source_delta": [
+          1.781764403292181,
+          1.4243827160493827,
+          2.159201388888889,
+          1.8775752314814815
+        ]
+      },
+      {
+        "index": 30,
+        "full_bleed_frame_px": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "edge_source_delta": [
+          2.326003086419753,
+          1.509645061728395,
+          1.807667824074074,
+          3.29609375
+        ]
+      },
+      {
+        "index": 31,
+        "full_bleed_frame_px": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "edge_source_delta": [
+          1.8062757201646091,
+          1.4814814814814814,
+          1.9718894675925926,
+          2.176171875
+        ]
+      }
+    ],
+    "unchanged_captions_and_timeline": true,
+    "caption_checks": [
+      {
+        "text": "Ein guter Einkauf beginnt schon zu Hause.",
+        "time": 2.87,
+        "pixel_bounds": [
+          173,
+          1716,
+          907,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "Pasta heute?",
+        "time": 4.54,
+        "pixel_bounds": [
+          385,
+          1768,
+          695,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "Gerne.",
+        "time": 5.859999999999999,
+        "pixel_bounds": [
+          455,
+          1768,
+          625,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "Über Gerichte landen die Zutaten mit einem Tipp auf deiner Liste.",
+        "time": 8.129999999999999,
+        "pixel_bounds": [
+          154,
+          1716,
+          926,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "Gehe deine Artikel durch und ergänze, was fehlt.",
+        "time": 12.78,
+        "pixel_bounds": [
+          202,
+          1716,
+          878,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "Los geht's!",
+        "time": 14.91,
+        "pixel_bounds": [
+          408,
+          1768,
+          672,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "Im Laden weißt du, was du brauchst.",
+        "time": 17.34,
+        "pixel_bounds": [
+          229,
+          1716,
+          851,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "Einpacken.",
+        "time": 19.58,
+        "pixel_bounds": [
+          408,
+          1768,
+          673,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "Abhaken.",
+        "time": 21.810000000000002,
+        "pixel_bounds": [
+          425,
+          1768,
+          655,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "Die Kosten bleiben beim Abhaken im Blick.",
+        "time": 25.42,
+        "pixel_bounds": [
+          151,
+          1716,
+          928,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "Alles da?",
+        "time": 28.45,
+        "pixel_bounds": [
+          430,
+          1768,
+          650,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "Alles da.",
+        "time": 29.69,
+        "pixel_bounds": [
+          435,
+          1768,
+          645,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "Unter Mehr findest du alles Weitere.",
+        "time": 31.240000000000002,
+        "pixel_bounds": [
+          227,
+          1716,
+          853,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "Zum Beispiel deinen Vorrat zu Hause.",
+        "time": 34.32000000000001,
+        "pixel_bounds": [
+          191,
+          1716,
+          889,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "Und deine Ausgaben für diesen und letzten Monat.",
+        "time": 37.730000000000004,
+        "pixel_bounds": [
+          179,
+          1716,
+          901,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "Einstellungen und Hilfe sind gleich daneben.",
+        "time": 41.44,
+        "pixel_bounds": [
+          144,
+          1716,
+          936,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "Abgehakt.",
+        "time": 44.6,
+        "pixel_bounds": [
+          416,
+          1768,
+          664,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "Dein Einkauf im Griff.",
+        "time": 45.91,
+        "pixel_bounds": [
+          292,
+          1768,
+          789,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "Mehr Zeit fürs Leben.",
+        "time": 47.260000000000005,
+        "pixel_bounds": [
+          290,
+          1768,
+          790,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "Die Pro-Version:",
+        "time": 49.75,
+        "pixel_bounds": [
+          350,
+          1768,
+          730,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "Gemeinsam planen,",
+        "time": 51.22,
+        "pixel_bounds": [
+          306,
+          1768,
+          774,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "weniger tippen",
+        "time": 52.400000000000006,
+        "pixel_bounds": [
+          374,
+          1768,
+          718,
+          1840
+        ],
+        "passed": true
+      },
+      {
+        "text": "und Ausgaben nach Kategorien verstehen.",
+        "time": 54.0,
+        "pixel_bounds": [
+          180,
+          1716,
+          901,
+          1840
+        ],
+        "passed": true
+      }
+    ],
+    "audio_correction": {
+      "source": "/workspace/artifacts/abgehakt-video-v11/audio/master.wav",
+      "affected_interval_sec": [
+        53.4,
+        59
+      ],
+      "prefix_pcm_identical_before_sec": 53.4,
+      "voice_words_unchanged": true,
+      "last_word_end_sec": 54.94,
+      "music_source": "/workspace/artifacts/abgehakt-video-v10/audio/music-55s.mp3",
+      "music_source_interval_sec": [
+        43.4,
+        49
+      ],
+      "fade_in_sec": 0.35,
+      "fade_out_sec": 0.9,
+      "old_55s_instrumental_removed": true,
+      "old_56s_restart_removed": true,
+      "new_generation": false,
+      "subjective_listening": false
+    }
+  },
+  "review": "Abgehakt V12 Hochformat – gezielte Abschlussprüfung\nSHA-256: 109b066b667265e057106ffd7041f86eaeac0925dd8acd8d9899f2c30927a6a7\nDauer59s, 1080×1920,30fps. Nutzerauftrag: Rauschen um55s beheben und Fotos ohne helle Außenränder einsetzen.\n\nAlle33 tatsächlichen Endexport-Zustände wurden im Kontaktbogen visuell geprüft. Alle Lifestylefotos und drei Pro-Nachsatz-Fotos sind randlos bis zu allen vier Bildkanten gesetzt. Gesichter und zentrale Requisiten bleiben sichtbar; die Detailaufnahme zeigt ausdrücklich nur Hände/Spielbrett. Protexte sind weiß auf einem dunklen Verlauf über der Fotografie. Keine hellen Fotopanels, kein Kamerawackeln. Startlogo und abschließende Textkarte behalten ihren Marken-Hintergrund.\n\nAlle17 Appzustände, Quellbilder, Positionen und Hervorhebungen sind identisch zur V11-Komposition. Vollständige proportionale App. Bildfolge,59s-Dauer und sämtliche Untertitelzeiten/-texte bleiben erhalten. Alle Untertitel an ihren tatsächlich codierten Pixelpositionen geprüft, auch über randloser Fotografie. Formale Szenenprüfung bestanden.\n\nMusik: störender alter Instrumental-Ausklang und getrennter56s-Musikansatz ab53,4s ersetzt. Ein durchgehender vorhandener Ausschnitt43,4–49s trägt nun den Schluss, mit350ms Einblendung, Absenkung unter Sprache und900ms Ausblendung. Kein neuer Musik-/Sprachauftrag. Die PCM-Samples vor53,4s sind unverändert. Sprecherworte und zeitliche Platzierung sind unverändert; das Ende der Sprecheraufnahme bleibt erhalten. Alle vier sauberen/untertitelten Quer-/Hochformatexporte tragen denselben korrigierten AAC-Payload.\n\nTechnik: vollständiges Decoding beider Dateien bestanden,1770Frames, kein Schwarzbild. Alle randlosen Bildkanten gegen die Foto-Komposition verglichen; keine hellen Paddingflächen. Vollständige App und Untertitel separat geprüft. Messdaten in validation.json.\n\nHörgrenze: Audio nicht subjektiv gehört. Die Ursache wurde anhand der separaten Musik-/Sprecher-/Effektspuren eingegrenzt und der betroffene Musikabschnitt ersetzt. Kein behauptetes subjektives Urteil über Rauschfreiheit, Stimmemotion oder musikalischen Geschmack.\n"
+}

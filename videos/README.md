@@ -8,6 +8,12 @@ Unter dem Logo steht „Dein Einkauf im Griff“. Gerichte und Zutatenübernahme
 
 Technischer Produktionsnachweis, Prüfsummen und Review: `overview-production.json`. Hauptfilm lokal: `/workspace/artifacts/abgehakt-video-v12`. Die Handyfassung liegt ausschließlich auf dem separaten Medienbranch, ohne Websiteveröffentlichung. Die früheren Produktionen unten sind archivierte Stände.
 
+## Handyfassung im Repository
+
+`einkaufsliste-gerichte-hochformat.mp4` ist V12 mit 59 Sekunden, 1080×1920 (9:16), 30 fps und eingebrannten deutschen Untertiteln. Die Fotos einschließlich der drei Pro-Nachsatzbilder sind randlos. Die neun nativen Hochkantfotos zeigen dieselbe fiktive Familie. Appansichten, Hervorhebungen, Schnittzeiten und Untertitel entsprechen der geprüften V11-Komposition. Der bereinigte Musikausklang ist identisch zur aktuellen V12-Querfassung.
+
+Die Dateien liegen nur auf `media/abgehakt-mobile-v12`, neben der Querformatdatei im Ordner `videos/`, und werden nicht auf der Website veröffentlicht. Die beiliegende `overview-portrait-de.vtt` enthält dieselben Untertitel; bei eingebrannten Untertiteln keine zweite Spur aktivieren. Prüfsummen und Abschlussreview: `overview-portrait-production.json`. Weitere Detailfilme und Bildquellen sind nicht enthalten. Eine subjektive Hörprüfung steht aus.
+
 ---
 
 # Archiv früherer Produktionen
