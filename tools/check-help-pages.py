@@ -2,6 +2,7 @@
 """Verify bilingual task guides, search, links and no-script fallback."""
 import hashlib,json,sys
 from pathlib import Path
+from PIL import Image
 from playwright.sync_api import sync_playwright
 root=Path(__file__).resolve().parents[1]
 base=(sys.argv[1] if len(sys.argv)>1 else 'http://127.0.0.1:8766').rstrip('/')
@@ -9,6 +10,18 @@ data=json.loads((root/'assets/abgehakt/help-usecases.json').read_text())
 assert len(data['cases'])==42
 source=root.parent/'Einkaufsliste/app/src/main/assets/help-usecases.json'
 if source.exists():assert source.read_bytes()==(root/'assets/abgehakt/help-usecases.json').read_bytes()
+assets=set()
+for case in data['cases']:
+ for lang in data['languages']:
+  pictures=case[lang]['images'];assert len(pictures)>=2,(case['id'],lang)
+  for picture in pictures:
+   assert picture['src'].startswith('help-images/'+lang+'/')
+   path=root/'assets/abgehakt'/picture['src']
+   with Image.open(path) as im:
+    assert im.size==(picture['width'],picture['height']);im.load()
+   x,y,w,h=picture['focus'];assert 0<=x<1 and 0<=y<1 and 0<w<=1 and 0<h<=1 and x+w<=1.000001 and y+h<=1.000001
+   if source.exists():assert path.read_bytes()==(source.parent/picture['src']).read_bytes()
+   assets.add(picture['src'])
 out=Path('/tmp/abgehakt-help-check');out.mkdir(exist_ok=True)
 checks=[]
 with sync_playwright() as p:
@@ -26,7 +39,26 @@ with sync_playwright() as p:
     for c in data['cases']:
      box=page.locator('#'+c['id'])
      assert box.locator('summary span').inner_text()==c[lang]['title']
-     assert box.locator('li').all_text_contents()==c[lang]['steps']
+     assert box.locator('.help-step-text').all_text_contents()==c[lang]['steps']
+     assert box.locator('.help-shot').count()==len(c[lang]['images'])
+     for link in box.locator('.help-shot').all():assert ('/help-images/'+lang+'/') in link.get_attribute('href')
+    # Open the same complete app frame and its highlight together, then navigate the sequence.
+    first=page.locator('#sprache .help-shot').first
+    first.click()
+    viewer=page.locator('#help-image-viewer');assert viewer.is_visible()
+    picture=viewer.locator('img');picture.evaluate('(i)=>i.decode()')
+    geom=viewer.locator('.help-shot-frame').bounding_box();focus=viewer.locator('.help-focus').bounding_box()
+    assert focus['x']>=geom['x']-1 and focus['y']>=geom['y']-1
+    assert focus['x']+focus['width']<=geom['x']+geom['width']+1
+    assert focus['y']+focus['height']<=geom['y']+geom['height']+1
+    assert picture.evaluate('(i)=>getComputedStyle(i).objectFit')=='contain'
+    expected=data['cases'][next(i for i,c in enumerate(data['cases']) if c['id']=='sprache')][lang]['images'][0]
+    assert abs(geom['width']/geom['height']-expected['width']/expected['height'])<.01
+    caption=page.locator('#help-image-caption').inner_text()
+    page.locator('#help-image-next').click();assert page.locator('#help-image-caption').inner_text()!=caption
+    page.keyboard.press('ArrowLeft');assert page.locator('#help-image-caption').inner_text()==caption
+    viewer.screenshot(path=str(out/f'viewer-{lang}-{width}-{scheme}.png'))
+    page.keyboard.press('Escape');assert not viewer.is_visible();assert first.evaluate('(e)=>e===document.activeElement')
     page.locator('#help-search').fill('coupon')
     assert page.locator('#coupons-abschluss').is_visible()
     assert page.locator('.help-case:visible').count()<42
@@ -46,6 +78,9 @@ with sync_playwright() as p:
    page.close()
  ctx=b.new_context(java_script_enabled=False);page=ctx.new_page();page.goto(base+'/en/help.html')
  page.locator('#sprache summary').click();assert page.locator('#sprache ol').is_visible()
+ assert page.locator('#sprache .help-shot').count()>=2
+ page.locator('#sprache .help-shot').first.click();assert '/help-images/en/' in page.url
+ page.go_back()
  page.locator('.language-switch a[lang=de]').click();assert page.url==base+'/hilfe.html'
  ctx.close();b.close()
-print(json.dumps({'passed':True,'checks':checks,'app_source_matches':source.exists(),'proof':str(out)},ensure_ascii=False,indent=2))
+print(json.dumps({'passed':True,'checks':checks,'image_assets_decoded':len(assets),'multiple_images_in_all_84_guides':True,'app_source_matches':source.exists(),'proof':str(out)},ensure_ascii=False,indent=2))

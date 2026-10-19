@@ -93,3 +93,42 @@ function revealHelpAnchor() {
 }
 revealHelpAnchor();
 window.addEventListener('hashchange', revealHelpAnchor);
+
+/* Keep complete screenshots and their relative highlight together when enlarged. */
+var helpViewer = document.getElementById('help-image-viewer');
+if (helpViewer && typeof helpViewer.showModal === 'function') {
+  var helpImageLinks = [];
+  var helpImagePosition = 0;
+  var helpImageTrigger;
+  function showHelpImage() {
+    var link = helpImageLinks[helpImagePosition];
+    var frame = link.querySelector('.help-shot-frame').cloneNode(true);
+    frame.querySelector('img').loading = 'eager';
+    document.getElementById('help-image-stage').replaceChildren(frame);
+    document.getElementById('help-image-caption').textContent = link.dataset.caption;
+    document.getElementById('help-image-prev').disabled = helpImagePosition === 0;
+    document.getElementById('help-image-next').disabled = helpImagePosition === helpImageLinks.length - 1;
+  }
+  document.querySelectorAll('.help-shot').forEach(function (link) {
+    link.addEventListener('click', function (event) {
+      event.preventDefault();
+      helpImageTrigger = link;
+      helpImageLinks = Array.from(link.closest('.help-case').querySelectorAll('.help-shot'));
+      helpImagePosition = helpImageLinks.indexOf(link);
+      showHelpImage();
+      helpViewer.showModal();
+    });
+  });
+  document.getElementById('help-image-prev').addEventListener('click', function () {
+    if (helpImagePosition > 0) { helpImagePosition--; showHelpImage(); }
+  });
+  document.getElementById('help-image-next').addEventListener('click', function () {
+    if (helpImagePosition < helpImageLinks.length - 1) { helpImagePosition++; showHelpImage(); }
+  });
+  document.getElementById('help-image-close').addEventListener('click', function () { helpViewer.close(); });
+  helpViewer.addEventListener('keydown', function (event) {
+    if (event.key === 'ArrowLeft' && helpImagePosition > 0) { event.preventDefault(); helpImagePosition--; showHelpImage(); }
+    if (event.key === 'ArrowRight' && helpImagePosition < helpImageLinks.length - 1) { event.preventDefault(); helpImagePosition++; showHelpImage(); }
+  });
+  helpViewer.addEventListener('close', function () { if (helpImageTrigger) helpImageTrigger.focus(); });
+}

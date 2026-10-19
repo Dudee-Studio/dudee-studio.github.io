@@ -51,8 +51,15 @@ und die Sprachseiten neu bauen.
 `hilfe.html` und `en/help.html` bieten dieselben 42 durchsuchbaren Anwendungsfälle
 wie die Offline-Hilfe in der App. Die JSON-Quelle stammt aus
 `app/src/main/assets/help-usecases.json` im App-Repository.
+Jede Anleitung enthält zwei bis sieben vollständige Appbilder mit passenden
+Hervorhebungen, jeweils in der ausgewählten Sprache. Insgesamt sind es 176
+Bildverweise pro Sprache und 233 wiederverwendete WebP-Dateien. Ein Tipp öffnet
+die vergrößerte Bildfolge mit Vor/Zurück und Tastaturbedienung. Bilder laden erst
+bei Bedarf; die App enthält dieselben Dateien offline.
 Mit `python tools/sync-app-help.py --app-repo ../Einkaufsliste` übernehmen und
 anschließend `python tools/build-language-pages.py` ausführen.
 
 `python tools/check-help-pages.py http://127.0.0.1:8766` prüft die
 Sprachpaare, alle Schritte, Suche, Sprungmarken und den Betrieb ohne JavaScript.
+Zusätzlich prüft der Check alle Bilddateien, Sprache, vollständige Proportionen,
+Fokusgrenzen, Vergrößerung und die Rückkehr zur ausgewählten Vorschau.
