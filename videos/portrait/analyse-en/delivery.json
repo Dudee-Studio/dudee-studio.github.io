@@ -1,0 +1,66 @@
+{
+  "language": "en",
+  "duration_sec": 27.1,
+  "published": false,
+  "app_ui_localization": "Genuine English Android app resources and English example data, rendered from actual app code; no screenshot text repainting",
+  "capture_validation": "/workspace/artifacts/abgehakt-details-en-v1/analyse/capture-validation.json",
+  "subjective_listening": false,
+  "deliveries": [
+    {
+      "format": "landscape",
+      "folder": "/workspace/artifacts/abgehakt-details-en-v1/analyse",
+      "files": [
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/analyse/abgehakt-store.mp4",
+          "sha256": "177f4eb7788b32d22c777c484b3437c2b379a6f47f100121135121e920a2b1c8",
+          "bytes": 3465812
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/analyse/abgehakt.mp4",
+          "sha256": "d36c4bbbfd031e197e8a5fd92a3a0f33dd50c8a45b0e5207476dea2f3e122be5",
+          "bytes": 3384083
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/analyse/abgehakt-en.vtt",
+          "sha256": "0ac8008dab046a1b00d1167d6ef825b0993380413acb2e02624fd2c3d86a69de",
+          "bytes": 892
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/analyse/poster.jpg",
+          "sha256": "3f3f403eab83bcff06bc4bcb9c2ba13fa61eb646b03b7d08607f97ca7a3d1e0e",
+          "bytes": 68143
+        }
+      ],
+      "validation": "/workspace/artifacts/abgehakt-details-en-v1/analyse/validation.json"
+    },
+    {
+      "format": "portrait",
+      "folder": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait",
+      "files": [
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/abgehakt-store.mp4",
+          "sha256": "be9fb0e6d987d8a71f2fdce27e68d522a0936f03dccae63865d38dd9feb4ecee",
+          "bytes": 3516089
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/abgehakt.mp4",
+          "sha256": "8d618f0c2177d962f1b762d7a6e4200ec2311000c847a636b27ef7f14efdc4b1",
+          "bytes": 3452190
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/abgehakt-en.vtt",
+          "sha256": "974620a389deb3c4e9797851a43140913fc3640816e9178fceffd64c363f95f2",
+          "bytes": 1012
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/poster.jpg",
+          "sha256": "63b7cae2c8576e93dba76c65b4da822081cec47755137acc96307935d83a28ea",
+          "bytes": 78980
+        }
+      ],
+      "validation": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/validation.json"
+    }
+  ],
+  "source_manifest": "/workspace/artifacts/abgehakt-details-en-v1/analyse/source-manifest.json",
+  "final_review": "/workspace/artifacts/abgehakt-details-en-v1/analyse/final-review.md"
+}

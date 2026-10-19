@@ -1,0 +1,150 @@
+{
+  "passed": true,
+  "checks": {
+    "landscape": [
+      {
+        "scene": "EP02",
+        "source_png": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-group-invite.png",
+        "source_sha256": "928cdf77adc25140c0e76df598ed633ebf4069a15532787c2ef64faf58aed9d9",
+        "composed_still_sha256": "7c832aaeb561bd6d8ac9b15215a4c964d5298fe98a4d09e9b0690871d648df3f",
+        "exact_source_ui_pixel_mae": 0.0
+      },
+      {
+        "scene": "EP03",
+        "source_png": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-group-members.png",
+        "source_sha256": "fff762c513177aa73eb3cd5d4f1224d1b165cbaf2ccb555878f96d97f102518d",
+        "composed_still_sha256": "386a6e6e4ad97629f1f5a190b390ecfa4729d70df10571c5c459095dc4f953c9",
+        "exact_source_ui_pixel_mae": 0.0
+      },
+      {
+        "scene": "EP04",
+        "source_png": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-list-added.png",
+        "source_sha256": "6a2cc44e0fd673429862b06d3c68fb8d909f68a1f07521ae424ef2103f333eaf",
+        "composed_still_sha256": "cec7804937d3cf8dc966d4a18ae86a7e66ec3d7860f9d401070b5f8efa116946",
+        "exact_source_ui_pixel_mae": 0.0
+      },
+      {
+        "scene": "EP05",
+        "source_png": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-meal-idea.png",
+        "source_sha256": "093585d5219757545d5074e2a3de24cb0d5637177c690c66b6483a36e7b62760",
+        "composed_still_sha256": "60d906286b8a60deddfbe72fa10556ecc5a4300b5c818e518c1d16994f788055",
+        "exact_source_ui_pixel_mae": 0.0
+      },
+      {
+        "scene": "EP06",
+        "source_png": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-scan-before.png",
+        "source_sha256": "8443e18fa2088a1434deffe7c7734458bc34206108d65d6a3bd75527b6f68e98",
+        "composed_still_sha256": "addeb080286c3f7e6d77eea449937370123f68935e6199a37e73a117930f93fc",
+        "exact_source_ui_pixel_mae": 0.0
+      },
+      {
+        "scene": "EP07",
+        "source_png": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-scan-after.png",
+        "source_sha256": "d91d1c320d4335aa7272d5a5e700db783e25f4e81c58c8b9f7e9c95167d7e933",
+        "composed_still_sha256": "3e50f7810a6177cae6d8b4b03b0f94138bed5e1f357b91823fb6718fb7a1b12d",
+        "exact_source_ui_pixel_mae": 0.0
+      },
+      {
+        "scene": "EP08",
+        "source_png": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/analysis-categories.png",
+        "source_sha256": "a9e7f2161e386570e070114fcb498dd6b1fa0555e6b9f82058d3c579eb9eee8d",
+        "composed_still_sha256": "b4c2ad01b833433658f0a956e01527f7c465e851660a3420366c89fb76bd76a6",
+        "exact_source_ui_pixel_mae": 0.0
+      },
+      {
+        "scene": "EP09",
+        "source_png": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/analysis-top.png",
+        "source_sha256": "8db07dab8b0a3fdf341a3f315596d6471b64e60d65629072d64306e774957778",
+        "composed_still_sha256": "e9ecc68ae7f3ebbe60f61295a836eb92c8bb1bae5fbf49c102f2127e42be202b",
+        "exact_source_ui_pixel_mae": 0.0
+      },
+      {
+        "scene": "EP10",
+        "source_png": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-scan-after.png",
+        "source_sha256": "d91d1c320d4335aa7272d5a5e700db783e25f4e81c58c8b9f7e9c95167d7e933",
+        "composed_still_sha256": "9c838769ea5a8e59f5a580efdc0137d4bcf7a18db59e744e318312ca9d476d7d",
+        "exact_source_ui_pixel_mae": 0.0
+      },
+      {
+        "scene": "EP11",
+        "source_png": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/analysis-top.png",
+        "source_sha256": "8db07dab8b0a3fdf341a3f315596d6471b64e60d65629072d64306e774957778",
+        "composed_still_sha256": "83bc0e95d81be8fc1fe8ee45a647ff06cf83602dab5bb55889f219c4b998d5ee",
+        "exact_source_ui_pixel_mae": 0.0
+      }
+    ],
+    "portrait": [
+      {
+        "scene": "EP02",
+        "source_png": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-group-invite.png",
+        "source_sha256": "928cdf77adc25140c0e76df598ed633ebf4069a15532787c2ef64faf58aed9d9",
+        "composed_still_sha256": "87e6055db7bf13d0228cc67100928914ecab8d0517bca553ded661468a1379d2",
+        "exact_source_ui_pixel_mae": 0.0
+      },
+      {
+        "scene": "EP03",
+        "source_png": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-group-members.png",
+        "source_sha256": "fff762c513177aa73eb3cd5d4f1224d1b165cbaf2ccb555878f96d97f102518d",
+        "composed_still_sha256": "4ca17f2c2852e403cb53d9d3ec6ca0a998dfbbc51c5b877c2983785d56ceabf1",
+        "exact_source_ui_pixel_mae": 0.0
+      },
+      {
+        "scene": "EP04",
+        "source_png": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-list-added.png",
+        "source_sha256": "6a2cc44e0fd673429862b06d3c68fb8d909f68a1f07521ae424ef2103f333eaf",
+        "composed_still_sha256": "b5c03afc13715fdaef769c6cc7915ee4434f93ca5617895278aff5f309a6151d",
+        "exact_source_ui_pixel_mae": 0.0
+      },
+      {
+        "scene": "EP05",
+        "source_png": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-meal-idea.png",
+        "source_sha256": "093585d5219757545d5074e2a3de24cb0d5637177c690c66b6483a36e7b62760",
+        "composed_still_sha256": "cbdbc40d43bf861958627a070f3ed1ed9d20875e5e01a687e352ed394db1106a",
+        "exact_source_ui_pixel_mae": 0.0
+      },
+      {
+        "scene": "EP06",
+        "source_png": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-scan-before.png",
+        "source_sha256": "8443e18fa2088a1434deffe7c7734458bc34206108d65d6a3bd75527b6f68e98",
+        "composed_still_sha256": "480970a81f79e0365354e3f44c46f9db86c0238e77717ea64718cb426de5bce6",
+        "exact_source_ui_pixel_mae": 0.0
+      },
+      {
+        "scene": "EP07",
+        "source_png": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-scan-after.png",
+        "source_sha256": "d91d1c320d4335aa7272d5a5e700db783e25f4e81c58c8b9f7e9c95167d7e933",
+        "composed_still_sha256": "62ee3061669a69b61243ce0d59c6fe6563e451cf699ce8f9b527048773fd6fd1",
+        "exact_source_ui_pixel_mae": 0.0
+      },
+      {
+        "scene": "EP08",
+        "source_png": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/analysis-categories.png",
+        "source_sha256": "a9e7f2161e386570e070114fcb498dd6b1fa0555e6b9f82058d3c579eb9eee8d",
+        "composed_still_sha256": "bbecc8e74c5689b4ee829a2557f9cf5d071dbc29e775400998f5e1d6254cad3b",
+        "exact_source_ui_pixel_mae": 0.0
+      },
+      {
+        "scene": "EP09",
+        "source_png": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/analysis-top.png",
+        "source_sha256": "8db07dab8b0a3fdf341a3f315596d6471b64e60d65629072d64306e774957778",
+        "composed_still_sha256": "7e2aed683fb67a64b056b5b5887049dbbd16963d7c440ca6987a29d24b7ab055",
+        "exact_source_ui_pixel_mae": 0.0
+      },
+      {
+        "scene": "EP10",
+        "source_png": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-scan-after.png",
+        "source_sha256": "d91d1c320d4335aa7272d5a5e700db783e25f4e81c58c8b9f7e9c95167d7e933",
+        "composed_still_sha256": "756d4ea9ae72679c2ace288f1fb02def8e12a27d1d17d7d73134bd930cd864cc",
+        "exact_source_ui_pixel_mae": 0.0
+      },
+      {
+        "scene": "EP11",
+        "source_png": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/analysis-top.png",
+        "source_sha256": "8db07dab8b0a3fdf341a3f315596d6471b64e60d65629072d64306e774957778",
+        "composed_still_sha256": "ed4573ce286d3ed248a470e2e84ad05e12e96a45909b20875f4e3697d310d138",
+        "exact_source_ui_pixel_mae": 0.0
+      }
+    ]
+  },
+  "method": "Exact native screenshot resize/dimming/semantic outline compared against the retained app region; final encoded-state pixels checked separately in both validation.json files."
+}

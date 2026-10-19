@@ -1,0 +1,70 @@
+{
+  "language": "en",
+  "duration_sec": 33.03333333333333,
+  "published": false,
+  "app_ui_localization": "Genuine English Android app resources and English example data, rendered from actual app code; no screenshot text repainting",
+  "capture_validation": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/focus-source.json",
+  "subjective_listening": false,
+  "deliveries": [
+    {
+      "format": "landscape",
+      "folder": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1",
+      "files": [
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/abgehakt-store.mp4",
+          "sha256": "7072dbbec57b2e5655d91ebfde06e0fb26aa865792f38bcffde4b57e256b45c1",
+          "bytes": 3089163
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/abgehakt.mp4",
+          "sha256": "8b5193c51f52db96d9cd8f907fe6ca1438b334db5b3ad0acff78b61c8af4517b",
+          "bytes": 3013779
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/abgehakt-en.vtt",
+          "sha256": "0847d00f6292c679966f8169c891638c9acf41a513d4045c20daad02452c430d",
+          "bytes": 983
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/poster.jpg",
+          "sha256": "2b8984955fdb676509558da3f2155f4f8c3e443ca0f1944cd97a5341b7123ccb",
+          "bytes": 33262
+        }
+      ],
+      "validation": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/validation.json"
+    },
+    {
+      "format": "portrait",
+      "folder": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/portrait",
+      "files": [
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/portrait/abgehakt-store.mp4",
+          "sha256": "b4279aa59fe4abd6d0f4a712fcb75b6ee8f96ff148e21a398e609041d7012462",
+          "bytes": 2502325
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/portrait/abgehakt.mp4",
+          "sha256": "55eb1e599060bd299cd9f3c77c6c23137ea4093e273cb796a35d81084cddc93c",
+          "bytes": 2410106
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/portrait/abgehakt-en.vtt",
+          "sha256": "60b22233a5fcaebd9a3efaaf1ec3a42500017c0358de33ec350f7ae738a53711",
+          "bytes": 1145
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/portrait/poster.jpg",
+          "sha256": "cabd4f30ad3f489568be3a10c7296f9d2244ae1eef7a23869603059e8063a78f",
+          "bytes": 30767
+        }
+      ],
+      "validation": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/portrait/validation.json"
+    }
+  ],
+  "source_manifest": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/source-manifest.json",
+  "review": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/final-review.txt",
+  "review_findings": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/review-findings.json",
+  "live_backend_proven": false,
+  "preview_label": "Preview · Version 1.1",
+  "initial_automatic_approval_rejection": "Resolved after explicit prior user ElevenLabs authorization and non-sensitive public-payload evidence were supplied; no blocked work remains."
+}

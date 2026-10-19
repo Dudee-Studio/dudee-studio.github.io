@@ -1,0 +1,15 @@
+{
+  "all_four_aac_payloads_identical_to_v1": true,
+  "original_v1_payload_sha256": "SHA256=364469ad2e4e061feb49b7fd88d94208047ff0d3b6e6eed8375d7e076e05bdb1",
+  "final_v2_payloads": {
+    "/workspace/artifacts/abgehakt-main-en-v2/abgehakt.mp4": "SHA256=364469ad2e4e061feb49b7fd88d94208047ff0d3b6e6eed8375d7e076e05bdb1",
+    "/workspace/artifacts/abgehakt-main-en-v2/abgehakt-store.mp4": "SHA256=364469ad2e4e061feb49b7fd88d94208047ff0d3b6e6eed8375d7e076e05bdb1",
+    "/workspace/artifacts/abgehakt-main-en-v2/portrait/abgehakt.mp4": "SHA256=364469ad2e4e061feb49b7fd88d94208047ff0d3b6e6eed8375d7e076e05bdb1",
+    "/workspace/artifacts/abgehakt-main-en-v2/portrait/abgehakt-store.mp4": "SHA256=364469ad2e4e061feb49b7fd88d94208047ff0d3b6e6eed8375d7e076e05bdb1"
+  },
+  "master_m4a_byte_identical": true,
+  "master_wav_byte_identical": true,
+  "duration_sec": 54.833333333333336,
+  "new_TTS_calls": 0,
+  "subjective_listening": false
+}

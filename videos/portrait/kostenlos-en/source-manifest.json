@@ -1,0 +1,239 @@
+{
+  "date": "2026-10-19",
+  "scope": "Authorized EN localization of existing free detail film",
+  "no_new_photos_or_music": true,
+  "assets": [
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-checkout-before.png",
+      "bytes": 97652,
+      "sha256": "7f82975683025172cdeeff0690a5aee21365987b7b00f6c79261ec6730bffa7d"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-checkout-coupon.png",
+      "bytes": 143531,
+      "sha256": "37c303b09bfcaba1b92abda10ce6dc5763e6422f2886c0bb07d2b1af77352c34"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-forecast-added.png",
+      "bytes": 123299,
+      "sha256": "4809011d10f9d46ad46573bd6a9551829ed93a53106eccd4d520407f782a2d3f"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-forecast.png",
+      "bytes": 140643,
+      "sha256": "bb9b2c34b3db4de931a4c6ac119b038d9ef64000020209683fd0b77938601c22"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-meal-ideas.png",
+      "bytes": 78329,
+      "sha256": "da5beec64388a580d537c159985cde7776f7d1ed3a9ed1d88c7b587e4a8d4930"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-meal-selected.png",
+      "bytes": 87911,
+      "sha256": "2df666a4c60d84b3e627cad97a3582d414cd5648374849043a5fa37744a5a1ed"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-note-editor.png",
+      "bytes": 131780,
+      "sha256": "2bceafb5b5018e68eea80b31e85607879e45bef2a1a109e8d73562cc74400889"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-note-list.png",
+      "bytes": 140561,
+      "sha256": "e5fc34171ea19fc3f653ed1944e7265377a43e0eb6f63e144387e8fcda7e33fe"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-offer-editor.png",
+      "bytes": 139599,
+      "sha256": "423edb8880196f32cbbf6b29f73740f5c390b18c24a070fc3d45ea0cd4a554be"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-offer-last.png",
+      "bytes": 105659,
+      "sha256": "c532b3771b6dc03884f77cefa7120896ccfb2fd079f1ebeb82cb9cf1c735fa28"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-recurring.png",
+      "bytes": 82963,
+      "sha256": "5345607348ec1085f3a8981602868e39bf5b8bcc16c96eca30119ee52e227897"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-template-preview.png",
+      "bytes": 93059,
+      "sha256": "b7c6189988b0985113ec7c2408d9ff88fa5e412679ae67ccca146e4c6cf4d455"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-template-result.png",
+      "bytes": 173007,
+      "sha256": "4fd4b2ea2e56c0b7f43dc63896087151b3f6243f42ef16c7a8862ad350c28437"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-template.png",
+      "bytes": 85748,
+      "sha256": "5c42a53b9a9965fa62e4bcd2afcf62d949d0c34f6696bdf36b5fadc1b7070a23"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/closing.alignment.json",
+      "bytes": 4351,
+      "sha256": "20c38f7b975bb5825b269e9dde96d610771a99bfe239824c2e26713e5ce0d697"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/closing.mp3",
+      "bytes": 86978,
+      "sha256": "95c0ff04e229d566dfc757f049af29eaf397b95a2f8b1710eb539aca6dabe645"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/closing.transcript.json",
+      "bytes": 1319,
+      "sha256": "358f28e1da0557fe1b1bb69b60b9f673df26c315ceedc8978c67ae4eccf368b3"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/coupons.alignment.json",
+      "bytes": 5915,
+      "sha256": "f7d92e6c0e44a0901362b80a8f61bb9a95cc5b081fe052b55e488da3701c2d41"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/coupons.mp3",
+      "bytes": 59811,
+      "sha256": "6afef9c822ec8053818ca28db9f81958f071acbd288da3ede5a1999a33ef32c3"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/coupons.transcript.json",
+      "bytes": 1781,
+      "sha256": "07399a199c9301259f2cedff15069facab2040306e0ff3bff3c690bc28b2f106"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/forecast.alignment.json",
+      "bytes": 6931,
+      "sha256": "24c012ef6340f57dec08521c13c7ef0e37fcf8d2f1776b8c904110dc58939dfd"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/forecast.mp3",
+      "bytes": 89486,
+      "sha256": "3c3f75fdcccd35ed9dc7b432d63e36d1785c78c904f63ed1990e672d0fa6b6be"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/forecast.transcript.json",
+      "bytes": 2299,
+      "sha256": "61fe6d7daa9f59811e6db80dd86c648fb3a1cdc03abd971ce1cb98e428463b9b"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/intro.alignment.json",
+      "bytes": 2999,
+      "sha256": "9f92e9982e39a66cbcaea5683be88e421490624c2a61dab0d6ed5bca02d393cd"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/intro.mp3",
+      "bytes": 47272,
+      "sha256": "f845d26cf2eac245270d165882ab4ce3f8f3afc3a42a3b7eb1e0d9ef313f4b9b"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/intro.transcript.json",
+      "bytes": 772,
+      "sha256": "d807e74777a9f30f2363b801815b8aa9c8fb9393a7e82cc308c38649140c4b55"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/meals.alignment.json",
+      "bytes": 5297,
+      "sha256": "230776ba1fefdcbd2f5b35fdc9b14e6908fe595709b8bf04e040cb0070d3aa7e"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/meals.mp3",
+      "bytes": 52287,
+      "sha256": "a33e4920e3b6853dc9d9a030588978d926e1425603c0f752471a69703d9caa74"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/meals.transcript.json",
+      "bytes": 1762,
+      "sha256": "8d5540fd94cd54567873cadfeff452cd52af1df93c41ec225f781b583e1e3f5d"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/notes.alignment.json",
+      "bytes": 4981,
+      "sha256": "28a44fdb24232987055816e5e6149ee14dd116e541c9f207cb286d532c8eef17"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/notes.mp3",
+      "bytes": 75275,
+      "sha256": "449e368701af724223cb1048d970955001daa95097578bd958ba4bad9691069b"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/notes.transcript.json",
+      "bytes": 1503,
+      "sha256": "02f8c84e9d8d1473d14ce24849bbef8e5aef7aab4ce640fc9d9f6434b0ff6678"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/offers.alignment.json",
+      "bytes": 7417,
+      "sha256": "be54be2fd955255d4970f88f2fce7b3686da9e0a84ca39c9899bcb430442568f"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/offers.mp3",
+      "bytes": 72767,
+      "sha256": "8792bbafe048c5b111e77892c9b82473db2dbf1710abc06237e34168b2d3f2bd"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/offers.transcript.json",
+      "bytes": 2862,
+      "sha256": "0a1ecc0ace8ac7ba0a07080fa6678395500a5dde600dcb3988b465871753ab5b"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/templates.alignment.json",
+      "bytes": 4619,
+      "sha256": "6f863d5f91cec0e857492294bfab3a4d58ed4ed97aee811b5334661e1344e25a"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/templates.mp3",
+      "bytes": 54795,
+      "sha256": "5afd36a41a905a7ca0c8615510e2baeb2e12b6c2f036d4dc9d74b204cdb22925"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/segments/templates.transcript.json",
+      "bytes": 1861,
+      "sha256": "92fa985e782a518f21975aac6f4a8ef69c99960acea3c4533c0b0193ca985232"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-hochformat-fotos-v1/01-planen-zuhause-leere-tasche.png",
+      "bytes": 2273975,
+      "sha256": "46d0a9af21af107ad4dc6e670e28891cf4a3698c2351aaf180749265947b7d8c"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-hochformat-fotos-v1/08-zeit-zusammen.png",
+      "bytes": 2237204,
+      "sha256": "b865a9900636497633498ee3b62d9843e04b93f95b4199eaec4ae1723f80a4a9"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-video-v10/art/mark-original.png",
+      "bytes": 1214776,
+      "sha256": "73187d2b5f8040739e184e8cefe592c86127cf14ced9e299a42fced47f450445"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-video-v10/audio/music-55s.mp3",
+      "bytes": 880266,
+      "sha256": "d58216f5dd4b979d320753dd3251fbf4767b0bc4ad3480113e3a7d9340e36d8d"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-weitere-videos-v1/common/art/logo-only-v9.png",
+      "bytes": 63578,
+      "sha256": "29248cb067375a8040b77b357d101b544c70ab62ed2819041a18549987a39df1"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-weitere-videos-v1/common/bilder/02-planen-zuhause.png",
+      "bytes": 2266496,
+      "sha256": "06c4bb4e03dd9601bccdc63b27eed86fb72d7c215509d91ba532707fc5db9aa9"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-weitere-videos-v1/common/bilder/09-gemeinsame-zeit.png",
+      "bytes": 2192564,
+      "sha256": "a3a6a0ff1a59af28e1ea3dc0654ee3c3085b1e074b769d6d63dba6d3ff723bf1"
+    }
+  ],
+  "capture_origin": "ROOT actual English Android UI + English sample data; no screenshot text repainting",
+  "scene_source_files": [
+    "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/shots.json",
+    "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/portrait/shots.json"
+  ],
+  "speech_cast": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/voice-cast.json",
+  "subjective_listening": false
+}

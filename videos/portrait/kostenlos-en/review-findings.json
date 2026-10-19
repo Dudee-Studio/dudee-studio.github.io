@@ -1,0 +1,53 @@
+{
+  "mode": "Final export review",
+  "reviewer": "Single production agent covering the documented skill roles; no independent human panel or viewer study",
+  "findings": [
+    {
+      "id": "ENF01",
+      "priority": "P1",
+      "status": "resolved",
+      "scene": "All app scenes",
+      "finding": "German UI and data required real English captures",
+      "resolution": "All 14 screenshot sources use genuine EN resources and English item/note/meal/template data from common/app; no painted text",
+      "evidence": [
+        "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/focus-source.json",
+        "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/validation.json",
+        "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/portrait/validation.json"
+      ]
+    },
+    {
+      "id": "ENF02",
+      "priority": "P2",
+      "status": "resolved",
+      "scene": "Scene progression and narration",
+      "finding": "Native English sentence lengths differ from German timings",
+      "resolution": "Whole native Jessica takes retained at speed 1.0; final timeline is 46.533s; all original features retained",
+      "evidence": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/timeline-audio.json"
+    },
+    {
+      "id": "ENF03",
+      "priority": "P2",
+      "status": "resolved",
+      "scene": "All photo shots",
+      "finding": "Photo edges and caption safety must survive encoding",
+      "resolution": "Static cover fill uses original landscape and latest portrait photo sources; actual encoded photo edges, cut boundaries and caption bounds checked",
+      "evidence": [
+        "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/validation.json",
+        "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/portrait/validation.json"
+      ]
+    },
+    {
+      "id": "ENF04",
+      "priority": "limitation",
+      "status": "not_checked",
+      "scene": "Whole audio master",
+      "finding": "Subjective emotional delivery, timbre, pronunciation and music groove were not heard",
+      "resolution": "No subjective listening claim. Independent ASR and measured loudness/true peak/timing are documented; these do not replace listening",
+      "evidence": [
+        "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/speech-generation.json",
+        "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/audio/mix.json"
+      ]
+    }
+  ],
+  "published": false
+}

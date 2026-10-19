@@ -7,22 +7,22 @@
   "subjective_listening": false,
   "exports": {
     "abgehakt.mp4": {
-      "sha256": "750abc44ef6ac969b47e7105f9f0fedcbfda0b4b8be989cf7094cd41a8bc4c5f",
-      "bytes": 8816796,
+      "sha256": "1eb3a185ca08cd423efeed978a85a0bc75651f73617972eda304a156229874ff",
+      "bytes": 8817349,
       "frames": 1645,
       "full_decode": "passed",
       "black_frames": false,
       "aac_payload_sha256": "SHA256=364469ad2e4e061feb49b7fd88d94208047ff0d3b6e6eed8375d7e076e05bdb1",
-      "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -16.9 LUFS\n    Threshold: -27.7 LUFS\n\n  Loudness range:\n    LRA:         2.8 LU\n    Threshold: -37.6 LUFS\n    LRA low:   -19.0 LUFS\n    LRA high:  -16.3 LUFS\n\n  True peak:\n    Peak:       -2.0 dBFS\n[out#0/null @ 0x55cdff489b00] video:707KiB audio:10284KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe= 1645 fps=133 q=-0.0 Lsize=N/A time=00:00:54.83 bitrate=N/A speed=4.42x    \n"
+      "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -16.9 LUFS\n    Threshold: -27.7 LUFS\n\n  Loudness range:\n    LRA:         2.8 LU\n    Threshold: -37.6 LUFS\n    LRA low:   -19.0 LUFS\n    LRA high:  -16.3 LUFS\n\n  True peak:\n    Peak:       -2.0 dBFS\n[out#0/null @ 0x564a01db1b00] video:707KiB audio:10284KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe= 1645 fps=269 q=-0.0 Lsize=N/A time=00:00:54.83 bitrate=N/A speed=8.96x    \n"
     },
     "abgehakt-store.mp4": {
-      "sha256": "c66e1ea453998036326924993fc76c497fb32d0e7f8ba581db3904b89f39546d",
-      "bytes": 8937447,
+      "sha256": "db658d231f605d0ebf65a29361926d755d17550590263e744496db335625cb83",
+      "bytes": 8937922,
       "frames": 1645,
       "full_decode": "passed",
       "black_frames": false,
       "aac_payload_sha256": "SHA256=364469ad2e4e061feb49b7fd88d94208047ff0d3b6e6eed8375d7e076e05bdb1",
-      "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -16.9 LUFS\n    Threshold: -27.7 LUFS\n\n  Loudness range:\n    LRA:         2.8 LU\n    Threshold: -37.6 LUFS\n    LRA low:   -19.0 LUFS\n    LRA high:  -16.3 LUFS\n\n  True peak:\n    Peak:       -2.0 dBFS\n[out#0/null @ 0x564f55c63b40] video:707KiB audio:10284KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe= 1645 fps=125 q=-0.0 Lsize=N/A time=00:00:54.83 bitrate=N/A speed=4.17x    \n"
+      "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -16.9 LUFS\n    Threshold: -27.7 LUFS\n\n  Loudness range:\n    LRA:         2.8 LU\n    Threshold: -37.6 LUFS\n    LRA low:   -19.0 LUFS\n    LRA high:  -16.3 LUFS\n\n  True peak:\n    Peak:       -2.0 dBFS\n[out#0/null @ 0x560a01268b40] video:707KiB audio:10284KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe= 1645 fps=250 q=-0.0 Lsize=N/A time=00:00:54.83 bitrate=N/A speed=8.33x    \n"
     }
   },
   "app_ui_languages": [
@@ -132,12 +132,12 @@
     {
       "index": 20,
       "time_sec": 33.13333333333333,
-      "source_pixel_mae": 1.2920492541152264
+      "source_pixel_mae": 1.2911067708333333
     },
     {
       "index": 21,
       "time_sec": 34.983333333333334,
-      "source_pixel_mae": 1.2972596772119342
+      "source_pixel_mae": 1.296270897633745
     },
     {
       "index": 22,
@@ -198,119 +198,119 @@
   "app_checks": [
     {
       "index": 3,
-      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/05-dishes.png",
+      "source": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/05-dishes.png",
       "whole_app": true,
       "language": "en",
       "focus_matches_source": true
     },
     {
       "index": 4,
-      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/06-ingredients.png",
+      "source": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/06-ingredients.png",
       "whole_app": true,
       "language": "en",
       "focus_matches_source": true
     },
     {
       "index": 5,
-      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/06-ingredients.png",
+      "source": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/06-ingredients.png",
       "whole_app": true,
       "language": "en",
       "focus_matches_source": true
     },
     {
       "index": 6,
-      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/07-list-ready.png",
+      "source": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/07-list-ready.png",
       "whole_app": true,
       "language": "en",
       "focus_matches_source": true
     },
     {
       "index": 7,
-      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/01-articles-before.png",
+      "source": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/01-articles-before.png",
       "whole_app": true,
       "language": "en",
       "focus_matches_source": true
     },
     {
       "index": 8,
-      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/02-articles-added.png",
+      "source": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/02-articles-added.png",
       "whole_app": true,
       "language": "en",
       "focus_matches_source": true
     },
     {
       "index": 9,
-      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/02-articles-added.png",
+      "source": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/02-articles-added.png",
       "whole_app": true,
       "language": "en",
       "focus_matches_source": true
     },
     {
       "index": 13,
-      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/09-tomatoes-before.png",
+      "source": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/09-tomatoes-before.png",
       "whole_app": true,
       "language": "en",
       "focus_matches_source": true
     },
     {
       "index": 14,
-      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/09b-tomatoes-checked.png",
+      "source": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/09b-tomatoes-checked.png",
       "whole_app": true,
       "language": "en",
       "focus_matches_source": true
     },
     {
       "index": 15,
-      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/10-totals-after-tomatoes.png",
+      "source": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/10-totals-after-tomatoes.png",
       "whole_app": true,
       "language": "en",
       "focus_matches_source": true
     },
     {
       "index": 17,
-      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/20-more.png",
+      "source": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/20-more.png",
       "whole_app": true,
       "language": "en",
       "focus_matches_source": true
     },
     {
       "index": 18,
-      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/20-more.png",
+      "source": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/20-more.png",
       "whole_app": true,
       "language": "en",
       "focus_matches_source": true
     },
     {
       "index": 19,
-      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/21-stock.png",
+      "source": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/21-stock.png",
       "whole_app": true,
       "language": "en",
       "focus_matches_source": true
     },
     {
       "index": 20,
-      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/22-analysis.png",
+      "source": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/22-analysis.png",
       "whole_app": true,
       "language": "en",
       "focus_matches_source": true
     },
     {
       "index": 21,
-      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/22-analysis.png",
+      "source": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/22-analysis.png",
       "whole_app": true,
       "language": "en",
       "focus_matches_source": true
     },
     {
       "index": 22,
-      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/23-settings.png",
+      "source": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/23-settings.png",
       "whole_app": true,
       "language": "en",
       "focus_matches_source": true
     },
     {
       "index": 23,
-      "source": "/workspace/artifacts/abgehakt-main-en-v1/english-ui/23-settings.png",
+      "source": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/23-settings.png",
       "whole_app": true,
       "language": "en",
       "focus_matches_source": true

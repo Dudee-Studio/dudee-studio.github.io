@@ -1,0 +1,598 @@
+{
+  "duration_sec": 46.53333333333333,
+  "resolution_px": [
+    1080,
+    1920
+  ],
+  "subjective_listening": false,
+  "exports": {
+    "abgehakt.mp4": {
+      "sha256": "e3d6f9ca54c80ed29c1927e43887d404e52b3e19ba1f3b414ee35381eddef818",
+      "bytes": 3646922,
+      "frames": 1396,
+      "actual_decoded_frames": 1396,
+      "video_metadata": {
+        "codec_name": "h264",
+        "profile": "High",
+        "width": 1080,
+        "height": 1920,
+        "pix_fmt": "yuv420p",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "duration": "46.533333"
+      },
+      "audio_metadata": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "duration": "46.533000"
+      },
+      "full_decode": "passed",
+      "black_frames": false,
+      "aac_payload_sha256": "SHA256=c5bf42faa978da8ec681cc5e999a13dd3c2ff02dd471b52a8858dd8d1bf1ceb4",
+      "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -17.0 LUFS\n    Threshold: -28.2 LUFS\n\n  Loudness range:\n    LRA:         5.6 LU\n    Threshold: -38.1 LUFS\n    LRA low:   -21.9 LUFS\n    LRA high:  -16.3 LUFS\n\n  True peak:\n    Peak:       -2.0 dBFS\n[out#0/null @ 0x557ac6467140] video:600KiB audio:8728KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe= 1396 fps=502 q=-0.0 Lsize=N/A time=00:00:46.53 bitrate=N/A speed=16.7x    \n"
+    },
+    "abgehakt-store.mp4": {
+      "sha256": "dd225e73b560752c1bfb8e1982667a0539bfaec0de15df0a16838252b72d38f8",
+      "bytes": 3738869,
+      "frames": 1396,
+      "actual_decoded_frames": 1396,
+      "video_metadata": {
+        "codec_name": "h264",
+        "profile": "High",
+        "width": 1080,
+        "height": 1920,
+        "pix_fmt": "yuv420p",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "duration": "46.533333"
+      },
+      "audio_metadata": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "duration": "46.533000"
+      },
+      "full_decode": "passed",
+      "black_frames": false,
+      "aac_payload_sha256": "SHA256=c5bf42faa978da8ec681cc5e999a13dd3c2ff02dd471b52a8858dd8d1bf1ceb4",
+      "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -17.0 LUFS\n    Threshold: -28.2 LUFS\n\n  Loudness range:\n    LRA:         5.6 LU\n    Threshold: -38.1 LUFS\n    LRA low:   -21.9 LUFS\n    LRA high:  -16.3 LUFS\n\n  True peak:\n    Peak:       -2.0 dBFS\n[out#0/null @ 0x55981415e140] video:600KiB audio:8728KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe= 1396 fps=424 q=-0.0 Lsize=N/A time=00:00:46.53 bitrate=N/A speed=14.1x    \n"
+    }
+  },
+  "app_ui_languages": [
+    "en"
+  ],
+  "state_checks": [
+    {
+      "index": 0,
+      "time_sec": 0.75,
+      "source_pixel_mae": 1.4459874935699588
+    },
+    {
+      "index": 1,
+      "time_sec": 3.1,
+      "source_pixel_mae": 2.632351144547325
+    },
+    {
+      "index": 2,
+      "time_sec": 6.633333333333333,
+      "source_pixel_mae": 1.5323206018518518
+    },
+    {
+      "index": 3,
+      "time_sec": 9.466666666666667,
+      "source_pixel_mae": 1.8539933770576131
+    },
+    {
+      "index": 4,
+      "time_sec": 11.333333333333334,
+      "source_pixel_mae": 1.7024408436213991
+    },
+    {
+      "index": 5,
+      "time_sec": 13.716666666666667,
+      "source_pixel_mae": 1.8036807163065844
+    },
+    {
+      "index": 6,
+      "time_sec": 16.21666666666667,
+      "source_pixel_mae": 1.740604102366255
+    },
+    {
+      "index": 7,
+      "time_sec": 18.066666666666666,
+      "source_pixel_mae": 1.696608153292181
+    },
+    {
+      "index": 8,
+      "time_sec": 20.316666666666666,
+      "source_pixel_mae": 1.6740261702674897
+    },
+    {
+      "index": 9,
+      "time_sec": 23.21666666666667,
+      "source_pixel_mae": 1.682416087962963
+    },
+    {
+      "index": 10,
+      "time_sec": 24.983333333333334,
+      "source_pixel_mae": 2.0376327803497944
+    },
+    {
+      "index": 11,
+      "time_sec": 26.316666666666666,
+      "source_pixel_mae": 1.9915091306584363
+    },
+    {
+      "index": 12,
+      "time_sec": 27.950000000000003,
+      "source_pixel_mae": 1.8039787487139918
+    },
+    {
+      "index": 13,
+      "time_sec": 29.333333333333336,
+      "source_pixel_mae": 1.8203578317901234
+    },
+    {
+      "index": 14,
+      "time_sec": 31.93333333333333,
+      "source_pixel_mae": 1.7946556712962962
+    },
+    {
+      "index": 15,
+      "time_sec": 34.9,
+      "source_pixel_mae": 2.001129597479424
+    },
+    {
+      "index": 16,
+      "time_sec": 36.41666666666667,
+      "source_pixel_mae": 2.07910831404321
+    },
+    {
+      "index": 17,
+      "time_sec": 38.81666666666666,
+      "source_pixel_mae": 2.056138117283951
+    },
+    {
+      "index": 18,
+      "time_sec": 42.766666666666666,
+      "source_pixel_mae": 2.522926311728395
+    },
+    {
+      "index": 19,
+      "time_sec": 45.1,
+      "source_pixel_mae": 2.8887315136316873
+    },
+    {
+      "index": 20,
+      "time_sec": 46.0,
+      "source_pixel_mae": 2.355548482510288
+    }
+  ],
+  "app_checks": [
+    {
+      "index": 2,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-forecast.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "actual_encoded_highlight_bounds_px": [
+        215,
+        918,
+        866,
+        1040
+      ]
+    },
+    {
+      "index": 3,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-recurring.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "actual_encoded_highlight_bounds_px": [
+        190,
+        620,
+        890,
+        787
+      ]
+    },
+    {
+      "index": 4,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-forecast-added.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "actual_encoded_highlight_bounds_px": [
+        182,
+        719,
+        899,
+        866
+      ]
+    },
+    {
+      "index": 5,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-note-editor.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "actual_encoded_highlight_bounds_px": [
+        190,
+        447,
+        890,
+        660
+      ]
+    },
+    {
+      "index": 6,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-note-list.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "actual_encoded_highlight_bounds_px": [
+        272,
+        728,
+        547,
+        916
+      ]
+    },
+    {
+      "index": 7,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-meal-ideas.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "actual_encoded_highlight_bounds_px": [
+        182,
+        438,
+        899,
+        618
+      ]
+    },
+    {
+      "index": 8,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-meal-selected.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "actual_encoded_highlight_bounds_px": [
+        182,
+        438,
+        899,
+        618
+      ]
+    },
+    {
+      "index": 9,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-template.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "actual_encoded_highlight_bounds_px": [
+        182,
+        438,
+        899,
+        651
+      ]
+    },
+    {
+      "index": 10,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-template-preview.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "actual_encoded_highlight_bounds_px": [
+        683,
+        1525,
+        876,
+        1614
+      ]
+    },
+    {
+      "index": 11,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-template-result.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "actual_encoded_highlight_bounds_px": [
+        182,
+        938,
+        899,
+        1076
+      ]
+    },
+    {
+      "index": 12,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-offer-editor.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "actual_encoded_highlight_bounds_px": [
+        223,
+        1331,
+        857,
+        1502
+      ]
+    },
+    {
+      "index": 13,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-offer-editor.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "actual_encoded_highlight_bounds_px": [
+        190,
+        943,
+        890,
+        1048
+      ]
+    },
+    {
+      "index": 14,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-offer-last.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "actual_encoded_highlight_bounds_px": [
+        173,
+        513,
+        906,
+        734
+      ]
+    },
+    {
+      "index": 15,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-checkout-before.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "actual_encoded_highlight_bounds_px": [
+        190,
+        455,
+        890,
+        635
+      ]
+    },
+    {
+      "index": 16,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-checkout-coupon.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "actual_encoded_highlight_bounds_px": [
+        223,
+        653,
+        857,
+        824
+      ]
+    },
+    {
+      "index": 17,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/free-checkout-coupon.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "actual_encoded_highlight_bounds_px": [
+        182,
+        1381,
+        882,
+        1528
+      ]
+    }
+  ],
+  "full_bleed_checks": [
+    {
+      "index": 1,
+      "photo_edges_match": true,
+      "edge_mae": [
+        1.4682870370370371,
+        2.4931327160493826,
+        2.655787037037037,
+        2.4602719907407407
+      ]
+    },
+    {
+      "index": 18,
+      "photo_edges_match": true,
+      "edge_mae": [
+        1.1601594650205762,
+        2.3127829218106997,
+        2.3248408564814813,
+        2.3392939814814815
+      ]
+    },
+    {
+      "index": 19,
+      "photo_edges_match": true,
+      "edge_mae": [
+        3.226003086419753,
+        2.0295010288065845,
+        2.3589265046296295,
+        3.3370225694444446
+      ]
+    },
+    {
+      "index": 20,
+      "photo_edges_match": true,
+      "edge_mae": [
+        2.040406378600823,
+        1.3907921810699588,
+        2.1955873842592593,
+        1.9985532407407407
+      ]
+    }
+  ],
+  "all_cut_boundaries": "passed",
+  "caption_checks": [
+    {
+      "text": "Forget less.",
+      "time_sec": 2.25,
+      "bounds_px": [
+        401,
+        1769,
+        679,
+        1839
+      ]
+    },
+    {
+      "text": "Fewer questions.",
+      "time_sec": 3.83,
+      "bounds_px": [
+        341,
+        1769,
+        739,
+        1839
+      ]
+    },
+    {
+      "text": "Review suggestions based on past purchases.",
+      "time_sec": 6.31,
+      "bounds_px": [
+        144,
+        1717,
+        936,
+        1839
+      ]
+    },
+    {
+      "text": "Or set up what you need regularly.",
+      "time_sec": 9.43,
+      "bounds_px": [
+        254,
+        1717,
+        825,
+        1839
+      ]
+    },
+    {
+      "text": "A quick note saves questions.",
+      "time_sec": 13.49,
+      "bounds_px": [
+        198,
+        1769,
+        882,
+        1839
+      ]
+    },
+    {
+      "text": "Like: unsweetened, please.",
+      "time_sec": 15.780000000000001,
+      "bounds_px": [
+        226,
+        1769,
+        854,
+        1839
+      ]
+    },
+    {
+      "text": "Save meal ideas and add the ingredients for your choice.",
+      "time_sec": 19.060000000000002,
+      "bounds_px": [
+        205,
+        1717,
+        875,
+        1839
+      ]
+    },
+    {
+      "text": "Game night?",
+      "time_sec": 22.270000000000003,
+      "bounds_px": [
+        388,
+        1769,
+        692,
+        1839
+      ]
+    },
+    {
+      "text": "Save it as a template and use it again.",
+      "time_sec": 24.250000000000004,
+      "bounds_px": [
+        175,
+        1717,
+        905,
+        1839
+      ]
+    },
+    {
+      "text": "Compare an offer with your last sale purchase.",
+      "time_sec": 28.630000000000003,
+      "bounds_px": [
+        176,
+        1717,
+        904,
+        1839
+      ]
+    },
+    {
+      "text": "The price and date stay with the item.",
+      "time_sec": 30.980000000000004,
+      "bounds_px": [
+        168,
+        1717,
+        912,
+        1839
+      ]
+    },
+    {
+      "text": "Enter coupons at checkout.",
+      "time_sec": 34.81999999999999,
+      "bounds_px": [
+        224,
+        1769,
+        856,
+        1839
+      ]
+    },
+    {
+      "text": "They're included in your final total.",
+      "time_sec": 36.78,
+      "bounds_px": [
+        205,
+        1717,
+        875,
+        1839
+      ]
+    },
+    {
+      "text": "Abgehakt.",
+      "time_sec": 41.37,
+      "bounds_px": [
+        417,
+        1769,
+        663,
+        1839
+      ]
+    },
+    {
+      "text": "Shopping, sorted.",
+      "time_sec": 43.28,
+      "bounds_px": [
+        333,
+        1769,
+        746,
+        1839
+      ]
+    },
+    {
+      "text": "More time for life.",
+      "time_sec": 45.480000000000004,
+      "bounds_px": [
+        332,
+        1769,
+        748,
+        1838
+      ]
+    }
+  ],
+  "formal_validation": "passed"
+}

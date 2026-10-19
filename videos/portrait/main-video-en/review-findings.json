@@ -1,0 +1,83 @@
+{
+  "film": "English main film v2",
+  "outputs": [
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/abgehakt-store.mp4",
+      "sha256": "54e41d8209bd2a7a8c05a2fa7fb3c6d39bbc898f807bb734ebfb68a11f648c9b",
+      "bytes": 7989873
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/abgehakt.mp4",
+      "sha256": "c972a0035c77ff631160d5571503d5fb44b1c606096fb3b18e20388fb11780d2",
+      "bytes": 7814300
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/abgehakt-en.vtt",
+      "sha256": "3546a69e547a66abe306e2ccb02da617da700d6331dd226ab821c13ec92283fe",
+      "bytes": 1837
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/poster.jpg",
+      "sha256": "48c569115d70389d9b5db0388672c00d29a4f8cf827baf3653ad5569026ab1ce",
+      "bytes": 28712
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/abgehakt-store.mp4",
+      "sha256": "db658d231f605d0ebf65a29361926d755d17550590263e744496db335625cb83",
+      "bytes": 8937922
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/abgehakt.mp4",
+      "sha256": "1eb3a185ca08cd423efeed978a85a0bc75651f73617972eda304a156229874ff",
+      "bytes": 8817349
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/abgehakt-en.vtt",
+      "sha256": "20792be4b8c393cfea04b811cb67c522a03064cc9afe0ad926ce81b5f9202e5d",
+      "bytes": 2523
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/poster.jpg",
+      "sha256": "6b1e4df339f88cc1130435e222e34d52585bcf807ff5fc1c81ba43428e90e5a6",
+      "bytes": 28954
+    }
+  ],
+  "findings": [
+    {
+      "id": "MAIN-EN-V2-F01",
+      "severity": "P1",
+      "status": "resolved",
+      "finding": "V1monthly native screenshot retained German purchase counters despite the English interface.",
+      "solution": "Root fixed actual app purchasesLabel. Entire native monthly PNG replaced in states20/21; counts now23purchases,10purchases and13purchases. Current native English semantic bounds define both complete month cards.",
+      "evidence": [
+        "english-ui/22-analysis.png",
+        "english-ui/months-source.json",
+        "revision-scope.json",
+        "capture-frame-validation.json"
+      ]
+    },
+    {
+      "id": "MAIN-EN-V2-F02",
+      "severity": "P1",
+      "status": "passed",
+      "finding": "Targeted UI correction must preserve the approved film.",
+      "solution": "31other composed PNGs per format and11other UI captures byte-identical; all narration/music/captions/timing retained; all4AACpayloads identical tov1.",
+      "evidence": [
+        "unchanged-still-proof.json",
+        "portrait/unchanged-still-proof.json",
+        "audio-identity.json"
+      ]
+    },
+    {
+      "id": "MAIN-EN-V2-F03",
+      "severity": "P2",
+      "status": "not_subjectively_listened",
+      "finding": "Voice intonation, pronunciation and musical feel are unchanged and not subjectively heard in this revision.",
+      "possible_solution": "Use the unchanged shared master for a listening review if desired; technical checks cannot substitute for hearing."
+    }
+  ],
+  "visual_review": "Both final contact sheets, all four corrected encoded month frames at full size, phone preview and photo-edge/endframe sheets inspected.",
+  "reviewer_type": "Production-agent role perspectives; not a human user study.",
+  "subjective_listening": false,
+  "published_by_this_agent": false
+}

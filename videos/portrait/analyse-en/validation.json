@@ -1,0 +1,473 @@
+{
+  "duration_sec": 27.1,
+  "resolution_px": [
+    1080,
+    1920
+  ],
+  "subjective_listening": false,
+  "exports": {
+    "abgehakt.mp4": {
+      "sha256": "8d618f0c2177d962f1b762d7a6e4200ec2311000c847a636b27ef7f14efdc4b1",
+      "bytes": 3452190,
+      "frames": 813,
+      "full_decode": "passed",
+      "black_frames": false,
+      "aac_payload_sha256": "SHA256=a6551c47f64e14fa307ca93a6b21170a7965803ea72a761b26b501e89b383f6d",
+      "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -18.0 LUFS\n    Threshold: -28.2 LUFS\n\n  Loudness range:\n    LRA:         2.2 LU\n    Threshold: -38.1 LUFS\n    LRA low:   -19.1 LUFS\n    LRA high:  -16.9 LUFS\n\n  True peak:\n    Peak:       -2.6 dBFS\n[out#0/null @ 0x5617270f7300] video:349KiB audio:5084KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  813 fps=459 q=-0.0 Lsize=N/A time=00:00:27.10 bitrate=N/A speed=15.3x    \n"
+    },
+    "abgehakt-store.mp4": {
+      "sha256": "be9fb0e6d987d8a71f2fdce27e68d522a0936f03dccae63865d38dd9feb4ecee",
+      "bytes": 3516089,
+      "frames": 813,
+      "full_decode": "passed",
+      "black_frames": false,
+      "aac_payload_sha256": "SHA256=a6551c47f64e14fa307ca93a6b21170a7965803ea72a761b26b501e89b383f6d",
+      "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -18.0 LUFS\n    Threshold: -28.2 LUFS\n\n  Loudness range:\n    LRA:         2.2 LU\n    Threshold: -38.1 LUFS\n    LRA low:   -19.1 LUFS\n    LRA high:  -16.9 LUFS\n\n  True peak:\n    Peak:       -2.6 dBFS\n[out#0/null @ 0x55b7ee2af300] video:349KiB audio:5084KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  813 fps=440 q=-0.0 Lsize=N/A time=00:00:27.10 bitrate=N/A speed=14.7x    \n"
+    }
+  },
+  "app_ui_languages": [
+    "en"
+  ],
+  "state_checks": [
+    {
+      "index": 0,
+      "time_sec": 0.5,
+      "source_pixel_mae": 1.4494270833333334
+    },
+    {
+      "index": 1,
+      "time_sec": 1.3,
+      "source_pixel_mae": 2.7372148276748973
+    },
+    {
+      "index": 2,
+      "time_sec": 2.95,
+      "source_pixel_mae": 1.4902004565329219
+    },
+    {
+      "index": 3,
+      "time_sec": 6.0,
+      "source_pixel_mae": 1.3475675154320987
+    },
+    {
+      "index": 4,
+      "time_sec": 8.6,
+      "source_pixel_mae": 1.305922550154321
+    },
+    {
+      "index": 5,
+      "time_sec": 10.3,
+      "source_pixel_mae": 1.3880828832304526
+    },
+    {
+      "index": 6,
+      "time_sec": 11.5,
+      "source_pixel_mae": 2.4682928240740742
+    },
+    {
+      "index": 7,
+      "time_sec": 13.7,
+      "source_pixel_mae": 1.4869958847736626
+    },
+    {
+      "index": 8,
+      "time_sec": 17.083333333333336,
+      "source_pixel_mae": 1.40515223122428
+    },
+    {
+      "index": 9,
+      "time_sec": 20.016666666666666,
+      "source_pixel_mae": 1.392504179526749
+    },
+    {
+      "index": 10,
+      "time_sec": 23.333333333333336,
+      "source_pixel_mae": 2.5246357381687243
+    },
+    {
+      "index": 11,
+      "time_sec": 25.733333333333334,
+      "source_pixel_mae": 2.886141814557613
+    },
+    {
+      "index": 12,
+      "time_sec": 26.633333333333333,
+      "source_pixel_mae": 2.5319407471707818
+    }
+  ],
+  "app_checks": [
+    {
+      "index": 2,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/main-cart70.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "source_sha256": "9be0a115f99de02fbd99f4c01019458d8c2796b4b7ffd00f253d6f9cf5974c58"
+    },
+    {
+      "index": 3,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/analysis-free-months.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "source_sha256": "ddafc6b3677606c25d3db3157636fa62341b0bd5544c8f9fa7c9effde60c02ec"
+    },
+    {
+      "index": 4,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/analysis-free-prices.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "source_sha256": "a332174ffd4c9a545c1f0ae5798643f39669365918e8ecf3fb5e1a976fe45882"
+    },
+    {
+      "index": 5,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/analysis-free-price-detail.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "source_sha256": "5197723b483f6b19b9f31bfc4886a969a37d99559bf2e11a454792bfd99ca932"
+    },
+    {
+      "index": 7,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/analysis-categories.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "source_sha256": "a9e7f2161e386570e070114fcb498dd6b1fa0555e6b9f82058d3c579eb9eee8d"
+    },
+    {
+      "index": 8,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/analysis-top.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "source_sha256": "8db07dab8b0a3fdf341a3f315596d6471b64e60d65629072d64306e774957778"
+    },
+    {
+      "index": 9,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/analysis-markets.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true,
+      "source_sha256": "1967aba38c3d90420e1e9f8dd33a6c8b8c0143e597487b388f5b97bdb4a9f009"
+    }
+  ],
+  "full_bleed_checks": [
+    {
+      "index": 1,
+      "photo_edges_match": true,
+      "edge_mae": [
+        2.0487911522633744,
+        1.83070987654321,
+        1.7179832175925926,
+        4.28984375
+      ]
+    },
+    {
+      "index": 6,
+      "photo_edges_match": true,
+      "edge_mae": [
+        1.3898405349794238,
+        2.400411522633745,
+        2.094994212962963,
+        2.4819444444444443
+      ]
+    },
+    {
+      "index": 10,
+      "photo_edges_match": true,
+      "edge_mae": [
+        1.1642746913580246,
+        2.3102880658436216,
+        2.301374421296296,
+        2.3745659722222223
+      ]
+    },
+    {
+      "index": 11,
+      "photo_edges_match": true,
+      "edge_mae": [
+        3.220601851851852,
+        2.0280092592592593,
+        2.368923611111111,
+        3.362398726851852
+      ]
+    },
+    {
+      "index": 12,
+      "photo_edges_match": true,
+      "edge_mae": [
+        1.596579218106996,
+        2.3232253086419754,
+        2.3580439814814813,
+        2.2488136574074074
+      ]
+    }
+  ],
+  "all_cut_boundaries": "passed",
+  "cut_checks": [
+    {
+      "cut_index": 1,
+      "offset_frames": -1,
+      "time_sec": 0.9666766666666666,
+      "source_pixel_mae": 1.4495368762860081,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-01-before.jpg"
+    },
+    {
+      "cut_index": 1,
+      "offset_frames": 0,
+      "time_sec": 1.00001,
+      "source_pixel_mae": 2.7375011252572015,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-01-after.jpg"
+    },
+    {
+      "cut_index": 2,
+      "offset_frames": -1,
+      "time_sec": 1.5666766666666667,
+      "source_pixel_mae": 2.7374456661522633,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-02-before.jpg"
+    },
+    {
+      "cut_index": 2,
+      "offset_frames": 0,
+      "time_sec": 1.6000100000000002,
+      "source_pixel_mae": 1.4912675218621398,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-02-after.jpg"
+    },
+    {
+      "cut_index": 3,
+      "offset_frames": -1,
+      "time_sec": 4.266676666666666,
+      "source_pixel_mae": 1.4888734567901234,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-03-before.jpg"
+    },
+    {
+      "cut_index": 3,
+      "offset_frames": 0,
+      "time_sec": 4.300009999999999,
+      "source_pixel_mae": 1.3490189364711933,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-03-after.jpg"
+    },
+    {
+      "cut_index": 4,
+      "offset_frames": -1,
+      "time_sec": 7.666676666666667,
+      "source_pixel_mae": 1.3464922518004114,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-04-before.jpg"
+    },
+    {
+      "cut_index": 4,
+      "offset_frames": 0,
+      "time_sec": 7.70001,
+      "source_pixel_mae": 1.3065162037037037,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-04-after.jpg"
+    },
+    {
+      "cut_index": 5,
+      "offset_frames": -1,
+      "time_sec": 9.466676666666666,
+      "source_pixel_mae": 1.3053435249485597,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-05-before.jpg"
+    },
+    {
+      "cut_index": 5,
+      "offset_frames": 0,
+      "time_sec": 9.50001,
+      "source_pixel_mae": 1.3886185056584361,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-05-after.jpg"
+    },
+    {
+      "cut_index": 6,
+      "offset_frames": -1,
+      "time_sec": 11.066676666666666,
+      "source_pixel_mae": 1.386968074845679,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-06-before.jpg"
+    },
+    {
+      "cut_index": 6,
+      "offset_frames": 0,
+      "time_sec": 11.10001,
+      "source_pixel_mae": 2.4683614647633747,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-06-after.jpg"
+    },
+    {
+      "cut_index": 7,
+      "offset_frames": -1,
+      "time_sec": 11.866676666666667,
+      "source_pixel_mae": 2.468338798868313,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-07-before.jpg"
+    },
+    {
+      "cut_index": 7,
+      "offset_frames": 0,
+      "time_sec": 11.90001,
+      "source_pixel_mae": 1.4882519933127571,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-07-after.jpg"
+    },
+    {
+      "cut_index": 8,
+      "offset_frames": -1,
+      "time_sec": 15.466676666666666,
+      "source_pixel_mae": 1.486267361111111,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-08-before.jpg"
+    },
+    {
+      "cut_index": 8,
+      "offset_frames": 0,
+      "time_sec": 15.50001,
+      "source_pixel_mae": 1.4069743441358025,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-08-after.jpg"
+    },
+    {
+      "cut_index": 9,
+      "offset_frames": -1,
+      "time_sec": 18.633343333333332,
+      "source_pixel_mae": 1.4046858924897119,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-09-before.jpg"
+    },
+    {
+      "cut_index": 9,
+      "offset_frames": 0,
+      "time_sec": 18.666676666666667,
+      "source_pixel_mae": 1.394666763117284,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-09-after.jpg"
+    },
+    {
+      "cut_index": 10,
+      "offset_frames": -1,
+      "time_sec": 21.33334333333333,
+      "source_pixel_mae": 1.392209201388889,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-10-before.jpg"
+    },
+    {
+      "cut_index": 10,
+      "offset_frames": 0,
+      "time_sec": 21.366676666666667,
+      "source_pixel_mae": 2.5248027584876542,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-10-after.jpg"
+    },
+    {
+      "cut_index": 11,
+      "offset_frames": -1,
+      "time_sec": 25.266676666666665,
+      "source_pixel_mae": 2.524536233281893,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-11-before.jpg"
+    },
+    {
+      "cut_index": 11,
+      "offset_frames": 0,
+      "time_sec": 25.30001,
+      "source_pixel_mae": 2.8860728523662553,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-11-after.jpg"
+    },
+    {
+      "cut_index": 12,
+      "offset_frames": -1,
+      "time_sec": 26.133343333333332,
+      "source_pixel_mae": 2.8862336033950617,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-12-before.jpg"
+    },
+    {
+      "cut_index": 12,
+      "offset_frames": 0,
+      "time_sec": 26.166676666666667,
+      "source_pixel_mae": 2.534980066872428,
+      "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait/review/cut-12-after.jpg"
+    }
+  ],
+  "last_frame_mae": 2.532310313786008,
+  "caption_checks": [
+    {
+      "text": "Watch your total as you tick things off.",
+      "time_sec": 2.8900000000000006,
+      "bounds_px": [
+        216,
+        1717,
+        864,
+        1839
+      ]
+    },
+    {
+      "text": "And your spending this month and last month.",
+      "time_sec": 5.949999999999999,
+      "bounds_px": [
+        193,
+        1717,
+        887,
+        1839
+      ]
+    },
+    {
+      "text": "See how the prices you've recorded have changed.",
+      "time_sec": 9.04,
+      "bounds_px": [
+        237,
+        1717,
+        843,
+        1839
+      ]
+    },
+    {
+      "text": "With the Pro version, see which categories take up the most of your budget.",
+      "time_sec": 13.159999999999998,
+      "bounds_px": [
+        178,
+        1665,
+        902,
+        1839
+      ]
+    },
+    {
+      "text": "And which items you spend the most on.",
+      "time_sec": 17.07,
+      "bounds_px": [
+        179,
+        1717,
+        901,
+        1839
+      ]
+    },
+    {
+      "text": "Compare your spending by store.",
+      "time_sec": 19.726666666666667,
+      "bounds_px": [
+        156,
+        1769,
+        924,
+        1839
+      ]
+    },
+    {
+      "text": "Abgehakt.",
+      "time_sec": 21.95666666666667,
+      "bounds_px": [
+        417,
+        1769,
+        663,
+        1839
+      ]
+    },
+    {
+      "text": "Shopping, sorted.",
+      "time_sec": 23.86666666666667,
+      "bounds_px": [
+        333,
+        1769,
+        746,
+        1839
+      ]
+    },
+    {
+      "text": "More time for life.",
+      "time_sec": 26.06666666666667,
+      "bounds_px": [
+        332,
+        1769,
+        748,
+        1839
+      ]
+    }
+  ],
+  "formal_validation": "passed"
+}

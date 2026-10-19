@@ -1,0 +1,80 @@
+Final review — Abgehakt community catalog EN v1
+Duration: 33.033333 seconds; 30 fps; landscape 1920×1080 and portrait 1080×1920.
+
+The four actual final MP4 files were fully decoded with error-stop enabled. Metadata, audio payload identity, final loudness/true peak, no full black frames, exact static source states, every cut before/after, complete English app contain transforms, semantic highlight positions, edge-to-edge photos, actual burned-caption bounds and the formal scene plan were checked.
+Final exported midpoints and phone-size sheets were visually reviewed, plus the English source states and selected-photo pixel proof. No actual listening was performed. Subjective voice quality, emotional delivery, musical groove and subjective intelligibility remain unverified.
+
+Community origin, Pro search/import, editable independent copy, free voluntary publication/withdrawal, automatic sharing initially off and photo/price opt-in are explicit in speech, graphics or genuine UI. Purchase history is not public. Only Preview · Version 1.1 appears; no live-backend or release-availability promise.
+
+Source story, selected Jessica voice, photographs, brand and music are retained. No new image/music generation. No app, website or Git modifications by this agent. No publication.
+
+landscape
+abgehakt.mp4 SHA-256 8b5193c51f52db96d9cd8f907fe6ca1438b334db5b3ad0acff78b61c8af4517b
+Summary:
+
+  Integrated loudness:
+    I:         -17.3 LUFS
+    Threshold: -27.6 LUFS
+
+  Loudness range:
+    LRA:         3.4 LU
+    Threshold: -37.5 LUFS
+    LRA low:   -19.4 LUFS
+    LRA high:  -16.0 LUFS
+
+  True peak:
+    Peak:       -2.0 dBFS
+[out#0/null @ 0x55c07c464000] video:426KiB audio:6196KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  991 fps=154 q=-0.0 Lsize=N/A time=00:00:33.03 bitrate=N/A speed=5.12x
+abgehakt-store.mp4 SHA-256 7072dbbec57b2e5655d91ebfde06e0fb26aa865792f38bcffde4b57e256b45c1
+Summary:
+
+  Integrated loudness:
+    I:         -17.3 LUFS
+    Threshold: -27.6 LUFS
+
+  Loudness range:
+    LRA:         3.4 LU
+    Threshold: -37.5 LUFS
+    LRA low:   -19.4 LUFS
+    LRA high:  -16.0 LUFS
+
+  True peak:
+    Peak:       -2.0 dBFS
+[out#0/null @ 0x564dd05f9000] video:426KiB audio:6196KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  991 fps=152 q=-0.0 Lsize=N/A time=00:00:33.03 bitrate=N/A speed=5.06x
+portrait
+abgehakt.mp4 SHA-256 55eb1e599060bd299cd9f3c77c6c23137ea4093e273cb796a35d81084cddc93c
+Summary:
+
+  Integrated loudness:
+    I:         -17.3 LUFS
+    Threshold: -27.6 LUFS
+
+  Loudness range:
+    LRA:         3.4 LU
+    Threshold: -37.5 LUFS
+    LRA low:   -19.4 LUFS
+    LRA high:  -16.0 LUFS
+
+  True peak:
+    Peak:       -2.0 dBFS
+[out#0/null @ 0x557aa7118d40] video:426KiB audio:6196KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  991 fps=312 q=-0.0 Lsize=N/A time=00:00:33.03 bitrate=N/A speed=10.4x
+abgehakt-store.mp4 SHA-256 b4279aa59fe4abd6d0f4a712fcb75b6ee8f96ff148e21a398e609041d7012462
+Summary:
+
+  Integrated loudness:
+    I:         -17.3 LUFS
+    Threshold: -27.6 LUFS
+
+  Loudness range:
+    LRA:         3.4 LU
+    Threshold: -37.5 LUFS
+    LRA low:   -19.4 LUFS
+    LRA high:  -16.0 LUFS
+
+  True peak:
+    Peak:       -2.0 dBFS
+[out#0/null @ 0x5574fcc63000] video:426KiB audio:6196KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  991 fps=297 q=-0.0 Lsize=N/A time=00:00:33.03 bitrate=N/A speed=9.92x

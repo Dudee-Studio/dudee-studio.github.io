@@ -1,0 +1,360 @@
+{
+  "duration_sec": 33.03333333333333,
+  "resolution_px": [
+    1080,
+    1920
+  ],
+  "subjective_listening": false,
+  "exports": {
+    "abgehakt.mp4": {
+      "sha256": "55eb1e599060bd299cd9f3c77c6c23137ea4093e273cb796a35d81084cddc93c",
+      "bytes": 2410106,
+      "frames": 991,
+      "full_decode": "passed",
+      "black_frames": false,
+      "aac_payload_sha256": "SHA256=40feb091ae268a71c6052a09552d2140929f6d735ef5ca07093aa252cbbd8798",
+      "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -17.3 LUFS\n    Threshold: -27.6 LUFS\n\n  Loudness range:\n    LRA:         3.4 LU\n    Threshold: -37.5 LUFS\n    LRA low:   -19.4 LUFS\n    LRA high:  -16.0 LUFS\n\n  True peak:\n    Peak:       -2.0 dBFS\n[out#0/null @ 0x557aa7118d40] video:426KiB audio:6196KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  991 fps=312 q=-0.0 Lsize=N/A time=00:00:33.03 bitrate=N/A speed=10.4x    \n"
+    },
+    "abgehakt-store.mp4": {
+      "sha256": "b4279aa59fe4abd6d0f4a712fcb75b6ee8f96ff148e21a398e609041d7012462",
+      "bytes": 2502325,
+      "frames": 991,
+      "full_decode": "passed",
+      "black_frames": false,
+      "aac_payload_sha256": "SHA256=40feb091ae268a71c6052a09552d2140929f6d735ef5ca07093aa252cbbd8798",
+      "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -17.3 LUFS\n    Threshold: -27.6 LUFS\n\n  Loudness range:\n    LRA:         3.4 LU\n    Threshold: -37.5 LUFS\n    LRA low:   -19.4 LUFS\n    LRA high:  -16.0 LUFS\n\n  True peak:\n    Peak:       -2.0 dBFS\n[out#0/null @ 0x5574fcc63000] video:426KiB audio:6196KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  991 fps=297 q=-0.0 Lsize=N/A time=00:00:33.03 bitrate=N/A speed=9.92x    \n"
+    }
+  },
+  "app_ui_languages": [
+    "en"
+  ],
+  "state_checks": [
+    {
+      "index": 0,
+      "time_sec": 0.75,
+      "source_pixel_mae": 1.4523435892489711
+    },
+    {
+      "index": 1,
+      "time_sec": 3.0,
+      "source_pixel_mae": 2.600405574845679
+    },
+    {
+      "index": 2,
+      "time_sec": 5.35,
+      "source_pixel_mae": 1.9399684927983538
+    },
+    {
+      "index": 3,
+      "time_sec": 8.1,
+      "source_pixel_mae": 1.9217301633230452
+    },
+    {
+      "index": 4,
+      "time_sec": 10.65,
+      "source_pixel_mae": 1.9332926633230452
+    },
+    {
+      "index": 5,
+      "time_sec": 12.15,
+      "source_pixel_mae": 1.8934196566358024
+    },
+    {
+      "index": 6,
+      "time_sec": 14.5,
+      "source_pixel_mae": 1.9606198559670782
+    },
+    {
+      "index": 7,
+      "time_sec": 16.8,
+      "source_pixel_mae": 1.3284479488168723
+    },
+    {
+      "index": 8,
+      "time_sec": 18.200000000000003,
+      "source_pixel_mae": 1.377859117798354
+    },
+    {
+      "index": 9,
+      "time_sec": 19.55,
+      "source_pixel_mae": 1.4011545138888888
+    },
+    {
+      "index": 10,
+      "time_sec": 20.9,
+      "source_pixel_mae": 1.3198752572016461
+    },
+    {
+      "index": 11,
+      "time_sec": 22.75,
+      "source_pixel_mae": 1.3143695344650206
+    },
+    {
+      "index": 12,
+      "time_sec": 24.9,
+      "source_pixel_mae": 1.3020732060185185
+    },
+    {
+      "index": 13,
+      "time_sec": 26.65,
+      "source_pixel_mae": 1.3319700038580247
+    },
+    {
+      "index": 14,
+      "time_sec": 29.46666666666667,
+      "source_pixel_mae": 2.505534497170782
+    },
+    {
+      "index": 15,
+      "time_sec": 31.81666666666667,
+      "source_pixel_mae": 2.505621784979424
+    },
+    {
+      "index": 16,
+      "time_sec": 32.61666666666667,
+      "source_pixel_mae": 2.527613007973251
+    }
+  ],
+  "app_checks": [
+    {
+      "index": 2,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/catalog-typing.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 3,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/catalog-results.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 4,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/catalog-results.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 5,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/catalog-category.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 6,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/catalog-saved.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 7,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/catalog-own-private.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 8,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/catalog-own-private.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 9,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/catalog-share-options.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 10,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/catalog-share-options.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 11,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/catalog-published.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 12,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/catalog-withdraw-before.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 13,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/common/app/catalog-withdraw-after.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    }
+  ],
+  "full_bleed_checks": [
+    {
+      "index": 1,
+      "photo_edges_match": true,
+      "edge_mae": [
+        1.0366769547325103,
+        2.500180041152263,
+        2.6386140046296296,
+        2.385966435185185
+      ]
+    },
+    {
+      "index": 14,
+      "photo_edges_match": true,
+      "edge_mae": [
+        1.1319958847736626,
+        2.3207818930041153,
+        2.3106336805555556,
+        2.2917390046296298
+      ]
+    },
+    {
+      "index": 15,
+      "photo_edges_match": true,
+      "edge_mae": [
+        1.1319958847736626,
+        2.3207818930041153,
+        2.3106336805555556,
+        2.2917390046296298
+      ]
+    },
+    {
+      "index": 16,
+      "photo_edges_match": true,
+      "edge_mae": [
+        1.1319958847736626,
+        2.321656378600823,
+        2.313208912037037,
+        2.2908420138888888
+      ]
+    }
+  ],
+  "all_cut_boundaries": "passed",
+  "caption_checks": [
+    {
+      "text": "There's an easier way to add items.",
+      "time_sec": 2.6,
+      "bounds_px": [
+        162,
+        1813,
+        918,
+        1879
+      ]
+    },
+    {
+      "text": "With Pro, search a catalog shared by the Abgehakt community.",
+      "time_sec": 6.619999999999999,
+      "bounds_px": [
+        150,
+        1765,
+        930,
+        1879
+      ]
+    },
+    {
+      "text": "Import.",
+      "time_sec": 10.51,
+      "bounds_px": [
+        456,
+        1813,
+        624,
+        1879
+      ]
+    },
+    {
+      "text": "Choose your category.",
+      "time_sec": 11.809999999999999,
+      "bounds_px": [
+        298,
+        1813,
+        783,
+        1879
+      ]
+    },
+    {
+      "text": "Keep your own editable copy.",
+      "time_sec": 13.879999999999999,
+      "bounds_px": [
+        224,
+        1813,
+        856,
+        1879
+      ]
+    },
+    {
+      "text": "You can share your own items if you choose.",
+      "time_sec": 17.39,
+      "bounds_px": [
+        155,
+        1765,
+        925,
+        1879
+      ]
+    },
+    {
+      "text": "For free, even without Pro.",
+      "time_sec": 20.040000000000003,
+      "bounds_px": [
+        256,
+        1813,
+        824,
+        1879
+      ]
+    },
+    {
+      "text": "And withdraw them whenever you like.",
+      "time_sec": 25.28,
+      "bounds_px": [
+        176,
+        1765,
+        904,
+        1879
+      ]
+    },
+    {
+      "text": "Abgehakt.",
+      "time_sec": 28.07,
+      "bounds_px": [
+        426,
+        1813,
+        654,
+        1879
+      ]
+    },
+    {
+      "text": "Shopping, sorted.",
+      "time_sec": 29.98,
+      "bounds_px": [
+        349,
+        1813,
+        732,
+        1879
+      ]
+    },
+    {
+      "text": "More time for life.",
+      "time_sec": 32.18000000000001,
+      "bounds_px": [
+        347,
+        1813,
+        733,
+        1879
+      ]
+    }
+  ],
+  "formal_validation": "passed"
+}

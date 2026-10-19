@@ -1,0 +1,1356 @@
+{
+  "revision_scope": {
+    "change": "Whole22-analysis.png replaced for states20/21 only; hardcoded German purchase counters corrected in real app by root.",
+    "original": "/workspace/artifacts/abgehakt-main-en-v1",
+    "new_source_png": "/workspace/artifacts/abgehakt-details-en-v1/common/app/analysis-free-months.png",
+    "new_source_png_sha256": "ddafc6b3677606c25d3db3157636fa62341b0bd5544c8f9fa7c9effde60c02ec",
+    "semantic_source": "/workspace/artifacts/abgehakt-details-en-v1/common/focus/analysis-free-months.json",
+    "semantic_source_sha256": "ae7ec02937b3033c3bae9281e39a3e3c578f25d1bffce386441300e4edd8919e",
+    "focus_source": {
+      "20": [
+        24,
+        492,
+        516,
+        252
+      ],
+      "21": [
+        540,
+        492,
+        516,
+        252
+      ]
+    },
+    "selected_nodes": [
+      {
+        "text": [
+          "This month"
+        ],
+        "description": [],
+        "editableText": "",
+        "bounds_px": [
+          66,
+          534,
+          182,
+          48
+        ]
+      },
+      {
+        "text": [
+          "€359.90"
+        ],
+        "description": [],
+        "editableText": "",
+        "bounds_px": [
+          66,
+          582,
+          188,
+          72
+        ]
+      },
+      {
+        "text": [
+          "10 purchases"
+        ],
+        "description": [],
+        "editableText": "",
+        "bounds_px": [
+          66,
+          654,
+          233,
+          48
+        ]
+      },
+      {
+        "text": [
+          "Last month"
+        ],
+        "description": [],
+        "editableText": "",
+        "bounds_px": [
+          582,
+          534,
+          183,
+          48
+        ]
+      },
+      {
+        "text": [
+          "€405.08"
+        ],
+        "description": [],
+        "editableText": "",
+        "bounds_px": [
+          582,
+          582,
+          188,
+          72
+        ]
+      },
+      {
+        "text": [
+          "13 purchases"
+        ],
+        "description": [],
+        "editableText": "",
+        "bounds_px": [
+          582,
+          654,
+          233,
+          48
+        ]
+      }
+    ],
+    "card_geometry": "Bounds rebuilt from current EN header/value/count nodes and actual Kpi padding10dp/8dp gap,3px per dp;12px outer breathing space.",
+    "audio_master_unchanged_sha256": "15428593916417ba670b2de02de29cd9ffd454a448ab23d9d78e57833043d2d1",
+    "duration_unchanged_sec": 54.833333333333336,
+    "new_TTS_requests": 0,
+    "new_music_requests": 0,
+    "unchanged_native_capture_hashes": {
+      "06-ingredients.png": "3bcc45f34aa7f41b5aba64f4e2ec3f411f8b104040e1ceb5bb28bf755ea30405",
+      "07-list-ready.png": "e850634d029d4374a4607dcfca2ecb2f578889a9d63c6226c65859e528c2f669",
+      "05-dishes.png": "ff0cfc2dcf0c0afadaf27118cc31ca648620b89b76fadc695779e71922c53643",
+      "10-totals-after-tomatoes.png": "9be0a115f99de02fbd99f4c01019458d8c2796b4b7ffd00f253d6f9cf5974c58",
+      "01-articles-before.png": "39a58fe1b77aab2ff6cd164eaaf5887ec4790c7978a262d03aa30a5015fad4c6",
+      "23-settings.png": "80762affbc9f282d1c7ee57c46cc3de42753bcf18fca643900a4587bc6b504f7",
+      "09b-tomatoes-checked.png": "79c3f9f80a066713665c35eac2ae8ad8ede14372ac6aea224ccc40087275b83a",
+      "21-stock.png": "294080479914a53d16d9781c65806fd862faeb1b0b2455668895d84cf44af870",
+      "20-more.png": "4bf142b001398bf94250f1e6dbb3430487fe13e4fe6ec694fde940f32dce876a",
+      "09-tomatoes-before.png": "3f4fb3a28a5a41a1b04279a65b02da73217f7320f3c334502644f8899731d83f",
+      "02-articles-added.png": "f5609b71de24fdcc957deb870071b61b333019557b50baac4eaa8df36bc767b2"
+    }
+  },
+  "sources": [
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-00.png",
+      "sha256": "2876949619dae990fb58a5cd84b5aac8c0f4235e7efb45af5103bf150ae98e51",
+      "bytes": 48578,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-01.png",
+      "sha256": "06b9bfd684343ced8a954212aa7204f36deb02ad1db34688a09752f704ed26a3",
+      "bytes": 2823618,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-02.png",
+      "sha256": "b35700e56c9be971022d7a6a84db26ec67fe21c89f4a277a28b0e9ec2207ff5d",
+      "bytes": 2674657,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-03.png",
+      "sha256": "25252e5f7d50b702bafd7c3e177836c1f4989c2978dd162ed133387cc5af15c4",
+      "bytes": 95016,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-04.png",
+      "sha256": "22c259ea72a7d42f137205c9ea43708815d5a7924c16db93b97c298e5fa06d64",
+      "bytes": 102352,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-05.png",
+      "sha256": "436533891764a68a72a38814e97d032d6c29863e67920c08e0acdf10f58f9d01",
+      "bytes": 101886,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-06.png",
+      "sha256": "d5d3710a9ffd60b65c775979dc2b9a4eb866ee90eb74a20cb1977bd35a838e39",
+      "bytes": 148908,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-07.png",
+      "sha256": "6aca557e7d2f5b387d7f662672bdc83d161ad4fff8fa4b8f8bcd7e2d6fb7c8fc",
+      "bytes": 147948,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-08.png",
+      "sha256": "78be8a4403cacfab5ad8516cc51b38690e6a42c00d8de76ae4dc36af13317776",
+      "bytes": 154044,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-09.png",
+      "sha256": "7ed8ce9dd9b45a1a2ecab82f1e6ea4a87b0d52a9ff6d6666ae890c72e67371c5",
+      "bytes": 154108,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-10.png",
+      "sha256": "9a7a45e11ae8315e1591f0da4c1e5f8de80f5c01e0dc8c27099aeb817f8d2986",
+      "bytes": 2920027,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-11.png",
+      "sha256": "ba6afcaac1cd1f3354903e3966d95ab0f1d4b2c34073381cf9079eb727a70c90",
+      "bytes": 3177644,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-12.png",
+      "sha256": "4084e3dc5090c9993355c79508c6e0803aaee03fea933332d244a8a40c1795a3",
+      "bytes": 2694725,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-13.png",
+      "sha256": "0ba9edbefa79a7acfbb3294b15be82c614821a8f956fb7f8434db8fe236e489b",
+      "bytes": 140388,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-14.png",
+      "sha256": "4df57eed43f94779ba67b06b74ab8375abe1b94dd98165a736d514c24608811b",
+      "bytes": 142370,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-15.png",
+      "sha256": "ffd2e82b1cc802d4da031d3cced2ce93374620e7912d0dfbc85c676fe9932cd2",
+      "bytes": 156879,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-16.png",
+      "sha256": "426e4d6c068e748a60f3b82be38ca078659fa85426825fac952a36f6e1b9bb7a",
+      "bytes": 2745629,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-17.png",
+      "sha256": "7c456248e94126fc0e6c1bdc08b67a3835d2b0b608c0e76956abe7cca9727ed8",
+      "bytes": 99064,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-18.png",
+      "sha256": "b1fae684b0bf0e772b4cef0e6ca856e688b1d0a0db200b2422c32f96174b1682",
+      "bytes": 98937,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-19.png",
+      "sha256": "05da3d83fa16b05e33dc3975e7bd391699d36a7f492fa75a496d907872e82ddd",
+      "bytes": 97522,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-20.png",
+      "sha256": "8ab754de857c809988d7f93c8f7b2dab259f9d1b1feda87f99bb2c6326676bd9",
+      "bytes": 169434,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-21.png",
+      "sha256": "76137c8b6721d9af96f9c346bd456cf639a0a92b3b3a6473c144ef757473e504",
+      "bytes": 169472,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-22.png",
+      "sha256": "af40c51620e5e27eedee3092fe90b184138544e24aff385f9b3f4cff9d5b3d7d",
+      "bytes": 135365,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-23.png",
+      "sha256": "040a12067dd5717e451fa191679a04358e3f16057959d5de324f1fa89e5e2b9e",
+      "bytes": 135193,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-24.png",
+      "sha256": "9fb9805ebcb9072013c74f1a97f273ba6a5ee448018eceaa52594ea631b60497",
+      "bytes": 1696589,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-25.png",
+      "sha256": "ae3b18a5fe6ff31d993c6e7da3f0f5d94ad2ac008073f257636f62eb02bb09bd",
+      "bytes": 2551534,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-26.png",
+      "sha256": "1f5ab9e8b9e69e0b06bcf8d1a0d58b3f57d80084f77b64b2736c651272c33dd5",
+      "bytes": 1597016,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-27.png",
+      "sha256": "ae3b18a5fe6ff31d993c6e7da3f0f5d94ad2ac008073f257636f62eb02bb09bd",
+      "bytes": 2551534,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-28.png",
+      "sha256": "8a5d4288979a75b86043f0f28386e1e4813785127995ed80c6a6c30e8494120c",
+      "bytes": 2366280,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-29.png",
+      "sha256": "dba6358392debb426d7cc0b4f2726b8f5aac2ffad8008423f0bcbd6b83635478",
+      "bytes": 2075904,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-30.png",
+      "sha256": "ee6e27441c7aeb610b797ad1f736ec6a11fcd2cd71f18032cfb4d0b7db89a61f",
+      "bytes": 2116421,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-31.png",
+      "sha256": "b4ae935745ddb7bb45ce66f634458215df12b36c7c1f9f38185652c13e43c086",
+      "bytes": 1843066,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/still-32.png",
+      "sha256": "53b8a2390c3ac5af59303625f048d9c5a70bbe5fd2d5de1b98e9be407aa049b9",
+      "bytes": 45272,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/shots.json",
+      "sha256": "290f9daf35c3fb7bae2ee85d670894f0ee1bee1bc1ca69574e1b42b55ccf143b",
+      "bytes": 47241,
+      "role": "Final scene/source/geometry metadata"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/captions.json",
+      "sha256": "303e7aafa00d8fd300681273bf64e81a2ea3561d4aee96ac709f141baa649685",
+      "bytes": 7754,
+      "role": "Final scene/source/geometry metadata"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/unchanged-still-proof.json",
+      "sha256": "9a0de48333baaa96ea54ebb4b2a55e3628ea89bcd035fd65bbfe7e3b8368a706",
+      "bytes": 6224,
+      "role": "Final scene/source/geometry metadata"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/captions.ass",
+      "sha256": "51f4fdbef79b09343c0e25187f5bc0db66d0613cc1436c94541288e6a3d05ce6",
+      "bytes": 2909,
+      "role": "Final scene/source/geometry metadata"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/build/stills.ffconcat",
+      "sha256": "5ed4719e517f2fb586bf097beb927012ed23b1486a10dbc455221c47e1d304b8",
+      "bytes": 3771,
+      "role": "Final scene/source/geometry metadata"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/szenenplan-final.json",
+      "sha256": "0e6d0268f3d88d3c93720290652eebef0a50a3cecb5b41a31fc5ebd911c194f3",
+      "bytes": 78808,
+      "role": "Final scene/source/geometry metadata"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-03.svg",
+      "sha256": "c510612f9cf318688b32808aa421cca02b26121625a8961f0bc959d0a53749bd",
+      "bytes": 329,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-31.svg",
+      "sha256": "952edcc1c28781003b5040e19c9b51d3e5f6a2db9a4e2894983b9c0e1c607580",
+      "bytes": 720,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-09.svg",
+      "sha256": "c79d4552a3a9d9c3901c4201bbb40a4f5377ac723e44a0fcf09dd5d66b049040",
+      "bytes": 330,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-08.svg",
+      "sha256": "acb1867c1b08d007ccfb72e82897dd16300c525ee014210f13f236fc37bf73e1",
+      "bytes": 330,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-22.svg",
+      "sha256": "331f34c3f64623e7ce90819566b40ef212d2979d345b220965ed18fea597664d",
+      "bytes": 333,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-29.background.png",
+      "sha256": "699e7227d589f3caee617239b98bc9aa6032caff1884041506af4179be91c053",
+      "bytes": 2067660,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-07.background.png",
+      "sha256": "be19b2e8f0cc6fbcef98e3c9881140cee472080014c1723192f0644fc4156785",
+      "bytes": 137124,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-21.background.png",
+      "sha256": "4f385b686ea2ed5ff750f583b96506690e3ca62aeb15b776b45f21cd5db357c2",
+      "bytes": 159959,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-14.svg",
+      "sha256": "3212fa49ccfc00cb35d98e14f0f55f588aec421336df7263b263737007811cbc",
+      "bytes": 325,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-32.svg",
+      "sha256": "a9f7c1e33a03a2976dc58ce4fe6a3bd7fd8457d9e8ddef62129eb7f4f4a2f048",
+      "bytes": 478,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-29.svg",
+      "sha256": "3bd9ae53ed53dd4eafec76b3a689c79669962c969ef7928e37319a074356e24e",
+      "bytes": 715,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-00.background.png",
+      "sha256": "5cbd098926374fa91b89a4b896475aa88d9e2e83be61586920dd7baaa9a836be",
+      "bytes": 38897,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-23.svg",
+      "sha256": "359e6783d3e1415a5baae4f6c7f84fb56164863f9510eaeafa060da51ee894a2",
+      "bytes": 333,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-19.background.png",
+      "sha256": "8eb12923f92d894daddf7f359a113f7f4ab4ddfaad9d84e6ee81365a2f165ce4",
+      "bytes": 89082,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-09.background.png",
+      "sha256": "fe6f22800c15038d0a78114442905846abb8fd6b4edcd7b1e05399abe8e13982",
+      "bytes": 143086,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-13.svg",
+      "sha256": "3c2fa072ea32235e47e412ab9f7ecbf479351c4627e6dfd28f2937c91699e875",
+      "bytes": 325,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-20.svg",
+      "sha256": "77a203a0b6b4c60439a6ecf4b0a8c4abdc129d38f8773a68e592ba2cff6344f1",
+      "bytes": 328,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-30.svg",
+      "sha256": "9b30f30c6a3c449b8cbf0f69ee6251fabc6c94279d446a0e2065a45063c7407e",
+      "bytes": 714,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-32.background.png",
+      "sha256": "07b281cd8821e41bd84afb0c1b12f2ffa9037e89465ac5de0398c5a3ce8896a1",
+      "bytes": 29187,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-03.background.png",
+      "sha256": "8fb7157aad0968311d46a2ecafa634c240b153c7fbfa31e200f82c8960252ae4",
+      "bytes": 86678,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-17.svg",
+      "sha256": "e2f3489ea76fbe4cef9bee102982fd789d3e1c7ec2dd1b56818d2fbe0fbf2c4f",
+      "bytes": 327,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-19.svg",
+      "sha256": "331153ec019f621f72293d207e5c9b14c121c86795d68d8240d1b982730a51dd",
+      "bytes": 325,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-08.background.png",
+      "sha256": "1784274810694196eef8b30da9ed746979e801e195b90c5fd203778c8d8ebf1e",
+      "bytes": 143014,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-06.svg",
+      "sha256": "483039e26c441589ce48d8e72f4ff6ad8617eb7ce1d8b121bce0d039d1ad03be",
+      "bytes": 329,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-05.background.png",
+      "sha256": "e7653bcb6156ffa02222059333cf16fd44b6cfa9c2e0bdb4af7f64984a3ea493",
+      "bytes": 93285,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-07.svg",
+      "sha256": "f5cde19151710000584e98bac3d2e7af7ed8da99078ffd1725c201e5c9c9bab5",
+      "bytes": 330,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-15.svg",
+      "sha256": "4ea04200f737447a9133ee5d7e418f013c94645150ad49c73a7e71ff3ee15988",
+      "bytes": 459,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-23.background.png",
+      "sha256": "642464967431f007e6d5286452beed800619fdd449dbb72fd4cea4fb9304dc65",
+      "bytes": 126510,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-17.background.png",
+      "sha256": "a4e841b97ed1b0d481a97772129f3284a4e17cade8e8e0d6032343682b594810",
+      "bytes": 90488,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-14.background.png",
+      "sha256": "a8f88c5a14fd5abc1ba0a760baa4b4068a87ae2dedb3e920d6d2d2f6763ab7fb",
+      "bytes": 138164,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-22.background.png",
+      "sha256": "ac2f160d6f435ee8c05616c818b5b208e999a9669ea6378f5a0f364897a81d89",
+      "bytes": 126745,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-20.background.png",
+      "sha256": "bd5ee6841400d20e1cc011d6251e88ab50c0877d65f5259844f72b31a7cf7561",
+      "bytes": 159919,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-06.background.png",
+      "sha256": "24c8db30341ebefaf03d05ed2cbfcc1ae50d00dda5375dc9aa4d03dcfb369431",
+      "bytes": 141112,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-13.background.png",
+      "sha256": "55d1d1713ea252803f9dc62fb37f459f931330013b3620d424adf49d7a32ce4d",
+      "bytes": 136158,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-18.background.png",
+      "sha256": "cc7fff31e30d0fe68736df8607c5c650caf288e5ba04c2668946c25098903aca",
+      "bytes": 90395,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-05.svg",
+      "sha256": "aec9107573d758e74353ec3dddaebc95e222c29172cc653f87da7f6a1866a330",
+      "bytes": 329,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-18.svg",
+      "sha256": "d6f7627c77db346d6ad3c1e160ec45a8d319c05b2f80c226b91dece66843289f",
+      "bytes": 327,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-21.svg",
+      "sha256": "86600d8220a1d456157c225d37c84dbefd4a56c37a67e0cabe448a3e61e5c91f",
+      "bytes": 328,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-00.svg",
+      "sha256": "86bf772f80f917c2987d2d67ca55f89f79eee422683b4d1aa966fe8b6849c9c3",
+      "bytes": 339,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-31.background.png",
+      "sha256": "bf72597783726ebba28559176f87b1f8567e120be2c0d6e05d2ec64d6932421b",
+      "bytes": 1824897,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-04.background.png",
+      "sha256": "d140f57b4d55ea99be72067318f46582cdfbd8c86b802a5ed2c5c7409e7cf7aa",
+      "bytes": 93877,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-04.svg",
+      "sha256": "ca8e6940845aa7ea93e1bda680a59ac778941ff71a55ee4145be9650b2bb1c9f",
+      "bytes": 329,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-30.background.png",
+      "sha256": "ac94f34aae3bc673c211988b83362cc0d5288472da5f1eba7afde49e93ee2569",
+      "bytes": 2104764,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/art/frame-15.background.png",
+      "sha256": "ff3f052831f1d693aea0792a526bb1bd3625cc1326c2dd502c0b99c40fec4944",
+      "bytes": 141976,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-00.png",
+      "sha256": "7e1944e4b460b0fa3c4380c4a7a12b8628480aadb99652a18a8ae61a9c8a96bc",
+      "bytes": 57554,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-01.png",
+      "sha256": "0b77455ce0d5b38a94855d7333471e9a9b512a00b9f9e4e9cc31f9a8261a4735",
+      "bytes": 2662556,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-02.png",
+      "sha256": "a53ef0b613b853ed8031c47119238795a975a56264ae7c4143c692027ba6d229",
+      "bytes": 2741895,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-03.png",
+      "sha256": "ec7d300beb924834df199b6da822fb49f7d07cfdb1ce35f2501adbe92e126759",
+      "bytes": 141031,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-04.png",
+      "sha256": "edaaa35fef40f3577613bcd86cbf6ee11e36efbe0c74af293d4f461205b84ec8",
+      "bytes": 154262,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-05.png",
+      "sha256": "773cfb093cdae17d65dcc0e4cd4953ad020749210f79a5abc3a71c5834839bcd",
+      "bytes": 153515,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-06.png",
+      "sha256": "952d38c913054603f3eaebdafca366560a3da78e97c2328d3e114cad15fc2a22",
+      "bytes": 218414,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-07.png",
+      "sha256": "9583bbe9518cff87917cdcac36ead03a9735a06dafbe9573b1370814ac3ff2fd",
+      "bytes": 217943,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-08.png",
+      "sha256": "bd5b7691b33300844128dc45049afba1f084f45e00ed92d56a26c79076e78d91",
+      "bytes": 226700,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-09.png",
+      "sha256": "9d807769247c9e829136f0eea0ddfb23fbc725df0d3a89c85dbecdcb0428bd21",
+      "bytes": 226780,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-10.png",
+      "sha256": "f8be17bc938c015e5de0eee9bc4e4852411a61ef5c6c39a9c0d6b309190fcd42",
+      "bytes": 2865330,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-11.png",
+      "sha256": "eca1398ca9d65408e4eaf426f09528a87e9af56ec85163dacdb339887b3f91da",
+      "bytes": 3174133,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-12.png",
+      "sha256": "676bcb5eb775178707ee0b31425c90feb6cb142335313d9a576f39469b781180",
+      "bytes": 2786010,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-13.png",
+      "sha256": "7b25e97d48864ffe593bbbb73d3c0efca4f1288eb8b417e15b2041ff3ce75b7f",
+      "bytes": 214191,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-14.png",
+      "sha256": "fe7cf93756f0879a2b02cc8b5c3aa5d8bc74e317064e6a73631f23ec191f5436",
+      "bytes": 212808,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-15.png",
+      "sha256": "b798c33c251fef5b91131733c8d8fa0056dc6eb04374ff9b11b73115e8d6fbdc",
+      "bytes": 231216,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-16.png",
+      "sha256": "70d26d4e82e4260c99e7efd6cf7e0870a6f1621de9a144eb02f567dcf48c4ed4",
+      "bytes": 2809085,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-17.png",
+      "sha256": "6ba3cf5165a8ca5402cd745c8165564633ac63f597f7aac2d62aa55cdda670d1",
+      "bytes": 146967,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-18.png",
+      "sha256": "644a6244a435c7c7ba7d4f3f4b227bc50511fee81d00ec61aac5cb21fec09e2f",
+      "bytes": 146757,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-19.png",
+      "sha256": "786bda7d0a4f69c4331c23a3ad4a08d40d268bfd06c769440fb02453667859f4",
+      "bytes": 146485,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-20.png",
+      "sha256": "be7cd1e58d46cfee587de152b03d5f77ee762f7af06c99aae4ddb8216d5a106e",
+      "bytes": 261357,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-21.png",
+      "sha256": "824223f0e6832eb5abacfae187fe0588c766b3e6a69ae665cb841d2c54b76342",
+      "bytes": 261386,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-22.png",
+      "sha256": "15cdb867778609e5be576df3dbc9f92a8ec5e99cbbc75c8dd22a015e16e6c942",
+      "bytes": 209998,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-23.png",
+      "sha256": "45b16ed49aebee148f2ad5075dfdef99d1f32146b9074e23aeb81e484b583ae2",
+      "bytes": 209863,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-24.png",
+      "sha256": "3307afcc90c41da31a8963b6211d284f35531855233d5d69bc62ca48d3110d14",
+      "bytes": 2651407,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-25.png",
+      "sha256": "27d0cc0e03a1a0f51e27b7f84f1109232304afac7f5b17dbd396322b450c755f",
+      "bytes": 2585985,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-26.png",
+      "sha256": "c459975f7e35131e6eb01f371c8adf7166e61b854c6363c7f5bc950753a3ad5b",
+      "bytes": 1368953,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-27.png",
+      "sha256": "27d0cc0e03a1a0f51e27b7f84f1109232304afac7f5b17dbd396322b450c755f",
+      "bytes": 2585985,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-28.png",
+      "sha256": "6875b4d708b140e0854b0d5b4fa34b47b78be2b54f40fcb502c10b9ca33ab142",
+      "bytes": 2393532,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-29.png",
+      "sha256": "f11563d7d9f0d6d58827ab474cac45b26b4534b56eb066341635fd7fe852c718",
+      "bytes": 2545203,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-30.png",
+      "sha256": "efa0c37f2d3b457603ebee21d2894f6888ae6fe662bccc539bcbc6e3bd2437ed",
+      "bytes": 2468452,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-31.png",
+      "sha256": "6b0da6863da0eeaede107471123d2c755ad53d98f59abdbb0516648513940e12",
+      "bytes": 2440477,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/still-32.png",
+      "sha256": "3833856315df9d91a1c3d7725e6a1b4e13581bb731fd162e2ac99bf77b70aab1",
+      "bytes": 43514,
+      "role": "Composed source PNG; only indices20/21revised"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/shots.json",
+      "sha256": "8f3995e9e2fb9078cca255fe3fe10b1c90f13677766e0644abe32ad294b21284",
+      "bytes": 50812,
+      "role": "Final scene/source/geometry metadata"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/captions.json",
+      "sha256": "21b329ec5b55d21ed31c4e205f3e103609e4b5b43dc2c71f03ed26a26b83319e",
+      "bytes": 7765,
+      "role": "Final scene/source/geometry metadata"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/unchanged-still-proof.json",
+      "sha256": "464339379a17ec61c9fde387e84c70581954f4e86d5e7ba5932f3b695857be1b",
+      "bytes": 6224,
+      "role": "Final scene/source/geometry metadata"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/captions.ass",
+      "sha256": "c246f9b6f188bb9694d1f340ef488183f8c5104a1df8aeb842a613af40bf18cd",
+      "bytes": 2929,
+      "role": "Final scene/source/geometry metadata"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/build/stills.ffconcat",
+      "sha256": "74a750ec23915108c7b67ebee9a12440acf547ff662104c974da622facc58f5b",
+      "bytes": 4077,
+      "role": "Final scene/source/geometry metadata"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/szenenplan-final.json",
+      "sha256": "f9f4add3927af77cb61f890911a26eae46ac5c00c478f5220beb689aa78f3207",
+      "bytes": 79004,
+      "role": "Final scene/source/geometry metadata"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-03.svg",
+      "sha256": "ebd65793373a6f77b49f5bd064ce6f77cc212404d1b632e3e2e11605c2ff9042",
+      "bytes": 345,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-31.svg",
+      "sha256": "a0aa662fd78d2ab74702a29ae31229dae9c79c4cabd68b6ac44b6b19b4551c08",
+      "bytes": 726,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-09.svg",
+      "sha256": "d1aeb885f1cf76a2749eeb3324b7a86469a7ff4d54eac23851710407bf810b66",
+      "bytes": 345,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-08.svg",
+      "sha256": "05dbea6e934e84909fb7065de7478466926044fcf56d67f42f0ac135209c3efa",
+      "bytes": 345,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-22.svg",
+      "sha256": "1607080a9a427c14333f25738fb49e4df5794f2ddeb630a3db5a7a08c84d1700",
+      "bytes": 349,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-29.background.png",
+      "sha256": "55e525518a21af932929294cabd8c47ac24adeaa96df5f8eb25c83c6959d427e",
+      "bytes": 2527622,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-07.background.png",
+      "sha256": "389980a42f183292b1c0691312ba4479d6fba11837fdae272b204f1a95368fd5",
+      "bytes": 210946,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-21.background.png",
+      "sha256": "085fac405998e3fb33464d3f308fed43029c206c281a7f874b8e90083c0accb3",
+      "bytes": 255361,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-14.svg",
+      "sha256": "269b3689f6091e9f282e920e52576a528ba60bebbef510f9187650639b83f39e",
+      "bytes": 341,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-32.svg",
+      "sha256": "987cbdfa65c6082b473b65baa63e686e4003afc168767b3fd3b21091ed157efa",
+      "bytes": 481,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-29.svg",
+      "sha256": "4d5720f521ff7f9430f72371e1081df1dbcee9e9a01debd4eb4702ed64c99234",
+      "bytes": 721,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-00.background.png",
+      "sha256": "b6bbd3fe1084ec0ee67f908bd0559c32f88beb0d297b00ce770b65c34c9e4495",
+      "bytes": 46360,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-23.svg",
+      "sha256": "3ab16b27caa8d3577b720b7ac9265e6181c9527ee0b9e4c26e89b99213a5c8c8",
+      "bytes": 349,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-19.background.png",
+      "sha256": "a878a6d311a61c611ba71ff9066b59e3677cc09cbcda15c1f37d5aa21a984417",
+      "bytes": 141471,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-09.background.png",
+      "sha256": "348eeb823a68b8b99516cf0ad08112c1a6dfa503c975de544d2e37f48c89c9ae",
+      "bytes": 219935,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-13.svg",
+      "sha256": "40dfc6318dca5c92d45086076f522a8dcb440e4921d8c32e95673d8de65ae6f2",
+      "bytes": 341,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-20.svg",
+      "sha256": "c12a1c8fae829030fe5e81a941109b90dc577bb4845a4cf744c6e7971d09ad2f",
+      "bytes": 342,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-30.svg",
+      "sha256": "ea200f9e7d310450d115470a15d5ac24b454d178d21fae5c08f557f095300f3a",
+      "bytes": 720,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-32.background.png",
+      "sha256": "db9710816266bbe6867db10ce6085fb47ea3a3c861824be8995f98ec18362b4e",
+      "bytes": 28351,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-03.background.png",
+      "sha256": "c64587417c5d67eb58e6c03c8bad9b38681ffebde81729739e3aed67ef22d52d",
+      "bytes": 135364,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-17.svg",
+      "sha256": "b298011bfee03e44463801748c44948e57fb50324677aab5b76cab3ba1fb983a",
+      "bytes": 343,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-19.svg",
+      "sha256": "b7124142990003571339202f317fcf5d6f98b872d9eff8d3d70fb95aa28cbbb3",
+      "bytes": 337,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-08.background.png",
+      "sha256": "c3d82561be8f7bfe7b79c016dd89952f175941c21d758c22bd2aa45a85597e7c",
+      "bytes": 219859,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-06.svg",
+      "sha256": "a8b3527dadc8f7eb83142cf6940f6d33066a974f3c403c31c470438d3bf28a72",
+      "bytes": 345,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-05.background.png",
+      "sha256": "4ad8a876b62293f5940b9257c8a091e587824b61dd171bd0454096a83572b0d8",
+      "bytes": 148280,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-07.svg",
+      "sha256": "1b083189854ee006b1bb1c80a28c3b92b8c1fb64cb47cbffb25d5ebb9e0e8461",
+      "bytes": 345,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-15.svg",
+      "sha256": "b1c48fa6376e491ede840c3289709705d96709d1d0e51d5e18da85cf5b907453",
+      "bytes": 477,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-23.background.png",
+      "sha256": "1e55a79e8d9aaf0224715035e131b6b8fbd548849cb5574936ee18bf16a9334c",
+      "bytes": 204909,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-17.background.png",
+      "sha256": "a76524f79e27b6a02376bcad67e3be57eb16a28367b191ad2e268ecc0b7fe0c8",
+      "bytes": 141165,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-14.background.png",
+      "sha256": "1243e76a738fce4b15c2782e415190c4e59efc8a6560b6d03c6251118719a2f8",
+      "bytes": 210106,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-22.background.png",
+      "sha256": "1d981792fa4536352af761a643f720aac1e26ee2a02bc90bc3665836a8fe650b",
+      "bytes": 205125,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-20.background.png",
+      "sha256": "0d3cc6327f810a34a3306eec02c6dccf6022e6da8523a8f6876b56fd37a85471",
+      "bytes": 255332,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-06.background.png",
+      "sha256": "281d3bdc74f665678e0630797f0d4748a84d9b6bdef559c519a658b0c159b546",
+      "bytes": 213068,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-13.background.png",
+      "sha256": "2bbacf9b1bfa8b9380735965bb43af71fbedea6d2ab425be04b363162fb05820",
+      "bytes": 211642,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-18.background.png",
+      "sha256": "57ee45c80efc15f33b2a680fb8ae9b42a6a2bd1493bf5cccde9c8096321dbf3a",
+      "bytes": 140816,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-05.svg",
+      "sha256": "85d4991f3227f25e493d709d82fe9ff9dbc971888cb15aa2a0d972d7e1397825",
+      "bytes": 345,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-18.svg",
+      "sha256": "0bb28e1d807d07bcc20f30f78c008aa252df872871f721553e207660b6c7cd21",
+      "bytes": 343,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-21.svg",
+      "sha256": "e6398ec6c39fd1077af24162c5919dcddf6d7573cce6f568f14adacedab3287c",
+      "bytes": 342,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-00.svg",
+      "sha256": "d9eb50d8f0d1f69e561a18c4a169e6e8ce0ff8b043b526ccbde1ac294690e7fa",
+      "bytes": 349,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-31.background.png",
+      "sha256": "b91bae9b9d9cc417c2c22be417b6fbe4861924ac0ee946a6b02291445bfdde14",
+      "bytes": 2424086,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-04.background.png",
+      "sha256": "82df495c49852846c0b211f4af7315708e256abcc1b5cab024b861ed024c24b6",
+      "bytes": 149072,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-04.svg",
+      "sha256": "bb3579f3ffa39e496de9abd975c35307a82dfb561231ff9ebc7c4d31470ff332",
+      "bytes": 345,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-30.background.png",
+      "sha256": "d0df02a90d9747a8892ed447302db462f845305f76490df8753c6bee117994eb",
+      "bytes": 2468830,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/art/frame-15.background.png",
+      "sha256": "2a28e793a1e7c5f3326a04156a4e06bf2a111700b76ee4a5eb8db388226df0f8",
+      "bytes": 220818,
+      "role": "Retained editable graphic or revised monthly composition"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/06-ingredients.png",
+      "sha256": "3bcc45f34aa7f41b5aba64f4e2ec3f411f8b104040e1ceb5bb28bf755ea30405",
+      "bytes": 107217,
+      "role": "Native source/evidence:only22-analysis.png updated"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/07-list-ready.png",
+      "sha256": "e850634d029d4374a4607dcfca2ecb2f578889a9d63c6226c65859e528c2f669",
+      "bytes": 167422,
+      "role": "Native source/evidence:only22-analysis.png updated"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/months-source.json",
+      "sha256": "ae7ec02937b3033c3bae9281e39a3e3c578f25d1bffce386441300e4edd8919e",
+      "bytes": 6845,
+      "role": "Native source/evidence:only22-analysis.png updated"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/22-analysis.png",
+      "sha256": "ddafc6b3677606c25d3db3157636fa62341b0bd5544c8f9fa7c9effde60c02ec",
+      "bytes": 185498,
+      "role": "Native source/evidence:only22-analysis.png updated"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/capture-evidence.json",
+      "sha256": "b2092940632ca4022b324f8a837d62523e2d7144bb9ad28a1ff8dfbd997c0967",
+      "bytes": 10060,
+      "role": "Native source/evidence:only22-analysis.png updated"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/05-dishes.png",
+      "sha256": "ff0cfc2dcf0c0afadaf27118cc31ca648620b89b76fadc695779e71922c53643",
+      "bytes": 92518,
+      "role": "Native source/evidence:only22-analysis.png updated"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/10-totals-after-tomatoes.png",
+      "sha256": "9be0a115f99de02fbd99f4c01019458d8c2796b4b7ffd00f253d6f9cf5974c58",
+      "bytes": 166001,
+      "role": "Native source/evidence:only22-analysis.png updated"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/01-articles-before.png",
+      "sha256": "39a58fe1b77aab2ff6cd164eaaf5887ec4790c7978a262d03aa30a5015fad4c6",
+      "bytes": 163283,
+      "role": "Native source/evidence:only22-analysis.png updated"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/23-settings.png",
+      "sha256": "80762affbc9f282d1c7ee57c46cc3de42753bcf18fca643900a4587bc6b504f7",
+      "bytes": 146146,
+      "role": "Native source/evidence:only22-analysis.png updated"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/09b-tomatoes-checked.png",
+      "sha256": "79c3f9f80a066713665c35eac2ae8ad8ede14372ac6aea224ccc40087275b83a",
+      "bytes": 156242,
+      "role": "Native source/evidence:only22-analysis.png updated"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/capture-validation.json",
+      "sha256": "816069aee3e807330d8db365a123ea633e3614951c29222ca5a263a7fc29bbee",
+      "bytes": 832,
+      "role": "Native source/evidence:only22-analysis.png updated"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/21-stock.png",
+      "sha256": "294080479914a53d16d9781c65806fd862faeb1b0b2455668895d84cf44af870",
+      "bytes": 99172,
+      "role": "Native source/evidence:only22-analysis.png updated"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/focus-source.json",
+      "sha256": "c7d8de6675741fc7abbc25dab0bbc509d0140478166c013dc1f3cfff73cc9b5c",
+      "bytes": 791,
+      "role": "Native source/evidence:only22-analysis.png updated"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/20-more.png",
+      "sha256": "4bf142b001398bf94250f1e6dbb3430487fe13e4fe6ec694fde940f32dce876a",
+      "bytes": 100978,
+      "role": "Native source/evidence:only22-analysis.png updated"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/09-tomatoes-before.png",
+      "sha256": "3f4fb3a28a5a41a1b04279a65b02da73217f7320f3c334502644f8899731d83f",
+      "bytes": 156645,
+      "role": "Native source/evidence:only22-analysis.png updated"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/english-ui/02-articles-added.png",
+      "sha256": "f5609b71de24fdcc957deb870071b61b333019557b50baac4eaa8df36bc767b2",
+      "bytes": 169221,
+      "role": "Native source/evidence:only22-analysis.png updated"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/sources/capture/EnglishFreeStoryVideoCapture.kt",
+      "sha256": "d81d81671f05c0beec49d352a056f9e9c92e1d693c64daf3532035fab0dad4d7",
+      "bytes": 20104,
+      "role": "Original or new monthly capture fixture snapshot"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/sources/capture/monthly-revision-EnglishDetailVideoCapture.kt",
+      "sha256": "0a51cc1e4ecd0a4b586b85ed930e21909bd64e1e99306bed268e8e28f8bf961f",
+      "bytes": 16580,
+      "role": "Original or new monthly capture fixture snapshot"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/sources/capture/monthly-revision-FullWindowVideoCapture.kt",
+      "sha256": "44c081e94283b69343c995841f217fac929c254e37dbfda4dde3bfa188c62fd9",
+      "bytes": 2009,
+      "role": "Original or new monthly capture fixture snapshot"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/sources/capture/EnglishCaptureBase.kt",
+      "sha256": "a953ad5ef1c98a4dd23e0e380add867fc8f1f12db76d2e6f472fae3abc06f5fd",
+      "bytes": 8024,
+      "role": "Original or new monthly capture fixture snapshot"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/sources/capture/monthly-revision-EnglishCaptureBase.kt",
+      "sha256": "a953ad5ef1c98a4dd23e0e380add867fc8f1f12db76d2e6f472fae3abc06f5fd",
+      "bytes": 8024,
+      "role": "Original or new monthly capture fixture snapshot"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/replace_months.py",
+      "sha256": "70a9c35b6bd6ce87a359e9650f3b39caf4d54715b8130e52f09a88004d2189cc",
+      "bytes": 9416,
+      "role": "Revision/source or unchanged native audio master"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/renderer.py",
+      "sha256": "70cc4260fa8732ea20ddd73bc45bfe0502ce6ff6a02c1be2e45b0cc0a33f0a30",
+      "bytes": 21798,
+      "role": "Revision/source or unchanged native audio master"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/validate.py",
+      "sha256": "6ff8d4eb8f5bb8ae0600f8da613e0a191681c294584e42798ee23ecc34956f97",
+      "bytes": 11296,
+      "role": "Revision/source or unchanged native audio master"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/audit_photo_edges.py",
+      "sha256": "674d448de8b34f2a699a4499bb8eeb24f4093906790b4cd21b35b843b7cd14b5",
+      "bytes": 2587,
+      "role": "Revision/source or unchanged native audio master"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/finalize_revision.py",
+      "sha256": "7d0e264e1b7404002615b23c566fa8d421b338a962ad7a216a59fd8957f594e7",
+      "bytes": 8255,
+      "role": "Revision/source or unchanged native audio master"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/script.json",
+      "sha256": "18401f6e466fca3b7f2173674ba468af1592ab2671d5c82fcc0f72ed937d1141",
+      "bytes": 1953,
+      "role": "Revision/source or unchanged native audio master"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/timeline-audio.json",
+      "sha256": "33814f1985f413c603a73ac3bbc58d8cb4d05d19c68a20654cdc188cb477154f",
+      "bytes": 28434,
+      "role": "Revision/source or unchanged native audio master"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/revision-scope.json",
+      "sha256": "61103472911a0296e489704b02e0f3545eaa43783ec1ef765e719fdaa0f2ca95",
+      "bytes": 3338,
+      "role": "Revision/source or unchanged native audio master"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/audio/master.m4a",
+      "sha256": "15428593916417ba670b2de02de29cd9ffd454a448ab23d9d78e57833043d2d1",
+      "bytes": 1344335,
+      "role": "Revision/source or unchanged native audio master"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/audio/master.wav",
+      "sha256": "11521e6410b22b90d0f5ad566ec58f26d16c76fab63dc0484ca1b50561db311c",
+      "bytes": 10528044,
+      "role": "Revision/source or unchanged native audio master"
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/audio/mix.json",
+      "sha256": "18a3435592583c51b1ec069165878fccabc9c21b1a18db247dcdcbe8575902af",
+      "bytes": 542,
+      "role": "Revision/source or unchanged native audio master"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/abgehakt-store.mp4",
+      "sha256": "54e41d8209bd2a7a8c05a2fa7fb3c6d39bbc898f807bb734ebfb68a11f648c9b",
+      "bytes": 7989873
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/abgehakt.mp4",
+      "sha256": "c972a0035c77ff631160d5571503d5fb44b1c606096fb3b18e20388fb11780d2",
+      "bytes": 7814300
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/abgehakt-en.vtt",
+      "sha256": "3546a69e547a66abe306e2ccb02da617da700d6331dd226ab821c13ec92283fe",
+      "bytes": 1837
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/poster.jpg",
+      "sha256": "48c569115d70389d9b5db0388672c00d29a4f8cf827baf3653ad5569026ab1ce",
+      "bytes": 28712
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/abgehakt-store.mp4",
+      "sha256": "db658d231f605d0ebf65a29361926d755d17550590263e744496db335625cb83",
+      "bytes": 8937922
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/abgehakt.mp4",
+      "sha256": "1eb3a185ca08cd423efeed978a85a0bc75651f73617972eda304a156229874ff",
+      "bytes": 8817349
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/abgehakt-en.vtt",
+      "sha256": "20792be4b8c393cfea04b811cb67c522a03064cc9afe0ad926ce81b5f9202e5d",
+      "bytes": 2523
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-main-en-v2/portrait/poster.jpg",
+      "sha256": "6b1e4df339f88cc1130435e222e34d52585bcf807ff5fc1c81ba43428e90e5a6",
+      "bytes": 28954
+    }
+  ],
+  "originals_untouched": true,
+  "new_paid_requests": 0
+}

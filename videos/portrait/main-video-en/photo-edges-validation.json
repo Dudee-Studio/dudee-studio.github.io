@@ -1,0 +1,406 @@
+{
+  "landscape": {
+    "video_sha256": "c972a0035c77ff631160d5571503d5fb44b1c606096fb3b18e20388fb11780d2",
+    "actual_last_photo_frames": [
+      {
+        "shot_index": 1,
+        "last_frame_index": 122,
+        "last_frame_time_sec": 4.066666666666666,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 1.7637876157407408,
+          "bottom": 2.8613715277777776,
+          "left": 2.1092849794238684,
+          "right": 2.611162551440329
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/review/photo-end-01.jpg"
+      },
+      {
+        "shot_index": 2,
+        "last_frame_index": 193,
+        "last_frame_time_sec": 6.433333333333334,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 1.5261574074074074,
+          "bottom": 2.9619791666666666,
+          "left": 1.8068930041152262,
+          "right": 1.8796810699588478
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/review/photo-end-02.jpg"
+      },
+      {
+        "shot_index": 10,
+        "last_frame_index": 472,
+        "last_frame_time_sec": 15.733333333333333,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 2.137601273148148,
+          "bottom": 2.337181712962963,
+          "left": 1.551440329218107,
+          "right": 2.0511059670781893
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/review/photo-end-10.jpg"
+      },
+      {
+        "shot_index": 11,
+        "last_frame_index": 562,
+        "last_frame_time_sec": 18.733333333333334,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 2.254007523148148,
+          "bottom": 2.7727141203703702,
+          "left": 2.4367283950617282,
+          "right": 3.759979423868313
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/review/photo-end-11.jpg"
+      },
+      {
+        "shot_index": 12,
+        "last_frame_index": 599,
+        "last_frame_time_sec": 19.966666666666665,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 1.9558883101851852,
+          "bottom": 1.7647569444444444,
+          "left": 5.039197530864198,
+          "right": 1.5735082304526748
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/review/photo-end-12.jpg"
+      },
+      {
+        "shot_index": 16,
+        "last_frame_index": 806,
+        "last_frame_time_sec": 26.866666666666667,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 1.3722366898148148,
+          "bottom": 2.471296296296296,
+          "left": 1.9548611111111112,
+          "right": 1.8410493827160495
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/review/photo-end-16.jpg"
+      },
+      {
+        "shot_index": 24,
+        "last_frame_index": 1179,
+        "last_frame_time_sec": 39.3,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 1.8296875,
+          "bottom": 2.0818287037037035,
+          "left": 2.0641718106995883,
+          "right": 2.34945987654321
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/review/photo-end-24.jpg"
+      },
+      {
+        "shot_index": 25,
+        "last_frame_index": 1297,
+        "last_frame_time_sec": 43.233333333333334,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 1.3884693287037038,
+          "bottom": 2.3815393518518517,
+          "left": 2.2243569958847735,
+          "right": 2.144238683127572
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/review/photo-end-25.jpg"
+      },
+      {
+        "shot_index": 26,
+        "last_frame_index": 1319,
+        "last_frame_time_sec": 43.96666666666667,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 2.2887297453703703,
+          "bottom": 2.475202546296296,
+          "left": 2.518132716049383,
+          "right": 2.723559670781893
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/review/photo-end-26.jpg"
+      },
+      {
+        "shot_index": 27,
+        "last_frame_index": 1344,
+        "last_frame_time_sec": 44.8,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 1.3927951388888888,
+          "bottom": 2.3916521990740742,
+          "left": 2.2324074074074076,
+          "right": 2.1545781893004117
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/review/photo-end-27.jpg"
+      },
+      {
+        "shot_index": 28,
+        "last_frame_index": 1374,
+        "last_frame_time_sec": 45.8,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 1.7687065972222222,
+          "bottom": 1.4403645833333334,
+          "left": 2.2491512345679014,
+          "right": 1.9681327160493827
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/review/photo-end-28.jpg"
+      },
+      {
+        "shot_index": 29,
+        "last_frame_index": 1451,
+        "last_frame_time_sec": 48.36666666666667,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 1.5261574074074074,
+          "bottom": 1.4694444444444446,
+          "left": 1.8678755144032921,
+          "right": 1.8020061728395063
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/review/photo-end-29.jpg"
+      },
+      {
+        "shot_index": 30,
+        "last_frame_index": 1476,
+        "last_frame_time_sec": 49.2,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 1.9782986111111112,
+          "bottom": 1.7978443287037038,
+          "left": 2.7766203703703702,
+          "right": 1.7438528806584361
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/review/photo-end-30.jpg"
+      },
+      {
+        "shot_index": 31,
+        "last_frame_index": 1548,
+        "last_frame_time_sec": 51.6,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 2.214250578703704,
+          "bottom": 1.5138310185185184,
+          "left": 1.782227366255144,
+          "right": 2.117875514403292
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/review/photo-end-31.jpg"
+      }
+    ],
+    "app_capture_policy": "Whole genuine UI contain; photo full-bleed applies only to lifestyle and benefit photographs."
+  },
+  "portrait": {
+    "video_sha256": "1eb3a185ca08cd423efeed978a85a0bc75651f73617972eda304a156229874ff",
+    "actual_last_photo_frames": [
+      {
+        "shot_index": 1,
+        "last_frame_index": 122,
+        "last_frame_time_sec": 4.066666666666666,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 1.4587448559670781,
+          "bottom": 2.489531893004115,
+          "left": 2.640625,
+          "right": 2.4637008101851854
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/portrait/review/photo-end-01.jpg"
+      },
+      {
+        "shot_index": 2,
+        "last_frame_index": 193,
+        "last_frame_time_sec": 6.433333333333334,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 1.3480452674897119,
+          "bottom": 2.5368569958847735,
+          "left": 2.2567708333333334,
+          "right": 2.1924334490740742
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/portrait/review/photo-end-02.jpg"
+      },
+      {
+        "shot_index": 10,
+        "last_frame_index": 472,
+        "last_frame_time_sec": 15.733333333333333,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 2.0685699588477364,
+          "bottom": 1.7368055555555555,
+          "left": 2.775752314814815,
+          "right": 2.569357638888889
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/portrait/review/photo-end-10.jpg"
+      },
+      {
+        "shot_index": 11,
+        "last_frame_index": 562,
+        "last_frame_time_sec": 18.733333333333334,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 2.0440586419753086,
+          "bottom": 1.8189814814814815,
+          "left": 1.6871383101851851,
+          "right": 4.2553096064814815
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/portrait/review/photo-end-11.jpg"
+      },
+      {
+        "shot_index": 12,
+        "last_frame_index": 599,
+        "last_frame_time_sec": 19.966666666666665,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 3.0368055555555555,
+          "bottom": 1.5530349794238683,
+          "left": 1.9082175925925926,
+          "right": 3.958449074074074
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/portrait/review/photo-end-12.jpg"
+      },
+      {
+        "shot_index": 16,
+        "last_frame_index": 806,
+        "last_frame_time_sec": 26.866666666666667,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 1.3063014403292181,
+          "bottom": 2.596141975308642,
+          "left": 2.300028935185185,
+          "right": 2.440943287037037
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/portrait/review/photo-end-16.jpg"
+      },
+      {
+        "shot_index": 24,
+        "last_frame_index": 1179,
+        "last_frame_time_sec": 39.3,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 1.4635030864197531,
+          "bottom": 2.918801440329218,
+          "left": 2.4367042824074074,
+          "right": 2.7056568287037037
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/portrait/review/photo-end-24.jpg"
+      },
+      {
+        "shot_index": 25,
+        "last_frame_index": 1297,
+        "last_frame_time_sec": 43.233333333333334,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 1.1695216049382715,
+          "bottom": 2.32690329218107,
+          "left": 2.3025752314814816,
+          "right": 2.3650462962962964
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/portrait/review/photo-end-25.jpg"
+      },
+      {
+        "shot_index": 26,
+        "last_frame_index": 1319,
+        "last_frame_time_sec": 43.96666666666667,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 3.097505144032922,
+          "bottom": 1.9153292181069959,
+          "left": 2.5813657407407407,
+          "right": 3.308130787037037
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/portrait/review/photo-end-26.jpg"
+      },
+      {
+        "shot_index": 27,
+        "last_frame_index": 1344,
+        "last_frame_time_sec": 44.8,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 1.1744341563786007,
+          "bottom": 2.3477109053497944,
+          "left": 2.314192708333333,
+          "right": 2.3638599537037037
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/portrait/review/photo-end-27.jpg"
+      },
+      {
+        "shot_index": 28,
+        "last_frame_index": 1374,
+        "last_frame_time_sec": 45.8,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 1.9059413580246913,
+          "bottom": 1.3957561728395063,
+          "left": 2.222800925925926,
+          "right": 2.0587818287037036
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/portrait/review/photo-end-28.jpg"
+      },
+      {
+        "shot_index": 29,
+        "last_frame_index": 1451,
+        "last_frame_time_sec": 48.36666666666667,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 2.0659207818930043,
+          "bottom": 1.490817901234568,
+          "left": 2.1796440972222224,
+          "right": 1.840379050925926
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/portrait/review/photo-end-29.jpg"
+      },
+      {
+        "shot_index": 30,
+        "last_frame_index": 1476,
+        "last_frame_time_sec": 49.2,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 2.3253600823045266,
+          "bottom": 1.575488683127572,
+          "left": 1.8584780092592592,
+          "right": 3.3230902777777778
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/portrait/review/photo-end-30.jpg"
+      },
+      {
+        "shot_index": 31,
+        "last_frame_index": 1548,
+        "last_frame_time_sec": 51.6,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "edge_mean_absolute_error": {
+          "top": 2.235262345679012,
+          "bottom": 1.5250514403292181,
+          "left": 1.9777777777777779,
+          "right": 2.1533854166666666
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-main-en-v2/portrait/review/photo-end-31.jpg"
+      }
+    ],
+    "app_capture_policy": "Whole genuine UI contain; photo full-bleed applies only to lifestyle and benefit photographs."
+  }
+}

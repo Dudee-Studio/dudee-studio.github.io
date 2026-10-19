@@ -1,0 +1,43 @@
+FINAL EXPORT REVIEW — Abgehakt / Free features / EN v1
+Bound local exports: /workspace/artifacts/abgehakt-details-en-v1/kostenlos
+Duration 46.533s; 1920x1080; H.264 30 fps / AAC stereo 48 kHz. Local delivery only; ROOT owns publication.
+abgehakt.mp4: SHA-256 2589a6592e18f82140320caaaba96e939085cfa97c202c8cf6779845a805e8f4, 1396 decoded frames, 3365931 bytes.
+Summary:
+
+  Integrated loudness:
+    I:         -17.0 LUFS
+    Threshold: -28.2 LUFS
+
+  Loudness range:
+    LRA:         5.6 LU
+    Threshold: -38.1 LUFS
+    LRA low:   -21.9 LUFS
+    LRA high:  -16.3 LUFS
+
+  True peak:
+    Peak:       -2.0 dBFS
+[out#0/null @ 0x5560f4a01c80] video:600KiB audio:8728KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame= 1396 fps=355 q=-0.0 Lsize=N/A time=00:00:46.53 bitrate=N/A speed=11.8x
+abgehakt-store.mp4: SHA-256 3b021e8463b0c2f4c8adf00576e1cb90556cb24483ed213ed4f40d4ab1f805b8, 1396 decoded frames, 3506102 bytes.
+Summary:
+
+  Integrated loudness:
+    I:         -17.0 LUFS
+    Threshold: -28.2 LUFS
+
+  Loudness range:
+    LRA:         5.6 LU
+    Threshold: -38.1 LUFS
+    LRA low:   -21.9 LUFS
+    LRA high:  -16.3 LUFS
+
+  True peak:
+    Peak:       -2.0 dBFS
+[out#0/null @ 0x55afceee7180] video:600KiB audio:8728KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame= 1396 fps=407 q=-0.0 Lsize=N/A time=00:00:46.53 bitrate=N/A speed=13.6x
+
+Performed: script/product comparison against current repository; independent speech-to-text against intended wording; native take timing; full decode of both exact MP4 bytes; encoded audio loudness/true peak and identical AAC payload across all four exports; no black frames; all scene midpoints and every cut before/at boundary compared with source compositions; entire genuine proportional EN app and exact source-to-frame focus mapping; EN caption pixel bounds outside app; static full-bleed photo edge comparison; formal scene validation. Exported contact sheets inspected visually for English text, highlight location, complete app, chapter layout and full-bleed photos.
+
+Story and feature coverage retained: forecast suggestions / own recurring rules, shopping notes, meal ideas, Game night template and reused list result, current offer and last actual sale price/date, manual checkout coupon and reduced final total. Basic spending remains in the main/analysis films; no extra scene added. No Pro-only feature is claimed as free. EUR retained. No demo/banner text. Existing music/photos/brand reused; no new paid image/music/casting variants.
+
+No open P0/P1 technical finding after corrections. Review findings and precise evidence: /workspace/artifacts/abgehakt-details-en-v1/kostenlos/review-findings.json. Limits: no subjective listening or viewer test. Independent transcript and meters do not establish emotional warmth, timbre, musical groove or subjective intelligibility. No store upload/website publication performed by this production agent.

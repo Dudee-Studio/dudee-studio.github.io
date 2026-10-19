@@ -1,0 +1,243 @@
+{
+  "language": "en",
+  "files": [
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/english-app/catalog-category.png",
+      "sha256": "b6f2d290440d72310cab25771d2e90517d9dae4eac5f8223bb5b2fa2cc8d9e7f",
+      "bytes": 273471
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/english-app/catalog-own-private.png",
+      "sha256": "d19b407ef74bfc7549069c03513030c1c514ac85a6d9911abf1837f33cc5c660",
+      "bytes": 267276
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/english-app/catalog-published.png",
+      "sha256": "8e616c3194ea2720081ca1730c5717e3b0a0a439713f59ed72166263f8868847",
+      "bytes": 252846
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/english-app/catalog-results.png",
+      "sha256": "4892e248b9563b985d7931d81c74e433662650849cb9193c0abdfd5e0bc805f0",
+      "bytes": 101178
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/english-app/catalog-saved.png",
+      "sha256": "72b33865b95e466447aa8de4c0d51d46defee3db1b9e0066af97fc194b853b45",
+      "bytes": 104215
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/english-app/catalog-share-options.png",
+      "sha256": "22061bb6e2fd0ae269087ac96831599548f0c9177983f71547c0ffb05cd073de",
+      "bytes": 266311
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/english-app/catalog-typing.png",
+      "sha256": "56858839e49389710c45f0a6344b9e4a7469a66d8ac0daf906e4d5d7bcd1ea4c",
+      "bytes": 73652
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/english-app/catalog-withdraw-after.png",
+      "sha256": "cfe85a4d39a08a39f0cfb433f1a7c622aebd53b66cda75409d978c08f99fcac1",
+      "bytes": 262641
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/english-app/catalog-withdraw-before.png",
+      "sha256": "8e616c3194ea2720081ca1730c5717e3b0a0a439713f59ed72166263f8868847",
+      "bytes": 252846
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/english-semantics/catalog-category.json",
+      "sha256": "b27d26f357665b5347dd2d60c8475581ec7d0ec8b7bc743caaf9350caaa31d56",
+      "bytes": 3168
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/english-semantics/catalog-own-private.json",
+      "sha256": "cbcf55514978e3c87c8aa89cb69623ac526d435d7f3e1bb89c59449ecc505774",
+      "bytes": 6960
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/english-semantics/catalog-published.json",
+      "sha256": "0a3184e53acdb966a54c538e2d43aa32f1341b254bac29f72cb4ee899739aa71",
+      "bytes": 7301
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/english-semantics/catalog-results.json",
+      "sha256": "2b82c5273c302eeda81527da5a22c13387047d1610ed69178b07a80bbdd0f562",
+      "bytes": 3743
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/english-semantics/catalog-saved.json",
+      "sha256": "40ec5098509d15013997e88b0b08b27152a9f237e63ec1108417ef8822d7debd",
+      "bytes": 4024
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/english-semantics/catalog-share-options.json",
+      "sha256": "cad0e8eb202470de407b3c0c7ce5504fdd888e5d35ea27ecbae2ad3f5373e004",
+      "bytes": 6962
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/english-semantics/catalog-typing.json",
+      "sha256": "c887cc0f062e1037a7177109136a4939b1415ba1d33a5b0def21225cb8894091",
+      "bytes": 2950
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/english-semantics/catalog-withdraw-after.json",
+      "sha256": "6a1c16c2fdf09c73ca44d80e10c6fdd975521c8d1ae4f4740dff228c86924826",
+      "bytes": 7164
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/english-semantics/catalog-withdraw-before.json",
+      "sha256": "7182c622d6f0e31dce0cbb6c8f50e3989fb3b084eebd0755a65b4d32a21b522c",
+      "bytes": 7307
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/family-land.png",
+      "sha256": "a3a6a0ff1a59af28e1ea3dc0654ee3c3085b1e074b769d6d63dba6d3ff723bf1",
+      "bytes": 2192564
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/family-portrait.png",
+      "sha256": "b865a9900636497633498ee3b62d9843e04b93f95b4199eaec4ae1723f80a4a9",
+      "bytes": 2237204
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/mark-original.png",
+      "sha256": "73187d2b5f8040739e184e8cefe592c86127cf14ced9e299a42fced47f450445",
+      "bytes": 1214776
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/music-timed-source.wav",
+      "sha256": "09371a4338847f429ce72686d4667f1c1df3dad032de8e1e58b332a1a9fe8e5d",
+      "bytes": 6144044
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/origins.json",
+      "sha256": "57cf2b473072493d0e9eb84308f2ff186ffe5b6a6b9acc790119899d7ea59dca",
+      "bytes": 758
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/plan-land.png",
+      "sha256": "06c4bb4e03dd9601bccdc63b27eed86fb72d7c215509d91ba532707fc5db9aa9",
+      "bytes": 2266496
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/plan-portrait.png",
+      "sha256": "46d0a9af21af107ad4dc6e670e28891cf4a3698c2351aaf180749265947b7d8c",
+      "bytes": 2273975
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/sources/sounds-timed-source.wav",
+      "sha256": "43cbcdd7a942e9943c063db49ab2b6396d30b7a790899f80e5f0b1c6a6c99cbf",
+      "bytes": 6144044
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/audio/segments/C01.alignment.json",
+      "sha256": "5c41d7b266d143e76ed0c51b2a5fc7aeae9e7e21add3299bc06b5285b00134d8",
+      "bytes": 3447
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/audio/segments/C01.mp3",
+      "sha256": "86648449d57bba963f3de81436725e54ca0ab737e0d3c0f67de0717fc8122a69",
+      "bytes": 31807
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/audio/segments/C01.transcript.json",
+      "sha256": "e3b8b024b782f14a7766f76aee6a8f63b4c7503c366577395513d83f42fbceae",
+      "bytes": 1190
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/audio/segments/C02.alignment.json",
+      "sha256": "4408c988b69f0ec84f30797f598e31eccf6c7ad16a29fec4aa46b93a9a882fc5",
+      "bytes": 5611
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/audio/segments/C02.mp3",
+      "sha256": "bd7bdaded4665d794a761916f5a146c3adb2d91eb124316b7878fccbc750c8e1",
+      "bytes": 72767
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/audio/segments/C02.transcript.json",
+      "sha256": "c7b52d06d14fe89d90356e1026b408cdff55e5a79a8464ec66be9bfe3ab51257",
+      "bytes": 1841
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/audio/segments/C03.alignment.json",
+      "sha256": "f107a94ec1b144d6a2dc98997ef3f8ef85dfa3bde525d9801376e17cca34e0d9",
+      "bytes": 5145
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/audio/segments/C03.mp3",
+      "sha256": "6ed33a5a24ff78dbe375deae95cd59b661375e27985da3df98d0a324a7904fb9",
+      "bytes": 81545
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/audio/segments/C03.transcript.json",
+      "sha256": "37ca7435a7b08e9ea0f69a1fb3601cc4d981a07472721228b225150bfcac4278",
+      "bytes": 1683
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/audio/segments/C04.alignment.json",
+      "sha256": "b378ed1421c46d46baedc56e6ea784f61268c79321d876a70806504a8c65febc",
+      "bytes": 5953
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/audio/segments/C04.mp3",
+      "sha256": "1d6fe71fb544fa51397ade4a78a23fe2dcccf65ba41850aa36357c9cfa6798b8",
+      "bytes": 84470
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/audio/segments/C04.transcript.json",
+      "sha256": "88ac2051ee644148a52f24dcb5f4a95c513834f6983d6f51f2ecbb1a7e9fa7ca",
+      "bytes": 2465
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/audio/segments/C05.alignment.json",
+      "sha256": "993f30651902d61d8718fec3f8ff8a917b9e041bbefe9b9856806e6f355e955b",
+      "bytes": 3943
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/audio/segments/C05.mp3",
+      "sha256": "e6fa1781c7ef0f1d653e58eac51ff4dc1ac859c057d6050a60f859a670b41f0d",
+      "bytes": 40585
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/audio/segments/C05.transcript.json",
+      "sha256": "f4d65b910008e968406d4f5929e244ce47dbf1d4b877343e3469d2bbf32fd6f7",
+      "bytes": 1061
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/audio/segments/closing.alignment.json",
+      "sha256": "20c38f7b975bb5825b269e9dde96d610771a99bfe239824c2e26713e5ce0d697",
+      "bytes": 4351
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/audio/segments/closing.mp3",
+      "sha256": "95c0ff04e229d566dfc757f049af29eaf397b95a2f8b1710eb539aca6dabe645",
+      "bytes": 86978
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/audio/segments/closing.transcript.json",
+      "sha256": "358f28e1da0557fe1b1bb69b60b9f673df26c315ceedc8978c67ae4eccf368b3",
+      "bytes": 1319
+    }
+  ],
+  "new_image_generation": false,
+  "new_music_generation": false,
+  "new_speech_segments": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05"
+  ],
+  "reused_English_closing": "/workspace/artifacts/abgehakt-main-en-v1/audio/segments/closing.mp3",
+  "speech_model": "eleven_v3",
+  "voice_id": "cgSgspJ2msm6clMCkdW9",
+  "native_speed": 1,
+  "english_app": "Genuine actual Android UI screenshots and state-specific English semantics; no text repainting",
+  "prepared_backend_responses": true,
+  "live_backend_proven": false,
+  "subjective_listening": false,
+  "published": false
+}

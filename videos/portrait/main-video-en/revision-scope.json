@@ -1,0 +1,120 @@
+{
+  "change": "Whole22-analysis.png replaced for states20/21 only; hardcoded German purchase counters corrected in real app by root.",
+  "original": "/workspace/artifacts/abgehakt-main-en-v1",
+  "new_source_png": "/workspace/artifacts/abgehakt-details-en-v1/common/app/analysis-free-months.png",
+  "new_source_png_sha256": "ddafc6b3677606c25d3db3157636fa62341b0bd5544c8f9fa7c9effde60c02ec",
+  "semantic_source": "/workspace/artifacts/abgehakt-details-en-v1/common/focus/analysis-free-months.json",
+  "semantic_source_sha256": "ae7ec02937b3033c3bae9281e39a3e3c578f25d1bffce386441300e4edd8919e",
+  "focus_source": {
+    "20": [
+      24,
+      492,
+      516,
+      252
+    ],
+    "21": [
+      540,
+      492,
+      516,
+      252
+    ]
+  },
+  "selected_nodes": [
+    {
+      "text": [
+        "This month"
+      ],
+      "description": [],
+      "editableText": "",
+      "bounds_px": [
+        66,
+        534,
+        182,
+        48
+      ]
+    },
+    {
+      "text": [
+        "€359.90"
+      ],
+      "description": [],
+      "editableText": "",
+      "bounds_px": [
+        66,
+        582,
+        188,
+        72
+      ]
+    },
+    {
+      "text": [
+        "10 purchases"
+      ],
+      "description": [],
+      "editableText": "",
+      "bounds_px": [
+        66,
+        654,
+        233,
+        48
+      ]
+    },
+    {
+      "text": [
+        "Last month"
+      ],
+      "description": [],
+      "editableText": "",
+      "bounds_px": [
+        582,
+        534,
+        183,
+        48
+      ]
+    },
+    {
+      "text": [
+        "€405.08"
+      ],
+      "description": [],
+      "editableText": "",
+      "bounds_px": [
+        582,
+        582,
+        188,
+        72
+      ]
+    },
+    {
+      "text": [
+        "13 purchases"
+      ],
+      "description": [],
+      "editableText": "",
+      "bounds_px": [
+        582,
+        654,
+        233,
+        48
+      ]
+    }
+  ],
+  "card_geometry": "Bounds rebuilt from current EN header/value/count nodes and actual Kpi padding10dp/8dp gap,3px per dp;12px outer breathing space.",
+  "audio_master_unchanged_sha256": "15428593916417ba670b2de02de29cd9ffd454a448ab23d9d78e57833043d2d1",
+  "duration_unchanged_sec": 54.833333333333336,
+  "new_TTS_requests": 0,
+  "new_music_requests": 0,
+  "unchanged_native_capture_hashes": {
+    "06-ingredients.png": "3bcc45f34aa7f41b5aba64f4e2ec3f411f8b104040e1ceb5bb28bf755ea30405",
+    "07-list-ready.png": "e850634d029d4374a4607dcfca2ecb2f578889a9d63c6226c65859e528c2f669",
+    "05-dishes.png": "ff0cfc2dcf0c0afadaf27118cc31ca648620b89b76fadc695779e71922c53643",
+    "10-totals-after-tomatoes.png": "9be0a115f99de02fbd99f4c01019458d8c2796b4b7ffd00f253d6f9cf5974c58",
+    "01-articles-before.png": "39a58fe1b77aab2ff6cd164eaaf5887ec4790c7978a262d03aa30a5015fad4c6",
+    "23-settings.png": "80762affbc9f282d1c7ee57c46cc3de42753bcf18fca643900a4587bc6b504f7",
+    "09b-tomatoes-checked.png": "79c3f9f80a066713665c35eac2ae8ad8ede14372ac6aea224ccc40087275b83a",
+    "21-stock.png": "294080479914a53d16d9781c65806fd862faeb1b0b2455668895d84cf44af870",
+    "20-more.png": "4bf142b001398bf94250f1e6dbb3430487fe13e4fe6ec694fde940f32dce876a",
+    "09-tomatoes-before.png": "3f4fb3a28a5a41a1b04279a65b02da73217f7320f3c334502644f8899731d83f",
+    "02-articles-added.png": "f5609b71de24fdcc957deb870071b61b333019557b50baac4eaa8df36bc767b2"
+  }
+}

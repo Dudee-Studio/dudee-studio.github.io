@@ -1,0 +1,376 @@
+{
+  "duration_sec": 38.333333333333336,
+  "resolution_px": [
+    1080,
+    1920
+  ],
+  "subjective_listening": false,
+  "exports": {
+    "abgehakt.mp4": {
+      "sha256": "823aecd43f522559600f4c4b5dde59bc7ac235d99fabf7d84dce9b0d505b79ce",
+      "bytes": 3300702,
+      "frames": 1150,
+      "full_decode": "passed",
+      "black_frames": false,
+      "aac_payload_sha256": "SHA256=db39c8540358c36524fe9cb7a6a7322d3cc001604b81bd4dc9a18b52165f3264",
+      "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -17.4 LUFS\n    Threshold: -27.9 LUFS\n\n  Loudness range:\n    LRA:         2.5 LU\n    Threshold: -37.8 LUFS\n    LRA low:   -19.1 LUFS\n    LRA high:  -16.6 LUFS\n\n  True peak:\n    Peak:       -2.5 dBFS\n[out#0/null @ 0x556cbcffb980] video:494KiB audio:7188KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe= 1150 fps=220 q=-0.0 Lsize=N/A time=00:00:38.33 bitrate=N/A speed=7.33x    \n"
+    },
+    "abgehakt-store.mp4": {
+      "sha256": "e1691d50c219756a5fe70fd9b9a7c1fc476ea4da23424d080ca4cf4aa76567f9",
+      "bytes": 3412243,
+      "frames": 1150,
+      "full_decode": "passed",
+      "black_frames": false,
+      "aac_payload_sha256": "SHA256=db39c8540358c36524fe9cb7a6a7322d3cc001604b81bd4dc9a18b52165f3264",
+      "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -17.4 LUFS\n    Threshold: -27.9 LUFS\n\n  Loudness range:\n    LRA:         2.5 LU\n    Threshold: -37.8 LUFS\n    LRA low:   -19.1 LUFS\n    LRA high:  -16.6 LUFS\n\n  True peak:\n    Peak:       -2.5 dBFS\n[out#0/null @ 0x5620c9b2be80] video:494KiB audio:7188KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe= 1150 fps=210 q=-0.0 Lsize=N/A time=00:00:38.33 bitrate=N/A speed=7.02x    \n"
+    }
+  },
+  "app_ui_languages": [
+    "en"
+  ],
+  "state_checks": [
+    {
+      "index": 0,
+      "time_sec": 0.75,
+      "source_pixel_mae": 1.4498069380144032
+    },
+    {
+      "index": 1,
+      "time_sec": 2.85,
+      "source_pixel_mae": 2.349554558899177
+    },
+    {
+      "index": 2,
+      "time_sec": 5.75,
+      "source_pixel_mae": 1.2338265174897118
+    },
+    {
+      "index": 3,
+      "time_sec": 8.183333333333334,
+      "source_pixel_mae": 1.3114338991769547
+    },
+    {
+      "index": 4,
+      "time_sec": 9.583333333333332,
+      "source_pixel_mae": 1.4137385866769547
+    },
+    {
+      "index": 5,
+      "time_sec": 11.399999999999999,
+      "source_pixel_mae": 1.1570780285493827
+    },
+    {
+      "index": 6,
+      "time_sec": 14.316666666666666,
+      "source_pixel_mae": 1.3678395061728394
+    },
+    {
+      "index": 7,
+      "time_sec": 16.416666666666664,
+      "source_pixel_mae": 1.3861376350308643
+    },
+    {
+      "index": 8,
+      "time_sec": 17.566666666666666,
+      "source_pixel_mae": 1.4297675540123458
+    },
+    {
+      "index": 9,
+      "time_sec": 19.666666666666668,
+      "source_pixel_mae": 1.4268197016460906
+    },
+    {
+      "index": 10,
+      "time_sec": 21.56666666666667,
+      "source_pixel_mae": 1.3699734760802469
+    },
+    {
+      "index": 11,
+      "time_sec": 23.616666666666667,
+      "source_pixel_mae": 1.4333746463477366
+    },
+    {
+      "index": 12,
+      "time_sec": 26.666666666666664,
+      "source_pixel_mae": 2.533220807613169
+    },
+    {
+      "index": 13,
+      "time_sec": 30.983333333333334,
+      "source_pixel_mae": 2.532786779835391
+    },
+    {
+      "index": 14,
+      "time_sec": 36.083333333333336,
+      "source_pixel_mae": 1.4576432291666668
+    }
+  ],
+  "app_checks": [
+    {
+      "index": 2,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-group-invite.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 3,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-group-members.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 4,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-list-added.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 5,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-meal-idea.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 6,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-scan-before.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 7,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-scan-after.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 8,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/analysis-categories.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 9,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/analysis-top.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 10,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/pro-scan-after.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    },
+    {
+      "index": 11,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/english-ui/analysis-top.png",
+      "whole_app": true,
+      "language": "en",
+      "focus_matches_source": true
+    }
+  ],
+  "full_bleed_checks": [
+    {
+      "index": 1,
+      "photo_edges_match": true,
+      "edge_mae": [
+        1.325514403292181,
+        2.5382458847736626,
+        2.282595486111111,
+        2.171976273148148
+      ]
+    },
+    {
+      "index": 12,
+      "photo_edges_match": true,
+      "edge_mae": [
+        1.2811213991769548,
+        2.6079989711934157,
+        2.311617476851852,
+        2.419892939814815
+      ]
+    },
+    {
+      "index": 13,
+      "photo_edges_match": true,
+      "edge_mae": [
+        1.1601594650205762,
+        2.3101594650205763,
+        2.3285445601851853,
+        2.341261574074074
+      ]
+    }
+  ],
+  "all_cut_boundaries": "passed",
+  "caption_checks": [
+    {
+      "text": "Plan together.",
+      "time_sec": 2.12,
+      "bounds_px": [
+        373,
+        1769,
+        707,
+        1839
+      ]
+    },
+    {
+      "text": "Clear your head.",
+      "time_sec": 3.5300000000000002,
+      "bounds_px": [
+        345,
+        1769,
+        735,
+        1839
+      ]
+    },
+    {
+      "text": "One Pro purchase lets you share a list with your group.",
+      "time_sec": 5.699999999999999,
+      "bounds_px": [
+        146,
+        1717,
+        934,
+        1839
+      ]
+    },
+    {
+      "text": "Everyone you invite can sync for free.",
+      "time_sec": 8.44,
+      "bounds_px": [
+        165,
+        1717,
+        915,
+        1839
+      ]
+    },
+    {
+      "text": "So everyone can help plan the next meal.",
+      "time_sec": 11.379999999999999,
+      "bounds_px": [
+        190,
+        1717,
+        890,
+        1839
+      ]
+    },
+    {
+      "text": "Picking up something extra?",
+      "time_sec": 13.469999999999999,
+      "bounds_px": [
+        213,
+        1769,
+        867,
+        1839
+      ]
+    },
+    {
+      "text": "Scan the barcode and add the item.",
+      "time_sec": 15.66,
+      "bounds_px": [
+        193,
+        1717,
+        887,
+        1839
+      ]
+    },
+    {
+      "text": "See which categories and items take the biggest share of your budget.",
+      "time_sec": 18.96,
+      "bounds_px": [
+        175,
+        1665,
+        905,
+        1839
+      ]
+    },
+    {
+      "text": "The scanner and advanced analysis require Pro for each user.",
+      "time_sec": 23.110000000000003,
+      "bounds_px": [
+        148,
+        1717,
+        932,
+        1839
+      ]
+    },
+    {
+      "text": "You don't have to think of everything on your own.",
+      "time_sec": 26.520000000000003,
+      "bounds_px": [
+        242,
+        1717,
+        838,
+        1839
+      ]
+    },
+    {
+      "text": "Abgehakt.",
+      "time_sec": 28.703333333333333,
+      "bounds_px": [
+        417,
+        1769,
+        663,
+        1839
+      ]
+    },
+    {
+      "text": "Shopping, sorted.",
+      "time_sec": 30.613333333333333,
+      "bounds_px": [
+        333,
+        1769,
+        746,
+        1839
+      ]
+    },
+    {
+      "text": "More time for life.",
+      "time_sec": 32.81333333333333,
+      "bounds_px": [
+        332,
+        1769,
+        748,
+        1839
+      ]
+    },
+    {
+      "text": "€3.99.",
+      "time_sec": 34.71333333333334,
+      "bounds_px": [
+        460,
+        1769,
+        620,
+        1839
+      ]
+    },
+    {
+      "text": "Pay once.",
+      "time_sec": 36.14333333333334,
+      "bounds_px": [
+        422,
+        1769,
+        658,
+        1839
+      ]
+    },
+    {
+      "text": "No subscription.",
+      "time_sec": 37.32333333333334,
+      "bounds_px": [
+        350,
+        1769,
+        730,
+        1839
+      ]
+    }
+  ],
+  "formal_validation": "passed"
+}

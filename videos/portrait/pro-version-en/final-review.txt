@@ -1,0 +1,25 @@
+English Pro-version film — final handover
+
+Duration:38.333333sec;30fps;1920x1080 and1080x1920. Nine new full Jessica passages and the complete reused English closing. Native speed1, no syllable edits.
+
+Product:ONE Pro purchase for group sync; invitees sync free. Scanner and advanced analysis explicitly require Pro per user. EUR3.99 once, no subscription; no lifetime-online claim. Category/item ranking is by spending, not purchase frequency.
+
+Actual-export technical checks passed in both formats:1150frames, complete decode of all4MP4s, no black frames; all15states and14cut boundaries per format;10whole-app English states with8current source targets;16caption cues within safe bounds;3full-bleed static photo states. One AAC payload in all4exports; no decoded PCM clipping. See validation.json and audio/validation.json for actual loudness/peaks.
+
+Source findings closed before export:root corrected1people to1person in the app and waited for the result snackbar timeout before native capture. All8PNG/semantic pairs frozen and hashed; every composed full app region matches its source pixel-exactly before encoding. Final encoded-state checks bind those compositions to actual MP4 frames.
+
+Visual review:both complete15-state contact sheets, key member/list/scanner/analysis frames, phone360px preview and both3-photo last-frame sheets inspected. No white photo bands, camera wobble, painted UI, cropped app viewport or Demo banner. Highlights include the named text, EUR values, notes and relevant controls.
+
+Open limit:subjective listening was not performed. ASR and level measurements do not prove warm delivery, correct question intonation, brand pronunciation or musical energy. Group/lookup fixture screens are not proof of a live two-device server test or recorded camera scan. No such live-footage claim is made.
+
+No app/website changes, commits, pushes or publication by this agent. Root handles distribution.
+
+Final files:
+5151753a771ee920e3104eaadbac0b367a1babfe53f679b4b94985a9af323cf9  /workspace/artifacts/abgehakt-details-en-v1/pro-version/abgehakt.mp4
+a94c000195a451aa4eafc8882957dba67f7b4412447060848d1dd0620e179ddd  /workspace/artifacts/abgehakt-details-en-v1/pro-version/abgehakt-store.mp4
+2c4c0b0dd7d0c97313d566e0145d942ca35cde90bb548bbcc93decdb6fe4fe9c  /workspace/artifacts/abgehakt-details-en-v1/pro-version/abgehakt-en.vtt
+359d2c14338c477ecf262a8db69d6ab039e8a70d2ce33fdf576a830af5c72219  /workspace/artifacts/abgehakt-details-en-v1/pro-version/poster.jpg
+823aecd43f522559600f4c4b5dde59bc7ac235d99fabf7d84dce9b0d505b79ce  /workspace/artifacts/abgehakt-details-en-v1/pro-version/portrait/abgehakt.mp4
+e1691d50c219756a5fe70fd9b9a7c1fc476ea4da23424d080ca4cf4aa76567f9  /workspace/artifacts/abgehakt-details-en-v1/pro-version/portrait/abgehakt-store.mp4
+5ae17c92b53d499b75d8c6af7f74a0dacdebcb46a5692804823630cdc8554fae  /workspace/artifacts/abgehakt-details-en-v1/pro-version/portrait/abgehakt-en.vtt
+aeca3293f497b7844e4108325a3918c7603d5bb43e146fdb739a0d97f91e92ef  /workspace/artifacts/abgehakt-details-en-v1/pro-version/portrait/poster.jpg

@@ -1,0 +1,134 @@
+{
+  "original_assets_unchanged": true,
+  "source_files": [
+    {
+      "path": "/workspace/artifacts/abgehakt-analyse-v4/abgehakt.mp4",
+      "sha256": "0e7cd7ce186fb7abe580787de0a92f468a676e27f74c502aa1e74cd832860c33",
+      "bytes": 2698008
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-hochformat-randlos-v1/analyse/abgehakt.mp4",
+      "sha256": "05515491331b8b22c9b347e38b35ae6a718a6252fc36241a3afbfb4f7e3adae1",
+      "bytes": 3319767
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-weitere-videos-v1/common/audio/music-55s.mp3",
+      "sha256": "d58216f5dd4b979d320753dd3251fbf4767b0bc4ad3480113e3a7d9340e36d8d",
+      "bytes": 880266
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-weitere-videos-v1/common/art/logo-only-v9.png",
+      "sha256": "29248cb067375a8040b77b357d101b544c70ab62ed2819041a18549987a39df1",
+      "bytes": 63578
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-video-v10/art/mark-original.png",
+      "sha256": "73187d2b5f8040739e184e8cefe592c86127cf14ced9e299a42fced47f450445",
+      "bytes": 1214776
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-weitere-videos-v1/common/bilder/05-tomaten-auswaehlen.png",
+      "sha256": "c3db705ccf3338e0e4c6173def2ebf6ae0862f674686da8a97027d1e55ed78cd",
+      "bytes": 2682006
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-weitere-videos-v1/common/bilder/07-zuhause-alles-da.png",
+      "sha256": "231b590ae0df4e833d9856b97b6d3030bc186e926f271501819ce4c2143fda19",
+      "bytes": 2329875
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-weitere-videos-v1/common/bilder/09-gemeinsame-zeit.png",
+      "sha256": "a3a6a0ff1a59af28e1ea3dc0654ee3c3085b1e074b769d6d63dba6d3ff723bf1",
+      "bytes": 2192564
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-hochformat-fotos-v1/04-tomaten-auswaehlen.png",
+      "sha256": "daaa0b4a99c45cb1d20cb30b8b06a09b1dea9167598e38dbe4e839d99c60032d",
+      "bytes": 2700538
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-hochformat-fotos-v1/07-ausgaben-verstehen.png",
+      "sha256": "3ad96bcc02665094ab7831c21d9887ae09bfd0c0e723c9a6baecbfbfb83fd24b",
+      "bytes": 2258172
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-hochformat-fotos-v1/08-zeit-zusammen.png",
+      "sha256": "b865a9900636497633498ee3b62d9843e04b93f95b4199eaec4ae1723f80a4a9",
+      "bytes": 2237204
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/analyse/audio/segments/cost.mp3",
+      "sha256": "451bc8706d47ef2181d9d33b84cd9aa59811d4e48b7742681d53282bbf2d6a5c",
+      "bytes": 36823
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/analyse/audio/segments/closing.mp3",
+      "sha256": "95c0ff04e229d566dfc757f049af29eaf397b95a2f8b1710eb539aca6dabe645",
+      "bytes": 86978
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/analyse/audio/segments/items.mp3",
+      "sha256": "4cd754dfd4520ee5ee1d87981d1e9ef6f9231569258ac9792e4c9ff437eba0e2",
+      "bytes": 47272
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/analyse/audio/segments/months.mp3",
+      "sha256": "25ed9dc3fcc8334168cbe2e96bb8e56ca604deaf6cf7bfcced0dbf4f9fdcc019",
+      "bytes": 49780
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/analyse/audio/segments/categories.mp3",
+      "sha256": "26f887bcd9ff188e4a687ffc9bfb5df2796da2910f4e011242d654d0849bfbee",
+      "bytes": 61065
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/analyse/audio/segments/stores.mp3",
+      "sha256": "d1ba78efbca6717d368fbe4ba346dc99eb297c2196deac8fd552322892109332",
+      "bytes": 29300
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/analyse/audio/segments/prices.mp3",
+      "sha256": "880baf06d2a654a8ef5307582abb9167b032e3131774a33a359ab03c6d916663",
+      "bytes": 39331
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/analysis-free-prices.png",
+      "sha256": "a332174ffd4c9a545c1f0ae5798643f39669365918e8ecf3fb5e1a976fe45882",
+      "bytes": 90453
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/analysis-free-price-detail.png",
+      "sha256": "5197723b483f6b19b9f31bfc4886a969a37d99559bf2e11a454792bfd99ca932",
+      "bytes": 118473
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/analysis-top.png",
+      "sha256": "8db07dab8b0a3fdf341a3f315596d6471b64e60d65629072d64306e774957778",
+      "bytes": 200163
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/analysis-markets.png",
+      "sha256": "1967aba38c3d90420e1e9f8dd33a6c8b8c0143e597487b388f5b97bdb4a9f009",
+      "bytes": 199614
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/analysis-free-months.png",
+      "sha256": "ddafc6b3677606c25d3db3157636fa62341b0bd5544c8f9fa7c9effde60c02ec",
+      "bytes": 185498
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/analysis-categories.png",
+      "sha256": "a9e7f2161e386570e070114fcb498dd6b1fa0555e6b9f82058d3c579eb9eee8d",
+      "bytes": 187155
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/common/app/main-cart70.png",
+      "sha256": "9be0a115f99de02fbd99f4c01019458d8c2796b4b7ffd00f253d6f9cf5974c58",
+      "bytes": 166001
+    }
+  ],
+  "genuine_english_ui": true,
+  "screenshot_text_repainting": false,
+  "new_images_generated": false,
+  "new_music_generated": false
+}

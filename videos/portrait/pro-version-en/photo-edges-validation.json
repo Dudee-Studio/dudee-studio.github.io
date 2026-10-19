@@ -1,0 +1,134 @@
+{
+  "landscape": {
+    "video_sha256": "5151753a771ee920e3104eaadbac0b367a1babfe53f679b4b94985a9af323cf9",
+    "actual_last_photo_frames": [
+      {
+        "shot_index": 1,
+        "last_frame_index": 125,
+        "last_frame_time_sec": 4.166666666666667,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "clean_edge_mean_absolute_error": {
+          "top": 1.528269675925926,
+          "bottom": 2.9717592592592594,
+          "left": 1.8010545267489713,
+          "right": 1.8726851851851851
+        },
+        "burned_edge_mean_absolute_error": {
+          "top": 1.546195023148148,
+          "bottom": 2.97572337962963,
+          "left": 1.8040895061728395,
+          "right": 1.892849794238683
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/review/photo-end-01.jpg"
+      },
+      {
+        "shot_index": 12,
+        "last_frame_index": 843,
+        "last_frame_time_sec": 28.1,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "clean_edge_mean_absolute_error": {
+          "top": 1.371339699074074,
+          "bottom": 2.5017216435185183,
+          "left": 1.9487654320987655,
+          "right": 1.8463220164609053
+        },
+        "burned_edge_mean_absolute_error": {
+          "top": 1.3890046296296297,
+          "bottom": 2.517086226851852,
+          "left": 1.9703703703703703,
+          "right": 1.8627057613168725
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/review/photo-end-12.jpg"
+      },
+      {
+        "shot_index": 13,
+        "last_frame_index": 1014,
+        "last_frame_time_sec": 33.8,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "clean_edge_mean_absolute_error": {
+          "top": 1.3921440972222223,
+          "bottom": 2.3818865740740742,
+          "left": 2.2377572016460907,
+          "right": 2.1362911522633743
+        },
+        "burned_edge_mean_absolute_error": {
+          "top": 1.4046730324074075,
+          "bottom": 2.393547453703704,
+          "left": 2.2535236625514403,
+          "right": 2.143775720164609
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/review/photo-end-13.jpg"
+      }
+    ],
+    "app_capture_policy": "Whole genuine UI contain; photo full-bleed applies only to lifestyle and benefit photographs."
+  },
+  "portrait": {
+    "video_sha256": "823aecd43f522559600f4c4b5dde59bc7ac235d99fabf7d84dce9b0d505b79ce",
+    "actual_last_photo_frames": [
+      {
+        "shot_index": 1,
+        "last_frame_index": 125,
+        "last_frame_time_sec": 4.166666666666667,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "clean_edge_mean_absolute_error": {
+          "top": 1.325514403292181,
+          "bottom": 2.5382458847736626,
+          "left": 2.283550347222222,
+          "right": 2.1759403935185184
+        },
+        "burned_edge_mean_absolute_error": {
+          "top": 1.345627572016461,
+          "bottom": 2.5549125514403292,
+          "left": 2.2993489583333333,
+          "right": 2.201244212962963
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/portrait/review/photo-end-01.jpg"
+      },
+      {
+        "shot_index": 12,
+        "last_frame_index": 843,
+        "last_frame_time_sec": 28.1,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "clean_edge_mean_absolute_error": {
+          "top": 1.2811213991769548,
+          "bottom": 2.6079989711934157,
+          "left": 2.312601273148148,
+          "right": 2.419892939814815
+        },
+        "burned_edge_mean_absolute_error": {
+          "top": 1.296167695473251,
+          "bottom": 2.6184156378600822,
+          "left": 2.325173611111111,
+          "right": 2.4320601851851853
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/portrait/review/photo-end-12.jpg"
+      },
+      {
+        "shot_index": 13,
+        "last_frame_index": 1014,
+        "last_frame_time_sec": 33.8,
+        "full_bleed_source": true,
+        "actual_encoded_edges_match_source": true,
+        "clean_edge_mean_absolute_error": {
+          "top": 1.1601594650205762,
+          "bottom": 2.3101594650205763,
+          "left": 2.3323350694444445,
+          "right": 2.341261574074074
+        },
+        "burned_edge_mean_absolute_error": {
+          "top": 1.1848251028806585,
+          "bottom": 2.3248199588477365,
+          "left": 2.348871527777778,
+          "right": 2.3593894675925924
+        },
+        "frame_file": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/portrait/review/photo-end-13.jpg"
+      }
+    ],
+    "app_capture_policy": "Whole genuine UI contain; photo full-bleed applies only to lifestyle and benefit photographs."
+  }
+}

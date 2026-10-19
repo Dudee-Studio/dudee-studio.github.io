@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "new_monthly_source": "ddafc6b3677606c25d3db3157636fa62341b0bd5544c8f9fa7c9effde60c02ec",
+  "checks": {
+    "landscape": [
+      {
+        "index": 20,
+        "source_sha256": "ddafc6b3677606c25d3db3157636fa62341b0bd5544c8f9fa7c9effde60c02ec",
+        "composed_sha256": "8ab754de857c809988d7f93c8f7b2dab259f9d1b1feda87f99bb2c6326676bd9",
+        "full_native_source_pixel_mae": 0.0,
+        "source_focus": [
+          24,
+          492,
+          516,
+          252
+        ],
+        "rendered_focus": [
+          146,
+          256,
+          236,
+          116
+        ]
+      },
+      {
+        "index": 21,
+        "source_sha256": "ddafc6b3677606c25d3db3157636fa62341b0bd5544c8f9fa7c9effde60c02ec",
+        "composed_sha256": "76137c8b6721d9af96f9c346bd456cf639a0a92b3b3a6473c144ef757473e504",
+        "full_native_source_pixel_mae": 0.0,
+        "source_focus": [
+          540,
+          492,
+          516,
+          252
+        ],
+        "rendered_focus": [
+          382,
+          256,
+          236,
+          116
+        ]
+      }
+    ],
+    "portrait": [
+      {
+        "index": 20,
+        "source_sha256": "ddafc6b3677606c25d3db3157636fa62341b0bd5544c8f9fa7c9effde60c02ec",
+        "composed_sha256": "be7cd1e58d46cfee587de152b03d5f77ee762f7af06c99aae4ddb8216d5a106e",
+        "full_native_source_pixel_mae": 0.0,
+        "source_focus": [
+          24,
+          492,
+          516,
+          252
+        ],
+        "rendered_focus": [
+          185,
+          491,
+          355,
+          174
+        ]
+      },
+      {
+        "index": 21,
+        "source_sha256": "ddafc6b3677606c25d3db3157636fa62341b0bd5544c8f9fa7c9effde60c02ec",
+        "composed_sha256": "824223f0e6832eb5abacfae187fe0588c766b3e6a69ae665cb841d2c54b76342",
+        "full_native_source_pixel_mae": 0.0,
+        "source_focus": [
+          540,
+          492,
+          516,
+          252
+        ],
+        "rendered_focus": [
+          540,
+          491,
+          355,
+          174
+        ]
+      }
+    ]
+  }
+}

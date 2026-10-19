@@ -44,13 +44,18 @@
       "files": [
         {
           "file": "main-video-en/abgehakt-hochformat-clean.mp4",
-          "bytes": 8816796,
-          "sha256": "750abc44ef6ac969b47e7105f9f0fedcbfda0b4b8be989cf7094cd41a8bc4c5f"
+          "bytes": 8817349,
+          "sha256": "1eb3a185ca08cd423efeed978a85a0bc75651f73617972eda304a156229874ff"
         },
         {
           "file": "main-video-en/abgehakt-hochformat.mp4",
-          "bytes": 8937447,
-          "sha256": "c66e1ea453998036326924993fc76c497fb32d0e7f8ba581db3904b89f39546d"
+          "bytes": 8937922,
+          "sha256": "db658d231f605d0ebf65a29361926d755d17550590263e744496db335625cb83"
+        },
+        {
+          "file": "main-video-en/audio-identity.json",
+          "bytes": 929,
+          "sha256": "052520bd318af00c1716eabfa96e1904fc21a5db0d74fa91cd365e46ad402a3a"
         },
         {
           "file": "main-video-en/captions.vtt",
@@ -58,17 +63,57 @@
           "sha256": "20792be4b8c393cfea04b811cb67c522a03064cc9afe0ad926ce81b5f9202e5d"
         },
         {
+          "file": "main-video-en/capture-frame-validation.json",
+          "bytes": 2034,
+          "sha256": "77d2fa2154e4182cd61dbb4824a7b8a8cfad087fb1ad86c6fe159bca9a280cdc"
+        },
+        {
+          "file": "main-video-en/delivery.json",
+          "bytes": 3202,
+          "sha256": "8c1844f6f98f8a55684bdf4cdceea3d4303a5a4009595a830628eeda59b8627c"
+        },
+        {
+          "file": "main-video-en/final-review.txt",
+          "bytes": 2344,
+          "sha256": "bd1e85e75c0f7ceee94ee98594ffa431880ad120dd6c6e01d51a41ec36d9e15d"
+        },
+        {
+          "file": "main-video-en/photo-edges-validation.json",
+          "bytes": 14594,
+          "sha256": "e9965cbb6c00b0324e1f855ccb7757bc4a2fa6f3bc9e38fcc9a606351df3bcab"
+        },
+        {
           "file": "main-video-en/poster.jpg",
           "bytes": 28954,
           "sha256": "6b1e4df339f88cc1130435e222e34d52585bcf807ff5fc1c81ba43428e90e5a6"
         },
         {
+          "file": "main-video-en/review-findings.json",
+          "bytes": 3440,
+          "sha256": "6db86365ab4c4d19161d7cf922040acc254aff3ce63a4398545b5f1919097781"
+        },
+        {
+          "file": "main-video-en/revision-scope.json",
+          "bytes": 3338,
+          "sha256": "61103472911a0296e489704b02e0f3545eaa43783ec1ef765e719fdaa0f2ca95"
+        },
+        {
+          "file": "main-video-en/source-manifest.json",
+          "bytes": 58750,
+          "sha256": "59bdc578b8e2783b6cf7ea4164dd87f308c1aa84c248e620e6c707b0b6bb53a4"
+        },
+        {
+          "file": "main-video-en/unchanged-still-proof.json",
+          "bytes": 6224,
+          "sha256": "464339379a17ec61c9fde387e84c70581954f4e86d5e7ba5932f3b695857be1b"
+        },
+        {
           "file": "main-video-en/validation.json",
-          "bytes": 16226,
-          "sha256": "081ae5e151304e482f466e22ee8ceb28859473fa38e4514cfec27a927df3116a"
+          "bytes": 16225,
+          "sha256": "f58f17cde7bd489dd66029815bb16803366404bcdc77c85b6e9921f566fb2486"
         }
       ],
-      "source": "/workspace/artifacts/abgehakt-main-en-v1/portrait"
+      "source": "/workspace/artifacts/abgehakt-main-en-v2/portrait"
     },
     {
       "id": "kostenlos",
@@ -201,6 +246,223 @@
         }
       ],
       "source": "/workspace/artifacts/abgehakt-hochformat-randlos-v1/artikelkatalog-1-1"
+    },
+    {
+      "id": "kostenlos-en",
+      "title": "Free features",
+      "language": "en",
+      "files": [
+        {
+          "file": "kostenlos-en/abgehakt-hochformat-clean.mp4",
+          "bytes": 3646922,
+          "sha256": "e3d6f9ca54c80ed29c1927e43887d404e52b3e19ba1f3b414ee35381eddef818"
+        },
+        {
+          "file": "kostenlos-en/abgehakt-hochformat.mp4",
+          "bytes": 3738869,
+          "sha256": "dd225e73b560752c1bfb8e1982667a0539bfaec0de15df0a16838252b72d38f8"
+        },
+        {
+          "file": "kostenlos-en/captions.vtt",
+          "bytes": 1681,
+          "sha256": "3fd9a1dd8d18e51f0323cb3067c73794a5a3e3944f002512333b843611ca05ae"
+        },
+        {
+          "file": "kostenlos-en/delivery.json",
+          "bytes": 2706,
+          "sha256": "16bb2c417a07751cc4f70d919027f585745c94d5513354b4cdf5d28a94609ec8"
+        },
+        {
+          "file": "kostenlos-en/final-review.txt",
+          "bytes": 2972,
+          "sha256": "adef3df5c654effc6a23e920c93cd6f613f5636704a63a26e97b8a68428c4ae9"
+        },
+        {
+          "file": "kostenlos-en/poster.jpg",
+          "bytes": 28323,
+          "sha256": "0b08424a6cd7ca86e4091d5e4a843b3e329fb192bb43ac27aad1cebf16f0bca9"
+        },
+        {
+          "file": "kostenlos-en/review-findings.json",
+          "bytes": 2408,
+          "sha256": "3f07df9b8c158b0a07ddff011bc80d42f7fcca63cab9dd3a0758f938fb4abc2c"
+        },
+        {
+          "file": "kostenlos-en/source-manifest.json",
+          "bytes": 10353,
+          "sha256": "5c7560fbde4fb8663c9e73346c8eb7b302085840f7fefb7902f1b5f7c3a1e88c"
+        },
+        {
+          "file": "kostenlos-en/validation.json",
+          "bytes": 14232,
+          "sha256": "68d61df296ce5e1487886ac8b3a579bba9b1463422d7c30c91d7bf0970297a29"
+        }
+      ],
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/portrait"
+    },
+    {
+      "id": "pro-version-en",
+      "title": "The Pro version",
+      "language": "en",
+      "files": [
+        {
+          "file": "pro-version-en/abgehakt-hochformat-clean.mp4",
+          "bytes": 3300702,
+          "sha256": "823aecd43f522559600f4c4b5dde59bc7ac235d99fabf7d84dce9b0d505b79ce"
+        },
+        {
+          "file": "pro-version-en/abgehakt-hochformat.mp4",
+          "bytes": 3412243,
+          "sha256": "e1691d50c219756a5fe70fd9b9a7c1fc476ea4da23424d080ca4cf4aa76567f9"
+        },
+        {
+          "file": "pro-version-en/captions.vtt",
+          "bytes": 1704,
+          "sha256": "5ae17c92b53d499b75d8c6af7f74a0dacdebcb46a5692804823630cdc8554fae"
+        },
+        {
+          "file": "pro-version-en/capture-frame-validation.json",
+          "bytes": 8050,
+          "sha256": "1ea1f856504c6e879d7b9c5bed8852667e6438f45efaa9a78dde2eb5e115e346"
+        },
+        {
+          "file": "pro-version-en/delivery.json",
+          "bytes": 3387,
+          "sha256": "819b257ea0a1ed569c0e5309e2a54b7ee16a302e57db10faca7e5950103c14f5"
+        },
+        {
+          "file": "pro-version-en/final-review.txt",
+          "bytes": 3072,
+          "sha256": "d3d885f82a3648a20b1525bf9833d894b3f2678292de69e4f8f4b57d9745868f"
+        },
+        {
+          "file": "pro-version-en/photo-edges-validation.json",
+          "bytes": 4900,
+          "sha256": "df9e65cf4a1a5a0feb67750ab6827aabc1c67297891d0c3c0993b8e60743cc6a"
+        },
+        {
+          "file": "pro-version-en/poster.jpg",
+          "bytes": 27399,
+          "sha256": "aeca3293f497b7844e4108325a3918c7603d5bb43e146fdb739a0d97f91e92ef"
+        },
+        {
+          "file": "pro-version-en/review-findings.json",
+          "bytes": 6161,
+          "sha256": "1b1582ad8222be37093d4c4d4a85fe9d21798dc97770193078ed2bb6691f358b"
+        },
+        {
+          "file": "pro-version-en/source-manifest.json",
+          "bytes": 56360,
+          "sha256": "1b579e6c78394f18bb1bd979a415ab808f611a6fa64e18d0a95342af16f95158"
+        },
+        {
+          "file": "pro-version-en/validation.json",
+          "bytes": 9322,
+          "sha256": "57539d40c2c383d0e66095e543b9eceb321a728a86894f57cc374631cd46d10f"
+        }
+      ],
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/portrait"
+    },
+    {
+      "id": "analyse-en",
+      "title": "Understand spending",
+      "language": "en",
+      "files": [
+        {
+          "file": "analyse-en/abgehakt-hochformat-clean.mp4",
+          "bytes": 3452190,
+          "sha256": "8d618f0c2177d962f1b762d7a6e4200ec2311000c847a636b27ef7f14efdc4b1"
+        },
+        {
+          "file": "analyse-en/abgehakt-hochformat.mp4",
+          "bytes": 3516089,
+          "sha256": "be9fb0e6d987d8a71f2fdce27e68d522a0936f03dccae63865d38dd9feb4ecee"
+        },
+        {
+          "file": "analyse-en/captions.vtt",
+          "bytes": 1012,
+          "sha256": "974620a389deb3c4e9797851a43140913fc3640816e9178fceffd64c363f95f2"
+        },
+        {
+          "file": "analyse-en/delivery.json",
+          "bytes": 2854,
+          "sha256": "9bb6c3b81f7ecf76aadaa9543f17e4540a8a77ce94e619eb20b75687408cdf95"
+        },
+        {
+          "file": "analyse-en/final-review.md",
+          "bytes": 5128,
+          "sha256": "364985159615828b3a5f5c270da387df8e421585361dc388022b372fd7c00057"
+        },
+        {
+          "file": "analyse-en/poster.jpg",
+          "bytes": 78980,
+          "sha256": "63b7cae2c8576e93dba76c65b4da822081cec47755137acc96307935d83a28ea"
+        },
+        {
+          "file": "analyse-en/source-manifest.json",
+          "bytes": 5512,
+          "sha256": "00cf5e7e8b22c38d1332ec9f0722c742a8fc34f761a24a054280fd6761456cf9"
+        },
+        {
+          "file": "analyse-en/validation.json",
+          "bytes": 14175,
+          "sha256": "3a055eb7df8f8b88b326e2fdde09e199964a82749fdd8878e268de4894051d3e"
+        }
+      ],
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/analyse/portrait"
+    },
+    {
+      "id": "community-en",
+      "title": "Community-made catalog · Preview 1.1",
+      "language": "en",
+      "files": [
+        {
+          "file": "community-en/abgehakt-hochformat-clean.mp4",
+          "bytes": 2410106,
+          "sha256": "55eb1e599060bd299cd9f3c77c6c23137ea4093e273cb796a35d81084cddc93c"
+        },
+        {
+          "file": "community-en/abgehakt-hochformat.mp4",
+          "bytes": 2502325,
+          "sha256": "b4279aa59fe4abd6d0f4a712fcb75b6ee8f96ff148e21a398e609041d7012462"
+        },
+        {
+          "file": "community-en/captions.vtt",
+          "bytes": 1145,
+          "sha256": "60b22233a5fcaebd9a3efaaf1ec3a42500017c0358de33ec350f7ae738a53711"
+        },
+        {
+          "file": "community-en/delivery.json",
+          "bytes": 3393,
+          "sha256": "e6de215acfc78b057a4c56418032eb23033f9b4cbddbafd9c51dfa94dee57809"
+        },
+        {
+          "file": "community-en/final-review.txt",
+          "bytes": 3503,
+          "sha256": "0bd7c88c500a04a738b992b0f44dac945c67bea61836b9b134273b04e00d5e29"
+        },
+        {
+          "file": "community-en/poster.jpg",
+          "bytes": 30767,
+          "sha256": "cabd4f30ad3f489568be3a10c7296f9d2244ae1eef7a23869603059e8063a78f"
+        },
+        {
+          "file": "community-en/review-findings.json",
+          "bytes": 3163,
+          "sha256": "37d1b603e7a88f2afa584c91ef331cdc69baa388aab0b054e85b4f0636a4a9cb"
+        },
+        {
+          "file": "community-en/source-manifest.json",
+          "bytes": 10939,
+          "sha256": "e9415df6d872bb950e65b9ea7c8e5123f416559a4cffd561b783553e32f9d639"
+        },
+        {
+          "file": "community-en/validation.json",
+          "bytes": 8998,
+          "sha256": "55d01687b22a2b90b7c42a7ea958be8b4f0d9df61fa11ae3f2efd052bead2636"
+        }
+      ],
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/portrait"
     }
   ]
 }

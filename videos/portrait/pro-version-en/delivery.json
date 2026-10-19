@@ -1,0 +1,71 @@
+{
+  "language": "en",
+  "duration_sec": 38.333333333333336,
+  "published": false,
+  "app_ui_localization": "Genuine English Android app resources and English example data, rendered from actual app code; no screenshot text repainting",
+  "capture_validation": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/semantic-focus.json",
+  "subjective_listening": false,
+  "deliveries": [
+    {
+      "format": "landscape",
+      "folder": "/workspace/artifacts/abgehakt-details-en-v1/pro-version",
+      "files": [
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/abgehakt-store.mp4",
+          "sha256": "a94c000195a451aa4eafc8882957dba67f7b4412447060848d1dd0620e179ddd",
+          "bytes": 3191663
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/abgehakt.mp4",
+          "sha256": "5151753a771ee920e3104eaadbac0b367a1babfe53f679b4b94985a9af323cf9",
+          "bytes": 3038188
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/abgehakt-en.vtt",
+          "sha256": "2c4c0b0dd7d0c97313d566e0145d942ca35cde90bb548bbcc93decdb6fe4fe9c",
+          "bytes": 1322
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/poster.jpg",
+          "sha256": "359d2c14338c477ecf262a8db69d6ab039e8a70d2ce33fdf576a830af5c72219",
+          "bytes": 26982
+        }
+      ],
+      "validation": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/validation.json"
+    },
+    {
+      "format": "portrait",
+      "folder": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/portrait",
+      "files": [
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/portrait/abgehakt-store.mp4",
+          "sha256": "e1691d50c219756a5fe70fd9b9a7c1fc476ea4da23424d080ca4cf4aa76567f9",
+          "bytes": 3412243
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/portrait/abgehakt.mp4",
+          "sha256": "823aecd43f522559600f4c4b5dde59bc7ac235d99fabf7d84dce9b0d505b79ce",
+          "bytes": 3300702
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/portrait/abgehakt-en.vtt",
+          "sha256": "5ae17c92b53d499b75d8c6af7f74a0dacdebcb46a5692804823630cdc8554fae",
+          "bytes": 1704
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/portrait/poster.jpg",
+          "sha256": "aeca3293f497b7844e4108325a3918c7603d5bb43e146fdb739a0d97f91e92ef",
+          "bytes": 27399
+        }
+      ],
+      "validation": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/portrait/validation.json"
+    }
+  ],
+  "film": "The Pro version",
+  "review": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/final-review.txt",
+  "review_findings": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/review-findings.json",
+  "source_manifest": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/source-manifest.json",
+  "capture_frame_validation": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/capture-frame-validation.json",
+  "audio_validation": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/audio/validation.json",
+  "photo_edges_validation": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/photo-edges-validation.json"
+}

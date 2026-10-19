@@ -1,0 +1,21 @@
+Abgehakt — English main film v2 — final revision review
+
+Fixed only the native monthly screenshot:23purchases,totalEUR764.98;10this month,EUR359.90;13last month,EUR405.08. Complete genuine PNG replacement; no painted strings. Both complete card focus rectangles re-derived from current English native nodes.
+
+Unchanged:54.833333seconds,1645frames at30fps; all English speech/music and shared AAC; all caption text/timing, VTT/ASS and posters;31other composed PNGs per format and11other native UI captures. No TTS calls, no original-v1overwrite.
+
+Final-file checks passed:all4MP4s fully decoded, correct dimensions/duration/fps, no blackframes; all33states and32cut boundaries per format, complete contain app geometry, correct highlights,25caption cues,14full-bleed photo states per format; final photo-endframes checked. All4AACpacketpayloads matchv1exactly. The two corrected monthly source regions match composed UI pixel-exactly.
+
+Actual final month frames in both aspect ratios and both contact sheets were visually inspected. All other source pixels retained; no new camera movement or photo padding. Voice emotion/intonation, brand pronunciation and subjective music are not claimed as heard.
+
+Local handover only:no app/website changes, commits, pushes or publication. Root handles authorized distribution.
+
+Final hashes:
+54e41d8209bd2a7a8c05a2fa7fb3c6d39bbc898f807bb734ebfb68a11f648c9b  /workspace/artifacts/abgehakt-main-en-v2/abgehakt-store.mp4
+c972a0035c77ff631160d5571503d5fb44b1c606096fb3b18e20388fb11780d2  /workspace/artifacts/abgehakt-main-en-v2/abgehakt.mp4
+3546a69e547a66abe306e2ccb02da617da700d6331dd226ab821c13ec92283fe  /workspace/artifacts/abgehakt-main-en-v2/abgehakt-en.vtt
+48c569115d70389d9b5db0388672c00d29a4f8cf827baf3653ad5569026ab1ce  /workspace/artifacts/abgehakt-main-en-v2/poster.jpg
+db658d231f605d0ebf65a29361926d755d17550590263e744496db335625cb83  /workspace/artifacts/abgehakt-main-en-v2/portrait/abgehakt-store.mp4
+1eb3a185ca08cd423efeed978a85a0bc75651f73617972eda304a156229874ff  /workspace/artifacts/abgehakt-main-en-v2/portrait/abgehakt.mp4
+20792be4b8c393cfea04b811cb67c522a03064cc9afe0ad926ce81b5f9202e5d  /workspace/artifacts/abgehakt-main-en-v2/portrait/abgehakt-en.vtt
+6b1e4df339f88cc1130435e222e34d52585bcf807ff5fc1c81ba43428e90e5a6  /workspace/artifacts/abgehakt-main-en-v2/portrait/poster.jpg

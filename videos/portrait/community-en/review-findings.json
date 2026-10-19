@@ -1,0 +1,87 @@
+{
+  "bound_exports": [
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/abgehakt-store.mp4",
+      "sha256": "7072dbbec57b2e5655d91ebfde06e0fb26aa865792f38bcffde4b57e256b45c1",
+      "bytes": 3089163
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/abgehakt.mp4",
+      "sha256": "8b5193c51f52db96d9cd8f907fe6ca1438b334db5b3ad0acff78b61c8af4517b",
+      "bytes": 3013779
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/portrait/abgehakt-store.mp4",
+      "sha256": "b4279aa59fe4abd6d0f4a712fcb75b6ee8f96ff148e21a398e609041d7012462",
+      "bytes": 2502325
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1/portrait/abgehakt.mp4",
+      "sha256": "55eb1e599060bd299cd9f3c77c6c23137ea4093e273cb796a35d81084cddc93c",
+      "bytes": 2410106
+    }
+  ],
+  "findings": [
+    {
+      "id": "F01",
+      "priority": "P1",
+      "status": "resolved",
+      "area": "Community source",
+      "evidence": "C02 speech explicitly says shared by the Abgehakt community; Community-made catalog title in both exports."
+    },
+    {
+      "id": "F02",
+      "priority": "P1",
+      "status": "resolved",
+      "area": "Pro and own copy",
+      "evidence": "Pro badge during search/import; English Apply → Picnic category → own saved Apples state. Spoken own editable copy. Independent local import supported by ShopViewModel."
+    },
+    {
+      "id": "F03",
+      "priority": "P1",
+      "status": "resolved",
+      "area": "Voluntary sharing",
+      "evidence": "C04 Free badge, auto-OFF frame, selected-photo frame, explicit Publish now and actual success. Pixel-difference proof confines the opt-in change to [852,1386,1008,1482]. Price and automatic stay OFF."
+    },
+    {
+      "id": "F04",
+      "priority": "P1",
+      "status": "resolved",
+      "area": "English focus and full UI",
+      "evidence": "12 state-specific targets rebuilt from English nodes, visually padded; exact contain transforms validated on final files in both orientations."
+    },
+    {
+      "id": "F05",
+      "priority": "P2",
+      "status": "not_checked",
+      "area": "Subjective sound",
+      "evidence": "No actual listening performed. Native-speed voice, independent ASR and measured final AAC loudness do not establish warmth, emotion, groove or subjective intelligibility.",
+      "recommendation": "Optional human listening of the delivered master; no new variation generated."
+    },
+    {
+      "id": "F06",
+      "priority": "P1",
+      "status": "bounded",
+      "area": "Availability",
+      "evidence": "Only Preview · Version 1.1 shown. Captures use prepared responses; live backend operation is not demonstrated and no live promise is made."
+    }
+  ],
+  "roles_covered": [
+    "production",
+    "product facts",
+    "marketing",
+    "direction",
+    "English copy",
+    "art",
+    "continuity",
+    "app capture",
+    "editing",
+    "voice direction",
+    "music",
+    "accessibility",
+    "technical QA",
+    "first-user perspective"
+  ],
+  "independent_human_review": false,
+  "subjective_listening": false
+}

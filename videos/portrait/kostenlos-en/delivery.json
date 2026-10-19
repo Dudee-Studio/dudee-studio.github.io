@@ -1,0 +1,64 @@
+{
+  "language": "en",
+  "duration_sec": 46.53333333333333,
+  "published": false,
+  "app_ui_localization": "Genuine English Android app resources and English example data, rendered from actual app code; no screenshot text repainting",
+  "capture_validation": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/capture-evidence.json",
+  "subjective_listening": false,
+  "deliveries": [
+    {
+      "format": "landscape",
+      "folder": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos",
+      "files": [
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/abgehakt-store.mp4",
+          "sha256": "3b021e8463b0c2f4c8adf00576e1cb90556cb24483ed213ed4f40d4ab1f805b8",
+          "bytes": 3506102
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/abgehakt.mp4",
+          "sha256": "2589a6592e18f82140320caaaba96e939085cfa97c202c8cf6779845a805e8f4",
+          "bytes": 3365931
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/abgehakt-en.vtt",
+          "sha256": "5630ece888c931d916367309269953f08a2b5dcce648d0bb4400b417b8265902",
+          "bytes": 1483
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/poster.jpg",
+          "sha256": "608f81bc8c6709aa4e154f02e3b5b9fb767ba4c0a900cc85234acf7c584c31ff",
+          "bytes": 26875
+        }
+      ],
+      "validation": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/validation.json"
+    },
+    {
+      "format": "portrait",
+      "folder": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/portrait",
+      "files": [
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/portrait/abgehakt-store.mp4",
+          "sha256": "dd225e73b560752c1bfb8e1982667a0539bfaec0de15df0a16838252b72d38f8",
+          "bytes": 3738869
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/portrait/abgehakt.mp4",
+          "sha256": "e3d6f9ca54c80ed29c1927e43887d404e52b3e19ba1f3b414ee35381eddef818",
+          "bytes": 3646922
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/portrait/abgehakt-en.vtt",
+          "sha256": "3fd9a1dd8d18e51f0323cb3067c73794a5a3e3944f002512333b843611ca05ae",
+          "bytes": 1681
+        },
+        {
+          "path": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/portrait/poster.jpg",
+          "sha256": "0b08424a6cd7ca86e4091d5e4a843b3e329fb192bb43ac27aad1cebf16f0bca9",
+          "bytes": 28323
+        }
+      ],
+      "validation": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos/portrait/validation.json"
+    }
+  ]
+}

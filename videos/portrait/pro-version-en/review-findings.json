@@ -1,0 +1,153 @@
+{
+  "film": "The Pro version — English",
+  "outputs": [
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/abgehakt.mp4",
+      "sha256": "5151753a771ee920e3104eaadbac0b367a1babfe53f679b4b94985a9af323cf9",
+      "bytes": 3038188
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/abgehakt-store.mp4",
+      "sha256": "a94c000195a451aa4eafc8882957dba67f7b4412447060848d1dd0620e179ddd",
+      "bytes": 3191663
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/abgehakt-en.vtt",
+      "sha256": "2c4c0b0dd7d0c97313d566e0145d942ca35cde90bb548bbcc93decdb6fe4fe9c",
+      "bytes": 1322
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/poster.jpg",
+      "sha256": "359d2c14338c477ecf262a8db69d6ab039e8a70d2ce33fdf576a830af5c72219",
+      "bytes": 26982
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/portrait/abgehakt.mp4",
+      "sha256": "823aecd43f522559600f4c4b5dde59bc7ac235d99fabf7d84dce9b0d505b79ce",
+      "bytes": 3300702
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/portrait/abgehakt-store.mp4",
+      "sha256": "e1691d50c219756a5fe70fd9b9a7c1fc476ea4da23424d080ca4cf4aa76567f9",
+      "bytes": 3412243
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/portrait/abgehakt-en.vtt",
+      "sha256": "5ae17c92b53d499b75d8c6af7f74a0dacdebcb46a5692804823630cdc8554fae",
+      "bytes": 1704
+    },
+    {
+      "path": "/workspace/artifacts/abgehakt-details-en-v1/pro-version/portrait/poster.jpg",
+      "sha256": "aeca3293f497b7844e4108325a3918c7603d5bb43e146fdb739a0d97f91e92ef",
+      "bytes": 27399
+    }
+  ],
+  "method": "Production-agent role perspectives, not a human expert panel or user study. Actual encoded midpoint/contact/phone-size frames and photo-endframes visually inspected; hearing explicitly not performed.",
+  "findings": [
+    {
+      "id": "PRO-EN-F01",
+      "severity": "P1",
+      "status": "resolved",
+      "roles": [
+        "Product",
+        "Marketing",
+        "Trust"
+      ],
+      "finding": "Free invited sync could be misunderstood as free personal scanner and advanced analysis.",
+      "solution_selected": "One complete narration sentence states one Pro purchase permits shared list; invitees sync free. A later complete sentence explicitly states scanner/advanced analysis require Pro per user.",
+      "evidence": [
+        "script.json",
+        "speech-generation.json",
+        "facts.csv",
+        "review/final-midpoints.jpg",
+        "portrait/review/final-midpoints.jpg"
+      ]
+    },
+    {
+      "id": "PRO-EN-F02",
+      "severity": "P1",
+      "status": "resolved_before_final_export",
+      "roles": [
+        "Localization",
+        "App capture"
+      ],
+      "finding": "Initial English source capture displayed1people in your list.",
+      "solution_selected": "Root corrected actual app singular/plural wording and re-captured native UI. Final capture says1person. No labels painted over UI.",
+      "evidence": [
+        "english-ui/pro-group-invite.png",
+        "english-ui/focus/pro-group-invite.json",
+        "source-manifest.json"
+      ]
+    },
+    {
+      "id": "PRO-EN-F03",
+      "severity": "P1",
+      "status": "resolved_before_final_export",
+      "roles": [
+        "UX",
+        "Editing",
+        "App capture"
+      ],
+      "finding": "Initial scan-result screenshot still had a snackbar covering the new Granola bar and its controls.",
+      "solution_selected": "Root waited for actual snackbar timeout and re-captured the unobscured native result. Full row plus controls is now inside the semantic highlight.",
+      "evidence": [
+        "english-ui/pro-scan-after.png",
+        "semantic-focus.json",
+        "capture-frame-validation.json"
+      ]
+    },
+    {
+      "id": "PRO-EN-F04",
+      "severity": "P1",
+      "status": "passed",
+      "roles": [
+        "Art direction",
+        "Editing",
+        "Accessibility"
+      ],
+      "finding": "Photos must be full-bleed and genuine app pictures must stay complete, with accurate translated highlights.",
+      "solution_selected": "All3photo states per aspect ratio are static and fill every edge; last photo frames checked in clean and captioned files. Whole app contain and8current semantic source targets used for10app states per format; English analysis bars measured in the actual image.",
+      "evidence": [
+        "photo-edges-validation.json",
+        "validation.json",
+        "portrait/validation.json",
+        "semantic-focus.json"
+      ]
+    },
+    {
+      "id": "PRO-EN-F05",
+      "severity": "P2",
+      "status": "not_subjectively_listened",
+      "roles": [
+        "Voice direction",
+        "Music",
+        "Sound"
+      ],
+      "finding": "Natural question emphasis, emotion, brand pronunciation and musical feel cannot be proved by transcripts or measured levels.",
+      "possible_solution": "Listen to the38.333second shared English master, especially the Picking up something extra question, scanner/analysis entitlement sentence,0.753second relief-to-brand pause, Abgehakt and finalEUR3.99. Replace a complete passage only if an actual listening defect is heard; never splice syllables or accelerate speech.",
+      "evidence": [
+        "audio/validation.json",
+        "audio/master.m4a",
+        "speech-generation.json"
+      ],
+      "subjective_listening": false
+    },
+    {
+      "id": "PRO-EN-F06",
+      "severity": "P2",
+      "status": "scope_limit_documented",
+      "roles": [
+        "Product",
+        "Trust"
+      ],
+      "finding": "Native lookup and group fixture screenshots demonstrate app states, not a recorded live camera scan or real two-device backend test.",
+      "possible_solution": "Retain this documented limit; validate real scanner/network separately before claiming live end-to-end footage. No such claim is added to the film.",
+      "evidence": [
+        "facts.csv",
+        "sources/capture/EnglishDetailVideoCapture.kt"
+      ]
+    }
+  ],
+  "subjective_listening": false,
+  "published_by_this_agent": false
+}
