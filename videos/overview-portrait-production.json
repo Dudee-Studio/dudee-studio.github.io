@@ -1,0 +1,67 @@
+{
+  "version": "V10 Hochformat",
+  "storage_branch": "media/abgehakt-hochformat-v10",
+  "website_embedded": false,
+  "website_deployed": false,
+  "reason": "Zusätzliche Handyfassung auf ausdrücklichen Wunsch nur im Repository; produktiver Mainbranch unverändert.",
+  "files": {
+    "einkaufsliste-gerichte-hochformat.mp4": {
+      "sha256": "36878340bf7e069a41c203b1d1bdf197885a3eec866cc78a6bad19324f3d4283",
+      "bytes": 4828087
+    },
+    "overview-portrait-de.vtt": {
+      "sha256": "a01e695702077649aca6fe89adfd32c910d588e76b9769791749d457828361b9",
+      "bytes": 2357
+    },
+    "overview-portrait-poster.jpg": {
+      "sha256": "c17e58ad7caefabbc6d87dc8085e658139f5a44de833f98c57868971aea83fdf",
+      "bytes": 144857
+    }
+  },
+  "video": {
+    "duration_seconds": 55,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "fps": "30/1",
+    "frames": 1650,
+    "codec": "H.264 / yuv420p / BT.709",
+    "audio": "AAC / 48000Hz / stereo"
+  },
+  "source_landscape": {
+    "file": "videos/einkaufsliste-gerichte.mp4",
+    "sha256": "301448d8c3781725806f136c1f54bbb249424ab5c2885e9c9e1e4175136106d0",
+    "commit": "bf6cd83"
+  },
+  "checks": {
+    "full_decode": "passed",
+    "black_frames_detected": false,
+    "audio_payload_identical": true,
+    "audio_payload_hash": "SHA256=12c7f21edf45c0731c16e8306073c08cb51eb1c807dc5ad2e2d19ced859b2cd3",
+    "audio_summary": "Summary:\n\n  Integrated loudness:\n    I:         -16.1 LUFS\n    Threshold: -26.1 LUFS\n\n  Loudness range:\n    LRA:         3.6 LU\n    Threshold: -36.1 LUFS\n    LRA low:   -18.1 LUFS\n    LRA high:  -14.6 LUFS\n\n  True peak:\n    Peak:       -2.4 dBFS\n[out#0/null @ 0x5627c345fbc0] video:709KiB audio:10316KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe= 1650 fps=505 q=-0.0 Lsize=N/A time=00:00:55.00 bitrate=N/A speed=16.8x",
+    "source_cut_boundaries_exact_30fps": true,
+    "cut_boundaries_sampled": 26,
+    "full_app_shots_checked": 12,
+    "app_frame_px": [
+      168,
+      152,
+      744,
+      1488
+    ],
+    "app_source_px": [
+      1080,
+      2160
+    ],
+    "caption_pixel_checks": 23,
+    "caption_safezone_px": [
+      72,
+      1660,
+      936,
+      180
+    ],
+    "caption_mode": "Deutsche Untertitel eingebrannt; VTT mit identischen Zeiten zusätzlich vorhanden.",
+    "subjective_audio": "nicht gehört; emotionale Wirkung, Klangfarbe, Groove und subjektive Verständlichkeit nicht geprüft. Payloadgleichheit belegt unveränderten Ton."
+  },
+  "review": "Abgehakt V10 Hochformat – Abschlussreview, 19.10.2026\nPrüfmuster: /workspace/artifacts/abgehakt-video-v10-hochformat/abgehakt-hochformat.mp4\nSHA-256: 36878340bf7e069a41c203b1d1bdf197885a3eec866cc78a6bad19324f3d4283\nGeprüfter Stand: 55,000s · 1080×1920 · 30fps · 1.650 Frames · H.264/yuv420p/BT.709/limited · AAC 48 kHz Stereo.\nGröße: 4,828,087Bytes.\n\nErgebnis: beauftragte Handyfassung fertig. Deutsche Untertitel eingebrannt; optionale saubere Fassung, zeitgleiche VTT und Poster vorhanden. Keine P0-/P1-Befunde in den ausgeführten Prüfungen. Keine Website-/Repositoryänderung durch diesen Agenten.\n\nBild/Schnitt: tatsächliche Exportframes aller27 Einstellungen und52 Frames direkt vor/nach allen26 Schnitten extrahiert. Endexportkontaktbogen und360 px-Handyansicht visuell angesehen. Alle Schnittgrenzen sind die ursprünglichen30-fps-Grenzen. Kein Kamerawackeln/Zoom; feste Bilder. Gerichte vor Artikeln/Milch, Tomaten abhaken, Kosten 70,10/57,12/12,98. Handy 42–43, Claim 43–47 und Markenpause 47–48 erhalten.\nApp: alle 12 Appshots enthalten die vollständige echte1080×2160-Aufnahme in[168,152,744,1488], Maßstab31/45. Navigation bleibt sichtbar, soweit in der Quelle vorhanden. Alle Quell-Fokusrechtecke unabhängig rechnerisch transformiert und im Endexport überprüft. Rahmen liegt außen, Umgebungsabdunklung nur11,76%.\nUntertitel: alle 23 Cues auf tatsächliche Pixeländerungen zwischen sauberem und untertiteltem Export geprüft. Erfasste Y-Grenzen1716–1840 liegen innerhalb1660–1840. Maximal 2 Zeilen, Schrift 52 px. Keine Verdeckung der App/Fotografie. VTT hat identische Cuezeiten und denselben Wortlaut.\nPro 48–55: drei eigenständige vertikale editierbare SVG-Seiten; vorhandene Symbole/Fotos; jeweils ein Nutzen, „Die Pro-Version“, kein Preis, keine erfundene UI und keine behauptete Scan-/Sync-Vorführung.\n\nFindings/Status:\nF01 (P2, Layout) – behoben: Tasche 13,27–15 s, Tomaten 18–19,5 s, Handy 42–43s und Spielbrett 45,3–46,3 s waren in der ersten Portraitsichtung zu klein. Jetzt größere feste Detailcrops: Tasche mit tragender Hand, Tomatenhand/Korb mit erkennbarer Milch/Penne, vollständiges Handy mit Hand, Kinderhand/Spielbrett ohne angeschnittenes Gesicht. Paar-/Familienansichten bleiben großzügig gerahmt, alle Gesichter sichtbar. Kein neuer Inhalt.\nK01–K03 aus dem Konzeptreview umgesetzt: größere vollständige App; gezielte Fotocrops; eigenständige vertikale Pro-Grafiken.\nGrenze der Bildprüfung: Stichproben aller festen Einstellungen und aller Schnittseiten, keine behauptete unabhängige Zuschauerstudie. Kleine UI-Nebentexte bleiben auf360 px klein; Kernbeträge, Fokus und Untertitel sind im360 px-Prüfbild erkennbar.\n\nTechnik: vollständiges FFmpeg-Decoding mit -xerror bestanden. blackdetect meldet keine Schwarzbilder; keine Stille ≥ 1 s unter −50 dBFS. Formale Szenenprüfung einschließlich Dateien bestanden.\nAudio: vorhandener AAC-Stream wurde ohne Neucodierung kopiert. Payload-SHA-256 in Querformat und beiden Portraitfassungen identisch:\nSHA256=12c7f21edf45c0731c16e8306073c08cb51eb1c807dc5ad2e2d19ced859b2cd3\nGemessen am endgültigen MP4: −16,1 LUFS integriert, LRA 3,6 LU, True-Peak-Scanner −2,4 dBFS. Kein neuer Klang, kein Mixeingriff.\nHörgrenze: Ton nicht subjektiv gehört. Emotion, Stimmfarbe, Groove und subjektive Verständlichkeit sind nicht geprüft; Hashgleichheit und Pegelmessung ersetzen keine Hörprüfung.\n\nLieferung:\nabgehakt-hochformat.mp4 – praktische Handyfassung mit Untertiteln\nabgehakt-hochformat-clean.mp4 – optionale saubere Fassung\nabgehakt-hochformat-de.vtt – gleiche Untertitelzeiten\nposter.jpg – tatsächlicher finaler Exportframe23,8 s\nproduce.py / manifest.py / validate.py – wiederholbare Produktion/Daten/Prüfung\nvalidation.json / review/ – Messdaten, Frames,360-px-Minivorschau und Decode-Log\nart/pro-*-hochformat.svg – editierbare Pro-Grafiken\n"
+}

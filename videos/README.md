@@ -8,6 +8,13 @@ Technischer Produktionsnachweis mit SHA-256: `overview-production.json`. Beide O
 
 Wiedergabeprüfung: `python tools/serve-preview.py --port 8765`, danach `python tools/check-project-page.py http://127.0.0.1:8765`. Mobile/Desktop, hell/dunkel, Untertitel und exklusiver Ton werden an der tatsächlich geladenen Datei geprüft.
 
+
+## Handyfassung im Repository
+
+`einkaufsliste-gerichte-hochformat.mp4` ist die zusätzliche 55-Sekunden-Fassung in 1080×1920 (9:16), 30 fps, mit eingebrannten deutschen Untertiteln. Appansichten bleiben vollständig und proportional, Kapitel und Untertitel sind für das Hochformat neu gesetzt. Die Fotoausschnitte stehen fest; der vorhandene Ton und die Schnittfolge bleiben erhalten. Die beiliegende `overview-portrait-de.vtt` enthält dieselben Untertitelzeiten; zur Fassung mit eingebrannten Untertiteln keine zweite Untertitelspur aktivieren.
+
+Die Dateien liegen ausschließlich auf dem Medienbranch `media/abgehakt-hochformat-v10`, neben der Querformatdatei im Ordner `videos/`. Der produktive Mainbranch und die Website-Einbindung werden damit nicht geändert. Technische Messwerte, Quellenbindung und Review: `overview-portrait-production.json`.
+
 ---
 
 # Archiv früherer Produktionen
