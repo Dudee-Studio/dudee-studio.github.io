@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "browser_checks": [
+    {
+      "language": "de",
+      "viewport": 390,
+      "theme": "light",
+      "films_played": 6
+    },
+    {
+      "language": "en",
+      "viewport": 390,
+      "theme": "light",
+      "films_played": 6
+    },
+    {
+      "language": "de",
+      "viewport": 390,
+      "theme": "dark",
+      "films_played": 6
+    },
+    {
+      "language": "en",
+      "viewport": 390,
+      "theme": "dark",
+      "films_played": 6
+    },
+    {
+      "language": "de",
+      "viewport": 1440,
+      "theme": "light",
+      "films_played": 6
+    },
+    {
+      "language": "en",
+      "viewport": 1440,
+      "theme": "light",
+      "films_played": 6
+    },
+    {
+      "language": "de",
+      "viewport": 1440,
+      "theme": "dark",
+      "films_played": 6
+    },
+    {
+      "language": "en",
+      "viewport": 1440,
+      "theme": "dark",
+      "films_played": 6
+    }
+  ],
+  "static_local_links_verified": 148,
+  "source_hashes_verified": 6,
+  "portrait_embedded": false,
+  "autoplay": false,
+  "download_offer": false,
+  "language_selector": "All five equivalent page pairs, DE/EN, URL-based without cookies.",
+  "audio_review": "Existing approved masters retained; this check verifies playback/captions, not subjective voice quality."
+}

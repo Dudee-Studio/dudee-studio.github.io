@@ -89,7 +89,9 @@
   "website": {
     "autoplay": false,
     "download_link": false,
-    "portrait_embedded": true,
-    "format_selector": true
+    "portrait_embedded": false,
+    "format_selector": false,
+    "landscape_gallery": true,
+    "portrait_repository_branch": "media/abgehakt-portrait-20261019"
   }
 }

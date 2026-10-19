@@ -1,0 +1,89 @@
+{
+  "authorization": "Nutzer: alle Querformatfilme mit kleinen Vorschauen auf die Website; Hochformate ausschließlich ins Repo.",
+  "films": [
+    {
+      "id": "overview-de",
+      "title_de": "Dein Einkauf im Griff",
+      "title_en": "Shopping, sorted.",
+      "language": "de",
+      "duration_sec": 59,
+      "src": "videos/einkaufsliste-gerichte.mp4",
+      "captions": "videos/overview-de.vtt",
+      "poster": "assets/einkaufsliste/videos/overview-de.jpg",
+      "sha256": "9f2b5b7943dc7b14323460e0dcaf3d13f83c977f4d48ac7e8417e74c908846c2",
+      "bytes": 8334944,
+      "source": "/workspace/artifacts/abgehakt-video-v13",
+      "preview": false
+    },
+    {
+      "id": "overview-en",
+      "title_de": "Overview · English",
+      "title_en": "Overview · English",
+      "language": "en",
+      "duration_sec": 54.833333,
+      "src": "videos/abgehakt-overview-en.mp4",
+      "captions": "videos/overview-en.vtt",
+      "poster": "assets/einkaufsliste/videos/overview-en.jpg",
+      "sha256": "262eda685aa142c8d07e3087b92da6332b311eae16e78e8ec79b4530ce69d0ae",
+      "bytes": 7814213,
+      "source": "/workspace/artifacts/abgehakt-main-en-v1",
+      "preview": false
+    },
+    {
+      "id": "kostenlos",
+      "title_de": "Kostenlose Funktionen",
+      "title_en": "Free features",
+      "language": "de",
+      "duration_sec": 47,
+      "src": "videos/abgehakt-kostenlos.mp4",
+      "captions": "videos/kostenlos-de.vtt",
+      "poster": "assets/einkaufsliste/videos/kostenlos.jpg",
+      "sha256": "72409fda41534c7f027b781af65150cbbffeca6d53a194090930417866df34d2",
+      "bytes": 3100243,
+      "source": "/workspace/artifacts/abgehakt-weitere-videos-v2/kostenlos",
+      "preview": false
+    },
+    {
+      "id": "pro-version",
+      "title_de": "Die Pro-Version",
+      "title_en": "The Pro version",
+      "language": "de",
+      "duration_sec": 37,
+      "src": "videos/abgehakt-pro-version.mp4",
+      "captions": "videos/pro-version-de.vtt",
+      "poster": "assets/einkaufsliste/videos/pro-version.jpg",
+      "sha256": "2da88ab733d1a3557eaaeffa3726494f225f7159870bcc71d963bf897db2b133",
+      "bytes": 2505362,
+      "source": "/workspace/artifacts/abgehakt-weitere-videos-v2/pro-version",
+      "preview": false
+    },
+    {
+      "id": "analyse",
+      "title_de": "Ausgaben verstehen",
+      "title_en": "Understand spending",
+      "language": "de",
+      "duration_sec": 27.7,
+      "src": "videos/abgehakt-analyse.mp4",
+      "captions": "videos/analyse-de.vtt",
+      "poster": "assets/einkaufsliste/videos/analyse.jpg",
+      "sha256": "0e7cd7ce186fb7abe580787de0a92f468a676e27f74c502aa1e74cd832860c33",
+      "bytes": 2698008,
+      "source": "/workspace/artifacts/abgehakt-analyse-v4",
+      "preview": false
+    },
+    {
+      "id": "community",
+      "title_de": "Community-Katalog · 1.1",
+      "title_en": "Community catalog · 1.1",
+      "language": "de",
+      "duration_sec": 33,
+      "src": "videos/abgehakt-community-katalog.mp4",
+      "captions": "videos/community-de.vtt",
+      "poster": "assets/einkaufsliste/videos/community.jpg",
+      "sha256": "1b4475b2b80c2e47f6ee34c50c5ae00cc31f2cc2371290f1fd9c34515605708f",
+      "bytes": 2767055,
+      "source": "/workspace/artifacts/abgehakt-weitere-videos-v2/artikelkatalog-1-1",
+      "preview": true
+    }
+  ]
+}

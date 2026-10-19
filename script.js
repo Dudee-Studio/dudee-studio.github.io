@@ -22,12 +22,40 @@ document.querySelectorAll('.media').forEach(function (el) {
 /* Intro-Banner auf der Startseite: Hier wird später die three.js-Animation oder das Intro-Video eingebaut. */
 
 /* Videos dürfen sich nicht gegenseitig mit Musik überlagern. */
-document.querySelectorAll('.video-formats input').forEach(function (input) {
-  input.addEventListener('change', function () {
-    input.closest('.video-formats').querySelectorAll('video').forEach(function (video) {
-      video.pause();
+/* A visible preview gallery selects one large player. Playback follows a click. */
+var projectPlayer = document.getElementById('abgehakt-player');
+if (projectPlayer) {
+  document.querySelectorAll('.video-choice').forEach(function (choice) {
+    choice.addEventListener('click', function (event) {
+      if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      var captions = projectPlayer.querySelector('track');
+      var showCaptions = captions.track.mode === 'showing';
+      projectPlayer.pause();
+      projectPlayer.querySelector('source').src = choice.href;
+      projectPlayer.poster = choice.dataset.poster;
+      projectPlayer.setAttribute('aria-label', choice.dataset.title);
+      captions.src = choice.dataset.captions;
+      captions.srclang = choice.dataset.language;
+      captions.label = choice.dataset.language === 'en' ? 'English' : 'Deutsch';
+      document.getElementById('selected-video-title').textContent = choice.dataset.title;
+      document.getElementById('selected-video-info').textContent = choice.dataset.info;
+      document.querySelectorAll('.video-choice').forEach(function (other) {
+        if (other === choice) other.setAttribute('aria-current', 'true');
+        else other.removeAttribute('aria-current');
+      });
+      projectPlayer.load();
+      captions.track.mode = showCaptions ? 'showing' : 'disabled';
+      projectPlayer.play().catch(function () { /* Native controls remain available. */ });
+      projectPlayer.focus({ preventScroll: true });
+      projectPlayer.scrollIntoView({ block: 'center', behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
     });
   });
+}
+
+/* Language links work without JavaScript; preserve an open section when present. */
+document.querySelectorAll('[data-language-switch]').forEach(function (link) {
+  if (location.hash) link.href += location.hash;
 });
 document.querySelectorAll('video').forEach(function (video) {
   video.addEventListener('play', function () {
