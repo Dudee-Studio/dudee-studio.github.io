@@ -2,14 +2,15 @@
 """Build static English pages and the shared DE/EN video gallery; no runtime service."""
 from pathlib import Path
 import html,json,re
+from help_content import document as help_document
 
 R=Path(__file__).resolve().parents[1]
-PAGES={'index.html':'index.html','projekte.html':'projects.html','kontakt.html':'contact.html','impressum.html':'legal.html','datenschutz.html':'privacy.html'}
+PAGES={'index.html':'index.html','projekte.html':'projects.html','kontakt.html':'contact.html','impressum.html':'legal.html','datenschutz.html':'privacy.html','hilfe.html':'help.html'}
 FILMS=json.loads((R/'videos/library.json').read_text())['films']
 esc=lambda v:html.escape(str(v),quote=True)
 def header(page,lang):
     en=lang=='en';root='/en/' if en else '/'
-    links=[('index.html','Home' if en else 'Start'),('projekte.html','Projects' if en else 'Projekte'),('kontakt.html','Contact' if en else 'Kontakt')]
+    links=[('index.html','Home' if en else 'Start'),('projekte.html','Projects' if en else 'Projekte'),('kontakt.html','Contact' if en else 'Kontakt'),('hilfe.html','Help' if en else 'Hilfe')]
     nav=''.join(f'<a href="{root+(PAGES[p] if en else p) if p!="index.html" else root}"'+(' aria-current="page"' if p==page else '')+f'>{title}</a>' for p,title in links)
     langs=''.join(f'<a href="{url}" lang="{code}" hreflang="{code}" data-language-switch'+(' aria-current="true"' if code==lang else '')+f'>{code.upper()}</a>' for code,url in [('de','/' if page=='index.html' else '/'+page),('en','/en/' if page=='index.html' else '/en/'+PAGES[page])])
     return f'<header class="top"><a class="brand" href="{root}">Dudee Studio</a><nav aria-label="'+('Main navigation' if en else 'Hauptnavigation')+f'">{nav}<span class="language-switch" role="group" aria-label="'+('Language' if en else 'Sprache')+f'">{langs}</span></nav></header>'
@@ -26,7 +27,7 @@ def gallery(lang):
     cards=''
     for f in films:
         seconds=round(f['duration_sec']);duration=f'{seconds//60}:{seconds%60:02d}'
-        cards+=f'''<a class="video-choice" href="{url(f['src'])}" data-title="{esc(title(f))}" data-info="{esc(info(f))}" data-poster="{url(f['poster'])}" data-captions="{url(f['captions'])}" data-language="{f['language']}" data-preview="{str(f['preview']).lower()}"'''+(' aria-current="true"' if f==first else '')+(' id="artikelkatalog-1-1"' if f['id']=='community' else '')+f''' aria-label="{esc(title(f)+', '+label(f)+', '+duration)}"><span class="video-preview"><img src="{url(f['poster'])}" alt="" width="640" height="360" loading="lazy"><span class="video-play" aria-hidden="true">▶</span><span class="video-duration">{duration}</span></span><span class="video-title">{esc(title(f))}</span><span class="video-language">{label(f)}</span></a>'''
+        cards+=f'''<a class="video-choice" href="{url(f['src'])}" data-title="{esc(title(f))}" data-info="{esc(info(f))}" data-poster="{url(f['poster'])}" data-captions="{url(f['captions'])}" data-language="{f['language']}" data-preview="{str(f['preview']).lower()}"'''+(' aria-current="true"' if f==first else '')+(' id="artikelkatalog-1-1"' if f['id'].startswith('community') else '')+f''' aria-label="{esc(title(f)+', '+label(f)+', '+duration)}"><span class="video-preview"><img src="{url(f['poster'])}" alt="" width="640" height="360" loading="lazy"><span class="video-play" aria-hidden="true">▶</span><span class="video-duration">{duration}</span></span><span class="video-title">{esc(title(f))}</span><span class="video-language">{label(f)}</span></a>'''
     return f'''<figure class="project-demo">
           <div class="media" id="abgehakt-player-wrap"><video id="abgehakt-player" controls controlslist="nodownload" playsinline preload="none" poster="{url(first['poster'])}" width="1920" height="1080" aria-label="{esc(title(first))}" aria-describedby="selected-video-info"><source src="{url(first['src'])}" type="video/mp4"><track kind="captions" src="{url(first['captions'])}" srclang="{first['language']}" label="{label(first)}">'''+('Please use a current browser to play this video.' if en else 'Bitte nutze einen aktuellen Browser zur Videowiedergabe.')+f'''</video></div>
           <div class="video-gallery" id="abgehakt-videos"><h4>Videos</h4><nav class="video-grid" aria-label="'''+('Choose a video' if en else 'Video auswählen')+f'''">{cards}</nav></div>
@@ -36,16 +37,16 @@ def common(doc,page,lang):
     en=lang=='en';doc=doc.replace('<html lang="de">',f'<html lang="{lang}">')
     doc=re.sub(r'<header class="top">.*?</header>',header(page,lang),doc,flags=re.S)
     doc=re.sub(r'<footer>.*?</footer>',footer(lang,page),doc,flags=re.S)
-    doc=re.sub(r'<link rel="stylesheet" href="[^"]+">','<link rel="stylesheet" href="/style.css?v=11">',doc)
+    doc=re.sub(r'<link rel="stylesheet" href="[^"]+">','<link rel="stylesheet" href="/style.css?v=12">',doc)
     doc=re.sub(r'<script src="[^"]*script.js[^"]*"></script>','',doc)
-    doc=doc.replace('</body>','<script src="/script.js?v=4"></script>\n</body>')
+    doc=doc.replace('</body>','<script src="/script.js?v=5"></script>\n</body>')
     doc=re.sub(r'<link rel="(?:alternate|canonical)"[^>]*>\s*','',doc)
     de='https://dudee-studio.com/'+('' if page=='index.html' else page)
     english='https://dudee-studio.com/en/'+('' if page=='index.html' else PAGES[page])
     doc=doc.replace('</head>',f'<link rel="alternate" hreflang="de" href="{de}">\n<link rel="alternate" hreflang="en" href="{english}">\n<link rel="canonical" href="{english if en else de}">\n</head>')
     return re.sub(r'\n{3,}', '\n\n', doc)
 PROJECT_TEXT={
- 'Projekte | Dudee Studio':'Projects | Dudee Studio',
+ 'Projekte | Dudee Studio':'Projects | Dudee Studio', '>Anleitungen<':'>Help &amp; guides<',
  'Abgehakt: Dein Einkauf im Griff. Einkaufslisten, Gerichte und Angebote – mit kostenloser Basis und optionalem Pro. Eine Android-App von Dudee Studio.':'Abgehakt: Shopping, sorted. Shopping lists, dishes and offers, with a free core and an optional Pro version. An Android app by Dudee Studio.',
  '>Projekte<':'>Projects<','>Aktuelle Projekte<':'>Current projects<','>Android-App<':'>Android app<','>In Entwicklung<':'>In development<',
  'Dein Einkauf im Griff.':'Shopping, sorted.',
@@ -70,8 +71,9 @@ PROJECT_TEXT={
 def main():
     (R/'en').mkdir(exist_ok=True)
     for page,target in PAGES.items():
-        doc=(R/page).read_text()
+        doc=help_document('de') if page=='hilfe.html' else (R/page).read_text()
         if page=='projekte.html':
+            if 'class="help-link"' not in doc:doc=doc.replace('<div class="buttons">','<div class="buttons"><a class="btn help-link" href="hilfe.html">Anleitungen</a>')
             doc=re.sub(r'<figure class="project-demo">.*?</figure>',gallery('de'),doc,count=1,flags=re.S)
             doc=re.sub(r'\s*<details class="(?:teaser-details|catalog-details)".*?</details>','',doc,flags=re.S)
             doc=doc.replace('<dt>Pro</dt>','<dt>Pro-Version</dt>')
@@ -95,6 +97,8 @@ def main():
             for de,english in {'Kontakt | Dudee Studio':'Contact | Dudee Studio','So erreichen Sie Dudee Studio.':'Get in touch with Dudee Studio.','>Kontakt<':'>Contact<','Fragen zu meinen Apps und Spielen oder zur Zusammenarbeit? Schreiben Sie mir eine E-Mail.':'Questions about my apps, games or working together? Send me an email.'}.items():en=en.replace(de,english)
         elif page=='impressum.html':
             for de,english in {'Impressum | Dudee Studio':'Legal notice | Dudee Studio','Impressum von Dudee Studio.':'Legal information for Dudee Studio.','>Impressum<':'>Legal notice<','Angaben gemäß § 5 DDG':'Information under Section 5 of the German Digital Services Act (DDG)','>Kontakt<':'>Contact<','E-Mail:':'Email:','Verantwortlich für den Inhalt':'Responsible for content','Eike Dudel, Anschrift wie oben (§ 18 Abs. 2 MStV)':'Eike Dudel, address as above (Section 18(2) of the German Interstate Media Treaty, MStV)'}.items():en=en.replace(de,english)
+        elif page=='hilfe.html':
+            en=help_document('en')
         else:
             en=en.replace('Datenschutz | Dudee Studio','Privacy | Dudee Studio').replace('Datenschutzerklärung von Dudee Studio.','Privacy statement for Dudee Studio.')
             en=re.sub(r'<main>.*?</main>','<main>\n'+(R/'tools/i18n/privacy.en.html').read_text()+'\n  </main>',en,flags=re.S)

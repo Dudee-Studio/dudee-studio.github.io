@@ -24,9 +24,9 @@
       "src": "videos/abgehakt-overview-en.mp4",
       "captions": "videos/overview-en.vtt",
       "poster": "assets/einkaufsliste/videos/overview-en.jpg",
-      "sha256": "262eda685aa142c8d07e3087b92da6332b311eae16e78e8ec79b4530ce69d0ae",
-      "bytes": 7814213,
-      "source": "/workspace/artifacts/abgehakt-main-en-v1",
+      "sha256": "c972a0035c77ff631160d5571503d5fb44b1c606096fb3b18e20388fb11780d2",
+      "bytes": 7814300,
+      "source": "/workspace/artifacts/abgehakt-main-en-v2",
       "preview": false
     },
     {
@@ -83,6 +83,62 @@
       "sha256": "1b4475b2b80c2e47f6ee34c50c5ae00cc31f2cc2371290f1fd9c34515605708f",
       "bytes": 2767055,
       "source": "/workspace/artifacts/abgehakt-weitere-videos-v2/artikelkatalog-1-1",
+      "preview": true
+    },
+    {
+      "id": "kostenlos-en",
+      "title_de": "Kostenlose Funktionen · English",
+      "title_en": "Free features",
+      "language": "en",
+      "duration_sec": 46.533333,
+      "src": "videos/abgehakt-kostenlos-en.mp4",
+      "captions": "videos/kostenlos-en.vtt",
+      "poster": "assets/einkaufsliste/videos/kostenlos-en.jpg",
+      "sha256": "2589a6592e18f82140320caaaba96e939085cfa97c202c8cf6779845a805e8f4",
+      "bytes": 3365931,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/kostenlos",
+      "preview": false
+    },
+    {
+      "id": "pro-version-en",
+      "title_de": "Die Pro-Version · English",
+      "title_en": "The Pro version",
+      "language": "en",
+      "duration_sec": 38.333333,
+      "src": "videos/abgehakt-pro-version-en.mp4",
+      "captions": "videos/pro-version-en.vtt",
+      "poster": "assets/einkaufsliste/videos/pro-version-en.jpg",
+      "sha256": "5151753a771ee920e3104eaadbac0b367a1babfe53f679b4b94985a9af323cf9",
+      "bytes": 3038188,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/pro-version",
+      "preview": false
+    },
+    {
+      "id": "analyse-en",
+      "title_de": "Ausgaben verstehen · English",
+      "title_en": "Understand spending",
+      "language": "en",
+      "duration_sec": 27.1,
+      "src": "videos/abgehakt-analyse-en.mp4",
+      "captions": "videos/analyse-en.vtt",
+      "poster": "assets/einkaufsliste/videos/analyse-en.jpg",
+      "sha256": "d36c4bbbfd031e197e8a5fd92a3a0f33dd50c8a45b0e5207476dea2f3e122be5",
+      "bytes": 3384083,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/analyse",
+      "preview": false
+    },
+    {
+      "id": "community-en",
+      "title_de": "Community-Katalog · English",
+      "title_en": "Community-made catalog · 1.1",
+      "language": "en",
+      "duration_sec": 33.033333,
+      "src": "videos/abgehakt-community-katalog-en.mp4",
+      "captions": "videos/community-en.vtt",
+      "poster": "assets/einkaufsliste/videos/community-en.jpg",
+      "sha256": "8b5193c51f52db96d9cd8f907fe6ca1438b334db5b3ad0acff78b61c8af4517b",
+      "bytes": 3013779,
+      "source": "/workspace/artifacts/abgehakt-details-en-v1/artikelkatalog-1-1",
       "preview": true
     }
   ]

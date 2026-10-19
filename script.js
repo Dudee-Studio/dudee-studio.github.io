@@ -64,3 +64,32 @@ document.querySelectorAll('video').forEach(function (video) {
     });
   });
 });
+
+/* Search is an enhancement; all guides and anchors also work without scripts. */
+var helpSearch = document.getElementById('help-search');
+if (helpSearch) {
+  helpSearch.addEventListener('input', function () {
+    var query = helpSearch.value.trim().toLocaleLowerCase(document.documentElement.lang);
+    var count = 0;
+    document.querySelectorAll('.help-case').forEach(function (guide) {
+      var matches = !query || guide.textContent.toLocaleLowerCase(document.documentElement.lang).includes(query);
+      guide.hidden = !matches;
+      if (matches) count++;
+    });
+    document.querySelectorAll('.help-group').forEach(function (group) {
+      group.hidden = !group.querySelector('.help-case:not([hidden])');
+    });
+    document.getElementById('help-no-results').hidden = count > 0;
+  });
+}
+function revealHelpAnchor() {
+  var id;
+  try { id = decodeURIComponent(location.hash.slice(1)); } catch (_) { return; }
+  var guide = document.getElementById(id);
+  if (guide && guide.classList.contains('help-case')) {
+    guide.open = true;
+    guide.scrollIntoView({ block: 'start' });
+  }
+}
+revealHelpAnchor();
+window.addEventListener('hashchange', revealHelpAnchor);

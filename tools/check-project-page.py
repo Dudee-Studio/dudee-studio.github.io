@@ -14,7 +14,7 @@ root = Path(__file__).resolve().parents[1]
 films = json.loads((root / 'videos/library.json').read_text())['films']
 pairs = [('/', '/en/'), ('/projekte.html', '/en/projects.html'),
          ('/kontakt.html', '/en/contact.html'), ('/impressum.html', '/en/legal.html'),
-         ('/datenschutz.html', '/en/privacy.html')]
+         ('/datenschutz.html', '/en/privacy.html'), ('/hilfe.html','/en/help.html')]
 proof = Path('/tmp/abgehakt-site-check'); proof.mkdir(exist_ok=True)
 results = []
 with sync_playwright() as p:
@@ -74,6 +74,8 @@ with sync_playwright() as p:
                     cues = video.evaluate('(v) => Array.from(v.textTracks[0].cues).map(c => c.text).join(" ")')
                     if film['id'] == 'analyse':
                         assert 'Vergleiche deine Ausgaben pro Markt.' in ' '.join(cues.split()), cues
+                    if film['id'] == 'analyse-en':
+                        assert 'Compare your spending by store.' in ' '.join(cues.split()), cues
                     if film['id'] == 'overview-en':
                         assert 'Pro version' in cues, cues
                     assert page.locator('#selected-video-title').inner_text() == card.get_attribute('data-title')

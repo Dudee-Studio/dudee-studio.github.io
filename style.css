@@ -202,3 +202,21 @@ footer nav { font-size: .95rem; gap: 8px 20px; }
 .teaser-details summary:focus-visible, .catalog-details summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
 .teaser-demo { max-width: 900px; margin: 24px auto 8px; }
 .teaser-demo figcaption { color: var(--muted); font-size: .85rem; margin-top: 12px; }
+
+/* Shared app help: task titles first, numbered steps only when opened. */
+.help-intro { margin-block: 16px 20px; }
+.help-page { max-width: 780px; }
+.help-search { display: grid; gap: 6px; max-width: 32rem; font-size: .95rem; }
+.help-search input { width: 100%; font: inherit; padding: 10px 12px; color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
+.help-search input:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.help-group { margin-top: 30px; }
+.help-group h2 { font-size: 1.3rem; margin-bottom: 12px; }
+.help-case { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; margin-bottom: 10px; scroll-margin-top: 20px; }
+.help-case summary { cursor: pointer; padding: 14px 16px; }
+.help-case summary span { font-weight: 650; }
+.help-case summary small { display: block; margin-top: 4px; padding-left: 19px; color: var(--muted); font-size: .8rem; }
+.help-case ol { padding: 0 22px 0 42px; margin-bottom: 16px; }
+.help-case li + li { margin-top: 8px; }
+.help-note { padding: 0 16px 16px; font-size: .9rem; color: var(--muted); margin: 0; }
+.help-back { margin-top: 28px; }
+[hidden] { display: none !important; }

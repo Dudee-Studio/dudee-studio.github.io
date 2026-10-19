@@ -1,0 +1,1074 @@
+{
+  "schema": 1,
+  "app": "Abgehakt",
+  "languages": [
+    "de",
+    "en"
+  ],
+  "groups": {
+    "vorbereiten": {
+      "de": "Vorbereiten",
+      "en": "Plan ahead"
+    },
+    "gerichte": {
+      "de": "Gerichte & Anlässe",
+      "en": "Dishes & occasions"
+    },
+    "einkaufen": {
+      "de": "Einkaufen",
+      "en": "Shopping"
+    },
+    "organisieren": {
+      "de": "Artikel & Märkte organisieren",
+      "en": "Organize items & stores"
+    },
+    "ausgaben": {
+      "de": "Ausgaben verstehen",
+      "en": "Understand spending"
+    },
+    "gemeinsam": {
+      "de": "Gemeinsam planen",
+      "en": "Plan together"
+    },
+    "pro": {
+      "de": "Scanner & Suche",
+      "en": "Scanner & search"
+    },
+    "einstellungen": {
+      "de": "Einstellungen & Sicherung",
+      "en": "Settings & backup"
+    },
+    "community": {
+      "de": "Community-Katalog · Vorschau 1.1",
+      "en": "Community catalog · preview 1.1"
+    }
+  },
+  "access": {
+    "free": {
+      "de": "Kostenlos",
+      "en": "Free"
+    },
+    "free-sync": {
+      "de": "Lokal kostenlos · Gruppen-Sync mit Pro-Version",
+      "en": "Free locally · group sync with Pro"
+    },
+    "pro": {
+      "de": "Pro-Version",
+      "en": "Pro version"
+    },
+    "join": {
+      "de": "Beitritt kostenlos",
+      "en": "Free to join"
+    },
+    "preview-pro": {
+      "de": "Vorschau 1.1 · Pro-Version",
+      "en": "Preview 1.1 · Pro version"
+    },
+    "preview-free": {
+      "de": "Vorschau 1.1 · kostenlos",
+      "en": "Preview 1.1 · free"
+    }
+  },
+  "cases": [
+    {
+      "id": "artikel-anlegen",
+      "group": "vorbereiten",
+      "access": "free",
+      "de": {
+        "title": "Einen Artikel anlegen",
+        "steps": [
+          "Öffne Artikel → Neuer Artikel.",
+          "Gib den Namen ein. Falls der Artikel schon vorhanden ist, wähle den angebotenen vorhandenen Artikel.",
+          "Öffne bei Bedarf Weitere Angaben und wähle Abteilung, Einheit, Preis und Markt.",
+          "Tippe auf Anlegen."
+        ],
+        "note": ""
+      },
+      "en": {
+        "title": "Create an item",
+        "steps": [
+          "Open Items → New item.",
+          "Enter a name. If the item already exists, choose the existing suggestion.",
+          "If needed, open More details and choose a category, unit, price and store.",
+          "Tap Create."
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "artikel-vorbereiten",
+      "group": "vorbereiten",
+      "access": "free",
+      "de": {
+        "title": "Vor dem Einkauf die Artikel durchgehen",
+        "steps": [
+          "Öffne Artikel und gehe die Abteilungen von oben nach unten durch.",
+          "Tippe bei benötigten Artikeln auf +. Mit −/+ passt du die Menge an.",
+          "Wechsle zu Gerichte, wenn du Zutaten ergänzen möchtest. Deine Position unter Artikel bleibt erhalten.",
+          "Öffne Liste für deinen Einkauf."
+        ],
+        "note": ""
+      },
+      "en": {
+        "title": "Check your items before shopping",
+        "steps": [
+          "Open Items and work through the categories from top to bottom.",
+          "Tap + for anything you need. Use −/+ to adjust the quantity.",
+          "Switch to Dishes if you want to add ingredients. Your position in Items is kept.",
+          "Open List when you go shopping."
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "artikel-bearbeiten",
+      "group": "vorbereiten",
+      "access": "free",
+      "de": {
+        "title": "Name, Preis oder Einheit ändern",
+        "steps": [
+          "Suche den Artikel unter Artikel und tippe auf seinen Namen. Auf Liste öffnet das Stift-Symbol denselben Editor.",
+          "Ändere den Namen oder öffne Abteilung & Einheit beziehungsweise Preis & Märkte.",
+          "Trage deine Angaben ein und tippe auf Fertig."
+        ],
+        "note": ""
+      },
+      "en": {
+        "title": "Change an item’s name, price or unit",
+        "steps": [
+          "Find the item under Items and tap its name. The pencil icon on List opens the same editor.",
+          "Change the name, or open Category & unit or Price & stores.",
+          "Enter your details and tap Done."
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "foto",
+      "group": "vorbereiten",
+      "access": "free",
+      "de": {
+        "title": "Ein Artikelfoto hinzufügen oder ändern",
+        "steps": [
+          "Öffne unter Artikel den gewünschten Artikel.",
+          "Klappe Foto & Barcode auf. Wähle Foto aufnehmen oder Aus Galerie wählen.",
+          "Wähle bei Bedarf Drehen / zuschneiden und bestätige den Ausschnitt mit Übernehmen.",
+          "Schließe den Artikel mit Fertig."
+        ],
+        "note": ""
+      },
+      "en": {
+        "title": "Add or change an item photo",
+        "steps": [
+          "Open the item under Items.",
+          "Expand Photo & barcode. Choose Take photo or Choose from gallery.",
+          "If needed, choose Rotate / crop and confirm the crop with Apply.",
+          "Close the item with Done."
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "favoriten",
+      "group": "vorbereiten",
+      "access": "free",
+      "de": {
+        "title": "Häufig benötigte Artikel merken",
+        "steps": [
+          "Öffne den Artikel und klappe Vorrat & Favorit auf.",
+          "Aktiviere ★ Favorit und tippe auf Fertig.",
+          "Tippe unter Artikel auf das Stern-Symbol, um nur Favoriten zu sehen."
+        ],
+        "note": ""
+      },
+      "en": {
+        "title": "Mark frequently used items",
+        "steps": [
+          "Open the item and expand Pantry & favorite.",
+          "Enable ★ Favorite and tap Done.",
+          "Tap the star icon in Items to show only favorites."
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "prognose",
+      "group": "vorbereiten",
+      "access": "free",
+      "de": {
+        "title": "Einkaufsvorschläge übernehmen",
+        "steps": [
+          "Öffne Liste → ⋮ → Einkaufsvorschlag.",
+          "Prüfe die vorgeschlagenen Artikel und Mengen. Eingetragener Vorrat ist berücksichtigt.",
+          "Wähle die benötigten Vorschläge aus und tippe auf die Schaltfläche zum Hinzufügen zur Liste."
+        ],
+        "note": "Die Angabe ~ bei einem Artikel ist eine ungefähre Prognose, keine garantierte Verbrauchsmenge."
+      },
+      "en": {
+        "title": "Use shopping suggestions",
+        "steps": [
+          "Open List → ⋮ → Shopping suggestions.",
+          "Check the suggested items and quantities. Your entered pantry stock is taken into account.",
+          "Select what you need and tap the button to add the selection to your list."
+        ],
+        "note": "A ~ quantity on an item is an estimate, not a guaranteed measure of consumption."
+      }
+    },
+    {
+      "id": "regelmaessiger-bedarf",
+      "group": "vorbereiten",
+      "access": "free",
+      "de": {
+        "title": "Einen regelmäßigen Bedarf festlegen",
+        "steps": [
+          "Öffne Liste → ⋮ → Einkaufsvorschlag → Regelmäßigen Bedarf hinzufügen.",
+          "Tippe auf Hinzufügen und wähle einen vorhandenen Artikel.",
+          "Trage Menge, Abstand in Tagen und den nächsten Bedarf ein. Das Datumsformat ist TT.MM.JJJJ.",
+          "Tippe auf Speichern und Fertig. Eine bestehende Regel kannst du dort bearbeiten, pausieren oder löschen."
+        ],
+        "note": "Nach einem gespeicherten Kauf beginnt das Intervall neu."
+      },
+      "en": {
+        "title": "Set up a recurring need",
+        "steps": [
+          "Open List → ⋮ → Shopping suggestions → Add a recurring need.",
+          "Tap Add and choose an existing item.",
+          "Enter the quantity, days between purchases and next needed date. Use DD.MM.YYYY.",
+          "Tap Save and Done. You can also edit, pause or delete an existing rule here."
+        ],
+        "note": "The interval restarts after you save a purchase."
+      }
+    },
+    {
+      "id": "notizen",
+      "group": "vorbereiten",
+      "access": "free",
+      "de": {
+        "title": "Einen kurzen Einkaufshinweis hinterlegen",
+        "steps": [
+          "Öffne den Artikel unter Artikel oder über das Stift-Symbol auf Liste.",
+          "Trage unter Einkaufshinweis zum Beispiel „Bitte ungesüßt“ oder eine Alternative ein.",
+          "Tippe auf Fertig. Der Hinweis steht auch am Artikel auf der Liste."
+        ],
+        "note": ""
+      },
+      "en": {
+        "title": "Leave a short shopping note",
+        "steps": [
+          "Open the item under Items or use its pencil icon on List.",
+          "Enter a Shopping note, such as “Unsweetened, please” or an alternative product.",
+          "Tap Done. The note also appears beside the item on your list."
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "gericht-anlegen",
+      "group": "gerichte",
+      "access": "free",
+      "de": {
+        "title": "Ein Gericht mit Zutaten speichern",
+        "steps": [
+          "Öffne Gerichte → Gerichte → Neues Gericht.",
+          "Trage den Namen ein. Ergänze unter Zutaten mit + Zutat die benötigten Artikel und Mengen.",
+          "Unter Foto & Gruppe kannst du das Gericht zuordnen oder bebildern.",
+          "Tippe auf Speichern."
+        ],
+        "note": ""
+      },
+      "en": {
+        "title": "Save a dish with ingredients",
+        "steps": [
+          "Open Dishes → Dishes → New dish.",
+          "Enter a name. Under Ingredients, use + Ingredient to add items and quantities.",
+          "Under Photo & group, you can organize the dish or add a picture.",
+          "Tap Save."
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "gericht-auf-liste",
+      "group": "gerichte",
+      "access": "free",
+      "de": {
+        "title": "Alle Zutaten eines Gerichts auf die Liste setzen",
+        "steps": [
+          "Öffne Gerichte → Gerichte und tippe auf das Gericht.",
+          "Prüfe die Zutaten und passe die Mengen an. Bereits eingetragener Vorrat ist abgezogen.",
+          "Tippe auf die Schaltfläche zum Übernehmen der ausgewählten Zutaten.",
+          "Wechsle zu Liste und prüfe die ergänzten Artikel."
+        ],
+        "note": ""
+      },
+      "en": {
+        "title": "Add a dish’s ingredients to your list",
+        "steps": [
+          "Open Dishes → Dishes and tap the dish.",
+          "Check the ingredients and adjust quantities. Pantry stock you entered has already been deducted.",
+          "Tap the button to add the selected ingredients.",
+          "Switch to List and check the added items."
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "essensideen",
+      "group": "gerichte",
+      "access": "free-sync",
+      "de": {
+        "title": "Gemeinsam entscheiden: Was essen wir?",
+        "steps": [
+          "Öffne Gerichte → Essensideen → Gericht vorschlagen und wähle ein vorhandenes Gericht.",
+          "Öffne die vorgeschlagene Essensidee und prüfe die Zutatenmengen.",
+          "Tippe auf Auswählen & Zutaten übernehmen. Bereits ausgewählte Ideen werden nicht doppelt übernommen."
+        ],
+        "note": "Lokal kostenlos. In einer verbundenen Gruppe werden Vorschläge geteilt; für den Listen-Sync reicht die Pro-Version eines Mitglieds."
+      },
+      "en": {
+        "title": "Decide together what to eat",
+        "steps": [
+          "Open Dishes → Meal ideas → Suggest a dish and choose a saved dish.",
+          "Open the proposed meal idea and check the ingredient quantities.",
+          "Tap Choose & add ingredients. Already selected ideas are not added twice."
+        ],
+        "note": "Free locally. Ideas are shared in a connected group; one member’s Pro version is enough for list sync."
+      }
+    },
+    {
+      "id": "vorlagen",
+      "group": "gerichte",
+      "access": "free-sync",
+      "de": {
+        "title": "„Alles für …“ als Vorlage wiederverwenden",
+        "steps": [
+          "Öffne Gerichte → Vorlagen → Neue Vorlage.",
+          "Gib unter Alles für … einen Anlass ein, etwa Spieleabend. Wähle Artikel und Gerichte samt Mengen.",
+          "Tippe auf Vorlage speichern.",
+          "Öffne die Vorlage, prüfe die Mengen und tippe auf Auf die Liste."
+        ],
+        "note": "Eine Vorlage speichert die gewählten Zutatenmengen. Spätere Rezeptänderungen ändern sie nicht automatisch."
+      },
+      "en": {
+        "title": "Reuse an “Everything for…” template",
+        "steps": [
+          "Open Dishes → Templates → New template.",
+          "Enter an occasion under Everything for…, such as Game night. Select items and dishes with their quantities.",
+          "Tap Save template.",
+          "Open the template, check the quantities and tap Add to list."
+        ],
+        "note": "A template saves the chosen ingredient quantities. Later recipe changes do not update it automatically."
+      }
+    },
+    {
+      "id": "vorrat",
+      "group": "vorbereiten",
+      "access": "free",
+      "de": {
+        "title": "Vorhandenen Vorrat berücksichtigen",
+        "steps": [
+          "Öffne Mehr → Vorrat.",
+          "Suche einen Artikel und ändere seinen vorhandenen Vorrat mit −/+.",
+          "Prüfe beim nächsten Gericht oder Einkaufsvorschlag die verbleibenden Mengen.",
+          "Beim Einkaufabschluss kannst du Gekauftes in den Vorrat übernehmen aktivieren."
+        ],
+        "note": "Die App erkennt den Verbrauch zu Hause nicht automatisch. Passe den Vorrat bei Bedarf an."
+      },
+      "en": {
+        "title": "Take pantry stock into account",
+        "steps": [
+          "Open More → Pantry.",
+          "Find an item and adjust the stock you have with −/+.",
+          "Check the remaining quantities in your next dish or shopping suggestion.",
+          "When finishing a shopping trip, you can enable Add purchases to pantry."
+        ],
+        "note": "The app does not automatically detect consumption at home. Update your pantry stock when needed."
+      }
+    },
+    {
+      "id": "schnell-ergaenzen",
+      "group": "einkaufen",
+      "access": "free",
+      "de": {
+        "title": "Spontan etwas zur Liste hinzufügen",
+        "steps": [
+          "Öffne Liste.",
+          "Schreibe unten den Artikel, zum Beispiel „2x Milch, Brot“.",
+          "Tippe auf + oder die Bestätigungstaste der Tastatur.",
+          "Nutze bei Bedarf die Vorschläge für bereits gespeicherte Artikel."
+        ],
+        "note": ""
+      },
+      "en": {
+        "title": "Add a spontaneous purchase",
+        "steps": [
+          "Open List.",
+          "Enter the item at the bottom, for example “2x Milk, Bread”.",
+          "Tap + or the keyboard’s confirmation key.",
+          "Use suggestions for existing items if helpful."
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "abhaken-mengen",
+      "group": "einkaufen",
+      "access": "free",
+      "de": {
+        "title": "Mengen ändern und im Laden abhaken",
+        "steps": [
+          "Öffne Liste und gehe die Artikel durch.",
+          "Ändere die Stückzahl mit −/+. Bei Gewichtsartikeln wird die gespeicherte Einheit verwendet.",
+          "Tippe auf den Artikel oder seine Checkbox, sobald er im Wagen liegt.",
+          "Öffne Im Wagen, wenn du einen Haken zurücknehmen möchtest."
+        ],
+        "note": ""
+      },
+      "en": {
+        "title": "Adjust quantities and tick items off",
+        "steps": [
+          "Open List and work through the items.",
+          "Use −/+ to adjust quantities. Weighted items use their saved unit.",
+          "Tap the item or its checkbox once it is in your basket.",
+          "Open In basket if you need to undo a checkmark."
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "kosten-live",
+      "group": "einkaufen",
+      "access": "free",
+      "de": {
+        "title": "Den Einkaufsbetrag beim Abhaken sehen",
+        "steps": [
+          "Öffne Liste. Die Kostenübersicht steht oben.",
+          "Trage fehlende Preise über das Stift-Symbol am Artikel unter Preis & Märkte ein.",
+          "Hake Artikel ab und vergleiche Im Wagen, Noch offen und Gesamt."
+        ],
+        "note": "Die Summe nutzt deine eingetragenen Preise. Fehlende Preise, abweichende Kassenpreise und noch nicht erfasste Rabatte können den tatsächlichen Betrag verändern."
+      },
+      "en": {
+        "title": "See your total as you tick items off",
+        "steps": [
+          "Open List. The Cost overview is at the top.",
+          "Add missing prices using an item’s pencil icon and Price & stores.",
+          "Tick off items and compare In basket, Still needed and Total."
+        ],
+        "note": "The estimate uses the prices you entered. Missing prices, different checkout prices and discounts not yet entered can change the actual total."
+      }
+    },
+    {
+      "id": "angebot-eintragen",
+      "group": "einkaufen",
+      "access": "free",
+      "de": {
+        "title": "Ein zeitlich begrenztes Angebot eintragen",
+        "steps": [
+          "Öffne den Artikel und klappe Befristetes Angebot auf.",
+          "Trage Angebotspreis, Zeitraum und gegebenenfalls Markt ein.",
+          "Tippe auf Fertig. Das Angebot wird nur im eingetragenen Zeitraum berücksichtigt."
+        ],
+        "note": "Der Normalpreis bleibt getrennt gespeichert."
+      },
+      "en": {
+        "title": "Record a temporary offer",
+        "steps": [
+          "Open the item and expand Limited-time offer.",
+          "Enter the offer price, date range and store if applicable.",
+          "Tap Done. The offer is used only during the entered date range."
+        ],
+        "note": "The regular price is kept separately."
+      }
+    },
+    {
+      "id": "letztes-angebot",
+      "group": "ausgaben",
+      "access": "free",
+      "de": {
+        "title": "Prüfen, ob ein Angebot wirklich günstig ist",
+        "steps": [
+          "Suche den Artikel unter Artikel.",
+          "Lies Zuletzt im Angebot mit Preis und Kaufdatum. Die Angabe steht auch im geöffneten Artikel.",
+          "Vergleiche den gespeicherten Kaufpreis mit dem aktuellen Angebot."
+        ],
+        "note": "Die Angabe entsteht aus einem abgeschlossenen, gespeicherten Angebotskauf. Ohne solchen Kauf gibt es keinen letzten Angebotspreis."
+      },
+      "en": {
+        "title": "Compare an offer with your last offer purchase",
+        "steps": [
+          "Find the item under Items.",
+          "Read Last bought on offer with its price and purchase date. It also appears inside the item editor.",
+          "Compare that recorded purchase price with the current offer."
+        ],
+        "note": "This information comes from a finished, saved offer purchase. Without one, no previous offer price is available."
+      }
+    },
+    {
+      "id": "coupons-abschluss",
+      "group": "einkaufen",
+      "access": "free",
+      "de": {
+        "title": "Coupons eintragen und den Einkauf speichern",
+        "steps": [
+          "Hake die tatsächlich gekauften Artikel auf Liste ab.",
+          "Tippe auf Einkauf abschließen und öffne Coupons & Rabatte.",
+          "Trage einen Euro- oder Prozent-Rabatt auf den Einkauf beziehungsweise einzelne Artikel ein.",
+          "Prüfe Zu bezahlen und tippe auf Einkauf speichern. Offene Artikel bleiben auf der Liste."
+        ],
+        "note": "Ein Coupon wird als Rabatt erfasst; die App löst ihn nicht beim Händler ein."
+      },
+      "en": {
+        "title": "Apply coupons and save your shopping trip",
+        "steps": [
+          "Tick off the items you actually bought on List.",
+          "Tap Finish shopping and expand Coupons & discounts.",
+          "Enter a euro or percentage discount for the shopping trip or individual items.",
+          "Check To pay and tap Save shopping trip. Unchecked items stay on the list."
+        ],
+        "note": "A coupon is recorded as a discount; the app does not redeem it with the retailer."
+      }
+    },
+    {
+      "id": "liste-teilen",
+      "group": "einkaufen",
+      "access": "free",
+      "de": {
+        "title": "Eine Liste als Text verschicken",
+        "steps": [
+          "Öffne Liste und tippe oben auf das Teilen-Symbol.",
+          "Wähle eine App oder einen Kontakt im Android-Teilen-Menü.",
+          "Prüfe den Text und sende ihn selbst ab."
+        ],
+        "note": "Das ist eine Textkopie. Für laufend synchronisierte Änderungen nutze die gemeinsame Liste."
+      },
+      "en": {
+        "title": "Share your list as text",
+        "steps": [
+          "Open List and tap the share icon at the top.",
+          "Choose an app or contact in Android’s share menu.",
+          "Check the text and send it yourself."
+        ],
+        "note": "This sends a text copy. Use a shared list for changes that stay in sync."
+      }
+    },
+    {
+      "id": "abteilungen",
+      "group": "organisieren",
+      "access": "free",
+      "de": {
+        "title": "Eigene Kategorien anlegen und sortieren",
+        "steps": [
+          "Öffne Artikel und tippe oben auf Abteilungen verwalten. Alternativ: Mehr → Einstellungen & Hilfe → Laden & Märkte.",
+          "Trage unter Neue Abteilung den Namen ein und tippe auf Abteilung hinzufügen.",
+          "Ändere die Reihenfolge mit den Pfeilen und tippe auf Fertig.",
+          "Ordne Artikel im Artikel-Editor unter Abteilung & Einheit zu."
+        ],
+        "note": ""
+      },
+      "en": {
+        "title": "Create and reorder your own categories",
+        "steps": [
+          "Open Items and tap Manage categories at the top. Alternatively, open More → Settings & help → Stores & prices.",
+          "Enter a name under New category and tap Add category.",
+          "Use the arrows to change the order, then tap Done.",
+          "Assign items in the item editor under Category & unit."
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "maerkte-preise",
+      "group": "organisieren",
+      "access": "free",
+      "de": {
+        "title": "Märkte und unterschiedliche Preise hinterlegen",
+        "steps": [
+          "Öffne Mehr → Einstellungen & Hilfe → Laden & Märkte → Märkte. Lege mit Neuer Markt einen Markt an.",
+          "Öffne einen Artikel → Preis & Märkte → ＋ Markt und trage den Preis ein.",
+          "Wähle auf Liste beim Artikel den passenden Markt aus, wenn mehrere verfügbar sind."
+        ],
+        "note": ""
+      },
+      "en": {
+        "title": "Save stores and their prices",
+        "steps": [
+          "Open More → Settings & help → Stores & prices → Stores. Use New store to add one.",
+          "Open an item → Price & stores → ＋ Store and enter its price.",
+          "Choose the appropriate store beside the item on List when several are available."
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "barcode",
+      "group": "pro",
+      "access": "pro",
+      "de": {
+        "title": "Einen Artikel per Barcode ergänzen",
+        "steps": [
+          "Öffne Liste und tippe unten auf Barcode scannen.",
+          "Scanne den Barcode des Produkts. Ein bekannter Artikel wird zur Liste hinzugefügt.",
+          "Prüfe neue Produktdaten. Bei unbekanntem Barcode gib einen Namen ein.",
+          "Für einen vorhandenen Artikel ohne Foto: Artikel öffnen → Foto & Barcode → Scannen."
+        ],
+        "note": "Produktdaten und Bilder von Open Food Facts werden nur übernommen, wenn verfügbar. Online-Abfragen brauchen Internet."
+      },
+      "en": {
+        "title": "Add an item by barcode",
+        "steps": [
+          "Open List and tap Scan barcode at the bottom.",
+          "Scan the product’s barcode. A known item is added to your list.",
+          "Check new product data. If the barcode is unknown, enter a name.",
+          "For an existing item without a photo: open it → Photo & barcode → Scan."
+        ],
+        "note": "Product data and images are imported from Open Food Facts only when available. Online lookups require internet."
+      }
+    },
+    {
+      "id": "online-suche",
+      "group": "pro",
+      "access": "pro",
+      "de": {
+        "title": "Einen Artikel online suchen",
+        "steps": [
+          "Öffne Artikel → Artikel online suchen über das Such-Symbol oben.",
+          "Gib ein Suchwort ein und tippe auf Suchen.",
+          "Tippe einen Treffer an, um ihn auf die Liste zu setzen. Prüfe danach Name, Bild und Kategorie."
+        ],
+        "note": "Die Ergebnisse kommen von Open Food Facts und sind keine aktuelle Angebotssuche des Händlers."
+      },
+      "en": {
+        "title": "Find an item online",
+        "steps": [
+          "Open Items → Search items online using the search icon at the top.",
+          "Enter a search term and tap Search.",
+          "Tap a result to add it to your list. Then check its name, photo and category."
+        ],
+        "note": "Results come from Open Food Facts, not a retailer’s current offer feed."
+      }
+    },
+    {
+      "id": "monatsausgaben",
+      "group": "ausgaben",
+      "access": "free",
+      "de": {
+        "title": "Diesen und letzten Monat vergleichen",
+        "steps": [
+          "Speichere abgeschlossene Einkäufe über Einkauf abschließen → Einkauf speichern.",
+          "Öffne Mehr → Ausgaben → Ausgaben.",
+          "Vergleiche Diesen Monat und Letzten Monat. Öffne darunter einen Einkauf für seine Details."
+        ],
+        "note": "Die Auswertung enthält nur Einkäufe, die du in der App gespeichert hast."
+      },
+      "en": {
+        "title": "Compare this month with last month",
+        "steps": [
+          "Save finished shopping trips with Finish shopping → Save shopping trip.",
+          "Open More → Spending → Spending.",
+          "Compare This month and Last month. Open a purchase below for its details."
+        ],
+        "note": "The overview includes only purchases you have saved in the app."
+      }
+    },
+    {
+      "id": "preisverlauf",
+      "group": "ausgaben",
+      "access": "free",
+      "de": {
+        "title": "Die Preisentwicklung eines Artikels ansehen",
+        "steps": [
+          "Öffne Mehr → Ausgaben → Preise.",
+          "Suche den Artikel und tippe auf ihn.",
+          "Vergleiche die gespeicherten Preise und Daten im Preisverlauf."
+        ],
+        "note": "Das sind deine gespeicherten Preise, keine automatische Marktbeobachtung."
+      },
+      "en": {
+        "title": "See how an item’s recorded price has changed",
+        "steps": [
+          "Open More → Spending → Prices.",
+          "Find the item and tap it.",
+          "Compare recorded prices and dates in the price history."
+        ],
+        "note": "These are your recorded prices, not automatic market monitoring."
+      }
+    },
+    {
+      "id": "analyse-kategorien",
+      "group": "ausgaben",
+      "access": "pro",
+      "de": {
+        "title": "Ausgaben nach Kategorien auswerten",
+        "steps": [
+          "Öffne Mehr → Ausgaben → Ausgaben.",
+          "Tippe auf Weitere Auswertungen anzeigen.",
+          "Scrolle zu Ausgaben pro Abteilung und vergleiche Beträge und Anteile."
+        ],
+        "note": ""
+      },
+      "en": {
+        "title": "Review spending by category",
+        "steps": [
+          "Open More → Spending → Spending.",
+          "Tap Show more insights.",
+          "Scroll to Spending by category and compare amounts and shares."
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "analyse-artikel",
+      "group": "ausgaben",
+      "access": "pro",
+      "de": {
+        "title": "Sehen, für welche Artikel am meisten Geld ausgegeben wird",
+        "steps": [
+          "Öffne Mehr → Ausgaben → Ausgaben → Weitere Auswertungen anzeigen.",
+          "Scrolle zu Wofür das Geld draufgeht.",
+          "Vergleiche die Artikelbeträge."
+        ],
+        "note": "Die Liste ist nach Ausgaben sortiert und keine Rangliste der Kaufhäufigkeit."
+      },
+      "en": {
+        "title": "See which items take the largest share of spending",
+        "steps": [
+          "Open More → Spending → Spending → Show more insights.",
+          "Scroll to Where your money goes.",
+          "Compare the amounts spent on items."
+        ],
+        "note": "The list is ranked by spending, not by how often items are bought."
+      }
+    },
+    {
+      "id": "analyse-maerkte",
+      "group": "ausgaben",
+      "access": "pro",
+      "de": {
+        "title": "Ausgaben pro Markt vergleichen",
+        "steps": [
+          "Öffne Mehr → Ausgaben → Ausgaben → Weitere Auswertungen anzeigen.",
+          "Scrolle zu Ausgaben pro Markt.",
+          "Vergleiche die Summen der Märkte deiner gespeicherten Einkäufe."
+        ],
+        "note": ""
+      },
+      "en": {
+        "title": "Compare spending by store",
+        "steps": [
+          "Open More → Spending → Spending → Show more insights.",
+          "Scroll to Spending by store.",
+          "Compare store totals from your saved purchases."
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "gruppe-starten",
+      "group": "gemeinsam",
+      "access": "pro",
+      "de": {
+        "title": "Eine gemeinsame Liste erstellen und einladen",
+        "steps": [
+          "Öffne Mehr → Gemeinsam einkaufen → Eigene Familienliste starten.",
+          "Gib deinen Namen ein und tippe auf Neue gemeinsame Liste starten.",
+          "Tippe auf Jemanden einladen und dann auf Code teilen.",
+          "Die eingeladene Person nimmt den Code auf ihrem Handy an. Für weitere Personen erzeugst du einen neuen Code."
+        ],
+        "note": "Für den Listen-Sync reicht eine gültige Pro-Version in der Gruppe. Einladungen sind einmalig und 48 Stunden gültig. Eigener Scanner und erweiterte Analyse benötigen jeweils eine eigene Pro-Version."
+      },
+      "en": {
+        "title": "Create a shared list and invite others",
+        "steps": [
+          "Open More → Shop together → Start your own shared list.",
+          "Enter your name and tap Start a new shared list.",
+          "Tap Invite someone, then Share code.",
+          "The invited person accepts the code on their phone. Create a new code for each additional person."
+        ],
+        "note": "One valid Pro version in the group is enough for list sync. Each invite is valid once and for 48 hours. Personal scanner and detailed analysis access each require that person’s own Pro version."
+      }
+    },
+    {
+      "id": "gruppe-beitreten",
+      "group": "gemeinsam",
+      "access": "join",
+      "de": {
+        "title": "Einer gemeinsamen Liste kostenlos beitreten",
+        "steps": [
+          "Lass dir einen gültigen Einladungscode von der Gruppe geben.",
+          "Öffne Mehr → Gemeinsam einkaufen → Einladung annehmen.",
+          "Gib deinen Namen und den Code ein und tippe auf Beitreten."
+        ],
+        "note": "Plane mit Partnern, Freunden, einer WG, Familie oder einer anderen Gruppe. Eine Internetverbindung ist für den Abgleich nötig."
+      },
+      "en": {
+        "title": "Join a shared list for free",
+        "steps": [
+          "Ask your group for a valid invitation code.",
+          "Open More → Shop together → Accept an invitation.",
+          "Enter your name and the code, then tap Join."
+        ],
+        "note": "Plan with a partner, friends, housemates, family or another group. Sync requires an internet connection."
+      }
+    },
+    {
+      "id": "google-rueckkehr",
+      "group": "gemeinsam",
+      "access": "join",
+      "de": {
+        "title": "Nach einem Handywechsel zur Gruppe zurückkehren",
+        "steps": [
+          "Vor dem Wechsel: Öffne in der gemeinsamen Liste Konto & Sicherung → Mit Google-Konto sichern.",
+          "Auf dem neuen Handy: Öffne Mehr → Gemeinsam einkaufen → Nach Handywechsel zurückkehren.",
+          "Tippe auf Mit Google anmelden und wähle dasselbe Google-Konto."
+        ],
+        "note": "Die Google-Verknüpfung sichert die Mitgliedschaft. Sichere lokale Gerichte und Preisverläufe zusätzlich per Export."
+      },
+      "en": {
+        "title": "Return to your group after changing phones",
+        "steps": [
+          "Before changing phones, open Account & backup in your shared list and choose Back up with Google account.",
+          "On the new phone, open More → Shop together → Return after switching phones.",
+          "Tap Sign in with Google and choose the same Google account."
+        ],
+        "note": "Linking Google protects your membership. Also export local dishes and price histories separately."
+      }
+    },
+    {
+      "id": "gruppe-verlassen",
+      "group": "gemeinsam",
+      "access": "join",
+      "de": {
+        "title": "Eine Gruppe verlassen oder ein Mitglied verwalten",
+        "steps": [
+          "Öffne Mehr → Gemeinsam einkaufen.",
+          "Unter Mitglieder kann die verwaltende Person ein Mitglied entfernen oder Zum Verwalter machen wählen.",
+          "Zum Verlassen: Liste verwalten → Liste verlassen → Ja, verlassen."
+        ],
+        "note": "„Liste für alle auflösen“ beendet die gemeinsame Liste für alle Mitglieder. Wähle diese Aktion nur, wenn das beabsichtigt ist."
+      },
+      "en": {
+        "title": "Leave a group or manage a member",
+        "steps": [
+          "Open More → Shop together.",
+          "Under Members, the manager can remove a member or choose Make manager.",
+          "To leave, choose Manage list → Leave list → Yes, leave."
+        ],
+        "note": "“Delete the list for everyone” ends the shared list for every member. Choose it only if that is what you intend."
+      }
+    },
+    {
+      "id": "sicherung",
+      "group": "einstellungen",
+      "access": "free",
+      "de": {
+        "title": "Daten exportieren und wieder importieren",
+        "steps": [
+          "Öffne Mehr → Einstellungen & Hilfe → Daten sichern → Export in Datei.",
+          "Wähle einen sicheren Speicherort für die Sicherungsdatei.",
+          "Zum Wiederherstellen: Import aus Datei öffnen, Vorrat übernehmen und Einkaufsliste übernehmen nach Bedarf wählen, dann Datei wählen.",
+          "Wähle deine Sicherungsdatei und prüfe die Importmeldung."
+        ],
+        "note": "Eine Sicherung kann eigene Fotos und Einkaufsdaten enthalten. Bewahre sie passend auf."
+      },
+      "en": {
+        "title": "Export and import your data",
+        "steps": [
+          "Open More → Settings & help → Back up data → Export to file.",
+          "Choose a safe location for the backup file.",
+          "To restore, open Import from file, choose whether to import pantry stock and the shopping list, then tap Choose file.",
+          "Select your backup file and check the import result."
+        ],
+        "note": "A backup can contain your photos and shopping data. Store it appropriately."
+      }
+    },
+    {
+      "id": "sprache",
+      "group": "einstellungen",
+      "access": "free",
+      "de": {
+        "title": "Die App auf Deutsch oder Englisch stellen",
+        "steps": [
+          "Öffne Mehr → Einstellungen & Hilfe.",
+          "Tippe auf Sprache und wähle Deutsch oder English.",
+          "Mit Systemsprache folgt die App wieder der Sprache deines Geräts."
+        ],
+        "note": "Deine Artikel-, Gerichts- und Marktnamen bleiben so, wie du sie eingegeben hast."
+      },
+      "en": {
+        "title": "Choose German or English for the app",
+        "steps": [
+          "Open More → Settings & help.",
+          "Tap Language and choose Deutsch or English.",
+          "Choose System language to follow your device’s language again."
+        ],
+        "note": "Your own item, dish and store names stay as you entered them."
+      }
+    },
+    {
+      "id": "aussehen",
+      "group": "einstellungen",
+      "access": "free",
+      "de": {
+        "title": "Design und Töne anpassen",
+        "steps": [
+          "Öffne Mehr → Einstellungen & Hilfe → Aussehen & Töne.",
+          "Tippe auf Farbschema und wähle Hell, Dunkel oder Wie System sowie die gewünschte Palette.",
+          "Mit Töne schaltest du Rückmeldungen ein oder aus."
+        ],
+        "note": ""
+      },
+      "en": {
+        "title": "Change the theme and sounds",
+        "steps": [
+          "Open More → Settings & help → Appearance & sounds.",
+          "Tap Color scheme and choose Light, Dark or System, plus your preferred palette.",
+          "Use Sounds to turn audio feedback on or off."
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "pro-wiederherstellen",
+      "group": "einstellungen",
+      "access": "free",
+      "de": {
+        "title": "Die Pro-Version kaufen oder wiederherstellen",
+        "steps": [
+          "Öffne Mehr → Einstellungen & Hilfe → Familie & Pro → Pro / Käufe wiederherstellen.",
+          "Prüfe den in Google Play angezeigten einmaligen Preis und wähle bei Bedarf Pro kaufen.",
+          "Bei einem vorhandenen Kauf: Nutze dasselbe Play-Konto und tippe auf Käufe wiederherstellen / erneut laden."
+        ],
+        "note": "Kein Abo. Der aktuelle Preis wird von Google Play angezeigt und kann je nach Land abweichen."
+      },
+      "en": {
+        "title": "Buy or restore the Pro version",
+        "steps": [
+          "Open More → Settings & help → Sharing & Pro → Pro / restore purchases.",
+          "Check the one-time price shown by Google Play and choose Buy Pro if wanted.",
+          "For an existing purchase, use the same Play account and tap Restore purchases / reload."
+        ],
+        "note": "No subscription. Google Play shows the current price, which can vary by country."
+      }
+    },
+    {
+      "id": "konto-loeschen",
+      "group": "einstellungen",
+      "access": "join",
+      "de": {
+        "title": "Das Gruppenkonto löschen",
+        "steps": [
+          "Öffne Mehr → Gemeinsam einkaufen → Konto entfernen.",
+          "Wähle Konto löschen und lies die Bestätigung.",
+          "Bestätige mit Ja, Konto löschen, wenn du Konto und Mitgliedschaften entfernen möchtest."
+        ],
+        "note": "Die App erklärt die Folgen für verwaltete Listen. Lokale Daten auf diesem Handy bleiben erhalten. Ohne App erreichst du uns unter info@dudee-studio.com."
+      },
+      "en": {
+        "title": "Delete your group account",
+        "steps": [
+          "Open More → Shop together → Remove account.",
+          "Choose Delete account and read the confirmation.",
+          "Confirm with Yes, delete account if you want to remove the account and memberships."
+        ],
+        "note": "The app explains the effect on lists you manage. Local data on this phone is kept. Without the app, contact info@dudee-studio.com."
+      }
+    },
+    {
+      "id": "widget",
+      "group": "einstellungen",
+      "access": "free",
+      "de": {
+        "title": "Die Liste auf dem Startbildschirm sehen",
+        "steps": [
+          "Halte eine freie Stelle auf dem Android-Startbildschirm gedrückt und öffne Widgets.",
+          "Suche Abgehakt beziehungsweise Einkaufsliste und platziere das Widget.",
+          "Öffne die App über das Widget, wenn du weitere Angaben ändern möchtest."
+        ],
+        "note": "Die Bezeichnungen im Startbildschirm-Menü hängen von deinem Android-Gerät ab."
+      },
+      "en": {
+        "title": "Show your list on the home screen",
+        "steps": [
+          "Touch and hold an empty area on your Android home screen and open Widgets.",
+          "Find Abgehakt or Einkaufsliste and place the widget.",
+          "Open the app from the widget when you want to change more details."
+        ],
+        "note": "Home screen menu labels vary by Android device."
+      }
+    },
+    {
+      "id": "community-suchen",
+      "group": "community",
+      "access": "preview-pro",
+      "de": {
+        "title": "Artikel aus dem Community-Katalog übernehmen",
+        "steps": [
+          "Nach Freischaltung des Katalogs: Öffne Artikel → Neuer Artikel und gib einen Namen ein.",
+          "Tippe auf Im gemeinsamen Katalog suchen · Pro und lies vor dem ersten Zugriff den Hinweis zur Online-Nutzung.",
+          "Wähle einen passenden Treffer mit Übernehmen.",
+          "Prüfe deine eigene Kopie, passe die Abteilung an und tippe auf Anlegen."
+        ],
+        "note": "Vorschau Version 1.1: Die Live-Freischaltung steht noch aus. Der Katalog enthält Beiträge anderer App-Nutzer; gemeldete Preise sind keine Preisgarantie."
+      },
+      "en": {
+        "title": "Import an item from the community catalog",
+        "steps": [
+          "Once the catalog is enabled, open Items → New item and enter a name.",
+          "Tap Search the community catalog · Pro version and read the online-use notice before your first search.",
+          "Choose a suitable result with Apply.",
+          "Check your own copy, adjust the category and tap Create."
+        ],
+        "note": "Version 1.1 preview: live activation is still pending. The catalog contains contributions from app users; reported prices are not guaranteed current prices."
+      }
+    },
+    {
+      "id": "community-teilen",
+      "group": "community",
+      "access": "preview-free",
+      "de": {
+        "title": "Einen eigenen Artikel freiwillig bereitstellen",
+        "steps": [
+          "Nach Freischaltung des Katalogs: Öffne einen eigenen Artikel → Artikel öffentlich bereitstellen.",
+          "Lies den Hinweis und stimme zu, wenn du veröffentlichen möchtest. Automatisches Teilen ist zunächst aus.",
+          "Wähle zusätzliches Teilen eines eigenen Fotos oder Preises nur, wenn du das möchtest.",
+          "Tippe auf Jetzt veröffentlichen."
+        ],
+        "note": "Vorschau Version 1.1. Veröffentlichen ist auch ohne Pro-Version möglich. Keine persönlichen Kaufverläufe; teile nur Inhalte, für die du die nötigen Rechte hast."
+      },
+      "en": {
+        "title": "Choose to share your own item with the community",
+        "steps": [
+          "Once the catalog is enabled, open your own item → Share items publicly.",
+          "Read the notice and consent if you want to publish. Automatic sharing starts off.",
+          "Opt in to sharing your own photo or a price only if you want to.",
+          "Tap Publish now."
+        ],
+        "note": "Version 1.1 preview. Publishing does not require the Pro version. Personal purchase history is not shared; publish only content you have the right to share."
+      }
+    },
+    {
+      "id": "community-ruecknahme",
+      "group": "community",
+      "access": "preview-free",
+      "de": {
+        "title": "Eine Freigabe zurückziehen oder einen Beitrag melden",
+        "steps": [
+          "Nach Freischaltung: Öffne deinen veröffentlichten Artikel → Artikel öffentlich bereitstellen → Zurückziehen.",
+          "Prüfe die Meldung Freigabe zurückgezogen.",
+          "Einen fremden problematischen Suchtreffer meldest du im Katalog mit Melden."
+        ],
+        "note": "Vorschau Version 1.1. Eine Rücknahme entfernt die Veröffentlichung; bereits von anderen übernommene Kopien bleiben bestehen."
+      },
+      "en": {
+        "title": "Withdraw a shared item or report a contribution",
+        "steps": [
+          "Once enabled, open your published item → Share items publicly → Withdraw.",
+          "Check for the Shared item withdrawn confirmation.",
+          "Use Report on an inappropriate catalog search result."
+        ],
+        "note": "Version 1.1 preview. Withdrawal removes the publication; copies already imported by other users remain."
+      }
+    }
+  ]
+}
