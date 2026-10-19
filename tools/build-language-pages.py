@@ -18,7 +18,7 @@ def footer(lang,page):
     links=''.join(f'<a href="{root+(PAGES[p] if en else p)}"'+(' aria-current="page"' if p==page else '')+f'>{name}</a>' for p,name in [('impressum.html','Legal notice' if en else 'Impressum'),('datenschutz.html','Privacy' if en else 'Datenschutz')])
     return '<footer><span>© 2026 Dudee Studio</span><nav aria-label="'+('Legal' if en else 'Rechtliches')+f'">{links}</nav></footer>'
 def gallery(lang):
-    en=lang=='en';first=FILMS[1] if en else FILMS[0];films=[first]+[x for x in FILMS if x!=first]
+    en=lang=='en';films=[x for x in FILMS if x['language']==lang];first=next(x for x in films if x['id'].startswith('overview'));films=[first]+[x for x in films if x!=first]
     title=lambda f:f['title_en'] if en else f['title_de']
     label=lambda f:('English' if f['language']=='en' else 'German') if en else ('Englisch' if f['language']=='en' else 'Deutsch')
     info=lambda f:label(f)+' · '+str(round(f['duration_sec']))+(' sec' if en else ' Sek.')+(' · '+('Preview; live activation is pending.' if en else 'Vorschau; Live-Freischaltung steht noch aus.') if f.get('preview') else '')
@@ -43,7 +43,7 @@ def common(doc,page,lang):
     de='https://dudee-studio.com/'+('' if page=='index.html' else page)
     english='https://dudee-studio.com/en/'+('' if page=='index.html' else PAGES[page])
     doc=doc.replace('</head>',f'<link rel="alternate" hreflang="de" href="{de}">\n<link rel="alternate" hreflang="en" href="{english}">\n<link rel="canonical" href="{english if en else de}">\n</head>')
-    return doc
+    return re.sub(r'\n{3,}', '\n\n', doc)
 PROJECT_TEXT={
  'Projekte | Dudee Studio':'Projects | Dudee Studio',
  'Abgehakt: Dein Einkauf im Griff. Einkaufslisten, Gerichte und Angebote – mit kostenloser Basis und optionalem Pro. Eine Android-App von Dudee Studio.':'Abgehakt: Shopping, sorted. Shopping lists, dishes and offers, with a free core and an optional Pro version. An Android app by Dudee Studio.',
@@ -105,5 +105,5 @@ def main():
         en=common(en,page,'en')
         if page=='projekte.html':en=en.replace('App screens with sample data.', 'German app screens with sample data.')
         (R/'en'/target).write_text(en)
-    print('Built five English pages, contextual DE/EN links and six visible landscape previews.')
+    print(f'Built {len(PAGES)} English pages and language-filtered landscape previews.')
 if __name__=='__main__':main()

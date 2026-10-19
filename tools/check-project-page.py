@@ -49,11 +49,13 @@ with sync_playwright() as p:
                 assert video.get_attribute('controlslist') == 'nodownload'
                 assert page.locator('a[download]').count() == 0
                 cards = page.locator('.video-choice')
-                assert cards.count() == 6
+                available = [f for f in films if f['language'] == lang]
+                assert cards.count() == len(available)
                 assert page.locator('.video-choice[aria-current=true]').count() == 1
                 assert page.locator('.video-choice[aria-current=true]').get_attribute('data-language') == lang
                 for card in cards.all():
                     assert card.is_visible()
+                    assert card.get_attribute('data-language') == lang
                     assert card.locator('details').count() == 0
                     card.locator('img').evaluate('(i) => i.decode()')
                     assert 'hochformat' not in card.get_attribute('href')
@@ -86,7 +88,7 @@ with sync_playwright() as p:
                 page.locator('.project-demo').screenshot(path=str(proof / f'gallery-{lang}-{width}-{mode}.png'))
                 assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
                 assert not errors, errors
-                results.append({'language':lang,'viewport':width,'theme':mode,'films_played':6})
+                results.append({'language':lang,'viewport':width,'theme':mode,'films_played':len(available)})
             page.close()
     # Static links also work when JavaScript is unavailable.
     context = browser.new_context(java_script_enabled=False)
@@ -95,7 +97,7 @@ with sync_playwright() as p:
     page.locator('.language-switch a[lang=en]').click()
     assert page.url == base + '/en/projects.html'
     assert page.locator('video').get_attribute('controls') is not None
-    page.locator('.video-choice').nth(2).click()
+    page.locator('.video-choice').first.click()
     assert '.mp4?' in page.url
     context.close(); browser.close()
 print(json.dumps({'passed':True,'checks':results,'proof':str(proof)}, ensure_ascii=False, indent=2))
